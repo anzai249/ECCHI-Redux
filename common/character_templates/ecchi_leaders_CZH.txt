@@ -106,6 +106,7 @@ ecchi_czh_kafka_character_template = {
     interest_group_leader_usage = {
         morgenrote_is_active = no
         country_trigger = {
+            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             OR = {
 				AND = {
                     exists = c:KUK

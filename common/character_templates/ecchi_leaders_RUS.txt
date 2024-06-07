@@ -250,6 +250,7 @@ ecchi_rus_dostoevsky_character_template = {
     traits = { inspirational_orator pious }
     interest_group_leader_usage = {
         country_trigger = {
+            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             exists = c:RUS
             this = c:RUS
         }
@@ -276,6 +277,7 @@ ecchi_rus_tolstoy_character_template = {
     traits = { inspirational_orator pious }
     interest_group_leader_usage = {
         country_trigger = {
+            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             exists = c:RUS
             this = c:RUS
         }

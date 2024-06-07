@@ -205,6 +205,7 @@ ecchi_spa_picasso_character_template = {
     agitator_usage = {
         morgenrote_is_active = no
 		country_trigger = {
+            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             OR = {
                 AND = {
                     exists = c:SPA
