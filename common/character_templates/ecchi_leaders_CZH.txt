@@ -104,6 +104,7 @@ ecchi_czh_kafka_character_template = {
     birth_date = 1883.7.3
     traits = { reserved cautious meticulous }
     interest_group_leader_usage = {
+        morgenrote_is_active = no
         country_trigger = {
             OR = {
 				AND = {
