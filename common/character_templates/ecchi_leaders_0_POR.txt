@@ -1,0 +1,37 @@
+# Portugal
+
+## Antonio Machado Santos
+
+ecchi_por_antonio_santos = {
+	first_name = Antonio
+    last_name = Santos
+    historical = yes
+    culture = cu:portuguese
+    female = no
+    religion = rel:catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_antonio_santos
+    birth_date = 1875.1.10
+    traits = { brave persistent direct expert_naval_commander }
+	commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:POR
+                    this = c:POR
+                }
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+					NOT = { exists = c:POR }
+                }
+            }
+        }
+        role = admiral
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1921.10.19
+        chance = 75
+    }
+}

@@ -1,0 +1,214 @@
+﻿# Belgium
+
+ecchi_bel_rogier_character_template = {
+    first_name = Charles
+    last_name = Rogier
+    historical = yes
+    culture = cu:wallonian
+    female = no
+    religion = rel:protestant
+    ideology = ideology_radical
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_charles_rogier
+    birth_date = 1800.8.17
+    traits = { experienced_diplomat reserved }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:WLL }
+                }
+                AND = {
+                    exists = c:WLL
+                    this = c:WLL
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1885.5.27
+        chance = 75
+    }
+}
+
+ecchi_bel_pirenne_character_template = {
+    first_name = Henri
+    last_name = ecchi_Pirenne
+    historical = yes
+    culture = cu:wallonian
+    female = no
+    religion = rel:protestant
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_henri_pirenne
+    birth_date = 1862.12.23
+    traits = { direct tactful }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:WLL }
+                }
+                AND = {
+                    exists = c:WLL
+                    this = c:WLL
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1935.10.24
+        chance = 75
+    }
+}
+
+ecchi_bel_brialmont_character_template = {
+    first_name = ecchi_Henri-Alexis
+    last_name = Brialmont
+    historical = yes
+    culture = cu:flemish
+    female = no
+    religion = rel:protestant
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_henri_alexis_brialmont
+    birth_date = 1821.5.25
+    traits = { innovative experienced_defensive_strategist defense_in_depth_specialist }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:FLA }
+                }
+                AND = {
+                    exists = c:FLA
+                    this = c:FLA
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1850.1.1
+        latest_usage_date = 1903.7.21
+        chance = 75
+    }
+}
+
+ecchi_bel_de_paepe_character_template = {
+    first_name = Cesar
+    last_name = ecchi_De_Paepe
+    historical = yes
+    culture = cu:flemish
+    female = no
+    religion = rel:protestant
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+	dna = ecchi_dna_cesar_de_paepe
+    birth_date = 1841.7.12
+    traits = { demagogue direct }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:FLA }
+                }
+                AND = {
+                    exists = c:FLA
+                    this = c:FLA
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1865.1.1
+        latest_usage_date = 1890.12.19
+        chance = 75
+    }
+}
+
+## Eugénie Hamer
+
+ecchi_bel_hamer_character_template = {
+    first_name = ecchi_eugenie
+    last_name = ecchi_hamer
+    historical = yes
+    female = yes
+    culture = cu:wallonian
+    religion = rel:protestant
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_eugenie_hamer
+    birth_date = 1865.11.15
+    traits = { romantic persistent }
+    agitator_usage = {
+		country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:FLA }
+                }
+                AND = {
+                    exists = c:FLA
+                    this = c:FLA
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1906.1.1
+        latest_usage_date = 1951.4.28
+		chance = 50
+	}
+}
+
+## Henri La Fontaine
+
+ecchi_bel_la_fontaine_character_template = {
+    first_name = Henri
+    last_name = ecchi_La_Fontaine
+    historical = yes
+    culture = cu:wallonian
+    female = no
+    religion = rel:protestant
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_henri_la_fontaine
+    birth_date = 1854.4.22
+    traits = { persistent erudite }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:BEL
+                    this = c:BEL
+                    NOT = { exists = c:FLA }
+                }
+                AND = {
+                    exists = c:FLA
+                    this = c:FLA
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1943.5.14
+        chance = 75
+    }
+}

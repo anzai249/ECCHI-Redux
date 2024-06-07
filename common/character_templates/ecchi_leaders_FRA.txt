@@ -1,0 +1,243 @@
+﻿# French - commanders
+
+ecchi_fra_petain_character_template = {
+    first_name = Philippe
+    last_name = Petain
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_philippe_petain
+    birth_date = 1856.4.24
+    traits = { reserved experienced_artillery_commander basic_offensive_planner }
+	commander_rank = default
+    commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1951.7.23
+        chance = 75
+    }
+}
+
+ecchi_fra_de_gaulle_character_template = {
+    first_name = Charles
+    last_name = de_Gaulle
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_charles_de_gaulle
+    birth_date = 1890.11.22
+    traits = { resupply_commander popular_commander basic_political_operator }
+	commander_rank = default
+    commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+        earliest_usage_date = 1916.1.1
+        latest_usage_date = 1970.11.9
+        chance = 75
+    }
+}
+
+ecchi_fra_dreyfus_character_template = {
+    first_name = Alfred
+    last_name = ecchi_Dreyfus
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:jewish
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_alfred_dreyfus
+    birth_date = 1859.10.9
+    traits = { experienced_artillery_commander persistent }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        role = general
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1935.7.12
+        chance = 25
+    }
+}
+
+ecchi_fra_zola_character_template = {
+    first_name = Emile
+    last_name = ecchi_Zola
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_emile_zola
+    birth_date = 1840.4.2
+    traits = { brave inspirational_orator romantic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1880.1.1
+        latest_usage_date = 1902.9.29
+        chance = 75
+    }
+}
+
+## Élisée Reclus
+
+ecchi_fra_reclus_character_template = {
+    first_name = ecchi_Elisee
+    last_name = ecchi_Reclus
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:protestant
+    ideology = ideology_anarchist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_elisee_reclus
+    birth_date = 1830.3.15
+    traits = { ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1905.7.4
+        chance = 70
+    }
+}
+
+## Louis Blanc
+
+ecchi_fra_blanc_character_template = {
+    first_name = Louis
+    last_name = Blanc
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:protestant
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_louis_blanc
+    birth_date = 1811.10.29
+    traits = { reckless }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1839.1.1
+        latest_usage_date = 1882.12.6
+        chance = 70
+    }
+}
+
+## Ferdinand Édouard Buisson
+
+ecchi_fra_buisson_character_template = {
+    first_name = ecchi_Ferdinand_Edouard
+    last_name = ecchi_Buisson
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:protestant
+    ideology = ideology_humanitarian
+    interest_group = ig_devout
+    dna = ecchi_dna_ferdinand_buisson
+    birth_date = 1841.12.20
+    traits = { persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1867.1.1
+        latest_usage_date = 1932.2.16
+        chance = 70
+    }
+}
+
+## Frédéric Passy
+
+ecchi_fra_passy_character_template = {
+    first_name = ecchi_Frederic
+    last_name = ecchi_Passy
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:protestant
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    dna = ecchi_dna_frederic_passy
+    birth_date = 1822.5.20
+    traits = { imposing ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1912.6.12
+        chance = 80
+    }
+}
+
+## Émile Durkheim
+
+ecchi_fra_durkheim_character_template = {
+    first_name = ecchi_Emile
+    last_name = ecchi_Durkheim
+    historical = yes
+    female = no
+    culture = cu:french
+    religion = rel:jewish
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_emile_durkheim
+    birth_date = 1858.4.15
+    traits = { erudite meticulous }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1917.11.15
+        chance = 75
+    }
+}

@@ -1,0 +1,29 @@
+﻿# Mexico - revolutionaries
+
+ecchi_mex_villa_character_template = {
+    first_name = ecchi_Pancho
+    last_name = Villa
+    historical = yes
+    culture = cu:mexican
+    female = no
+    religion = rel:catholic
+    ideology = ideology_radical
+    interest_group = ig_rural_folk
+	dna = ecchi_dna_pancho_villa
+    birth_date = 1878.6.5
+    traits = { demagogue pillager ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:MEX
+            this = c:MEX
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1923.7.20
+        chance = 75
+    }
+}
+
+## Emiliano Zapata already in the vanilla game
