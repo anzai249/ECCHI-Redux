@@ -281,7 +281,6 @@ ecchi_hun_turr_character_template = {
     birth_date = 1825.8.10
     traits = { imposing popular_commander }
     agitator_usage = {
-        morgenrote_is_active = no
         country_trigger = {
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             OR = {
