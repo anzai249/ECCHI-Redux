@@ -1,4 +1,4 @@
-﻿ecchi_dna_song_byong_hi = {
+﻿﻿ecchi_dna_song_byong_hi = {
     portrait_info = {
     genes={      
 		hair_color={ 106 229 106 229 }

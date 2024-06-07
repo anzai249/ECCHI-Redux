@@ -1,4 +1,4 @@
-﻿ecchi_dna_te_ruki_kawiti = {
+﻿﻿ecchi_dna_te_ruki_kawiti = {
     portrait_info = {
     genes={      
 		hair_color={ 14 252 14 252 }

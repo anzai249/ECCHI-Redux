@@ -1,4 +1,4 @@
-﻿ecchi_dna_karl_lueger = {
+﻿﻿ecchi_dna_karl_lueger = {
     portrait_info = {
     genes={      
 		hair_color={ 225 168 225 168 }

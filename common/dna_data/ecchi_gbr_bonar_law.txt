@@ -1,4 +1,4 @@
-﻿ecchi_dna_bonar_law = {
+﻿﻿ecchi_dna_bonar_law = {
     portrait_info = {
     genes={      
 		hair_color={ 9 248 9 248 }

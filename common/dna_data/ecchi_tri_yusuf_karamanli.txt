@@ -1,4 +1,4 @@
-﻿ecchi_dna_yusuf_karamanli = {
+﻿﻿ecchi_dna_yusuf_karamanli = {
     portrait_info = {
     genes={      
 		hair_color={ 50 245 50 245 }

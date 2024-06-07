@@ -1,4 +1,4 @@
-﻿ecchi_dna_fukuba_bisei = {
+﻿﻿ecchi_dna_fukuba_bisei = {
     portrait_info = {
     genes={      
 		hair_color={ 56 229 56 229 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_johannes_van_den_bosch = {
+﻿﻿ecchi_dna_johannes_van_den_bosch = {
     portrait_info = {
     genes={      
 		hair_color={ 191 172 203 205 }

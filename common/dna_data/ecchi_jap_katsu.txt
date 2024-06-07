@@ -1,4 +1,4 @@
-﻿ecchi_dna_katsu_kaishu = {
+﻿﻿ecchi_dna_katsu_kaishu = {
     portrait_info = {
     genes={      
 		hair_color={ 12 229 12 229 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_jamsetji_tata = {
+﻿﻿ecchi_dna_jamsetji_tata = {
     portrait_info = {
     genes={      
 		hair_color={ 118 244 118 244 }

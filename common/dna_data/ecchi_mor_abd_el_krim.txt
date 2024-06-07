@@ -1,4 +1,4 @@
-﻿ecchi_dna_abd_el_krim = {
+﻿﻿ecchi_dna_abd_el_krim = {
     portrait_info = {
     genes={      
 		hair_color={ 126 237 126 237 }

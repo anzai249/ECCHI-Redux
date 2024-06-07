@@ -1,4 +1,4 @@
-﻿ecchi_dna_john_c_fremont = {
+﻿﻿ecchi_dna_john_c_fremont = {
     portrait_info = {
     genes={
 		hair_color={ 68 246 68 246 }

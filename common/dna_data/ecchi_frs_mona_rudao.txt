@@ -1,4 +1,4 @@
-﻿ecchi_dna_mona_rudao = {
+﻿﻿ecchi_dna_mona_rudao = {
     portrait_info = {
     genes={      
 		hair_color={ 108 229 108 229 }

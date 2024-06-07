@@ -1,4 +1,4 @@
-﻿ecchi_dna_rabih_az_zubayr = {
+﻿﻿ecchi_dna_rabih_az_zubayr = {
     portrait_info = {
     genes={      
 		hair_color={ 17 243 17 243 }

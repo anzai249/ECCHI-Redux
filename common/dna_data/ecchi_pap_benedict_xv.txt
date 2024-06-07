@@ -1,4 +1,4 @@
-﻿ecchi_dna_benedict_xv = {
+﻿﻿ecchi_dna_benedict_xv = {
     portrait_info = {
     genes={      
 		hair_color={ 196 237 196 182 }

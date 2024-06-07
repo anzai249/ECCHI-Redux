@@ -1,4 +1,4 @@
-ecchi_dna_lu_zhengxiang={
+﻿ecchi_dna_lu_zhengxiang={
 	portrait_info = {
 	genes={ 		
 		hair_color={ 54 255 53 229 }
@@ -109,6 +109,6 @@ ecchi_dna_lu_zhengxiang={
  		eye_lashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  }
- enabled=yes
 }
+enabled=yes
 }

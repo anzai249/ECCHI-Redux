@@ -1,4 +1,4 @@
-﻿ecchi_dna_nathan_bedford_forrest = {
+﻿﻿ecchi_dna_nathan_bedford_forrest = {
     portrait_info = {
     genes={      
 		hair_color={ 200 190 200 190 }

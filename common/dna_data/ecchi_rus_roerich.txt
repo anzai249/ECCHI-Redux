@@ -1,4 +1,4 @@
-ecchi_dna_nicholas_roerich={
+﻿ecchi_dna_nicholas_roerich={
     portrait_info = {
 	genes={ 		
 		hair_color={ 122 141 212 84 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_rosa_luxemburg = {
+﻿﻿ecchi_dna_rosa_luxemburg = {
     portrait_info = {
     genes={      
 		hair_color={ 61 239 61 239 }

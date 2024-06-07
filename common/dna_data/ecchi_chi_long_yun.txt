@@ -1,4 +1,4 @@
-﻿ecchi_dna_long_yun = {
+﻿﻿ecchi_dna_long_yun = {
     portrait_info = {
     genes={      
 		hair_color={ 16 229 16 229 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_john_curtin = {
+﻿﻿ecchi_dna_john_curtin = {
     portrait_info = {
     genes={      
 		hair_color={ 203 203 203 203 }

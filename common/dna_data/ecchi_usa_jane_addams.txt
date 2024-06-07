@@ -1,4 +1,4 @@
-ecchi_dna_jane_addams={
+﻿ecchi_dna_jane_addams={
     portrait_info = {
 	genes={ 		
 		hair_color={ 255 146 33 237 }

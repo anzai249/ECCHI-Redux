@@ -1,4 +1,4 @@
-﻿ecchi_dna_vladimir_lenin = {
+﻿﻿ecchi_dna_vladimir_lenin = {
     portrait_info = {
     genes={      
 		hair_color={ 229 181 229 181 }

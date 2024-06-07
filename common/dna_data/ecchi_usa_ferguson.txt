@@ -1,4 +1,4 @@
-﻿ecchi_dna_champ_ferguson = {
+﻿﻿ecchi_dna_champ_ferguson = {
     portrait_info = {
     genes={      
 		hair_color={ 210 182 210 182 }

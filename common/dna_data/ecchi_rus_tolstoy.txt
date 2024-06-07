@@ -1,4 +1,4 @@
-﻿ecchi_dna_leo_tolstoy = {
+﻿﻿ecchi_dna_leo_tolstoy = {
     portrait_info = {
     genes={      
 		hair_color={ 7 231 7 231 }

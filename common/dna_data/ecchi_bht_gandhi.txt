@@ -1,4 +1,4 @@
-﻿ecchi_dna_mohandas_gandhi = {
+﻿﻿ecchi_dna_mohandas_gandhi = {
     portrait_info = {
     genes={      
 		hair_color={ 84 249 84 249 }

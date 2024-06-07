@@ -1,4 +1,4 @@
-﻿# Dai Viet / Vietnam
+﻿﻿# Dai Viet / Vietnam
 
 ecchi_dai_truong_dinh_character_template = {
     first_name = ecchi_Dinh

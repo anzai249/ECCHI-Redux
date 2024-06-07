@@ -1,4 +1,4 @@
-﻿ecchi_dna_jeon_bongjun = {
+﻿﻿ecchi_dna_jeon_bongjun = {
     portrait_info = {
     genes={      
 		hair_color={ 40 229 40 229 }

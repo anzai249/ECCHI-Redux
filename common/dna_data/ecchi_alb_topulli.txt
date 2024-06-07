@@ -1,4 +1,4 @@
-﻿ecchi_dna_cerciz_topulli = {
+﻿﻿ecchi_dna_cerciz_topulli = {
     portrait_info = {
     genes={      
 		hair_color={ 175 215 175 169 }

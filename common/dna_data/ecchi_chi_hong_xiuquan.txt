@@ -1,4 +1,4 @@
-﻿ecchi_dna_hong_xiuquan = {
+﻿﻿ecchi_dna_hong_xiuquan = {
     portrait_info = {
     genes={      
 		hair_color={ 37 229 37 229 }

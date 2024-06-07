@@ -1,4 +1,4 @@
-﻿ecchi_dna_michael_joseph_savage = {
+﻿﻿ecchi_dna_michael_joseph_savage = {
     portrait_info = {
     genes={      
 		hair_color={ 200 196 200 177 }

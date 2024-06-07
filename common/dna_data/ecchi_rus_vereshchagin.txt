@@ -1,4 +1,4 @@
-﻿ecchi_dna_vasily_vereshchagin = {
+﻿﻿ecchi_dna_vasily_vereshchagin = {
     portrait_info = {
     genes={      
 		hair_color={ 37 231 37 231 }

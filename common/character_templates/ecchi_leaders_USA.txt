@@ -1,4 +1,4 @@
-﻿# United States - USA - Presidents
+﻿﻿# United States - USA - Presidents
 
 ecchi_usa_adams_character_template = {
     first_name = ecchi_John_Quincy

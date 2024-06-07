@@ -1,4 +1,4 @@
-﻿ecchi_dna_omura_masujiro = {
+﻿﻿ecchi_dna_omura_masujiro = {
     portrait_info = {
     genes={      
 		hair_color={ 80 229 80 229 }

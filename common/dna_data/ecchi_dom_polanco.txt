@@ -1,4 +1,4 @@
-﻿ecchi_dna_gaspar_polanco = {
+﻿﻿ecchi_dna_gaspar_polanco = {
     portrait_info = {
     genes={      
 		hair_color={ 110 229 110 229 }

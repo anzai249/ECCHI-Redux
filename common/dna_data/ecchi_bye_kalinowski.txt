@@ -1,4 +1,4 @@
-﻿ecchi_dna_konstanty_kalinowski = {
+﻿﻿ecchi_dna_konstanty_kalinowski = {
     portrait_info = {
     genes={      
 		hair_color={ 41 237 41 237 }

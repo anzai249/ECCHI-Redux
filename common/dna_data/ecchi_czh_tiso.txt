@@ -1,4 +1,4 @@
-﻿ecchi_dna_jozef_tiso = {
+﻿﻿ecchi_dna_jozef_tiso = {
     portrait_info = {
     genes={      
 		hair_color={ 59 239 59 239 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_john_augustus_sutter = {
+﻿﻿ecchi_dna_john_augustus_sutter = {
     portrait_info = {
     genes={      
 		hair_color={ 224 183 224 119 }

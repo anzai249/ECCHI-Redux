@@ -1,4 +1,4 @@
-﻿ecchi_dna_ahmet_zogu = {
+﻿﻿ecchi_dna_ahmet_zogu = {
     portrait_info = {
     genes={      
 		hair_color={ 40 247 40 247 }

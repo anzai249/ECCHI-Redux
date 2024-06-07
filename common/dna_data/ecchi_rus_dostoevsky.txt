@@ -1,4 +1,4 @@
-﻿ecchi_dna_fyodor_dostoevsky = {
+﻿﻿ecchi_dna_fyodor_dostoevsky = {
     portrait_info = {
     genes={      
 		hair_color={ 187 183 55 243 }

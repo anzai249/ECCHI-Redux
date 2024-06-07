@@ -1,4 +1,4 @@
-﻿ecchi_dna_wang_jingwei = {
+﻿﻿ecchi_dna_wang_jingwei = {
     portrait_info = {
     genes={      
 		hair_color={ 64 229 64 229 }

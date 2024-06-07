@@ -1,4 +1,4 @@
-﻿ecchi_dna_kang_youwei = {
+﻿﻿ecchi_dna_kang_youwei = {
     portrait_info = {
     genes={      
 		hair_color={ 21 229 21 229 }

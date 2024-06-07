@@ -1,4 +1,4 @@
-﻿ecchi_dna_p_t_barnum = {
+﻿﻿ecchi_dna_p_t_barnum = {
     portrait_info = {
     genes={      
 		hair_color={ 3 250 3 250 }

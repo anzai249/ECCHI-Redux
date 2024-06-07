@@ -1,4 +1,4 @@
-﻿ecchi_dna_john_ballance = {
+﻿﻿ecchi_dna_john_ballance = {
     portrait_info = {
     genes={      
 		hair_color={ 174 190 174 190 }

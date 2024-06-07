@@ -1,4 +1,4 @@
-ecchi_dna_alice_paul={
+﻿ecchi_dna_alice_paul={
     portrait_info = {
 	genes={ 		
 		hair_color={ 22 235 22 235 }

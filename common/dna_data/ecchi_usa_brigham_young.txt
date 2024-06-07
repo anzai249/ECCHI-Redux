@@ -1,4 +1,4 @@
-﻿ecchi_dna_brigham_young = {
+﻿﻿ecchi_dna_brigham_young = {
     portrait_info = {
     genes={      
 		hair_color={ 26 247 26 247 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_tekle_haymanot = {
+﻿﻿ecchi_dna_tekle_haymanot = {
     portrait_info = {
     genes={      
 		hair_color={ 98 240 98 240 }

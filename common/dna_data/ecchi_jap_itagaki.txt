@@ -1,4 +1,4 @@
-﻿ecchi_dna_itagaki_taisuke = {
+﻿﻿ecchi_dna_itagaki_taisuke = {
     portrait_info = {
     genes={      
 		hair_color={ 4 229 4 229 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_oliver_mowat = {
+﻿﻿ecchi_dna_oliver_mowat = {
     portrait_info = {
     genes={      
 		hair_color={ 209 223 209 196 }

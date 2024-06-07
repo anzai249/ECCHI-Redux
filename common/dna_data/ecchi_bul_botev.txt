@@ -1,4 +1,4 @@
-﻿ecchi_dna_hristo_botev = {
+﻿﻿ecchi_dna_hristo_botev = {
     portrait_info = {
     genes={      
 		hair_color={ 90 250 90 250 }

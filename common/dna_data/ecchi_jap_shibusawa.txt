@@ -1,4 +1,4 @@
-﻿ecchi_dna_shibusawa_eiichi = {
+﻿﻿ecchi_dna_shibusawa_eiichi = {
     portrait_info = {
     genes={      
 		hair_color={ 79 229 79 229 }

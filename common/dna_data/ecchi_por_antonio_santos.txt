@@ -1,4 +1,4 @@
-ecchi_dna_antonio_santos={
+﻿ecchi_dna_antonio_santos={
     portrait_info = {
 	genes={ 		
 		hair_color={ 207 172 170 115 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_rainilaiarivony = {
+﻿﻿ecchi_dna_rainilaiarivony = {
     portrait_info = {
     genes={      
 		hair_color={ 113 237 113 237 }

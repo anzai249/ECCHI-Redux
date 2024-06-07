@@ -1,4 +1,4 @@
-﻿ecchi_dna_henri_alexis_brialmont = {
+﻿﻿ecchi_dna_henri_alexis_brialmont = {
     portrait_info = {
     genes={      
 		hair_color={ 217 192 217 145 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_louis_riel = {
+﻿﻿ecchi_dna_louis_riel = {
     portrait_info = {
     genes={      
 		hair_color={ 26 250 26 250 }

@@ -1,4 +1,4 @@
-﻿# Papal States - Popes
+﻿﻿# Papal States - Popes
 
 ecchi_pap_pecci_character_template = {
     first_name = Vincenzo

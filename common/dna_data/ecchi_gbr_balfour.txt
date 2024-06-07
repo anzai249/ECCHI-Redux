@@ -1,4 +1,4 @@
-﻿ecchi_dna_arthur_balfour = {
+﻿﻿ecchi_dna_arthur_balfour = {
     portrait_info = {
     genes={      
 		hair_color={ 184 195 184 195 }

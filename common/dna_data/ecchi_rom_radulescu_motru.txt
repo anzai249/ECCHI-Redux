@@ -1,4 +1,4 @@
-﻿ecchi_dna_constantin_radulescu_motru = {
+﻿﻿ecchi_dna_constantin_radulescu_motru = {
     portrait_info = {
     genes={      
 		hair_color={ 43 243 43 243 }

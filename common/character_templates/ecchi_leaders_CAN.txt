@@ -1,4 +1,4 @@
-﻿# Canada - Quebec / Lower Canada
+﻿﻿# Canada - Quebec / Lower Canada
 
 ecchi_que_lambton_character_template = {
     first_name = John

@@ -1,4 +1,4 @@
-﻿# Tibet - Dalai Lama
+﻿﻿# Tibet - Dalai Lama
 # Selected at a young age, they are supposed to spawn as babies, if needed
 
 ecchi_tib_11_dalai_lama_character_template = {

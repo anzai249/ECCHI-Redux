@@ -1,4 +1,4 @@
-﻿ecchi_dna_ludwik_mieroslawski = {
+﻿﻿ecchi_dna_ludwik_mieroslawski = {
     portrait_info = {
     genes={      
 		hair_color={ 95 248 95 248 }

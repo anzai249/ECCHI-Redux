@@ -1,4 +1,4 @@
-ecchi_dna_wang_zebang={
+﻿ecchi_dna_wang_zebang={
     portrait_info = {
 	genes={ 		
 		hair_color={ 119 229 119 229 }

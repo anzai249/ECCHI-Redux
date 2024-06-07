@@ -1,4 +1,4 @@
-ecchi_dna_henri_la_fontaine={
+﻿ecchi_dna_henri_la_fontaine={
     portrait_info = {
 	genes={ 		hair_color={ 205 177 4 243 }
  		skin_color={ 36 0 36 0 }

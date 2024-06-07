@@ -1,4 +1,4 @@
-﻿ecchi_dna_sakamoto_ryoma = {
+﻿﻿ecchi_dna_sakamoto_ryoma = {
     portrait_info = {
     genes={      
 		hair_color={ 7 229 7 229 }

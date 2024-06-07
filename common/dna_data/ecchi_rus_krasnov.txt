@@ -1,4 +1,4 @@
-﻿ecchi_dna_pyotr_krasnov = {
+﻿﻿ecchi_dna_pyotr_krasnov = {
     portrait_info = {
     genes={      
 		hair_color={ 92 252 92 252 }

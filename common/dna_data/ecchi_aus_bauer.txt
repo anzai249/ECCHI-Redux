@@ -1,4 +1,4 @@
-﻿ecchi_dna_otto_bauer = {
+﻿﻿ecchi_dna_otto_bauer = {
     portrait_info = {
     genes={      
 		hair_color={ 52 230 52 230 }

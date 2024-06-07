@@ -1,4 +1,4 @@
-﻿ecchi_dna_dabulamanzi_kaMpande = {
+﻿﻿ecchi_dna_dabulamanzi_kaMpande = {
     portrait_info = {
     genes={      
 		hair_color={ 110 252 110 252 }

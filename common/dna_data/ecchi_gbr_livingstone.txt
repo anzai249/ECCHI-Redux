@@ -1,4 +1,4 @@
-﻿ecchi_dna_david_livingstone = {
+﻿﻿ecchi_dna_david_livingstone = {
     portrait_info = {
     genes={      
 		hair_color={ 215 196 215 196 }

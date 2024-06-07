@@ -1,4 +1,4 @@
-﻿ecchi_dna_archibald_primrose = {
+﻿﻿ecchi_dna_archibald_primrose = {
     portrait_info = {
     genes={      
 		hair_color={ 209 193 209 193 }

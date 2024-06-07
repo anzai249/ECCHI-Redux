@@ -1,4 +1,4 @@
-﻿ecchi_dna_lu_xun = {
+﻿﻿ecchi_dna_lu_xun = {
     portrait_info = {
     genes={      
 		hair_color={ 5 229 5 229 }

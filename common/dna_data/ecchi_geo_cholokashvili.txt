@@ -1,4 +1,4 @@
-﻿ecchi_dna_kakutsa_cholokashvili = {
+﻿﻿ecchi_dna_kakutsa_cholokashvili = {
     portrait_info = {
     genes={      
 		hair_color={ 119 236 119 236 }

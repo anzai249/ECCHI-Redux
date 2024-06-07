@@ -1,4 +1,4 @@
-ecchi_dna_eugenie_hamer={
+﻿ecchi_dna_eugenie_hamer={
 	portrait_info = {
 	genes={ 		
 		hair_color={ 255 238 244 97 }

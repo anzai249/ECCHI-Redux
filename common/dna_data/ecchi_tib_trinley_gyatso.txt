@@ -1,4 +1,4 @@
-﻿ecchi_dna_trinley_gyatso = {
+﻿﻿ecchi_dna_trinley_gyatso = {
     portrait_info = {
     genes={      
 		hair_color={ 103 229 103 229 }

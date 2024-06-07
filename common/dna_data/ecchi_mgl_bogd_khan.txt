@@ -1,4 +1,4 @@
-﻿ecchi_dna_bogd_khan = {
+﻿﻿ecchi_dna_bogd_khan = {
     portrait_info = {
     genes={      
 		hair_color={ 84 229 84 229 }

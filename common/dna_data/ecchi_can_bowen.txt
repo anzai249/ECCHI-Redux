@@ -1,4 +1,4 @@
-﻿ecchi_dna_edward_bowen = {
+﻿﻿ecchi_dna_edward_bowen = {
     portrait_info = {
     genes={      
 		hair_color={ 223 98 223 98 }

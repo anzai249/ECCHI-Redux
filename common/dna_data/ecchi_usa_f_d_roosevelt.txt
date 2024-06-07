@@ -1,4 +1,4 @@
-﻿ecchi_dna_franklin_roosevelt = {
+﻿﻿ecchi_dna_franklin_roosevelt = {
     portrait_info = {
     genes={      
 		hair_color={ 168 190 168 190 }

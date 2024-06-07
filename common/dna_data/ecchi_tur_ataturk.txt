@@ -1,4 +1,4 @@
-﻿ecchi_dna_mustafa_kemal_ataturk = {
+﻿﻿ecchi_dna_mustafa_kemal_ataturk = {
     portrait_info = {
     genes={      
 		hair_color={ 65 236 65 236 }

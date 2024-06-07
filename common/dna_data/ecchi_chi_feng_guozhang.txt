@@ -1,4 +1,4 @@
-﻿ecchi_dna_feng_guozhang = {
+﻿﻿ecchi_dna_feng_guozhang = {
     portrait_info = {
     genes={      
 		hair_color={ 92 229 92 229 }

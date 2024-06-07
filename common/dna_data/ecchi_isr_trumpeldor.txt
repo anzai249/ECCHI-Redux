@@ -1,4 +1,4 @@
-﻿ecchi_dna_joseph_trumpeldor = {
+﻿﻿ecchi_dna_joseph_trumpeldor = {
     portrait_info = {
     genes={      
 		hair_color={ 59 235 59 235 }

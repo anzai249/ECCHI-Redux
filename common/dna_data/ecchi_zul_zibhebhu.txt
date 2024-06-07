@@ -1,4 +1,4 @@
-﻿ecchi_dna_zibhebhu_kamaphitha = {
+﻿﻿ecchi_dna_zibhebhu_kamaphitha = {
     portrait_info = {
     genes={      
 		hair_color={ 127 249 127 249 }

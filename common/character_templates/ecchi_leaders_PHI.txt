@@ -1,4 +1,4 @@
-﻿# Philippines
+﻿﻿# Philippines
 
 ecchi_phi_bonifacio_character_template = {
     first_name = Andres

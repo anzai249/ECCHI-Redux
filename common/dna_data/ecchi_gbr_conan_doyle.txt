@@ -1,4 +1,4 @@
-﻿ecchi_dna_arthur_conan_doyle = {
+﻿﻿ecchi_dna_arthur_conan_doyle = {
     portrait_info = {
     genes={      
 		hair_color={ 127 205 127 92 }

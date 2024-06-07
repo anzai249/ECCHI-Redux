@@ -1,4 +1,4 @@
-﻿ecchi_dna_huang_xing = {
+﻿﻿ecchi_dna_huang_xing = {
     portrait_info = {
     genes={      
 		hair_color={ 112 229 112 229 }

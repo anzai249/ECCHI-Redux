@@ -1,4 +1,4 @@
-﻿ecchi_dna_cheikh_mokrani = {
+﻿﻿ecchi_dna_cheikh_mokrani = {
     portrait_info = {
     genes={      
 		hair_color={ 26 243 26 243 }

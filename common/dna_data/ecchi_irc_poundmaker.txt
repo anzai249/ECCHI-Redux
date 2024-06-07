@@ -1,4 +1,4 @@
-﻿ecchi_dna_poundmaker = {
+﻿﻿ecchi_dna_poundmaker = {
     portrait_info = {
     genes={      
 		hair_color={ 75 237 75 237 }

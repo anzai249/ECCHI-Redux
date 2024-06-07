@@ -1,4 +1,4 @@
-﻿# Austria
+﻿﻿# Austria
 
 ecchi_aus_lueger_character_template = {
     first_name = Karl

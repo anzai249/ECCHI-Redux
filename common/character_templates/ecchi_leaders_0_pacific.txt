@@ -1,4 +1,4 @@
-﻿# Polynesia
+﻿﻿# Polynesia
 
 ecchi_ply_gauguin_character_template = {
     first_name = Paul

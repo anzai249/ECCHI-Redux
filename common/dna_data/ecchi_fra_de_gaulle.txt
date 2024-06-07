@@ -1,4 +1,4 @@
-﻿ecchi_dna_charles_de_gaulle = {
+﻿﻿ecchi_dna_charles_de_gaulle = {
     portrait_info = {
     genes={      
 		hair_color={ 96 85 96 85 }

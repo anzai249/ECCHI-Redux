@@ -1,4 +1,4 @@
-﻿ecchi_dna_mackenzie_king = {
+﻿﻿ecchi_dna_mackenzie_king = {
     portrait_info = {
     genes={      
 		hair_color={ 33 149 205 198 }

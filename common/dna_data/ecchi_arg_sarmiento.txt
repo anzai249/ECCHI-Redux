@@ -1,4 +1,4 @@
-﻿ecchi_dna_domingo_faustino_sarmiento = {
+﻿﻿ecchi_dna_domingo_faustino_sarmiento = {
     portrait_info = {
     genes={      
 		hair_color={ 4 231 4 231 }

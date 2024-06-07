@@ -1,4 +1,4 @@
-﻿ecchi_dna_ali_ben_aissa = {
+﻿﻿ecchi_dna_ali_ben_aissa = {
     portrait_info = {
     genes={      
 		hair_color={ 91 236 91 236 }

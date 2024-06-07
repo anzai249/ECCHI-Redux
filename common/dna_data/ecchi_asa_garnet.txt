@@ -1,4 +1,4 @@
-﻿ecchi_dna_henry_garnet = {
+﻿﻿ecchi_dna_henry_garnet = {
     portrait_info = {
     genes={      
 		hair_color={ 120 249 120 249 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_tippu_tip = {
+﻿﻿ecchi_dna_tippu_tip = {
     portrait_info = {
     genes={      
 		hair_color={ 107 238 107 238 }

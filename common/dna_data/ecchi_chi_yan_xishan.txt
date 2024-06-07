@@ -1,4 +1,4 @@
-﻿ecchi_dna_yan_xishan = {
+﻿﻿ecchi_dna_yan_xishan = {
     portrait_info = {
     genes={      
 		hair_color={ 70 229 70 229 }

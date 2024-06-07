@@ -1,4 +1,4 @@
-﻿ecchi_dna_francisco_de_souza = {
+﻿﻿ecchi_dna_francisco_de_souza = {
     portrait_info = {
     genes={      
 		hair_color={ 14 233 14 233 }

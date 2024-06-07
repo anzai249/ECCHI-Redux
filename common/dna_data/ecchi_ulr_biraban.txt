@@ -1,4 +1,4 @@
-﻿ecchi_dna_biraban = {
+﻿﻿ecchi_dna_biraban = {
     portrait_info = {
     genes={      
 		hair_color={ 82 248 82 248 }

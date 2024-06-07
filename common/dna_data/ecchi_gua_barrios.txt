@@ -1,4 +1,4 @@
-﻿ecchi_dna_justo_rufino_barrios = {
+﻿﻿ecchi_dna_justo_rufino_barrios = {
     portrait_info = {
     genes={      
 		hair_color={ 62 251 62 251 }

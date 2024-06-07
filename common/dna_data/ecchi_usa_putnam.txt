@@ -1,4 +1,4 @@
-﻿ecchi_dna_george_putnam = {
+﻿﻿ecchi_dna_george_putnam = {
     portrait_info = {
     genes={      
 		hair_color={ 125 229 125 229 }

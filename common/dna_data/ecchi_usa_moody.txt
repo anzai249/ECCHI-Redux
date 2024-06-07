@@ -1,4 +1,4 @@
-﻿ecchi_dna_dwight_l_moody = {
+﻿﻿ecchi_dna_dwight_l_moody = {
     portrait_info = {
     genes={      
 		hair_color={ 199 204 199 204 }

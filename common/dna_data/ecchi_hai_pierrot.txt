@@ -1,4 +1,4 @@
-﻿ecchi_dna_jean_louis_pierrot = {
+﻿﻿ecchi_dna_jean_louis_pierrot = {
     portrait_info = {
     genes={      
 		hair_color={ 60 242 60 242 }

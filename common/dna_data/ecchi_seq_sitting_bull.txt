@@ -1,4 +1,4 @@
-﻿ecchi_dna_sitting_bull = {
+﻿﻿ecchi_dna_sitting_bull = {
     portrait_info = {
     genes={      
 		hair_color={ 107 229 107 229 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_john_qunicy_adams = {
+﻿﻿ecchi_dna_john_qunicy_adams = {
     portrait_info = {
     genes={         
         hair_color={ 186 196 191 196 }

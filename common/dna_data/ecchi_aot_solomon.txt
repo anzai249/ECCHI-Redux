@@ -1,4 +1,4 @@
-﻿ecchi_dna_tommy_solomon = {
+﻿﻿ecchi_dna_tommy_solomon = {
     portrait_info = {
     genes={      
 		hair_color={ 21 252 21 252 }

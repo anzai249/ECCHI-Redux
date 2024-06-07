@@ -1,4 +1,4 @@
-﻿ecchi_dna_henry_morgan_stanley = {
+﻿﻿ecchi_dna_henry_morgan_stanley = {
     portrait_info = {
     genes={      
 		hair_color={ 251 224 251 4 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_samori_ture = {
+﻿﻿ecchi_dna_samori_ture = {
     portrait_info = {
     genes={      
 		hair_color={ 5 249 5 249 }

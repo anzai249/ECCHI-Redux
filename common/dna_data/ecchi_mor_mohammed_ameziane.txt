@@ -1,4 +1,4 @@
-﻿ecchi_dna_mohammed_ameziane = {
+﻿﻿ecchi_dna_mohammed_ameziane = {
     portrait_info = {
     genes={      
 		hair_color={ 113 232 113 232 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_jose_de_san_martin = {
+﻿﻿ecchi_dna_jose_de_san_martin = {
     portrait_info = {
     genes={      
 		hair_color={ 80 250 80 250 }

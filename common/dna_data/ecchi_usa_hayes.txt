@@ -1,4 +1,4 @@
-﻿ecchi_dna_rutherford_b_hayes = {
+﻿﻿ecchi_dna_rutherford_b_hayes = {
     portrait_info = {
     genes={      
 		hair_color={ 20 251 20 251 }

@@ -1,4 +1,4 @@
-﻿ecchi_dna_mangas_coloradas = {
+﻿﻿ecchi_dna_mangas_coloradas = {
     portrait_info = {
     genes={      
 		hair_color={ 49 241 49 241 }

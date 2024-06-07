@@ -1,4 +1,4 @@
-﻿ecchi_dna_robert_falcon_scott = {
+﻿﻿ecchi_dna_robert_falcon_scott = {
     portrait_info = {
     genes={      
 		hair_color={ 169 218 169 169 }

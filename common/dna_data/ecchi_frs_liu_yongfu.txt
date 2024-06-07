@@ -1,4 +1,4 @@
-﻿ecchi_dna_liu_yongfu = {
+﻿﻿ecchi_dna_liu_yongfu = {
     portrait_info = {
     genes={      
 		hair_color={ 69 229 69 229 }
