@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_milan_rastislav_stefanik = {
+﻿ecchi_dna_milan_rastislav_stefanik = {
     portrait_info = {
     genes={      
 		hair_color={ 40 252 40 252 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_leoncio_prado = {
+﻿ecchi_dna_leoncio_prado = {
     portrait_info = {
     genes={      
 		hair_color={ 123 234 123 234 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_rudyard_kipling = {
+﻿ecchi_dna_rudyard_kipling = {
     portrait_info = {
     genes={      
 		hair_color={ 211 211 248 7 }

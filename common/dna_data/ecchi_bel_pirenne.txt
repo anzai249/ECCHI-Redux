@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_henri_pirenne = {
+﻿ecchi_dna_henri_pirenne = {
     portrait_info = {
     genes={      
 		hair_color={ 43 246 43 246 }

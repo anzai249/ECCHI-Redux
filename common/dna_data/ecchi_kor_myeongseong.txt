@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_myeongseong = {
+﻿ecchi_dna_myeongseong = {
     portrait_info = {
     genes={      
 		hair_color={ 38 229 38 229 }

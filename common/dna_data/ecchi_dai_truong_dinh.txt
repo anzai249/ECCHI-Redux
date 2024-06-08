@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_truong_dinh = {
+﻿ecchi_dna_truong_dinh = {
     portrait_info = {
     genes={      
 		hair_color={ 64 252 64 252 }

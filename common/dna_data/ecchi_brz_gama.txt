@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_luis_gama = {
+﻿ecchi_dna_luis_gama = {
     portrait_info = {
     genes={      
 		hair_color={ 15 237 15 237 }

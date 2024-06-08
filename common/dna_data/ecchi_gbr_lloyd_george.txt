@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_david_lloyd_george = {
+﻿ecchi_dna_david_lloyd_george = {
     portrait_info = {
     genes={      
 		hair_color={ 40 250 40 250 }

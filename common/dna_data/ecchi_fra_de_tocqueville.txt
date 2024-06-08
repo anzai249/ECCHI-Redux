@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_alexis_de_tocqueville = {
+﻿ecchi_dna_alexis_de_tocqueville = {
     portrait_info = {
     genes={      
 		hair_color={ 30 231 30 231 }

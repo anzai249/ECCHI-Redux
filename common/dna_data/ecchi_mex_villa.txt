@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_pancho_villa = {
+﻿ecchi_dna_pancho_villa = {
     portrait_info = {
     genes={      
 		hair_color={ 35 243 35 243 }

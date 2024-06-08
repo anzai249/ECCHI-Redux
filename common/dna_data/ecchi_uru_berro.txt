@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_bernardo_berro = {
+﻿ecchi_dna_bernardo_berro = {
     portrait_info = {
     genes={      
 		hair_color={ 100 243 100 243 }

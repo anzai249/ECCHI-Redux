@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_benito_mussolini = {
+﻿ecchi_dna_benito_mussolini = {
     portrait_info = {
     genes={      
 		hair_color={ 55 248 55 248 }

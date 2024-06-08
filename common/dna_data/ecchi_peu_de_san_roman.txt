@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_miguel_de_san_roman = {
+﻿ecchi_dna_miguel_de_san_roman = {
     portrait_info = {
     genes={      
 		hair_color={ 90 241 90 241 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_bartolome_mitre = {
+﻿ecchi_dna_bartolome_mitre = {
     portrait_info = {
     genes={      
 		hair_color={ 64 249 64 249 }

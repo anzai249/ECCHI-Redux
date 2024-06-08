@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_frantisek_palacky = {
+﻿ecchi_dna_frantisek_palacky = {
     portrait_info = {
     genes={      
 		hair_color={ 169 73 210 113 }

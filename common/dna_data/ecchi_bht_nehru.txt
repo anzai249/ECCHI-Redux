@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_jawaharlal_nehru = {
+﻿ecchi_dna_jawaharlal_nehru = {
     portrait_info = {
     genes={      
 		hair_color={ 57 230 57 230 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_stanley_baldwin = {
+﻿ecchi_dna_stanley_baldwin = {
     portrait_info = {
     genes={      
 		hair_color={ 57 248 57 248 }

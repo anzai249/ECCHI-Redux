@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_jose_maria_castro = {
+﻿ecchi_dna_jose_maria_castro = {
     portrait_info = {
     genes={      
 		hair_color={ 111 248 111 248 }

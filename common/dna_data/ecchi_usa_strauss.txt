@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_levi_strauss = {
+﻿ecchi_dna_levi_strauss = {
     portrait_info = {
     genes={      
 		hair_color={ 211 255 149 134 }

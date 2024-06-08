@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_l_frank_baum = {
+﻿ecchi_dna_l_frank_baum = {
     portrait_info = {
     genes={      
 		hair_color={ 13 232 13 232 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_george_etienne_cartier = {
+﻿ecchi_dna_george_etienne_cartier = {
     portrait_info = {
     genes={      
 		hair_color={ 53 246 53 246 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_neville_chamberlain = {
+﻿ecchi_dna_neville_chamberlain = {
     portrait_info = {
     genes={      
 		hair_color={ 96 252 96 252 }

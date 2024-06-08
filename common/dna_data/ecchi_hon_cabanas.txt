@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_jose_trinidad_cabanas = {
+﻿ecchi_dna_jose_trinidad_cabanas = {
     portrait_info = {
     genes={      
 		hair_color={ 21 232 21 232 }

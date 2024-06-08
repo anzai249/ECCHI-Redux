@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_lalla_fatma_nsoumer = {
+﻿ecchi_dna_lalla_fatma_nsoumer = {
     portrait_info = {
     genes={      
 		hair_color={ 7 242 7 242 }

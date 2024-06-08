@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_ned_kelly = {
+﻿ecchi_dna_ned_kelly = {
     portrait_info = {
     genes={      
 		hair_color={ 47 240 47 240 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_muhumusa = {
+﻿ecchi_dna_muhumusa = {
     portrait_info = {
     genes={      
 		hair_color={ 75 245 75 245 }

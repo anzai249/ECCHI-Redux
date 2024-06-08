@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_william_howard_taft = {
+﻿ecchi_dna_william_howard_taft = {
     portrait_info = {
     genes={      
 		hair_color={ 114 140 114 140 }

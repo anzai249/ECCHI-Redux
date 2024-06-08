@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_john_jacob_astor = {
+﻿ecchi_dna_john_jacob_astor = {
     portrait_info = {
     genes={      
 		hair_color={ 188 214 188 178 }

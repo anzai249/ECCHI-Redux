@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_chen_jiongming = {
+﻿ecchi_dna_chen_jiongming = {
     portrait_info = {
     genes={      
 		hair_color={ 86 229 86 229 }

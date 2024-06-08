@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_faustin_soulouque = {
+﻿ecchi_dna_faustin_soulouque = {
     portrait_info = {
     genes={      
 		hair_color={ 99 248 99 248 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_ho_chi_minh = {
+﻿ecchi_dna_ho_chi_minh = {
     portrait_info = {
     genes={      
 		hair_color={ 40 229 40 229 }

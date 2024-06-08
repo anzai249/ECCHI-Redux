@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_zhang_zuolin = {
+﻿ecchi_dna_zhang_zuolin = {
     portrait_info = {
     genes={      
 		hair_color={ 122 229 122 229 }

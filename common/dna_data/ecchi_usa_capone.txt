@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_al_capone = {
+﻿ecchi_dna_al_capone = {
     portrait_info = {
     genes={      
 		hair_color={ 167 223 167 223 }

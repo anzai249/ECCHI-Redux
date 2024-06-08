@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_d_s_senanayake = {
+﻿ecchi_dna_d_s_senanayake = {
     portrait_info = {
     genes={      
 		hair_color={ 68 251 68 251 }

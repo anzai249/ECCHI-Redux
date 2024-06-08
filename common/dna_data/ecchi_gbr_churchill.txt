@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_winston_churchill = {
+﻿ecchi_dna_winston_churchill = {
     portrait_info = {
     genes={      
 		hair_color={ 96 137 96 137 }

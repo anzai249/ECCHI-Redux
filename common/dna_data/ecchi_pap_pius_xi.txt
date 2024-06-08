@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_pius_xi = {
+﻿ecchi_dna_pius_xi = {
     portrait_info = {
     genes={      
 		hair_color={ 211 172 211 172 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_cao_futian = {
+﻿ecchi_dna_cao_futian = {
     portrait_info = {
     genes={      
 		hair_color={ 64 229 64 229 }

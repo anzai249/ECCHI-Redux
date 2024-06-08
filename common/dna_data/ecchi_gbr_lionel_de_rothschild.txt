@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_lionel_de_rothschild = {
+﻿ecchi_dna_lionel_de_rothschild = {
     portrait_info = {
     genes={      
 		hair_color={ 134 196 134 106 }

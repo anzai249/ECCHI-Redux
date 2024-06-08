@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_irineu_de_sousa = {
+﻿ecchi_dna_irineu_de_sousa = {
     portrait_info = {
     genes={      
 		hair_color={ 158 89 25 229 }

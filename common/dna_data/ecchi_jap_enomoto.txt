@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_enomoto_takeaki = {
+﻿ecchi_dna_enomoto_takeaki = {
     portrait_info = {
     genes={      
 		hair_color={ 114 229 114 229 }

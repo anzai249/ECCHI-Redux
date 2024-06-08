@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_simon_wonga = {
+﻿ecchi_dna_simon_wonga = {
     portrait_info = {
     genes={      
 		hair_color={ 88 229 88 229 }

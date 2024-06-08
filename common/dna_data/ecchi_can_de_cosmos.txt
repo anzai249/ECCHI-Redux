@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_amor_de_cosmos = {
+﻿ecchi_dna_amor_de_cosmos = {
     portrait_info = {
     genes={      
 		hair_color={ 36 231 36 231 }

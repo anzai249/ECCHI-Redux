@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_wu_peifu = {
+﻿ecchi_dna_wu_peifu = {
     portrait_info = {
     genes={      
 		hair_color={ 100 229 100 229 }

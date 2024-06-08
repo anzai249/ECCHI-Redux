@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_saionji_kinmochi = {
+﻿ecchi_dna_saionji_kinmochi = {
     portrait_info = {
     genes={      
 		hair_color={ 118 229 118 229 }

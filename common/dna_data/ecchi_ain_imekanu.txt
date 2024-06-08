@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_imekanu = {
+﻿ecchi_dna_imekanu = {
     portrait_info = {
     genes={      
 		hair_color={ 29 229 29 229 }

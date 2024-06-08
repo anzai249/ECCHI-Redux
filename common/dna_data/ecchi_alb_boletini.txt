@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_isa_boletini = {
+﻿ecchi_dna_isa_boletini = {
     portrait_info = {
     genes={      
 		hair_color={ 79 231 79 231 }

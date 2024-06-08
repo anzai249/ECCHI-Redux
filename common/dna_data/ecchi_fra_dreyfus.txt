@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_alfred_dreyfus = {
+﻿ecchi_dna_alfred_dreyfus = {
     portrait_info = {
     genes={      
 		hair_color={ 117 155 9 241 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_warren_harding = {
+﻿ecchi_dna_warren_harding = {
     portrait_info = {
     genes={
 		hair_color={ 213 173 213 173 }

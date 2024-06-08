@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_abraham_kuyper = {
+﻿ecchi_dna_abraham_kuyper = {
     portrait_info = {
     genes={      
 		hair_color={ 184 205 184 205 }

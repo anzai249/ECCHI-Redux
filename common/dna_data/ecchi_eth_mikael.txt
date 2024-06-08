@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_mikael_of_wello = {
+﻿ecchi_dna_mikael_of_wello = {
     portrait_info = {
     genes={      
 		hair_color={ 68 234 68 234 }

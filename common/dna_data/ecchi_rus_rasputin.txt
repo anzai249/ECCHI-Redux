@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_grigori_rasputin = {
+﻿ecchi_dna_grigori_rasputin = {
     portrait_info = {
     genes={      
 		hair_color={ 104 229 104 229 }

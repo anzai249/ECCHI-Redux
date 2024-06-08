@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_victorio = {
+﻿ecchi_dna_victorio = {
     portrait_info = {
     genes={      
 		hair_color={ 94 241 94 241 }

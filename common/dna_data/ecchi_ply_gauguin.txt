@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_paul_gauguin = {
+﻿ecchi_dna_paul_gauguin = {
     portrait_info = {
     genes={      
 		hair_color={ 197 173 197 173 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_gabriele_dannunzio = {
+﻿ecchi_dna_gabriele_dannunzio = {
     portrait_info = {
     genes={      
 		hair_color={ 2 246 2 246 }

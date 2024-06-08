@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_mohammed_abdullah_hassan = {
+﻿ecchi_dna_mohammed_abdullah_hassan = {
     portrait_info = {
     genes={      
 		hair_color={ 105 239 105 239 }

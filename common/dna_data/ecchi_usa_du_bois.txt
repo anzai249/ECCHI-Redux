@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_web_du_bois = {
+﻿ecchi_dna_web_du_bois = {
     portrait_info = {
     genes={      
 		hair_color={ 80 242 80 242 }

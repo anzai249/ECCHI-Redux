@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_aw_boon_haw = {
+﻿ecchi_dna_aw_boon_haw = {
     portrait_info = {
     genes={      
 		hair_color={ 118 229 118 229 }

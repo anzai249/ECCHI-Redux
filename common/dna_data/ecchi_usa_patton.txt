@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_george_s_patton = {
+﻿ecchi_dna_george_s_patton = {
     portrait_info = {
     genes={      
 		hair_color={ 109 128 109 128 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_friedrich_nietzsche = {
+﻿ecchi_dna_friedrich_nietzsche = {
     portrait_info = {
     genes={      
 		hair_color={ 195 198 195 172 }

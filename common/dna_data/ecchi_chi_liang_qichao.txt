@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_liang_qichao = {
+﻿ecchi_dna_liang_qichao = {
     portrait_info = {
     genes={      
 		hair_color={ 16 229 16 229 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_jose_gervasio_artigas = {
+﻿ecchi_dna_jose_gervasio_artigas = {
     portrait_info = {
     genes={      
 		hair_color={ 235 224 49 235 }

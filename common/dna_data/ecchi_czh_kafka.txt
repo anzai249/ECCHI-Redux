@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_franz_kafka = {
+﻿ecchi_dna_franz_kafka = {
     portrait_info = {
     genes={      
 		hair_color={ 122 238 122 238 }

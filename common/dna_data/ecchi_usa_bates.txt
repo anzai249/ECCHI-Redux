@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_katharine_lee_bates = {
+﻿ecchi_dna_katharine_lee_bates = {
     portrait_info = {
     genes={      
 		hair_color={ 6 234 6 234 }

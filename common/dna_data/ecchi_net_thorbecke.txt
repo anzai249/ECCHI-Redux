@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_johan_rudolph_thorbecke = {
+﻿ecchi_dna_johan_rudolph_thorbecke = {
     portrait_info = {
     genes={      
 		hair_color={ 197 184 5 234 }

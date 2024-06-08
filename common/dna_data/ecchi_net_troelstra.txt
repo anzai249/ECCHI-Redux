@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_pieter_jelles_troelstra = {
+﻿ecchi_dna_pieter_jelles_troelstra = {
     portrait_info = {
     genes={      
 		hair_color={ 29 232 29 232 }

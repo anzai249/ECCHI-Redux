@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_sequoyah = {
+﻿ecchi_dna_sequoyah = {
     portrait_info = {
     genes={      
 		hair_color={ 116 242 116 242 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_hu_shih = {
+﻿ecchi_dna_hu_shih = {
     portrait_info = {
     genes={      
 		hair_color={ 42 229 42 229 }

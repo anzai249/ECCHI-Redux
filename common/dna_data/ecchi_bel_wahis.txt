@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_theophile_wahis = {
+﻿ecchi_dna_theophile_wahis = {
     portrait_info = {
     genes={      
 		hair_color={ 174 183 174 183 }

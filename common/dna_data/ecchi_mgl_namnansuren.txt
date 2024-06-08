@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_togs_ochiryn_namnansuren = {
+﻿ecchi_dna_togs_ochiryn_namnansuren = {
     portrait_info = {
     genes={      
 		hair_color={ 118 229 118 229 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_bertha_von_suttner = {
+﻿ecchi_dna_bertha_von_suttner = {
     portrait_info = {
     genes={      
 		hair_color={ 97 249 97 249 }

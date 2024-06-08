@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_jbm_hertzog = {
+﻿ecchi_dna_jbm_hertzog = {
     portrait_info = {
     genes={      
 		hair_color={ 187 203 187 203 }

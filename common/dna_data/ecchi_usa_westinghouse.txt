@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_george_westinghouse = {
+﻿ecchi_dna_george_westinghouse = {
     portrait_info = {
     genes={      
 		hair_color={ 176 175 176 175 }

@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_yaeko_batchelor = {
+﻿ecchi_dna_yaeko_batchelor = {
     portrait_info = {
     genes={      
 		hair_color={ 53 229 53 229 }

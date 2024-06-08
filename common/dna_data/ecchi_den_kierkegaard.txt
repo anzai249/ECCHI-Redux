@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_soren_kierkegaard = {
+﻿ecchi_dna_soren_kierkegaard = {
     portrait_info = {
     genes={      
 		hair_color={ 226 175 226 175 }

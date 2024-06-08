@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_nguyen_trung_truc = {
+﻿ecchi_dna_nguyen_trung_truc = {
     portrait_info = {
     genes={      
 		hair_color={ 57 233 57 233 }

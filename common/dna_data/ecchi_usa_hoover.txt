@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_herbert_hoover = {
+﻿ecchi_dna_herbert_hoover = {
     portrait_info = {
     genes={      
 		hair_color={ 163 173 169 202 }

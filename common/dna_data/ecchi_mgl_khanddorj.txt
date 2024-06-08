@@ -1,4 +1,4 @@
-﻿﻿ecchi_dna_mijiddorjiin_khanddorj = {
+﻿ecchi_dna_mijiddorjiin_khanddorj = {
     portrait_info = {
     genes={      
 		hair_color={ 49 244 49 244 }
