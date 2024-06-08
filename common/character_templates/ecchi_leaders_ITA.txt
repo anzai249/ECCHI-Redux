@@ -56,11 +56,11 @@ ecchi_ita_mussolini_character_template = {
                 AND = {
                     exists = c:ITA
                     this = c:ITA
-                    NOT = { exists = c:PAP }
                 }
                 AND = {
                     exists = c:PAP
                     this = c:PAP
+                    NOT = { exists = c:ITA }
                 }
             }
         }
@@ -74,5 +74,55 @@ ecchi_ita_mussolini_character_template = {
         earliest_usage_date = 1922.1.1
         latest_usage_date = 1945.4.28
         chance = 75
+    }
+}
+
+## Ettore Bugatti
+
+mr_ita_bugatti_ettore_character_template = {
+	dna = mr_ita_bugatti_ettore
+	first_name = ecchi_ettore
+	last_name = ecchi_bugatti
+	culture = cu:north_italian
+	female = no
+	interest_group = ig:ig_industrialists
+	birth_date = 1881.9.15
+	historical = yes
+    ideology = ideology_market_liberal
+	traits = {
+		engineer
+		innovative
+		meticulous
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            OR = {
+                AND = {
+                    exists = c:SAR
+                    this = c:SAR
+                    NOT = { exists = c:SIC }
+                }
+                AND = {
+                    exists = c:ITA
+                    this = c:ITA
+                    NOT = { exists = c:SIC }
+                    NOT = { exists = c:SAR }
+                }
+                AND = {
+                    exists = c:SIC
+                    this = c:SIC
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_industrialists
+            }
+        }
+        earliest_usage_date = 1909.1.1
+        latest_usage_date = 1947.1.1
+        chance = 80
     }
 }

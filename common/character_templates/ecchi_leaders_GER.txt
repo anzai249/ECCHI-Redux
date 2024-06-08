@@ -534,3 +534,53 @@ ecchi_ger_hahn_character_template = {
 		chance = 55
 	}
 }
+
+## Carl Benz
+
+ecchi_ger_benz_carl_character_template = {
+	dna = mr_ger_benz_carl
+	first_name = ecchi_Carl_Friedrich
+	last_name = ecchi_benz
+	culture = cu:south_german
+	religion = rel:protestant
+	female = no
+	interest_group = ig_industrialists
+	birth_date = 1844.11.25
+	historical = yes
+	ideology = ideology_market_liberal
+	traits = {
+		engineer
+		innovative
+		erudite
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			OR = {
+				morgenrote_is_active = no
+				AND = {
+					exists = c:GER
+					this = c:GER
+					NOT = {
+						exists = c:BAD
+						exists = c:BAV
+					}
+				}
+				AND = {
+					exists = c:BAD
+					this = c:BAD
+				}
+				AND = {
+					exists = c:BAV
+					this = c:BAV
+					NOT = { exists = c:BAD }
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1929.4.4
+		chance = 65
+	}
+}

@@ -152,6 +152,61 @@ ecchi_chi_ronglu_character_template = {
     }
 }
 
+## Zhang Jian
+ecchi_chi_zhang_jian_character_template = {
+    first_name = ecchi_Jian
+    last_name = Zhang
+    historical = yes
+    culture = cu:han
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    dna = ecchi_dna_zhang_jian
+    birth_date = 1853.7.1
+    traits = { innovative ambitious persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1874.1.1
+        latest_usage_date = 1926.8.21
+        chance = 80
+    }
+}
+
+## Ilibu
+
+ecchi_chi_ilibu_character_template = {
+    first_name = ecchi_Ilibu
+    last_name = Aisin_Gioro
+    historical = yes
+    culture = cu:manchu
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_traditionalist
+    interest_group = ig_armed_forces
+    ig_leader = yes
+    dna = ecchi_dna_ilibu
+    birth_date = 1772.1.1
+    traits = { experienced_defensive_strategist persistent pillager opium_addiction }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1801.1.1
+        latest_usage_date = 1843.3.4
+        chance = 100
+    }
+}
 # China - Qing generals
 
 ecchi_chi_zuo_zongtang_character_template = {
@@ -213,6 +268,7 @@ ecchi_chi_wang_zebang_character_template = {
         }
         earliest_usage_date = 1828.1.1
         latest_usage_date = 1883.1.1
+        chance = 70
     }
 }
 

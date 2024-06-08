@@ -1341,3 +1341,128 @@ ecchi_gbr_fawcett_character_template = {
         chance = 75
     }
 }
+
+## Bram Stoker
+
+ecchi_ire_stoker_bram_character_template = {
+	dna = mr_ire_stoker_bram
+	first_name = ecchi_bram
+	last_name = ecchi_stoker
+	culture = cu:irish
+	female = no
+	interest_group = ig_intelligentsia
+	birth_date = 1847.11.8
+	historical = yes
+    ideology = ideology_reformer
+	traits = {
+		literary
+		charismatic
+		erudite
+	}
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1912.4.20
+        chance = 45
+    }
+}
+
+## James Joyce
+
+ecchi_ire_joyce_james_character_template = {
+	dna = mr_ire_joyce_james
+	first_name = ecchi_james
+	last_name = ecchi_joyce
+	culture = cu:irish
+	female = no
+	interest_group = ig_intelligentsia
+	birth_date = 1882.2.2
+	historical = yes
+    ideology = ideology_reformer
+	traits = {
+		literary
+		innovative
+		direct
+		meticulous
+	}
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1902.1.1
+        latest_usage_date = 1941.4.20
+        chance = 45
+    }
+}
+
+## H. G. Wells
+
+ecchi_gbr_wells_hg_character_template = {
+	dna = mr_gbr_wells_hg
+	first_name = ecchi_H_G
+	last_name = ecchi_Wells
+	culture = cu:british
+	female = no
+	interest_group = ig_intelligentsia
+	birth_date = 1866.9.21
+	historical = yes
+    ideology = ideology_social_democrat
+	traits = {
+		literary
+		innovative
+		bigoted
+		persistent
+	}
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            OR = {
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:ENG }
+                }
+                AND = {
+                    exists = c:ENG
+                    this = c:ENG
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1891.1.1
+        latest_usage_date = 1946.8.13
+        chance = 55
+    }
+}

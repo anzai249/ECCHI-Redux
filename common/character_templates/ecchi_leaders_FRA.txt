@@ -238,6 +238,71 @@ ecchi_fra_durkheim_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1917.11.15
-        chance = 75
+        chance = 55
     }
 }
+
+## Dumas, Alexandre
+ecchi_fra_dumas_alexandre_character_template = {
+	dna = mr_fra_dumas_alexandre
+	first_name = ecchi_alexandre
+	last_name = ecchi_dumas
+	culture = cu:french
+	female = no
+	interest_group = ig_intelligentsia
+	birth_date = 1802.7.24
+	historical = yes
+    ideology = ideology_republican_leader
+	traits = {
+		literary
+		romantic
+		hedonist
+		expensive_tastes
+	}
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1870.12.5
+        chance = 65
+    }
+}
+
+## Verne Jules
+mr_fra_verne_jules_character_template = {
+	dna = mr_fra_verne_jules
+	first_name = ecchi_jules
+	last_name = ecchi_verne
+	culture = cu:french
+	female = no
+	interest_group = ig_intelligentsia
+	birth_date = 1828.2.8
+	historical = yes
+    ideology = ideology_reformer
+	traits = {
+		literary
+		innovative
+		reserved
+		erudite
+	}
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1852.1.1
+        latest_usage_date = 1905.3.24
+        chance = 65
+    }
+}
+
