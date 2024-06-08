@@ -51,40 +51,40 @@ ecchi_brz_da_fonseca_character_template = {
     }
 }
 
-ecchi_brz_gama_character_template = {
-    first_name = Luis
-    last_name = ecchi_Gama
-    historical = yes
-    culture = cu:brazilian
-    female = no
-    religion = rel:catholic
-    ideology = ideology_abolitionist
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_luis_gama
-    birth_date = 1830.6.21
-    traits = { inspirational_orator romantic direct }
-    interest_group_leader_usage = {
-       country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:BRZ
-                    this = c:BRZ
-                    NOT = { exists = c:TPI }
-                }
-                AND = {
-                    exists = c:TPI
-                    this = c:TPI
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1864.1.1
-        latest_usage_date = 1882.8.24
-        chance = 75
-    }
-}
+# ecchi_brz_gama_character_template = {
+#     first_name = Luis
+#     last_name = ecchi_Gama
+#     historical = yes
+#     culture = cu:brazilian
+#     female = no
+#     religion = rel:catholic
+#     ideology = ideology_abolitionist
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_luis_gama
+#     birth_date = 1830.6.21
+#     traits = { inspirational_orator romantic direct }
+#     interest_group_leader_usage = {
+#        country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:BRZ
+#                     this = c:BRZ
+#                     NOT = { exists = c:TPI }
+#                 }
+#                 AND = {
+#                     exists = c:TPI
+#                     this = c:TPI
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1864.1.1
+#         latest_usage_date = 1882.8.24
+#         chance = 75
+#     }
+# }
 
 ecchi_brz_irineu_de_sousa_character_template = {
     first_name = ecchi_Irineu_Evangelista
