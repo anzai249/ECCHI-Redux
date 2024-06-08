@@ -1,4 +1,4 @@
-﻿﻿# Mongolia
+﻿# Mongolia
 
 ecchi_mgl_bogd_khan_character_template = {
     first_name = ecchi_Bogd

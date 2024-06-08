@@ -1,4 +1,4 @@
-﻿﻿# Cuba
+﻿# Cuba
 
 ecchi_cub_de_cespedes_character_template = {
     first_name = ecchi_Carlos_Manuel

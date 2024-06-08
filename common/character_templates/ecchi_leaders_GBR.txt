@@ -1,4 +1,4 @@
-﻿﻿# Great Britain - Prime Ministers
+﻿# Great Britain - Prime Ministers
 
 ecchi_gbr_grey_character_template = {
     first_name = Charles

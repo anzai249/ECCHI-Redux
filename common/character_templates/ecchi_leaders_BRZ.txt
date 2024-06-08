@@ -1,4 +1,4 @@
-﻿﻿# Brazil
+﻿# Brazil
 
 ecchi_brz_de_andrada_character_template = {
     first_name = ecchi_Jose_Bonifacio

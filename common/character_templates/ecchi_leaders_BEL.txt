@@ -1,4 +1,4 @@
-﻿﻿# Belgium
+﻿# Belgium
 
 ecchi_bel_rogier_character_template = {
     first_name = Charles

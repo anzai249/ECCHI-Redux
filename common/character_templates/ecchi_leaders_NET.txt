@@ -1,4 +1,4 @@
-﻿﻿# Netherlands
+﻿# Netherlands
 
 ecchi_net_thorbecke_character_template = {
     first_name = ecchi_Johan_Rudolph

@@ -1,4 +1,4 @@
-﻿﻿# Albania
+﻿# Albania
 
 ecchi_alb_topulli_character_template = {
     first_name = ecchi_Cerciz

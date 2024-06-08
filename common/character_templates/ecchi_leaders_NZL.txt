@@ -1,4 +1,4 @@
-﻿﻿# New Zealand
+﻿# New Zealand
 
 ecchi_nzl_sewell_character_template = {
     first_name = Henry

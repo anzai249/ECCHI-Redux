@@ -1,4 +1,4 @@
-﻿﻿# Australia
+﻿# Australia
 
 ecchi_ast_parkes_character_template = {
     first_name = Henry

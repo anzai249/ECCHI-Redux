@@ -1,4 +1,4 @@
-﻿﻿# Native American leaders
+﻿# Native American leaders
 
 ecchi_seq_sequoyah_character_template = {
     first_name = ecchi_Sequoyah

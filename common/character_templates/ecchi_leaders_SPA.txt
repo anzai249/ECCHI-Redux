@@ -1,4 +1,4 @@
-﻿﻿# Spain
+﻿# Spain
 
 ecchi_spa_infante_carlos_character_template = {
     first_name = ecchi_Infante_Carlos

@@ -1,4 +1,4 @@
-﻿﻿# Formosa / Taiwan
+﻿# Formosa / Taiwan
 
 ecchi_frs_tang_jingsong_character_template = {
     first_name = ecchi_Jingsong

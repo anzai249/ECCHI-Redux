@@ -1,4 +1,4 @@
-﻿﻿# Zanzibar
+﻿# Zanzibar
 
 ecchi_zan_tip_character_template = {
     first_name = ecchi_Tippu

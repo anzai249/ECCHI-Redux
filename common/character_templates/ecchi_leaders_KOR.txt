@@ -1,4 +1,4 @@
-﻿﻿# Korea
+﻿# Korea
 
 ecchi_kor_myeongseong_character_template = {
     first_name = Ja-yeong # Empress Myeongseong

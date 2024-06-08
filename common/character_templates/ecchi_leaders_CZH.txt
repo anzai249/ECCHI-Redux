@@ -1,4 +1,4 @@
-﻿﻿# Czechoslovakia, Bohemia and Slovakia
+﻿# Czechoslovakia, Bohemia and Slovakia
 
 # Czechs
 ecchi_czh_palacky_character_template = {

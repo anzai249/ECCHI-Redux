@@ -1,4 +1,4 @@
-﻿﻿# Modern Malaysia
+﻿# Modern Malaysia
 
 ecchi_joh_aw_character_template = {
     first_name = ecchi_Boon-Haw

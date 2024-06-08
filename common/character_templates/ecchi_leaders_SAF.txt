@@ -1,4 +1,4 @@
-﻿﻿# South Africa
+﻿# South Africa
 
 ecchi_saf_rhodes_character_template = {
     first_name = Cecil

@@ -1,4 +1,4 @@
-﻿﻿# Japan - politicians
+﻿# Japan - politicians
 
 ecchi_jap_sakamoto_character_template = {
     first_name = ecchi_Ryoma

@@ -1,4 +1,4 @@
-﻿﻿# Peru
+﻿# Peru
 
 ecchi_peu_bermudez_character_template = {
     first_name = ecchi_Pedro_Pablo

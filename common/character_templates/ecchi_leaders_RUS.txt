@@ -1,4 +1,4 @@
-﻿﻿# Russia  - politicians
+﻿# Russia  - politicians
 
 # ecchi_rus_lenin_character_template = {
 #     first_name = Vladimir

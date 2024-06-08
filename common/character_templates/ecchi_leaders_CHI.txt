@@ -1,4 +1,4 @@
-﻿﻿# China - Qing era politicians
+﻿# China - Qing era politicians
 
 ecchi_chi_cixi_character_template = {
     first_name = ecchi_Dowager_Cixi

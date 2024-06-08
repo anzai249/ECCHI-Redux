@@ -1,4 +1,4 @@
-﻿﻿# Mexico - revolutionaries
+﻿# Mexico - revolutionaries
 
 ecchi_mex_villa_character_template = {
     first_name = ecchi_Pancho

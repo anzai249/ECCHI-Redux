@@ -1,4 +1,4 @@
-﻿﻿# Italy - politicians
+﻿# Italy - politicians
 
 ecchi_ita_dannunzio_character_template = {
     first_name = Gabriele
