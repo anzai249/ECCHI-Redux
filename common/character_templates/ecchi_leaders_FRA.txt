@@ -1,4 +1,4 @@
-﻿# French - commanders
+﻿﻿# French - commanders
 
 ecchi_fra_petain_character_template = {
     first_name = Philippe

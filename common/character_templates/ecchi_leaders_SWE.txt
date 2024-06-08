@@ -1,4 +1,4 @@
-﻿# Sweden - Industrialist
+﻿﻿# Sweden - Industrialist
 
 ecchi_swe_nobel_character_template = {
     first_name = Alfred

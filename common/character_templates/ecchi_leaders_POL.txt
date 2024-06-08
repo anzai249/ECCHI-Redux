@@ -1,4 +1,4 @@
-﻿# Poland
+﻿﻿# Poland
 
 ecchi_pol_prus_character_template = {
     first_name = Boleslaw

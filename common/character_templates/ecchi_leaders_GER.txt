@@ -1,4 +1,4 @@
-﻿# Germany - politicians
+﻿﻿# Germany - politicians
 
 ecchi_ger_hitler_character_template = {
 	first_name = Adolf
