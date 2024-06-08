@@ -245,6 +245,8 @@ ecchi_chi_zuo_zongtang_character_template = {
 
 # China - Qing others
 
+## Wang Laoji
+
 ecchi_chi_wang_zebang_character_template = {
     first_name = ecchi_Zebang
     last_name = Wang
@@ -271,8 +273,6 @@ ecchi_chi_wang_zebang_character_template = {
         chance = 70
     }
 }
-
-
 
 # China - reformers
 
@@ -1315,5 +1315,60 @@ ecchi_chi_lu_zhengxiang_character_template = {
         earliest_usage_date = 1912.1.3
         latest_usage_date = 1949.1.15
         chance = 75
+    }
+}
+
+# Easter Eggs
+
+## Zheng Yi Sao
+
+ecchi_chi_zheng_yi_sao_character_template = {
+    first_name = ecchi_Yi_Sao
+    last_name = Zheng
+    historical = yes
+    culture = cu:yue
+    female = yes
+    religion = rel:mahayana
+    ideology = ideology_authoritarian
+    interest_group = ig_rural_folk
+    commander_rank = default
+    birth_date = 1775.1.1
+    commander_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+        }
+        role = admiral
+        earliest_usage_date = 1807.1.1
+        latest_usage_date = 1845.1.1
+        chance = 25
+    }
+}
+
+## Qi Baishi
+
+ecchi_chi_qi_baishi_character_template = {
+    first_name = ecchi_Baishi
+    last_name = ecchi_Qi
+    historical = yes
+    culture = cu:han
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_qi_baishi
+    birth_date = 1864.1.1
+    traits = { innovative persistent romantic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1903.1.1
+        latest_usage_date = 1957.9.16
+        chance = 30
     }
 }

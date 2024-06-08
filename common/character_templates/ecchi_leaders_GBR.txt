@@ -1466,3 +1466,44 @@ ecchi_gbr_wells_hg_character_template = {
         chance = 55
     }
 }
+
+## Robert Lewis Stevenson
+
+ecchi_gbr_stevenson_robert_character_template = {
+    dna = ecchi_gbr_stevenson_robert
+    first_name = ecchi_Robert_Lewis
+    last_name = ecchi_Stevenson
+    culture = cu:scottish
+    female = no
+    interest_group = ig_intelligentsia
+    birth_date = 1850.11.13
+    historical = yes
+    ideology = ideology_reformer
+    traits = {
+        literary
+        innovative
+        romantic
+        explorer
+    }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:SCO }
+                }
+                AND = {
+                    exists = c:SCO
+                    this = c:SCO
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1894.4.20
+        chance = 45
+    }
+}
