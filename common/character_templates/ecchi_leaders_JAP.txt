@@ -257,7 +257,7 @@ ecchi_jap_yoshihisa_character_template = {
 
 ecchi_jap_ito_character_template = {
     first_name = ecchi_Hirobumi
-    last_name = Ito
+    last_name = ecchi_Ito
     historical = yes
     culture = cu:japanese
     female = no
