@@ -1,4 +1,4 @@
-ecchi_dna_albert_schweitzer={
+﻿ecchi_dna_albert_schweitzer={
     portrait_info = {
 	genes={ 		
 		hair_color={ 198 187 198 187 }

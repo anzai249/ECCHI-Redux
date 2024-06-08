@@ -31,7 +31,7 @@ ecchi_cub_de_cespedes_character_template = {
 }
 
 ecchi_cub_marti_character_template = {
-    first_name = Jose
+    first_name = ecchi_Jose
     last_name = ecchi_Marti
     historical = yes
     culture = cu:caribeno

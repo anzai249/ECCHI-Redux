@@ -1,4 +1,4 @@
-ecchi_dna_otto_hahn={
+﻿ecchi_dna_otto_hahn={
     portrait_info = {
 	genes={ 		
         hair_color={ 185 226 185 226 }

@@ -1,4 +1,4 @@
-ecchi_dna_elisee_reclus={
+﻿ecchi_dna_elisee_reclus={
     portrait_info = {
 	genes={ 		
 		hair_color={ 189 226 189 226 }

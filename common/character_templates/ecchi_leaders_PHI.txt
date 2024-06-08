@@ -59,7 +59,7 @@ ecchi_phi_aguinaldo_character_template = {
 
 
 ecchi_phi_rizal_character_template = {
-    first_name = Jose
+    first_name = ecchi_Jose
     last_name = Rizal
     historical = yes
     culture = cu:filipino

@@ -122,7 +122,7 @@ ecchi_brz_irineu_de_sousa_character_template = {
 }
 
 ecchi_brz_paranhos_character_template = {
-    first_name = Jose
+    first_name = ecchi_Jose
     last_name = ecchi_Paranhos
     historical = yes
     culture = cu:brazilian

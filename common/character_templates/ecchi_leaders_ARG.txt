@@ -1,7 +1,7 @@
 ﻿# Argentina
 
 ecchi_arg_de_san_martin_character_template = {
-    first_name = Jose
+    first_name = ecchi_Jose
     last_name = ecchi_de_San_Martin
     historical = yes
     culture = cu:platinean
