@@ -1545,6 +1545,6 @@ ecchi_gbr_stephenson_george_character_template = {
         }
         earliest_usage_date = 1814.1.1
         latest_usage_date = 1848.8.12
-        chance = 100
+        chance = 55
     }
 }
