@@ -241,28 +241,13 @@ ecchi_gre_paparrigopoulos_character_template = {
     traits = { cautious experienced_diplomat }
     interest_group_leader_usage = {
         country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GRE
-                    this = c:GRE
-                }
-                AND = {
-                    exists = c:BYZ
-                    this = c:BYZ
-                    NOT = { exists = c:GRE }
-                }
-                AND = {
-                    exists = c:TUR
-                    this = c:TUR
-                    NOT = { exists = c:GRE }
-                    NOT = { exists = c:BYZ }
-                }
-            }
+            exists = c:GRE
+            this = c:GRE
         }
         interest_group_trigger = {
-            s_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_intelligentsia
         }
-        earliest_usage_date = 1835.12.1
+        earliest_usage_date = 1836.1.1
         latest_usage_date = 1891.2.15
         chance = 100
     }

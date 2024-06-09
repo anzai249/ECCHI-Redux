@@ -35,3 +35,37 @@ ecchi_por_antonio_santos = {
         chance = 75
     }
 }
+
+## Teófilo Braga
+
+ecchi_por_teofilo_braga = {
+    first_name = ecchi_Teofilo
+    last_name = Braga
+    historical = yes
+    culture = cu:portuguese
+    female = no
+    religion = rel:catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_landowners
+    dna = ecchi_dna_teofilo_braga
+    birth_date = 1843.2.24
+    traits = { firebrand persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:POR
+                    this = c:POR
+                }
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+                    NOT = { exists = c:POR }
+                }
+            }
+        }
+        earliest_usage_date = 1910.10.5
+        latest_usage_date = 1911.5.26
+        chance = 75
+    }
+}

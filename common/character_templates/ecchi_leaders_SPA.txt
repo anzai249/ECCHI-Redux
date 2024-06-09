@@ -225,3 +225,159 @@ ecchi_spa_picasso_character_template = {
         chance = 10
     }
 }
+
+## Práxedes Mateo Sagasta
+
+ecchi_spa_sagasta_character_template = {
+    first_name = ecchi_Praxedes
+    last_name = ecchi_Mateo_Sagasta
+    historical = yes
+    culture = cu:spanish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_praxedes_mateo_sagasta
+    birth_date = 1825.7.21
+    traits = { inspirational_orator charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+                    NOT = { exists = c:ANL }
+                }
+                AND = {
+                    exists = c:ANL
+                    this = c:ANL
+                }
+            }
+        }
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_rural_folk
+            }
+        }
+        earliest_usage_date = 1854.1.1
+        latest_usage_date = 1903.1.5
+        chance = 75
+    }
+}
+
+## Valeriano Weyler
+
+ecchi_spa_weyler_character_template = {
+    first_name = ecchi_Valeriano
+    last_name = Weyler
+    historical = yes
+    culture = cu:spanish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_authoritarian
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_valeriano_weyler
+    birth_date = 1838.9.17
+    traits = { plains_commander pillager ambitious experienced_colonial_administrator }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+                    NOT = { exists = c:ANL }
+                }
+                AND = {
+                    exists = c:ANL
+                    this = c:ANL
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1861.1.1
+        latest_usage_date = 1930.10.20
+        chance = 75
+    }
+}
+
+## Miguel Primo de Rivera
+
+ecchi_spa_primo_de_rivera_character_template = {
+    first_name = Miguel
+    last_name = ecchi_Primo_de_Rivera
+    historical = yes
+    culture = cu:spanish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_authoritarian
+    interest_group = ig_landowners
+    dna = ecchi_dna_miguel_primo_de_rivera
+    birth_date = 1870.1.8
+    traits = { brave arrogant alcoholic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+                    NOT = { exists = c:ANL }
+                }
+                AND = {
+                    exists = c:ANL
+                    this = c:ANL
+                }
+            }
+        }
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_armed_forces
+            }
+        }
+        earliest_usage_date = 1921.1.1
+        latest_usage_date = 1930.3.16
+        chance = 75
+    }
+}
+
+## Francisco Silvela
+
+ecchi_spa_silvela_character_template = {
+    first_name = Francisco
+    last_name = ecchi_Silvela
+    historical = yes
+    culture = cu:spanish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_francisco_silvela
+    birth_date = 1845.12.15
+    traits = { charismatic persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SPA
+                    this = c:SPA
+                    NOT = { exists = c:ANL }
+                }
+                AND = {
+                    exists = c:ANL
+                    this = c:ANL
+                }
+            }
+        }
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_landowners
+            }
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1905.5.29
+        chance = 75
+    }
+}

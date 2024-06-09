@@ -162,3 +162,65 @@ ecchi_aus_porsche_character_template = {
         chance = 75
     }
 }
+
+## Engelbert Dollfuss
+
+ecchi_aus_dollfuss_character_template = {
+    first_name = Engelbert
+    last_name = ecchi_Dollfuss
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:catholic
+    ideology = ideology_fascist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_engelbert_dollfuss
+    birth_date = 1892.10.4
+    traits = { imperious persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1929.1.1
+        latest_usage_date = 1934.7.25
+        chance = 75
+    }
+}
+
+## Georg von Trapp
+
+ecchi_aus_von_trapp_character_template = {
+    first_name = Georg
+    last_name = ecchi_von_Trapp
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:catholic
+    ideology = ideology_humanitarian
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_georg_von_trapp
+    birth_date = 1880.4.4
+    traits = { romantic brave honorable experienced_naval_commander charismatic }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                }
+            }
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1918.11.11
+        chance = 75
+    }
+}
