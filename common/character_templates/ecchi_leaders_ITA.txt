@@ -85,7 +85,7 @@ mr_ita_bugatti_ettore_character_template = {
 	last_name = ecchi_bugatti
 	culture = cu:north_italian
 	female = no
-	interest_group = ig:ig_industrialists
+	interest_group = ig_industrialists
 	birth_date = 1881.9.15
 	historical = yes
     ideology = ideology_market_liberal
@@ -124,5 +124,171 @@ mr_ita_bugatti_ettore_character_template = {
         earliest_usage_date = 1909.1.1
         latest_usage_date = 1947.1.1
         chance = 80
+    }
+}
+
+## Camillo Benso
+
+mr_ita_cavour_character_template = {
+    dna = ecchi_dna_ita_cavour
+    first_name = ecchi_Camillo
+    last_name = ecchi_Benso
+    culture = cu:north_italian
+    female = no
+    interest_group = ig_industrialists
+    birth_date = 1810.8.10
+    historical = yes
+    ideology = ideology_corporatist_leader
+    religion = rel:catholic
+    traits = {
+        ambitious
+        pragmatic
+        masterful_diplomat
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ITA
+                    this = c:ITA
+                    NOT = { exists = c:SAR }
+                }
+                AND = {
+                    exists = c:SAR
+                    this = c:SAR
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1847.1.1
+        latest_usage_date = 1861.6.6
+        chance = 80
+    }
+}
+
+## Italo Balbo
+
+mr_ita_balbo_character_template = {
+    dna = ecchi_dna_ita_balbo
+    first_name = ecchi_Italo
+    last_name = ecchi_Balbo
+    culture = cu:south_italian
+    female = no
+    interest_group = ig_armed_forces
+    birth_date = 1896.6.6
+    historical = yes
+    ideology = ideology_fascist
+    traits = {
+        ambitious
+        expert_colonial_administrator
+        celebrity_commander
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ITA
+                    this = c:ITA
+                    NOT = { exists = c:SIC }
+                    NOT = { exists = c:SAR }
+                }
+                AND = {
+                    exists = c:SIC
+                    this = c:SIC
+                }
+                AND = {
+                    exists = c:SAR
+                    this = c:SAR
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1940.6.28
+        chance = 80
+    }
+}
+
+## Nicola Romeo
+
+mr_ita_nicola_romeo_character_template = {
+    dna = ecchi_dna_ita_nicola_romeo
+    first_name = Nicola
+    last_name = ecchi_Romeo
+    culture = cu:south_italian
+    female = no
+    interest_group = ig_industrialists
+    birth_date = 1876.4.28
+    historical = yes
+    ideology = ideology_market_liberal
+    traits = {
+        engineer
+        innovative
+        meticulous
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ITA
+                    this = c:ITA
+                    NOT = { exists = c:SIC }
+                }
+                AND = {
+                    exists = c:SIC
+                    this = c:SIC
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1938.8.15
+        chance = 80
+    }
+}
+
+## Palmiro Togliatti
+
+mr_ita_togliatti_character_template = {
+    dna = ecchi_dna_ita_togliatti
+    first_name = ecchi_Palmiro
+    last_name = ecchi_Togliatti
+    culture = cu:north_italian
+    female = no
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1893.3.26
+    historical = yes
+    ideology = ideology_communist
+    traits = {
+        charismatic
+        pragmatic
+        masterful_diplomat
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ITA
+                    this = c:ITA
+                    NOT = { exists = c:SAR }
+                }
+                AND = {
+                    exists = c:SAR
+                    this = c:SAR
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1921.1.1
+        latest_usage_date = 1964.8.21
+        chance = 75
     }
 }

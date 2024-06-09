@@ -448,3 +448,31 @@ ecchi_ain_batchelor_character_template = {
         chance = 75
     }
 }
+
+## Okubo Toshimichi
+
+ecchi_jap_okubo_toshimichi_character_template = {
+    first_name = ecchi_Okubo
+    last_name = ecchi_Toshimichi
+    historical = yes
+    culture = cu:japanese
+    female = no
+    religion = rel:shinto
+    ideology = ideology_reformer
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_okubo_toshimichi
+    birth_date = 1830.9.26
+    traits = { innovative experienced_offensive_commander }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+        }
+        interest_group_trigger = {
+            interest_group = ig_armed_forces
+        }
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1878.5.14
+        chance = 70
+    }
+}
