@@ -469,7 +469,7 @@ ecchi_jap_okubo_toshimichi_character_template = {
             this = c:JAP
         }
         interest_group_trigger = {
-            interest_group = ig_armed_forces
+            is_interest_group_type = ig_armed_forces
         }
         earliest_usage_date = 1871.1.1
         latest_usage_date = 1878.5.14

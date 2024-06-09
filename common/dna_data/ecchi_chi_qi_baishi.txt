@@ -1,4 +1,4 @@
-ecchi_dna_qi_baishi={
+﻿ecchi_dna_qi_baishi={
     portrait_info = {
 	genes={ 		
 		hair_color={ 43 229 43 229 }

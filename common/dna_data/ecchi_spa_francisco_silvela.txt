@@ -1,4 +1,4 @@
-ecchi_dna_francisco_silvela={
+﻿ecchi_dna_francisco_silvela={
     portrait_info = {
 	genes={ 		
 		hair_color={ 19 240 19 240 }

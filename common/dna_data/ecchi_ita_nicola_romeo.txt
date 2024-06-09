@@ -1,4 +1,4 @@
-ecchi_dna_ita_nicola_romeo={
+﻿ecchi_dna_ita_nicola_romeo={
     portrait_info = {
 	genes={ 		
 		hair_color={ 130 181 130 123 }

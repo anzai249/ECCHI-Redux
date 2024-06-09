@@ -1507,3 +1507,44 @@ ecchi_gbr_stevenson_robert_character_template = {
         chance = 45
     }
 }
+
+## George Stephenson
+
+ecchi_gbr_stephenson_george_character_template = {
+    dna = ecchi_gbr_stephenson_george
+    first_name = George
+    last_name = Stephenson
+    culture = cu:british
+    female = no
+    interest_group = ig_industrialists
+    birth_date = 1781.6.9
+    historical = yes
+    ideology = ideology_positivist
+    religion = rel:protestant
+    traits = {
+        engineer
+        persistent
+        innovative
+    }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:ENG }
+                }
+                AND = {
+                    exists = c:ENG
+                    this = c:ENG
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1814.1.1
+        latest_usage_date = 1848.8.12
+        chance = 100
+    }
+}
