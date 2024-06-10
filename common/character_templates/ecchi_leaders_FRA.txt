@@ -306,3 +306,58 @@ mr_fra_verne_jules_character_template = {
     }
 }
 
+## Louis Pasteur
+
+ecchi_fra_pasteur_character_template = {
+    first_name = Louis
+    last_name = ecchi_Pasteur
+    historical = yes
+    culture = cu:french
+    female = no
+	historical = yes
+    interest_group = ig_intelligentsia
+    birth_date = 1822.12.27
+    ideology = ideology_positivist
+    dna = ecchi_dna_louis_pasteur
+    traits = { meticulous innovative persistent }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1854.1.1
+        latest_usage_date = 1895.9.28
+        chance = 45
+    }
+}
+
+## Andre Citroen
+
+ecchi_fra_citroen_character_template = {
+    first_name = ecchi_Andre
+    last_name = ecchi_Citroen
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    dna = ecchi_dna_andre_citroen
+    birth_date = 1878.2.5
+    traits = { innovative engineer }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1935.7.3
+        chance = 65
+    }
+}

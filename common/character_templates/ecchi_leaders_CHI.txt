@@ -1371,3 +1371,31 @@ ecchi_chi_qi_baishi_character_template = {
         chance = 30
     }
 }
+
+## Tan Sitong
+
+ecchi_chi_tan_sitong_character_template = {
+    first_name = ecchi_Sitong
+    last_name = ecchi_Tan
+    historical = yes
+    culture = cu:han
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_reformer
+    interest_group = ig_landowners
+    dna = ecchi_dna_tan_sitong
+    birth_date = 1865.3.10
+    traits = { romantic literary brave }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1896.2.1
+        latest_usage_date = 1898.9.28
+        chance = 20
+    }
+}

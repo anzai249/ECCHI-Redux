@@ -225,3 +225,142 @@ ecchi_aus_von_trapp_character_template = {
         chance = 75
     }
 }
+
+## Hans Kudlich
+
+ecchi_aus_kudlich_character_template = {
+    first_name = Hans
+    last_name = ecchi_Kudlich
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:catholic
+    ideology = ideology_abolitionist
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_hans_kudlich
+    birth_date = 1823.10.23
+    traits = { charismatic literary persistent }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SGF
+                    this = c:SGF
+                    c:SGF = { owns_entire_state_region = STATE_AUSTRIA }
+                    NOT = { exists = c:AUS }
+                }
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1917.11.10
+        chance = 70
+    }
+}
+
+## Klemens von Metternich
+
+ecchi_aus_metternich_character_template = {
+    first_name = ecchi_Klemens
+    last_name = ecchi_von_Metternich
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    dna = ecchi_dna_klemens_von_metternich
+    birth_date = 1773.5.15
+    traits = { imperious meticulous experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1809.1.1
+        latest_usage_date = 1859.6.11
+        chance = 65
+    }
+}
+
+## Leopold Berchtold
+
+ecchi_aus_berchtold_character_template = {
+    first_name = Leopold
+    last_name = ecchi_Berchtold
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_landowners
+    dna = ecchi_dna_leopold_berchtold
+    birth_date = 1863.4.18
+    traits = { charismatic bigoted }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1912.2.1
+        latest_usage_date = 1942.11.21
+        chance = 70
+    }
+}
+
+## Theodor Herzel
+
+ecchi_aus_herzel_character_template = {
+    first_name = Theodor
+    last_name = ecchi_Herzel
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:jewish
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_theodor_herzel
+    birth_date = 1860.5.2
+    traits = { charismatic ambitious literary }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                    NOT = { exists = c:ISR }
+                }
+                AND = {
+                    exists = c:ISR
+                    this = c:ISR
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1897.1.1
+        latest_usage_date = 1904.7.3
+        chance = 60
+    }
+}

@@ -85,3 +85,188 @@ ecchi_ire_larkin_character_template = {
         chance = 75
     }
 }
+
+## Arthur Guinness II
+
+ecchi_ire_guinness_character_template = {
+    first_name = Arthur
+    last_name = ecchi_Guinness_II
+    historical = yes
+    culture = cu:irish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_humanitarian
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_arthur_guinness_ii
+    birth_date = 1768.3.12
+    traits = { innovative reserved alcoholic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1790.1.1
+        latest_usage_date = 1855.6.9
+        chance = 75
+    }
+}
+
+## Charles Stewart Parnell
+
+ecchi_ire_parnell_character_template = {
+    first_name = ecchi_Charles_Stewart
+    last_name = ecchi_Parnell
+    historical = yes
+    culture = cu:irish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_landowners
+    dna = ecchi_dna_charles_parnell
+    birth_date = 1846.6.27
+    traits = { charismatic tactful arrogant }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1891.10.6
+        chance = 60
+    }
+}
+
+## Isaac Butt
+
+ecchi_ire_butt_character_template = {
+    first_name = Isaac
+    last_name = ecchi_Butt
+    historical = yes
+    culture = cu:irish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_devout
+    dna = ecchi_dna_isaac_butt
+    birth_date = 1813.9.6
+    traits = { experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1852.1.1
+        latest_usage_date = 1879.5.5
+        chance = 40
+    }
+}
+
+## John Desmond Bernal
+
+ecchi_ire_bernal_character_template = {
+    first_name = ecchi_John_Desmond
+    last_name = ecchi_Bernal
+    historical = yes
+    culture = cu:irish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_communist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_john_bernal
+    birth_date = 1901.5.10
+    traits = { innovative experienced_convoy_raider grifter }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1920.1.1
+        latest_usage_date = 1971.9.15
+        chance = 70
+    }
+}
+
+## Roger Casement
+
+ecchi_ire_casement_character_template = {
+    first_name = Roger
+    last_name = ecchi_Casement
+    historical = yes
+    culture = cu:irish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_roger_casement
+    birth_date = 1864.9.1
+    traits = { charismatic experienced_diplomat expert_colonial_administrator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:IRE
+                    this = c:IRE
+                }
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { exists = c:IRE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1884.1.1
+        latest_usage_date = 1916.8.3
+        chance = 60
+    }
+}
