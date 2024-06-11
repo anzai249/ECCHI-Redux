@@ -150,3 +150,34 @@ ecchi_dai_ho_chi_minh_character_template = {
         chance = 75
     }
 }
+
+## Huỳnh Thúc Kháng
+
+ecchi_dai_huynh_thuc_khang_character_template = {
+    first_name = ecchi_Thuc_Khang
+    last_name = ecchi_Huynh
+    historical = yes
+    culture = cu:vietnamese
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_radical
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_huynh_thuc_khang
+    birth_date = 1876.10.1
+    traits = { charismatic pious }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:DAI
+            this = c:DAI
+        }
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_intelligentsia
+            }
+        }
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1947.4.21
+        chance = 75
+    }
+}

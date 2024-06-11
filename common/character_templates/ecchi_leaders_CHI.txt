@@ -246,6 +246,36 @@ ecchi_chi_zhao_sanduo_character_template = {
     }
 }
 
+## Wenxiang
+
+ecchi_chi_wenxiang_character_template = {
+    first_name = ecchi_Wenxiang
+    last_name = ecchi_Guwalgiya
+    historical = yes
+    culture = cu:manchu
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    dna = ecchi_dna_wenxiang
+    birth_date = 1818.1.1
+    traits = { experienced_political_operator cautious honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            country_has_primary_culture = cu:manchu
+        }
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_petty_bourgeoisie
+            }
+        }
+        earliest_usage_date = 1845.1.1
+        latest_usage_date = 1876.1.1
+        chance = 75
+    }
+}
+
 
 # China - Qing generals
 

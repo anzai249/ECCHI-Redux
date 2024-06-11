@@ -1548,3 +1548,49 @@ ecchi_gbr_stephenson_george_character_template = {
         chance = 55
     }
 }
+
+## Charlie Chaplin
+
+ecchi_gbr_chaplin_charlie_character_template = {
+    dna = ecchi_gbr_chaplin_charlie
+    first_name = Charlie
+    last_name = ecchi_Chaplin
+    culture = cu:british
+    female = no
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1889.4.16
+    historical = yes
+    ideology = ideology_reformer
+    traits = {
+        demagogue
+        tactful
+        charismatic
+    }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                cu:british = {
+                    culture_is_discriminated_in = this
+                }
+            }
+            OR = {
+                AND = {
+                    exists = c:GBR
+                    this = c:GBR
+                    NOT = { year >= 1912 }
+                }
+                AND = {
+                    exists = c:USA
+                    this = c:USA
+                    year >= 1912
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1977.12.25
+        chance = 60
+    }
+}

@@ -452,8 +452,8 @@ ecchi_ain_batchelor_character_template = {
 ## Okubo Toshimichi
 
 ecchi_jap_okubo_toshimichi_character_template = {
-    first_name = ecchi_Okubo
-    last_name = ecchi_Toshimichi
+    first_name = ecchi_Toshimichi
+    last_name = ecchi_Okubo
     historical = yes
     culture = cu:japanese
     female = no
@@ -473,6 +473,123 @@ ecchi_jap_okubo_toshimichi_character_template = {
         }
         earliest_usage_date = 1871.1.1
         latest_usage_date = 1878.5.14
+        chance = 70
+    }
+}
+
+## Ito Noe
+
+ecchi_jap_ito_noe_character_template = {
+    first_name = ecchi_Noe
+    last_name = ecchi_Ito
+    historical = yes
+    culture = cu:japanese
+    female = yes
+    religion = rel:shinto
+    ideology = ideology_anarchist
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_ito_noe
+    birth_date = 1895.1.21
+    traits = {
+        persistent
+        charismatic
+        firebrand
+    }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1912.6.1
+        latest_usage_date = 1923.9.16
+        chance = 65
+    }
+}
+
+## Kido Takayoshi
+
+ecchi_jap_kido_takayoshi_character_template = {
+    first_name = ecchi_Takayoshi
+    last_name = ecchi_Kido
+    historical = yes
+    culture = cu:japanese
+    female = no
+    religion = rel:shinto
+    ideology = ideology_reformer
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_kido_takayoshi
+    birth_date = 1833.8.11
+    traits = { persistent ambitious }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1877.5.26
+        chance = 70
+    }
+}
+
+## Shimazu Nariakira
+
+ecchi_jap_shimazu_nariakira_character_template = {
+    first_name = ecchi_Nariakira
+    last_name = ecchi_Shimazu
+    historical = yes
+    culture = cu:japanese
+    female = no
+    religion = rel:shinto
+    ideology = ideology_humanitarian
+    interest_group = ig_industrialists
+	dna = ecchi_dna_shimazu_nariakira
+    birth_date = 1809.4.28
+    traits = { persistent ambitious }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1850.1.1
+        latest_usage_date = 1858.8.24
+        chance = 70
+    }
+}
+
+## Suzuki Bunji
+
+ecchi_jap_suzuki_bunji_character_template = {
+    first_name = ecchi_Bunji
+    last_name = Suzuki
+    historical = yes
+    culture = cu:japanese
+    female = no
+    religion = rel:protestant
+    ideology = ideology_reformer
+    interest_group = ig_trade_unions
+	dna = ecchi_dna_suzuki_bunji
+    birth_date = 1885.9.4
+    traits = { persistent reserved cautious }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1946.3.12
         chance = 70
     }
 }
