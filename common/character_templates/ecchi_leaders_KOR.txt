@@ -115,3 +115,31 @@ ecchi_kor_son_byonghi_character_template = {
         chance = 75
     }
 }
+
+## Ho Hon
+
+ecchi_kor_ho_hon_character_template = {
+    first_name = ecchi_Ho_1
+    last_name = ecchi_Hon
+    historical = yes
+    culture = cu:korean
+    female = no
+    religion = rel:mahayana
+    ideology = ideology_humanitarian
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_ho_hon
+    birth_date = 1885.7.22
+    traits = { pious ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:KOR
+            this = c:KOR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1951.8.16
+        chance = 75
+    }
+}
