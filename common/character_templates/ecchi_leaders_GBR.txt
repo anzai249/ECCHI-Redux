@@ -744,41 +744,41 @@ ecchi_gbr_albert_character_template = {
     }
 }
 
-ecchi_gbr_darwin_character_template = {
-    first_name = Charles
-    last_name = ecchi_Darwin
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_atheist
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_charles_darwin
-    birth_date = 1809.2.12
-    traits = { innovative explorer persistent }
-    interest_group_leader_usage = {
-        country_trigger = {
-            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1855.1.1
-        latest_usage_date = 1882.4.19
-        chance = 75
-    }
-}
+# ecchi_gbr_darwin_character_template = {
+#     first_name = Charles
+#     last_name = ecchi_Darwin
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_atheist
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_charles_darwin
+#     birth_date = 1809.2.12
+#     traits = { innovative explorer persistent }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1855.1.1
+#         latest_usage_date = 1882.4.19
+#         chance = 75
+#     }
+# }
 
 
 ## John Stuart Mill
@@ -1510,44 +1510,44 @@ ecchi_gbr_stevenson_robert_character_template = {
 
 ## George Stephenson
 
-ecchi_gbr_stephenson_george_character_template = {
-    dna = ecchi_gbr_stephenson_george
-    first_name = George
-    last_name = Stephenson
-    culture = cu:british
-    female = no
-    interest_group = ig_industrialists
-    birth_date = 1781.6.9
-    historical = yes
-    ideology = ideology_positivist
-    religion = rel:protestant
-    traits = {
-        engineer
-        persistent
-        innovative
-    }
-    agitator_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
-        }
-        earliest_usage_date = 1814.1.1
-        latest_usage_date = 1848.8.12
-        chance = 55
-    }
-}
+# ecchi_gbr_stephenson_george_character_template = {
+#     dna = ecchi_gbr_stephenson_george
+#     first_name = George
+#     last_name = Stephenson
+#     culture = cu:british
+#     female = no
+#     interest_group = ig_industrialists
+#     birth_date = 1781.6.9
+#     historical = yes
+#     ideology = ideology_positivist
+#     religion = rel:protestant
+#     traits = {
+#         engineer
+#         persistent
+#         innovative
+#     }
+#     agitator_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_industrialists
+#         }
+#         earliest_usage_date = 1814.1.1
+#         latest_usage_date = 1848.8.12
+#         chance = 55
+#     }
+# }
 
 ## Charlie Chaplin
 
@@ -1570,7 +1570,7 @@ ecchi_gbr_chaplin_charlie_character_template = {
         country_trigger = {
             NOT = {
                 cu:british = {
-                    culture_is_discriminated_in = this
+                    culture_is_discriminated_in = root
                 }
             }
             OR = {

@@ -154,3 +154,36 @@ ecchi_arg_roca_character_template = {
         chance = 75
     }
 }
+
+## Juan Perón
+
+ecchi_arg_peron_character_template = {
+    first_name = Juan
+    last_name = ecchi_Peron
+    historical = yes
+    culture = cu:platinean
+    female = no
+    religion = rel:catholic
+    ideology = ideology_despotic_utopian
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_juan_peron
+    birth_date = 1895.10.8
+    traits = { charismatic ambitious imperious }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:ARG
+            this = c:ARG
+        }
+        role = general
+        interest_group_trigger = {
+			OR = {
+            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_armed_forces
+            }
+        }
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1974.7.1
+        chance = 75
+    }
+}

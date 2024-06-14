@@ -51,8 +51,7 @@ ecchi_usa_van_buren_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_rural_folk
@@ -78,8 +77,7 @@ ecchi_usa_w_harrison_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -109,8 +107,7 @@ ecchi_usa_tyler_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_petty_bourgeoisie
@@ -136,8 +133,7 @@ ecchi_usa_polk_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -169,8 +165,7 @@ ecchi_usa_fillmore_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -236,8 +231,7 @@ ecchi_usa_buchanan_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_rural_folk
@@ -263,8 +257,7 @@ ecchi_usa_johnson_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -297,8 +290,7 @@ ecchi_usa_hayes_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -329,8 +321,7 @@ ecchi_usa_garfield_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -401,8 +392,7 @@ ecchi_usa_cleveland_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -433,8 +423,7 @@ ecchi_usa_b_harrison_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -464,8 +453,7 @@ ecchi_usa_mckinley_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -496,8 +484,7 @@ ecchi_usa_taft_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -527,8 +514,7 @@ ecchi_usa_wilson_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -558,8 +544,7 @@ ecchi_usa_harding_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_petty_bourgeoisie
@@ -626,8 +611,7 @@ ecchi_usa_hoover_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_petty_bourgeoisie
@@ -653,8 +637,7 @@ ecchi_usa_f_roosevelt_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -804,8 +787,7 @@ ecchi_usa_brown_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_rural_folk
@@ -891,8 +873,7 @@ ecchi_usa_astor_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -922,8 +903,7 @@ ecchi_usa_morgan_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_industrialists
@@ -949,8 +929,7 @@ ecchi_usa_rockefeller_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_industrialists
@@ -1018,8 +997,7 @@ ecchi_usa_edison_character_template = {
         country_trigger = {
             is_usfp_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -1078,8 +1056,7 @@ ecchi_usa_thomas_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_trade_unions
@@ -1141,8 +1118,7 @@ ecchi_usa_browder_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_trade_unions
@@ -1286,8 +1262,7 @@ ecchi_usa_barnum_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -1352,8 +1327,7 @@ ecchi_usa_westinghouse_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_industrialists
@@ -1459,8 +1433,7 @@ ecchi_usa_twain_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia
@@ -1487,8 +1460,7 @@ ecchi_usa_chrysler_character_template = {
         country_trigger = {
             is_usfp_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_industrialists
@@ -1514,8 +1486,7 @@ ecchi_usa_seward_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -1546,8 +1517,7 @@ ecchi_usa_colt_character_template = {
         country_trigger = {
             is_usfp_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_industrialists
@@ -1573,8 +1543,7 @@ ecchi_usa_capone_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_marginal = no
@@ -1775,8 +1744,7 @@ ecchi_usa_baum_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
-            exists = c:USA
-            this = c:USA
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia
@@ -2373,10 +2341,7 @@ ecchi_usa_paul_character_template = {
     traits = { charismatic brave persistent }
     agitator_usage = {
         country_trigger = {
-            AND = {
-                exists = c:USA
-                this = c:USA
-            }
+            c:USA ?= this
         }
         interest_group_trigger = {
             is_interest_group_type = ig_devout
@@ -2384,5 +2349,138 @@ ecchi_usa_paul_character_template = {
         earliest_usage_date = 1907.1.1
         latest_usage_date = 1977.7.9
         chance = 80
+    }
+}
+
+## Alexander Graham Bell
+
+ecchi_usa_bell_character_template = {
+    first_name = ecchi_Alexander_Graham
+    last_name = Bell
+    historical = yes
+    culture = cu:scottish
+    female = no
+    religion = rel:protestant
+    ideology = ideology_positivist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_alexander_bell
+    birth_date = 1847.3.3
+    traits = { innovative brave }
+    interest_group_leader_usage = {
+        country_trigger = {
+            c:USA ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1922.8.2
+        chance = 30
+    }
+}
+
+## Howard Phillips Lovecraft
+
+ecchi_usa_lovecraft_character_template = {
+    first_name = ecchi_Howard_Phillips
+    last_name = ecchi_Lovecraft
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_anarchist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_howard_lovecraft
+    birth_date = 1890.8.20
+    traits = { literary innovative imperious }
+    agitator_usage = {
+        country_trigger = {
+            c:USA ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1915.1.1
+        latest_usage_date = 1937.3.15
+        chance = 70
+    }
+}
+
+## Henry David Thoreau
+
+ecchi_usa_thoreau_character_template = {
+    first_name = ecchi_Henry_David
+    last_name = ecchi_Thoreau
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_abolitionist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_henry_thoreau
+    birth_date = 1817.7.12
+    traits = { romantic pious literary }
+    agitator_usage = {
+        country_trigger = {
+            c:USA ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1837.1.1
+        latest_usage_date = 1862.5.6
+        chance = 60
+    }
+}
+
+## Jim Bridger
+
+ecchi_usa_bridger_character_template = {
+    first_name = Jim
+    last_name = ecchi_Bridger
+    historical = yes
+    culture = cu:dixie
+    female = no
+    religion = rel:protestant
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_jim_bridger
+    birth_date = 1804.3.1
+    traits = { explorer brave surveyor }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            c:USA ?= this
+        }
+        role = general
+        earliest_usage_date = 1822.1.1
+        latest_usage_date = 1881.7.17
+        chance = 60
+    }
+}
+
+## John Dewey
+
+ecchi_usa_dewey_character_template = {
+    first_name = John
+    last_name = ecchi_Dewey
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_john_dewey
+    birth_date = 1859.10.20
+    traits = { innovative charismatic erudite }
+    interest_group_leader_usage = {
+        country_trigger = {
+            c:USA ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1894.1.1
+        latest_usage_date = 1952.6.1
+        chance = 50
     }
 }

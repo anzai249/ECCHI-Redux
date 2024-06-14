@@ -330,7 +330,7 @@ ecchi_fra_pasteur_character_template = {
         }
         earliest_usage_date = 1854.1.1
         latest_usage_date = 1895.9.28
-        chance = 45
+        chance = 10
     }
 }
 

@@ -116,6 +116,100 @@ ecchi_que_cartier_character_template = {
     }
 }
 
+## Ezekiel Hart
+
+ecchi_que_hart_character_template = {
+    first_name = Ezekiel
+    last_name = ecchi_Hart
+    historical = yes
+    culture = cu:anglo_canadian
+    female = no
+    religion = rel:jewish
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_ezekiel_hart
+    birth_date = 1770.5.15
+    ig_leader = yes
+    traits = { ambitious brave }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:QUE
+            this = c:QUE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1807.1.1
+        latest_usage_date = 1843.9.16
+        chance = 75
+    }
+}
+
+## Ludger Duvernay
+
+ecchi_que_duvernay_character_template = {
+    first_name = ecchi_Ludger
+    last_name = ecchi_Duvernay
+    historical = yes
+    culture = cu:franco_canadian
+    female = no
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_ludger_duvernay
+    birth_date = 1799.1.22
+    traits = { charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:QUE
+            this = c:QUE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1852.11.28
+        chance = 70
+    }
+}
+
+## Alphonse Desjardins
+
+ecchi_que_desjardins_character_template = {
+    first_name = ecchi_Alphonse
+    last_name = ecchi_Desjardins
+    historical = yes
+    culture = cu:franco_canadian
+    female = no
+    religion = rel:catholic
+    ideology = ideology_humanitarian
+    interest_group = ig_industrialists
+    dna = ecchi_dna_alphonse_desjardins
+    birth_date = 1854.11.5
+    traits = { charismatic innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:QUE
+                    this = c:QUE
+                }
+                AND = {
+                    exists = c:CAN
+                    this = c:CAN
+                    NOT = { exists = c:QUE }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1920.6.6
+        chance = 70
+    }
+}
+
 # Nova Scotia
 
 ecchi_nvs_howe_character_template = {
@@ -307,6 +401,144 @@ ecchi_ont_mowat_character_template = {
     }
 }
 
+## John Smoke Johnson
+
+ecchi_ont_johnson_character_template = {
+    first_name = ecchi_John_Smoke
+    last_name = Johnson
+    historical = yes
+    culture = cu:iroquoian
+    female = no
+    religion = rel:animist
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_john_smoke_johnson
+    birth_date = 1792.12.2
+    traits = { charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                cu:iroquoian = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            OR = {
+                AND = {
+                    exists = c:ONT
+                    this = c:ONT
+                }
+                AND = {
+                    exists = c:CAN
+                    this = c:CAN
+                    NOT = { exists = c:ONT }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.2
+        latest_usage_date = 1886.8.26
+        chance = 75
+    }
+}
+
+## John Strachan
+
+ecchi_ont_strachan_character_template = {
+    first_name = John
+    last_name = ecchi_Strachan
+    historical = yes
+    culture = cu:anglo_canadian
+    female = no
+    religion = rel:protestant
+    ideology = ideology_humanitarian
+    interest_group = ig_devout
+    dna = ecchi_dna_john_strachan
+    birth_date = 1778.4.12
+    traits = { erudite imposing pious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:ONT
+            this = c:ONT
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1812.1.1
+        latest_usage_date = 1867.11.1
+        chance = 75
+    }
+}
+
+## James Morrow Walsh
+
+ecchi_ont_walsh_character_template = {
+    first_name = ecchi_James_Morrow
+    last_name = Walsh
+    historical = yes
+    culture = cu:anglo_canadian
+    female = no
+    religion = rel:protestant
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_james_morrow_walsh
+    birth_date = 1840.5.22
+    traits = { charismatic explorer surveyor }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ONT
+                    this = c:ONT
+                }
+                AND = {
+                    exists = c:CAN
+                    this = c:CAN
+                    NOT = { exists = c:ONT }
+                }
+            }
+        }
+        earliest_usage_date = 1866.1.1
+        latest_usage_date = 1905.7.25
+        role = general
+        chance = 75
+    }
+}
+
+## Sam Steele
+
+ecchi_ont_steele_character_template = {
+    first_name = Sam
+    last_name = Steele
+    historical = yes
+    culture = cu:anglo_canadian
+    female = no
+    religion = rel:protestant
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_sam_steele
+    birth_date = 1848.1.5
+    traits = { explorer surveyor direct }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:ONT
+                    this = c:ONT
+                }
+                AND = {
+                    exists = c:CAN
+                    this = c:CAN
+                    NOT = { exists = c:ONT }
+                }
+            }
+        }
+        earliest_usage_date = 1873.1.1
+        latest_usage_date = 1919.1.30
+        role = general
+        chance = 70
+    }
+}
 
 # Canada
 
@@ -475,3 +707,32 @@ ecchi_can_van_horne_character_template = {
     }
 }
 
+## Samuel Hughes
+
+ecchi_can_hughes_character_template = {
+    first_name = Samuel
+    last_name = Hughes
+    historical = yes
+    culture = cu:anglo_canadian
+    female = no
+    religion = rel:protestant
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_samuel_hughes
+    ideology = ideology_traditionalist
+    birth_date = 1853.1.8
+    traits = { experienced_military_commander persistent }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:CAN
+            this = c:CAN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1899.1.1
+        latest_usage_date = 1921.8.23
+        role = general
+        chance = 75
+    }
+}
