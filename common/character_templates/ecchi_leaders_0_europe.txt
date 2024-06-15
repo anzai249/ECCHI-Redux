@@ -200,6 +200,7 @@ ecchi_gre_trikoupis_character_template = {
     traits = { persistent innovative experienced_diplomat }
     interest_group_leader_usage = {
         country_trigger = {
+            grefm_is_active = no
             OR = {
                 AND = {
                     exists = c:BYZ
