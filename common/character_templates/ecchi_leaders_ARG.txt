@@ -187,3 +187,35 @@ ecchi_arg_peron_character_template = {
         chance = 75
     }
 }
+
+## Hipólito Yrigoyen
+
+ecchi_arg_yrigoyen_character_template = {
+    first_name = Hipolito
+    last_name = Yrigoyen
+    historical = yes
+    culture = cu:platinean
+    female = no
+    religion = rel:catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_hipolito_yrigoyen
+    birth_date = 1852.7.12
+    traits = { ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:ARG
+            this = c:ARG
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_intelligentsia
+            }
+        }
+        earliest_usage_date = 1869.1.1
+        latest_usage_date = 1933.7.3
+        chance = 75
+    }
+}

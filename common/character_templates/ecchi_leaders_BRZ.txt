@@ -199,42 +199,42 @@ ecchi_brz_franciso_de_sousa_character_template = {
     }
 }
 
-ecchi_brz_vargas_character_template = {
-    first_name = Getulio
-    last_name = Vargas
-    historical = yes
-    culture = cu:brazilian
-    female = no
-    religion = rel:catholic
-    ideology = ideology_traditionalist
-    interest_group = ig_armed_forces
-	dna = ecchi_dna_getulio_vargas
-    birth_date = 1882.4.19
-    traits = { wrathful ambitious }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:BRZ
-                    this = c:BRZ
-                    NOT = { exists = c:PNI }
-                }
-                AND = {
-                    exists = c:PNI
-                    this = c:PNI
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
-            }
-        }
-        earliest_usage_date = 1909.1.1
-        latest_usage_date = 1954.8.24
-        chance = 75
-    }
-}
+# ecchi_brz_vargas_character_template = {
+#     first_name = Getulio
+#     last_name = Vargas
+#     historical = yes
+#     culture = cu:brazilian
+#     female = no
+#     religion = rel:catholic
+#     ideology = ideology_traditionalist
+#     interest_group = ig_armed_forces
+# 	dna = ecchi_dna_getulio_vargas
+#     birth_date = 1882.4.19
+#     traits = { wrathful ambitious }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:BRZ
+#                     this = c:BRZ
+#                     NOT = { exists = c:PNI }
+#                 }
+#                 AND = {
+#                     exists = c:PNI
+#                     this = c:PNI
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+#                 is_interest_group_type = ig_armed_forces
+#                 is_interest_group_type = ig_landowners
+#                 is_interest_group_type = ig_petty_bourgeoisie
+#             }
+#         }
+#         earliest_usage_date = 1909.1.1
+#         latest_usage_date = 1954.8.24
+#         chance = 75
+#     }
+# }
