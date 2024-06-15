@@ -1487,6 +1487,7 @@ ecchi_gbr_stevenson_robert_character_template = {
     }
     agitator_usage = {
         country_trigger = {
+            morgenrote_is_active = no
             OR = {
                 AND = {
                     exists = c:GBR

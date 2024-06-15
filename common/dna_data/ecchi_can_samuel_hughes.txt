@@ -1,4 +1,4 @@
-ecchi_dna_samuel_hughes={
+﻿ecchi_dna_samuel_hughes={
     portrait_info = {
 	genes={ 		
 		hair_color={ 172 146 172 146 }

@@ -1,4 +1,4 @@
-ecchi_dna_james_morrow_walsh={
+﻿ecchi_dna_james_morrow_walsh={
     portrait_info = {
 	genes={ 		
 		hair_color={ 15 250 15 250 }
