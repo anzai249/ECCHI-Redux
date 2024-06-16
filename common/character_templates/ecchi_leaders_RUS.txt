@@ -68,7 +68,7 @@ ecchi_rus_stalin_character_template = {
     culture = cu:georgian
     female = no
     religion = rel:orthodox
-    ideology = ideology_communist
+    ideology = ideology_vanguardist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_joseph_stalin
     birth_date = 1878.12.18
@@ -377,5 +377,59 @@ ecchi_rus_roerich_character_template = {
         earliest_usage_date = 1897.1.1
         latest_usage_date = 1947.12.13
         chance = 25
+    }
+}
+
+## Grigory Zinoviev
+
+ecchi_rus_zinoviev_character_template = {
+    first_name = Grigory
+    last_name = ecchi_Zinoviev
+    historical = yes
+    culture = cu:russian
+    female = no
+    religion = rel:jewish
+    ideology = ideology_vanguardist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_grigory_zinoviev
+    birth_date = 1883.9.23
+    traits = { charismatic experienced_political_operator persistent }
+    agitator_usage = {
+        country_trigger = {
+            c:RUS ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1906.3.1
+        latest_usage_date = 1936.8.25
+        chance = 60
+    }
+}
+
+## Lev Kamenev
+
+ecchi_rus_kamenev_character_template = {
+    first_name = Lev
+    last_name = ecchi_Kamenev
+    historical = yes
+    culture = cu:russian
+    female = no
+    religion = rel:jewish
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_lev_kamenev
+    birth_date = 1883.7.6
+    traits = { experienced_political_operator persistent }
+    agitator_usage = {
+        country_trigger = {
+            c:RUS ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1907.5.1
+        latest_usage_date = 1936.8.25
+        chance = 65
     }
 }

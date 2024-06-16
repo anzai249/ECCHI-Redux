@@ -151,6 +151,11 @@ ecchi_pol_conrad_character_template = {
     traits = { reserved persistent explorer }
     agitator_usage = {
         country_trigger = {
+            NOT = {
+                cu:polish = {
+                    culture_is_discriminated_in = ROOT
+                }
+            }
             OR = {
                 AND = {
                     exists = c:GBR
@@ -251,14 +256,15 @@ ecchi_pol_mroczkowski_character_template = {
         country_trigger = {
             OR = {
                 AND = {
-                    exists = c:RUS
-                    this = c:RUS
+                    exists = c:PLC
+                    this = c:PLC
                     NOT = { exists = c:POL }
                 }
                 AND = {
-                    exists = c:GER
-                    this = c:GER
+                    exists = c:RUS
+                    this = c:RUS
                     NOT = { exists = c:POL }
+                    NOT = { exists = c:PLC }
                 }
                 AND = {
                     exists = c:POL
@@ -276,5 +282,72 @@ ecchi_pol_mroczkowski_character_template = {
         earliest_usage_date = 1875.1.1
         latest_usage_date = 1889.10.1
         chance = 75
+    }
+}
+
+## Roman Dmowski
+
+ecchi_pol_dmoski_character_template = {
+    first_name = Roman
+    last_name = ecchi_Dmowski
+    historical = yes
+    culture = cu:polish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_roman_dmoski
+    birth_date = 1864.8.9
+    traits = { charismatic persistent erudite }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_MAZOVIA
+            NOT = {
+                cu:polish = {
+                    culture_is_discriminated_in = ROOT
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1939.1.2
+        chance = 70
+    }
+}
+
+## Ignacy Jan Paderewski
+
+ecchi_pol_paderewski_character_template = {
+    first_name = ecchi_Ignacy_Jan
+    last_name = ecchi_Paderewski
+    historical = yes
+    culture = cu:polish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_ignacy_paderewski
+    birth_date = 1860.11.6
+    traits = { charismatic experienced_diplomat romatic inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                has_state_in_state_region = STATE_VOLHYNIA
+                c:POL ?= this
+            }
+            NOT = {
+                cu:polish = {
+                    culture_is_discriminated_in = ROOT
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1939.1.2
+        chance = 70
     }
 }

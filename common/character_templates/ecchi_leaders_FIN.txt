@@ -1,0 +1,45 @@
+﻿# Finland
+## Juhani Aho
+ecchi_fin_juhani_aho_character_template = {
+	first_name = ecchi_Juhani
+	last_name = Aho
+	historical = yes
+	culture = cu:finnish
+	female = no
+	religion = rel:protestant
+	ideology = ideology_liberal_leader
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_juhani_aho
+	birth_date = 1861.9.1
+	traits = {
+		romantic
+		literacy
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					c:SCA ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+				AND = {
+					c:FIN ?= this
+				}
+				AND = {
+					c:RUS ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1884.1.1
+		latest_usage_date = 1921.8.8
+		chance = 75
+	}
+}
