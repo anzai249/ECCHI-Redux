@@ -351,3 +351,42 @@ ecchi_pol_paderewski_character_template = {
         chance = 70
     }
 }
+
+## Henryk Sienkiewicz
+
+ecchi_pol_sienkiewicz_character_template = {
+    first_name = ecchi_Henryk
+    last_name = ecchi_Sienkiewicz
+    historical = yes
+    culture = cu:polish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_humanitarian
+    interest_group = ig_landowners
+    dna = ecchi_dna_henryk_sienkiewicz
+    birth_date = 1846.5.5
+    traits = { charismatic literary inspirational_orator }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                has_state_in_state_region = STATE_VOLHYNIA
+                c:POL ?= this
+            }
+            NOT = {
+                cu:polish = {
+                    culture_is_discriminated_in = ROOT
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_intelligentsia
+            }
+        }
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1916.11.15
+        chance = 75
+    }
+}

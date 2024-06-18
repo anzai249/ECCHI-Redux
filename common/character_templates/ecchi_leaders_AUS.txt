@@ -364,3 +364,83 @@ ecchi_aus_herzel_character_template = {
         chance = 60
     }
 }
+
+## Ivan Franko (Ukraine)
+
+ecchi_aus_franko_character_template = {
+    first_name = Ivan
+    last_name = ecchi_Franko
+    historical = yes
+    culture = cu:ukrainian
+    female = no
+    religion = rel:orthodox
+    ideology = ideology_social_democrat
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_ivan_franko
+    birth_date = 1856.8.27
+    traits = { literary inspirational_orator }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    c:AUS ?= this
+                    NOT = { exists = c:UKR }
+                }
+                AND = {
+                    c:UKR ?= this
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1880.1.1
+        latest_usage_date = 1916.5.28
+        chance = 65
+    }
+}
+
+## Josip Broz Tito (Yugoslavia) 
+
+ecchi_aus_tito_character_template = {
+    first_name = Josip
+    last_name = ecchi_Tito
+    historical = yes
+    culture = cu:slovene
+    female = no
+    religion = rel:orthodox
+    ideology = ideology_communist
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_josip_tito
+    birth_date = 1892.5.7
+    traits = { cruel brave mountain_combat_expert }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    c:AUS ?= this
+                    NOT = { exists = c:YUG }
+                    NOT = { exists = c:SLO }
+                }
+                AND = {
+                    c:YUG ?= this
+                    NOT = { exists = c:SLO }
+                }
+                AND = {
+                    c:SLO ?= this
+                }
+                AND = {
+                    c:KUK ?= this
+                    NOT = { exists = c:YUG }
+                    NOT = { exists = c:SLO }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1980.5.4
+        chance = 70
+    }
+}

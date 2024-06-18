@@ -433,3 +433,30 @@ ecchi_rus_kamenev_character_template = {
         chance = 65
     }
 }
+
+## Mikhail Bakunin
+
+ecchi_rus_bakunin_character_template = {
+    first_name = Mikhail
+    last_name = Bakunin
+    historical = yes
+    culture = cu:russian
+    female = no
+    religion = rel:orthodox
+    ideology = ideology_anarchist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_mikhail_bakunin
+    birth_date = 1814.5.30
+    traits = { brave persistent }
+    agitator_usage = {
+        country_trigger = {
+            c:RUS ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1857.1.1
+        latest_usage_date = 1876.7.1
+        chance = 45
+    }
+}
