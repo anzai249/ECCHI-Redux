@@ -158,6 +158,31 @@ ecchi_tur_ataturk_character_template = {
     }
 }
 
+## Halide Edib Adivar
+
+ecchi_tur_halide_edib_adivar_character_template = {
+    first_name = ecchi_Halide_Edib
+    last_name = ecchi_Adivar
+    historical = yes
+    culture = cu:turkish
+    female = yes
+    religion = rel:sunni
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_halide_edib_adivar
+    birth_date = 1884.6.11
+    traits = { romantic demagogue literary }
+    agitator_usage = {
+        country_trigger = {
+            exists = c:TUR
+            this = c:TUR
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1925.1.1
+        chance = 75
+    }
+}
+
 # Palestine
 
 ecchi_pal_trumpeldor_character_template = {

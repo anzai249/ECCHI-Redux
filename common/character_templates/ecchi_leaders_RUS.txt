@@ -460,3 +460,141 @@ ecchi_rus_bakunin_character_template = {
         chance = 45
     }
 }
+
+## Nikolai Bukharin
+
+ecchi_rus_bukharin_character_template = {
+    first_name = Nikolai
+    last_name = ecchi_Bukharin
+    historical = yes
+    culture = cu:russian
+    female = no
+    religion = rel:orthodox
+    ideology = ideology_vanguardist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_nikolai_bukharin
+    birth_date = 1888.10.9
+    traits = { experienced_political_operator persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            c:RUS ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1917.5.1
+        latest_usage_date = 1938.3.15
+        chance = 55
+    }
+}
+
+## Angelica Balabanoff
+
+ecchi_rus_balabanoff_character_template = {
+    first_name = Angelica
+    last_name = ecchi_Balabanoff
+    historical = yes
+    culture = cu:russian
+    female = yes
+    religion = rel:jewish
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_angelica_balabanoff
+    birth_date = 1878.8.4
+    traits = { meticulous persistent }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    c:RUS ?= this
+                    NOT = {
+                        year >= 1922
+                    }
+                    OR = {
+                        has_law = law_type:law_right_of_assembly
+                        has_law = law_type:law_protected_speech
+                    }
+                }
+                AND = {
+                    c:ITA ?= this
+                    year >= 1922
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1917.1.1
+        latest_usage_date = 1965.11.25
+        chance = 75
+    }
+}
+
+## Felix Dzerzhinsky
+
+ecchi_rus_dzerzhinsky_character_template = {
+    first_name = Felix
+    last_name = ecchi_Dzerzhinsky
+    historical = yes
+    culture = cu:polish
+    female = no
+    religion = rel:catholic
+    ideology = ideology_authoritarian
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_felix_dzerzhinsky
+    birth_date = 1877.9.11
+    traits = { cruel experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            c:RUS ?= this
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1917.5.1
+        latest_usage_date = 1926.7.20
+        chance = 50
+    }
+}
+
+## Grigory Mikhaylovich Semyonov
+
+ecchi_rus_semyonov_character_template = {
+    first_name = Grigory
+    last_name = ecchi_Semyonov
+    historical = yes
+    culture = cu:russian
+    female = no
+    religion = rel:orthodox
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_grigory_semyonov
+    birth_date = 1890.9.25
+    traits = { mountain_commander wrathful }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:JAP
+                    this = c:JAP
+                    NOT = { exists = c:MAN }
+                    NOT = { exists = c:SIB }
+                }
+                AND = {
+                    exists = c:MAN
+                    this = c:MAN
+                }
+                AND = {
+                    exists = c:SIB
+                    this = c:SIB
+                    NOT = { exists = c:MAN }
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1917.1.1
+        latest_usage_date = 1946.8.30
+        chance = 75
+    }
+}
