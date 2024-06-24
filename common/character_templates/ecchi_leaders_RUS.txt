@@ -578,17 +578,17 @@ ecchi_rus_semyonov_character_template = {
                 AND = {
                     exists = c:JAP
                     this = c:JAP
-                    NOT = { exists = c:MAN }
+                    NOT = { exists = c:MCH }
                     NOT = { exists = c:SIB }
                 }
                 AND = {
-                    exists = c:MAN
-                    this = c:MAN
+                    exists = c:MCH
+                    this = c:MCH
                 }
                 AND = {
                     exists = c:SIB
                     this = c:SIB
-                    NOT = { exists = c:MAN }
+                    NOT = { exists = c:MCH }
                 }
             }
         }

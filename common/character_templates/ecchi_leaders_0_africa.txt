@@ -450,55 +450,55 @@ ecchi_ald_ben_aissa_character_template = {
     }
 }
 
-ecchi_ald_nsoumer_character_template = {
-    first_name = ecchi_Lalla_Fatma
-    last_name = ecchi_NSoumer
-    historical = yes
-    culture = cu:maghrebi
-    female = yes
-    religion = rel:sunni
-    ideology = ideology_jingoist_leader
-    interest_group = ig_rural_folk
-	dna = ecchi_dna_lalla_fatma_nsoumer
-    birth_date = 1830.5.6
-    traits = { celebrity_commander expert_defensive_strategist defense_in_depth_specialist }
-    commander_rank = default
-    commander_usage = {
-        country_trigger = {
-            exists = c:ALD
-            this = c:ALD
-        }
-        role = general
-        earliest_usage_date = 1854.1.1
-        latest_usage_date = 1863.7.5
-        chance = 75
-    }
-}
+# ecchi_ald_nsoumer_character_template = {
+#     first_name = ecchi_Lalla_Fatma
+#     last_name = ecchi_NSoumer
+#     historical = yes
+#     culture = cu:maghrebi
+#     female = yes
+#     religion = rel:sunni
+#     ideology = ideology_jingoist_leader
+#     interest_group = ig_rural_folk
+# 	dna = ecchi_dna_lalla_fatma_nsoumer
+#     birth_date = 1830.5.6
+#     traits = { celebrity_commander expert_defensive_strategist defense_in_depth_specialist }
+#     commander_rank = default
+#     commander_usage = {
+#         country_trigger = {
+#             exists = c:ALD
+#             this = c:ALD
+#         }
+#         role = general
+#         earliest_usage_date = 1854.1.1
+#         latest_usage_date = 1863.7.5
+#         chance = 75
+#     }
+# }
 
-ecchi_ald_mokrani_character_template = {
-    first_name = ecchi_Cheikh
-    last_name = ecchi_Mokrani
-    historical = yes
-    culture = cu:maghrebi
-    female = no
-    religion = rel:sunni
-    ideology = ideology_traditionalist
-    interest_group = ig_landowners
-	dna = ecchi_dna_cheikh_mokrani
-    birth_date = 1832.4.21
-    traits = { popular_commander pious basic_offensive_planner }
-    commander_rank = default
-    commander_usage = {
-        country_trigger = {
-            exists = c:ALD
-            this = c:ALD
-        }
-        role = general
-        earliest_usage_date = 1870.1.1
-        latest_usage_date = 1873.1.1
-        chance = 75
-    }
-}
+# ecchi_ald_mokrani_character_template = {
+#     first_name = ecchi_Cheikh
+#     last_name = ecchi_Mokrani
+#     historical = yes
+#     culture = cu:maghrebi
+#     female = no
+#     religion = rel:sunni
+#     ideology = ideology_traditionalist
+#     interest_group = ig_landowners
+# 	dna = ecchi_dna_cheikh_mokrani
+#     birth_date = 1832.4.21
+#     traits = { popular_commander pious basic_offensive_planner }
+#     commander_rank = default
+#     commander_usage = {
+#         country_trigger = {
+#             exists = c:ALD
+#             this = c:ALD
+#         }
+#         role = general
+#         earliest_usage_date = 1870.1.1
+#         latest_usage_date = 1873.1.1
+#         chance = 75
+#     }
+# }
 
 # Tripolitania
 

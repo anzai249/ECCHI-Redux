@@ -70,44 +70,44 @@ ecchi_gbr_john_russell_character_template = {
     }
 }
 
-ecchi_gbr_hamilton_gordon_character_template = {
-    first_name = George
-    last_name = ecchi_Hamilton_Gordon
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_pacifist
-    interest_group = ig_industrialists
-	dna = ecchi_dna_george_hamilton_gordon
-    birth_date = 1784.1.28
-    traits = { experienced_diplomat reserved meticulous }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-			OR = {
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_petty_bourgeoisie
-			}
-        }
-        earliest_usage_date = 1836.1.1
-        latest_usage_date = 1860.12.14
-        chance = 75
-    }
-}
+# ecchi_gbr_hamilton_gordon_character_template = {
+#     first_name = George
+#     last_name = ecchi_Hamilton_Gordon
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_pacifist
+#     interest_group = ig_industrialists
+# 	dna = ecchi_dna_george_hamilton_gordon
+#     birth_date = 1784.1.28
+#     traits = { experienced_diplomat reserved meticulous }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+# 			OR = {
+# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_petty_bourgeoisie
+# 			}
+#         }
+#         earliest_usage_date = 1836.1.1
+#         latest_usage_date = 1860.12.14
+#         chance = 75
+#     }
+# }
 
 ecchi_gbr_cecil_character_template = {
     first_name = Robert
@@ -188,44 +188,44 @@ ecchi_gbr_primrose_character_template = {
     }
 }
 
-ecchi_gbr_balfour_character_template = {
-    first_name = Arthur
-    last_name = Balfour
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_moderate
-    interest_group = ig_industrialists
-    birth_date = 1848.7.25
-	dna = ecchi_dna_arthur_balfour
-    traits = { pious expensive_tastes reserved }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_petty_bourgeoisie
-			}
-        }
-        earliest_usage_date = 1885.6.24
-        latest_usage_date = 1930.3.19
-        chance = 75
-    }
-}
+# ecchi_gbr_balfour_character_template = {
+#     first_name = Arthur
+#     last_name = Balfour
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_moderate
+#     interest_group = ig_industrialists
+#     birth_date = 1848.7.25
+# 	dna = ecchi_dna_arthur_balfour
+#     traits = { pious expensive_tastes reserved }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_petty_bourgeoisie
+# 			}
+#         }
+#         earliest_usage_date = 1885.6.24
+#         latest_usage_date = 1930.3.19
+#         chance = 75
+#     }
+# }
 
 ecchi_gbr_campbell_bannerman_character_template = {
     first_name = Henry
@@ -302,40 +302,40 @@ ecchi_gbr_asquith_character_template = {
     }
 }
 
-ecchi_gbr_george_character_template = {
-    first_name = ecchi_David_Lloyd
-    last_name = George
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_intelligentsia
-    birth_date = 1863.1.17
-	dna = ecchi_dna_david_lloyd_george
-    traits = { inspirational_orator experienced_diplomat meticulous }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1908.4.12
-        latest_usage_date = 1945.3.26
-        chance = 75
-    }
-}
+# ecchi_gbr_george_character_template = {
+#     first_name = ecchi_David_Lloyd
+#     last_name = George
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_reformer
+#     interest_group = ig_intelligentsia
+#     birth_date = 1863.1.17
+# 	dna = ecchi_dna_david_lloyd_george
+#     traits = { inspirational_orator experienced_diplomat meticulous }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1908.4.12
+#         latest_usage_date = 1945.3.26
+#         chance = 75
+#     }
+# }
 
 ecchi_gbr_law_character_template = {
     first_name = ecchi_Bonar
@@ -885,31 +885,31 @@ ecchi_gbr_conan_doyle_character_template = {
     }
 }
 
-ecchi_gbr_dickens_character_template = {
-    first_name = Charles
-    last_name = ecchi_Dickens
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_charles_dickens
-    birth_date = 1812.2.7
-    traits = { inspirational_orator }
-    agitator_usage = {
-        country_trigger = {
-            exists = c:GBR
-            this = c:GBR
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1836.1.1
-        latest_usage_date = 1870.6.9
-        chance = 75
-    }
-}
+# ecchi_gbr_dickens_character_template = {
+#     first_name = Charles
+#     last_name = ecchi_Dickens
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_reformer
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_charles_dickens
+#     birth_date = 1812.2.7
+#     traits = { inspirational_orator }
+#     agitator_usage = {
+#         country_trigger = {
+#             exists = c:GBR
+#             this = c:GBR
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1836.1.1
+#         latest_usage_date = 1870.6.9
+#         chance = 75
+#     }
+# }
 
 ecchi_gbr_shackleton_character_template = {
     first_name = ecchi_Ernest
@@ -1189,36 +1189,36 @@ ecchi_gbr_harcourt_character_template = {
     }
 }
 
-ecchi_gbr_keynes_character_template = {
-    first_name = ecchi_John_Maynard
-    last_name = ecchi_Keynes
-    historical = yes
-    culture = cu:british
-    female = no
-    religion = rel:protestant
-    ideology = ideology_social_democrat
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_john_maynard_keynes
-    birth_date = 1883.6.5
-    traits = { tactful meticulous }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:GBR
-            this = c:GBR
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_trade_unions
-            }
-        }
-        earliest_usage_date = 1930.1.1
-        latest_usage_date = 1946.4.21
-        chance = 75
-    }
-}
+# ecchi_gbr_keynes_character_template = {
+#     first_name = ecchi_John_Maynard
+#     last_name = ecchi_Keynes
+#     historical = yes
+#     culture = cu:british
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_social_democrat
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_john_maynard_keynes
+#     birth_date = 1883.6.5
+#     traits = { tactful meticulous }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             exists = c:GBR
+#             this = c:GBR
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+#                 is_interest_group_type = ig_intelligentsia
+#                 is_interest_group_type = ig_rural_folk
+#                 is_interest_group_type = ig_trade_unions
+#             }
+#         }
+#         earliest_usage_date = 1930.1.1
+#         latest_usage_date = 1946.4.21
+#         chance = 75
+#     }
+# }
 
 ecchi_gbr_carlyle_character_template = {
     first_name = Thomas

@@ -1,30 +1,29 @@
 ﻿# Korea
 
-ecchi_kor_myeongseong_character_template = {
-    first_name = Ja-yeong # Empress Myeongseong
-    last_name = Min
-    historical = yes
-    culture = cu:korean
-    female = yes
-    religion = rel:mahayana
-    ideology = ideology_traditionalist
-    interest_group = ig_landowners
-	dna = ecchi_dna_myeongseong
-    birth_date = 1851.11.17
-    traits = { pious persistent ambitious }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:KOR
-            this = c:KOR
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_landowners
-        }
-        earliest_usage_date = 1866.1.1
-        latest_usage_date = 1895.10.8
-        chance = 75
-    }
-}
+# ecchi_kor_myeongseong_character_template = {
+#     first_name = Ja-yeong # Empress Myeongseong
+#     last_name = Min
+#     historical = yes
+#     culture = cu:korean
+#     female = yes
+#     ideology = ideology_traditionalist
+#     interest_group = ig_landowners
+# 	dna = ecchi_dna_myeongseong
+#     birth_date = 1851.11.17
+#     traits = { pious persistent ambitious }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             exists = c:KOR
+#             this = c:KOR
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_landowners
+#         }
+#         earliest_usage_date = 1866.1.1
+#         latest_usage_date = 1895.10.8
+#         chance = 75
+#     }
+# }
 
 ecchi_kor_daewongun_character_template = {
     first_name = Ha-eung # Heungseon Daewongun
@@ -32,7 +31,6 @@ ecchi_kor_daewongun_character_template = {
     historical = yes
     culture = cu:korean
     female = no
-    religion = rel:mahayana
     ideology = ideology_moderate
     interest_group = ig_landowners
 	dna = ecchi_dna_daewongun
@@ -62,7 +60,6 @@ ecchi_kor_jeon_bongjun_character_template = {
     historical = yes
     culture = cu:korean
     female = no
-    religion = rel:mahayana
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_jeon_bongjun
@@ -92,7 +89,6 @@ ecchi_kor_son_byonghi_character_template = {
     historical = yes
     culture = cu:korean
     female = no
-    religion = rel:mahayana
     ideology = ideology_theocrat
     interest_group = ig_devout
 	dna = ecchi_dna_song_byong_hi
@@ -124,7 +120,6 @@ ecchi_kor_ho_hon_character_template = {
     historical = yes
     culture = cu:korean
     female = no
-    religion = rel:mahayana
     ideology = ideology_humanitarian
     interest_group = ig_intelligentsia
     dna = ecchi_dna_ho_hon
