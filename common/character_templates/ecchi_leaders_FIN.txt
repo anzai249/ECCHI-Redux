@@ -40,6 +40,6 @@ ecchi_fin_juhani_aho_character_template = {
 		}
 		earliest_usage_date = 1884.1.1
 		latest_usage_date = 1921.8.8
-		chance = 75
+		chance = 65
 	}
 }

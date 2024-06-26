@@ -26,7 +26,7 @@ ecchi_chl_o_higgins_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1842.10.24
-        chance = 75
+        chance = 65
     }
 }
 
@@ -59,7 +59,7 @@ ecchi_uru_artigas_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1850.9.23
-        chance = 75
+        chance = 65
     }
 }
 
@@ -89,7 +89,7 @@ ecchi_uru_berro_character_template = {
         }
         earliest_usage_date = 1852.1.1
         latest_usage_date = 1868.2.19
-        chance = 75
+        chance = 65
     }
 }
 
@@ -121,7 +121,7 @@ ecchi_uru_berro_character_template = {
 #         }
 #         earliest_usage_date = 1886.6.16
 #         latest_usage_date = 1929.10.20
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -157,6 +157,6 @@ ecchi_vnz_lopez_character_template = {
         role = general
         earliest_usage_date = 1840.1.1
         latest_usage_date = 1851.9.1
-        chance = 75
+        chance = 65
     }
 }

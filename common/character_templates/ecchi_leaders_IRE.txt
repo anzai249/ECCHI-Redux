@@ -26,7 +26,7 @@ ecchi_ire_collins_character_template = {
         }
         earliest_usage_date = 1915.1.1
         latest_usage_date = 1922.8.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -56,7 +56,7 @@ ecchi_ire_griffith_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1922.8.12
-        chance = 75
+        chance = 65
     }
 }
 
@@ -82,7 +82,7 @@ ecchi_ire_larkin_character_template = {
         }
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1947.1.30
-        chance = 75
+        chance = 65
     }
 }
 
@@ -119,7 +119,7 @@ ecchi_ire_guinness_character_template = {
         }
         earliest_usage_date = 1790.1.1
         latest_usage_date = 1855.6.9
-        chance = 75
+        chance = 65
     }
 }
 

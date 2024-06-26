@@ -30,7 +30,7 @@ ecchi_frs_tang_jingsong_character_template = {
         role = general
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1903.6.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -64,7 +64,7 @@ ecchi_frs_liu_yongfu_character_template = {
         role = general
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1917.1.9
-        chance = 75
+        chance = 65
     }
 }
 
@@ -94,7 +94,7 @@ ecchi_frs_tai_chao_chuen_character_template = {
         }
         earliest_usage_date = 1860.1.1
         latest_usage_date = 1864.1.29
-        chance = 75
+        chance = 65
     }
 }
 
@@ -120,6 +120,6 @@ ecchi_frs_mona_rudao_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1930.11.5
-        chance = 75
+        chance = 65
     }
 }

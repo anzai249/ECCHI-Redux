@@ -21,7 +21,7 @@ ecchi_fra_petain_character_template = {
 		role = general
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1951.7.23
-        chance = 75
+        chance = 65
     }
 }
 
@@ -46,7 +46,7 @@ ecchi_fra_de_gaulle_character_template = {
 		role = general
         earliest_usage_date = 1916.1.1
         latest_usage_date = 1970.11.9
-        chance = 75
+        chance = 65
     }
 }
 
@@ -97,7 +97,7 @@ ecchi_fra_zola_character_template = {
         }
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1902.9.29
-        chance = 75
+        chance = 65
     }
 }
 

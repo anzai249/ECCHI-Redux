@@ -43,7 +43,7 @@ ecchi_lit_basanavicius_character_template = {
         }
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1927.2.16
-        chance = 75
+        chance = 65
     }
 }
 
@@ -71,7 +71,7 @@ ecchi_bul_botev_character_template = {
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1876.6.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -112,7 +112,7 @@ ecchi_rom_radulescu-motru_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1957.3.6
-        chance = 75
+        chance = 65
     }
 }
 
@@ -144,7 +144,7 @@ ecchi_bye_kalinowski_character_template = {
         }
         earliest_usage_date = 1860.1.1
         latest_usage_date = 1864.3.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -180,7 +180,7 @@ ecchi_gre_kolokotronis_character_template = {
         role = general
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1843.2.4
-        chance = 75
+        chance = 65
     }
 }
 
@@ -291,7 +291,7 @@ ecchi_hun_lukacs_character_template = {
         }
         earliest_usage_date = 1915.1.1
         latest_usage_date = 1971.6.4
-        chance = 75
+        chance = 65
     }
 }
 
@@ -359,7 +359,7 @@ ecchi_ser_krstic_character_template = {
         role = general
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1909.10.29
-        chance = 75
+        chance = 65
     }
 }
 
@@ -404,7 +404,7 @@ ecchi_bel_wahis_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1921.1.26
-        chance = 75
+        chance = 65
     }
 }
 

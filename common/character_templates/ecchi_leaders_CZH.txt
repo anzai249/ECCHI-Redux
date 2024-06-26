@@ -40,7 +40,7 @@ ecchi_czh_palacky_character_template = {
         }
         earliest_usage_date = 1840.1.1
         latest_usage_date = 1876.5.26
-        chance = 75
+        chance = 65
     }
 }
 
@@ -87,7 +87,7 @@ ecchi_czh_masaryk_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1937.9.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -184,7 +184,7 @@ ecchi_czh_tiso_character_template = {
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1947.4.18
-        chance = 75
+        chance = 65
     }
 }
 
@@ -231,7 +231,7 @@ ecchi_czh_stefanik_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1919.5.4
-        chance = 75
+        chance = 65
     }
 }
 

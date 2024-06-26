@@ -35,7 +35,7 @@ ecchi_spa_infante_carlos_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1855.3.10
-        chance = 75
+        chance = 65
     }
 }
 
@@ -74,7 +74,7 @@ ecchi_spa_maria_christina_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1878.8.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -113,7 +113,7 @@ ecchi_spa_serrano_character_template = {
         }
         earliest_usage_date = 1855.1.1
         latest_usage_date = 1885.11.25
-        chance = 75
+        chance = 65
     }
 }
 
@@ -152,7 +152,7 @@ ecchi_spa_iglesias_character_template = {
         }
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1925.12.9
-        chance = 75
+        chance = 65
     }
 }
 
@@ -186,7 +186,7 @@ ecchi_spa_franco_character_template = {
         role = general
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1975.11.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -262,7 +262,7 @@ ecchi_spa_sagasta_character_template = {
         }
         earliest_usage_date = 1854.1.1
         latest_usage_date = 1903.1.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -298,7 +298,7 @@ ecchi_spa_weyler_character_template = {
         role = general
         earliest_usage_date = 1861.1.1
         latest_usage_date = 1930.10.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -338,7 +338,7 @@ ecchi_spa_primo_de_rivera_character_template = {
         }
         earliest_usage_date = 1921.1.1
         latest_usage_date = 1930.3.16
-        chance = 75
+        chance = 65
     }
 }
 
@@ -378,6 +378,6 @@ ecchi_spa_silvela_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1905.5.29
-        chance = 75
+        chance = 65
     }
 }

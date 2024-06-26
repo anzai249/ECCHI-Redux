@@ -31,7 +31,7 @@ ecchi_joh_aw_character_template = {
         }
         earliest_usage_date = 1925.1.1
         latest_usage_date = 1954.9.4
-        chance = 75
+        chance = 65
     }
 }
 
@@ -64,7 +64,7 @@ ecchi_kaz_bukeikhanov_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1937.9.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -96,7 +96,7 @@ ecchi_geo_chavchavadze_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1907.9.12
-        chance = 75
+        chance = 65
     }
 }
 
@@ -121,7 +121,7 @@ ecchi_geo_cholokashvili_character_template = {
         role = general
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1930.6.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -154,7 +154,7 @@ ecchi_tur_ataturk_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1938.11.10
-        chance = 75
+        chance = 65
     }
 }
 
@@ -179,7 +179,7 @@ ecchi_tur_halide_edib_adivar_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1925.1.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -220,6 +220,6 @@ ecchi_pal_trumpeldor_character_template = {
         }
         earliest_usage_date = 1911.1.1
         latest_usage_date = 1920.3.1
-        chance = 75
+        chance = 65
     }
 }

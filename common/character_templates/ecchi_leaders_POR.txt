@@ -32,7 +32,7 @@ ecchi_por_antonio_santos = {
         role = admiral
         earliest_usage_date = 1911.1.1
         latest_usage_date = 1921.10.19
-        chance = 75
+        chance = 65
     }
 }
 
@@ -66,6 +66,6 @@ ecchi_por_teofilo_braga = {
         }
         earliest_usage_date = 1910.10.5
         latest_usage_date = 1911.5.26
-        chance = 75
+        chance = 65
     }
 }

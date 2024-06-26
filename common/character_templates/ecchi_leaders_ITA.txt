@@ -34,7 +34,7 @@ ecchi_ita_dannunzio_character_template = {
         }
         earliest_usage_date = 1889.1.1
         latest_usage_date = 1938.3.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -73,7 +73,7 @@ ecchi_ita_mussolini_character_template = {
         }
         earliest_usage_date = 1922.1.1
         latest_usage_date = 1945.4.28
-        chance = 75
+        chance = 65
     }
 }
 
@@ -289,6 +289,6 @@ mr_ita_togliatti_character_template = {
         }
         earliest_usage_date = 1921.1.1
         latest_usage_date = 1964.8.21
-        chance = 75
+        chance = 65
     }
 }

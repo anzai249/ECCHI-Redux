@@ -26,7 +26,7 @@ ecchi_saf_rhodes_character_template = {
         }
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1902.3.26
-        chance = 75
+        chance = 65
     }
 }
 
@@ -56,7 +56,7 @@ ecchi_saf_sprigg_character_template = {
         }
         earliest_usage_date = 1869.1.1
         latest_usage_date = 1913.2.4
-        chance = 75
+        chance = 65
     }
 }
 
@@ -90,7 +90,7 @@ ecchi_saf_botha_character_template = {
         role = general
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1919.8.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -124,7 +124,7 @@ ecchi_saf_smuts_character_template = {
         role = general
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1950.9.11
-        chance = 75
+        chance = 65
     }
 }
 
@@ -158,7 +158,7 @@ ecchi_saf_hertzog_character_template = {
         role = general
         earliest_usage_date = 1895.1.1
         latest_usage_date = 1942.11.21
-        chance = 75
+        chance = 65
     }
 }
 

@@ -22,7 +22,7 @@ ecchi_brz_de_andrada_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1838.4.6
-        chance = 75
+        chance = 65
     }
 }
 
@@ -47,7 +47,7 @@ ecchi_brz_da_fonseca_character_template = {
         role = general
         earliest_usage_date = 1848.1.1
         latest_usage_date = 1892.8.23
-        chance = 75
+        chance = 65
     }
 }
 
@@ -82,7 +82,7 @@ ecchi_brz_da_fonseca_character_template = {
 #         }
 #         earliest_usage_date = 1864.1.1
 #         latest_usage_date = 1882.8.24
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -117,7 +117,7 @@ ecchi_brz_irineu_de_sousa_character_template = {
         }
         earliest_usage_date = 1860.1.1
         latest_usage_date = 1889.10.21
-        chance = 75
+        chance = 65
     }
 }
 
@@ -156,7 +156,7 @@ ecchi_brz_paranhos_character_template = {
         }
         earliest_usage_date = 1850.1.1
         latest_usage_date = 1880.11.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -195,7 +195,7 @@ ecchi_brz_franciso_de_sousa_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1849.5.8
-        chance = 75
+        chance = 65
     }
 }
 
@@ -235,6 +235,6 @@ ecchi_brz_franciso_de_sousa_character_template = {
 #         }
 #         earliest_usage_date = 1909.1.1
 #         latest_usage_date = 1954.8.24
-#         chance = 75
+#         chance = 65
 #     }
 # }

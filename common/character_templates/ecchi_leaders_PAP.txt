@@ -27,7 +27,7 @@ ecchi_pap_pecci_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1903.7.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -58,7 +58,7 @@ ecchi_pap_sarto_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1914.8.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -88,7 +88,7 @@ ecchi_pap_della_chiesa_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1922.1.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -119,6 +119,6 @@ ecchi_pap_ratti_character_template = {
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1939.2.10
-        chance = 75
+        chance = 65
     }
 }

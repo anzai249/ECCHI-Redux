@@ -35,7 +35,7 @@ ecchi_ast_parkes_character_template = {
         }
         earliest_usage_date = 1855.1.1
         latest_usage_date = 1896.4.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -65,7 +65,7 @@ ecchi_ast_hughes_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1952.10.28
-        chance = 75
+        chance = 65
     }
 }
 
@@ -104,7 +104,7 @@ ecchi_ast_barton_character_template = {
         }
         earliest_usage_date = 1878.1.1
         latest_usage_date = 1920.1.7
-        chance = 75
+        chance = 65
     }
 }
 
@@ -135,7 +135,7 @@ ecchi_ast_deakin_character_template = {
         }
         earliest_usage_date = 1878.1.1
         latest_usage_date = 1919.10.7
-        chance = 75
+        chance = 65
     }
 }
 
@@ -165,7 +165,7 @@ ecchi_ast_curtin_character_template = {
         }
         earliest_usage_date = 1927.1.1
         latest_usage_date = 1945.7.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -232,7 +232,7 @@ ecchi_ulr_wonga_character_template = {
         }
         earliest_usage_date = 1848.1.1
         latest_usage_date = 1875.1.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -267,7 +267,7 @@ ecchi_ulr_biraban_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1846.4.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -306,6 +306,6 @@ ecchi_ulr_barak_character_template = {
         }
         earliest_usage_date = 1874.1.1
         latest_usage_date = 1903.8.15
-        chance = 75
+        chance = 65
     }
 }

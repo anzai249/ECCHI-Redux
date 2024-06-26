@@ -21,7 +21,7 @@ ecchi_alb_topulli_character_template = {
         role = general
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1915.7.17
-        chance = 75
+        chance = 65
     }
 }
 
@@ -46,7 +46,7 @@ ecchi_alb_boletini_character_template = {
         role = general
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1916.1.24
-        chance = 75
+        chance = 65
     }
 }
 
@@ -76,7 +76,7 @@ ecchi_alb_qemali_character_template = {
         }
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1919.1.26
-        chance = 75
+        chance = 65
     }
 }
 
@@ -106,7 +106,7 @@ ecchi_alb_vilhelm_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1945.4.18
-        chance = 75
+        chance = 65
     }
 }
 
@@ -136,6 +136,6 @@ ecchi_alb_zogu_character_template = {
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1961.4.9
-        chance = 75
+        chance = 65
     }
 }

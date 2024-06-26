@@ -26,7 +26,7 @@ ecchi_dai_truong_dinh_character_template = {
         }
         earliest_usage_date = 1855.1.1
         latest_usage_date = 1864.8.19
-        chance = 75
+        chance = 65
     }
 }
 
@@ -55,7 +55,7 @@ ecchi_dai_nguyen_trung_truc_character_template = {
         }
         earliest_usage_date = 1860.1.1
         latest_usage_date = 1868.10.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -84,7 +84,7 @@ ecchi_dai_phan_dinh_phung_character_template = {
         }
         earliest_usage_date = 1877.1.1
         latest_usage_date = 1896.1.21
-        chance = 75
+        chance = 65
     }
 }
 
@@ -113,7 +113,7 @@ ecchi_dai_cao_ba_quat_character_template = {
         }
         earliest_usage_date = 1847.1.1
         latest_usage_date = 1855.10.12
-        chance = 75
+        chance = 65
     }
 }
 
@@ -142,7 +142,7 @@ ecchi_dai_ho_chi_minh_character_template = {
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1969.9.2
-        chance = 75
+        chance = 65
     }
 }
 
@@ -172,6 +172,6 @@ ecchi_dai_huynh_thuc_khang_character_template = {
         }
         earliest_usage_date = 1919.1.1
         latest_usage_date = 1947.4.21
-        chance = 75
+        chance = 65
     }
 }

@@ -26,7 +26,7 @@ ecchi_nzl_sewell_character_template = {
         }
         earliest_usage_date = 1850.1.1
         latest_usage_date = 1879.5.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -56,7 +56,7 @@ ecchi_nzl_fox_character_template = {
         }
         earliest_usage_date = 1855.1.1
         latest_usage_date = 1893.6.23
-        chance = 75
+        chance = 65
     }
 }
 
@@ -86,7 +86,7 @@ ecchi_nzl_savage_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1940.3.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -116,7 +116,7 @@ ecchi_nzl_seddon_character_template = {
         }
         earliest_usage_date = 1878.1.1
         latest_usage_date = 1906.6.10
-        chance = 75
+        chance = 65
     }
 }
 
@@ -147,7 +147,7 @@ ecchi_nzl_ballance_character_template = {
         }
         earliest_usage_date = 1875.1.1
         latest_usage_date = 1893.4.27
-        chance = 75
+        chance = 65
     }
 }
 
@@ -196,7 +196,7 @@ ecchi_aot_heke_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1850.8.7
-        chance = 75
+        chance = 65
     }
 }
 
@@ -238,7 +238,7 @@ ecchi_aot_kawiti_character_template = {
         role = general
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1854.5.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -285,7 +285,7 @@ ecchi_aot_o_rongomai_character_template = {
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1907.11.18
-        chance = 75
+        chance = 65
     }
 }
 
@@ -330,6 +330,6 @@ ecchi_aot_solomon_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1933.3.19
-        chance = 75
+        chance = 65
     }
 }

@@ -22,7 +22,7 @@ ecchi_mex_villa_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1923.7.20
-        chance = 75
+        chance = 65
     }
 }
 

@@ -43,7 +43,7 @@ ecchi_ger_hitler_character_template = {
 		}
 		earliest_usage_date = 1923.1.1
 		latest_usage_date = 1945.4.30
-		chance = 75
+		chance = 65
 	}
 }
 
@@ -88,7 +88,7 @@ ecchi_ger_hugenberg_character_template = {
 		}
 		earliest_usage_date = 1909.1.1
 		latest_usage_date = 1951.3.12
-		chance = 75
+		chance = 65
 	}
 }
 
@@ -134,7 +134,7 @@ ecchi_ger_engels_character_template = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1895.8.5
-		chance = 75
+		chance = 65
 	}
 }
 
@@ -181,7 +181,7 @@ ecchi_ger_liebknecht_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1919.1.15
-        chance = 75
+        chance = 65
     }
 }
 
@@ -268,7 +268,7 @@ ecchi_ger_alfred_krupp_character_template = {
         }
         earliest_usage_date = 1850.1.1
         latest_usage_date = 1887.7.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -311,7 +311,7 @@ ecchi_ger_friedrich_krupp_character_template = {
         }
         earliest_usage_date = 1887.1.1
         latest_usage_date = 1902.11.22
-        chance = 75
+        chance = 65
     }
 }
 

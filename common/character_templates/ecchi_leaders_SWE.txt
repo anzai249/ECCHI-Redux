@@ -35,6 +35,6 @@ ecchi_swe_nobel_character_template = {
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1896.12.10
-        chance = 75
+        chance = 65
     }
 }

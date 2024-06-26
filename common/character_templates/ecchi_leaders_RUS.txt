@@ -26,7 +26,7 @@
 #         }
 #         earliest_usage_date = 1893.1.1
 #         latest_usage_date = 1924.1.24
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -57,7 +57,7 @@ ecchi_rus_trotsky_character_template = {
         }
         earliest_usage_date = 1903.1.1
         latest_usage_date = 1940.8.21
-        chance = 75
+        chance = 65
     }
 }
 
@@ -97,7 +97,7 @@ ecchi_rus_stalin_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1953.3.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -127,7 +127,7 @@ ecchi_rus_kerensky_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1970.6.11
-        chance = 75
+        chance = 65
     }
 }
 
@@ -160,7 +160,7 @@ ecchi_rus_rasputin_character_template = {
         }
         earliest_usage_date = 1903.1.1
         latest_usage_date = 1916.12.30
-        chance = 75
+        chance = 65
     }
 }
 
@@ -196,7 +196,7 @@ ecchi_rus_kolchak_character_template = {
         role = admiral
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1920.2.7
-        chance = 75
+        chance = 65
     }
 }
 
@@ -232,7 +232,7 @@ ecchi_rus_krasnov_character_template = {
         role = general
         earliest_usage_date = 1915.1.1
         latest_usage_date = 1947.1.17
-        chance = 75
+        chance = 65
     }
 }
 
@@ -526,7 +526,7 @@ ecchi_rus_balabanoff_character_template = {
         }
         earliest_usage_date = 1917.1.1
         latest_usage_date = 1965.11.25
-        chance = 75
+        chance = 65
     }
 }
 
@@ -595,6 +595,6 @@ ecchi_rus_semyonov_character_template = {
         role = general
         earliest_usage_date = 1917.1.1
         latest_usage_date = 1946.8.30
-        chance = 75
+        chance = 65
     }
 }

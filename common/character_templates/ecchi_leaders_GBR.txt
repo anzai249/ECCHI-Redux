@@ -31,7 +31,7 @@ ecchi_gbr_grey_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1845.7.17
-        chance = 75
+        chance = 65
     }
 }
 
@@ -66,7 +66,7 @@ ecchi_gbr_john_russell_character_template = {
         }
         earliest_usage_date = 1839.8.30
         latest_usage_date = 1878.5.28
-        chance = 75
+        chance = 65
     }
 }
 
@@ -105,7 +105,7 @@ ecchi_gbr_john_russell_character_template = {
 #         }
 #         earliest_usage_date = 1836.1.1
 #         latest_usage_date = 1860.12.14
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -144,7 +144,7 @@ ecchi_gbr_cecil_character_template = {
         }
         earliest_usage_date = 1878.4.2
         latest_usage_date = 1903.8.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -184,7 +184,7 @@ ecchi_gbr_primrose_character_template = {
         }
         earliest_usage_date = 1885.2.13
         latest_usage_date = 1929.5.21
-        chance = 75
+        chance = 65
     }
 }
 
@@ -223,7 +223,7 @@ ecchi_gbr_primrose_character_template = {
 #         }
 #         earliest_usage_date = 1885.6.24
 #         latest_usage_date = 1930.3.19
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -263,7 +263,7 @@ ecchi_gbr_campbell_bannerman_character_template = {
         }
         earliest_usage_date = 1892.8.18
         latest_usage_date = 1908.4.22
-        chance = 75
+        chance = 65
     }
 }
 
@@ -298,7 +298,7 @@ ecchi_gbr_asquith_character_template = {
         }
         earliest_usage_date = 1892.8.18
         latest_usage_date = 1928.2.15
-        chance = 75
+        chance = 65
     }
 }
 
@@ -333,7 +333,7 @@ ecchi_gbr_asquith_character_template = {
 #         }
 #         earliest_usage_date = 1908.4.12
 #         latest_usage_date = 1945.3.26
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -372,7 +372,7 @@ ecchi_gbr_law_character_template = {
         }
         earliest_usage_date = 1916.12.10
         latest_usage_date = 1923.10.30
-        chance = 75
+        chance = 65
     }
 }
 
@@ -411,7 +411,7 @@ ecchi_gbr_baldwin_character_template = {
         }
         earliest_usage_date = 1917.6.18
         latest_usage_date = 1947.12.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -450,7 +450,7 @@ ecchi_gbr_macdonald_character_template = {
         }
         earliest_usage_date = 1911.2.6
         latest_usage_date = 1937.11.9
-        chance = 75
+        chance = 65
     }
 }
 
@@ -489,7 +489,7 @@ ecchi_gbr_chamberlain_character_template = {
         }
         earliest_usage_date = 1923.2.5
         latest_usage_date = 1940.10.9
-        chance = 75
+        chance = 65
     }
 }
 
@@ -524,7 +524,7 @@ ecchi_gbr_churchill_character_template = {
         }
         earliest_usage_date = 1911.10.24
         latest_usage_date = 1965.1.24
-        chance = 75
+        chance = 65
     }
 }
 
@@ -662,7 +662,7 @@ ecchi_gbr_darby_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1882.4.29
-        chance = 75
+        chance = 65
     }
 }
 
@@ -702,7 +702,7 @@ ecchi_gbr_livingstone_character_template = {
         }
         earliest_usage_date = 1840.1.1
         latest_usage_date = 1873.5.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -740,7 +740,7 @@ ecchi_gbr_albert_character_template = {
         }
         earliest_usage_date = 1841.1.1
         latest_usage_date = 1861.12.14
-        chance = 75
+        chance = 65
     }
 }
 
@@ -776,7 +776,7 @@ ecchi_gbr_albert_character_template = {
 #         }
 #         earliest_usage_date = 1855.1.1
 #         latest_usage_date = 1882.4.19
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -815,7 +815,7 @@ ecchi_gbr_bertrand_russell_character_template = {
         }
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1970.2.2
-        chance = 75
+        chance = 65
     }
 }
 
@@ -845,7 +845,7 @@ ecchi_gbr_lionel_de_rothschild_sr_character_template = {
         }
         earliest_usage_date = 1838.1.1
         latest_usage_date = 1879.6.3
-        chance = 75
+        chance = 65
     }
 }
 
@@ -881,7 +881,7 @@ ecchi_gbr_conan_doyle_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1930.7.7
-        chance = 75
+        chance = 65
     }
 }
 
@@ -907,7 +907,7 @@ ecchi_gbr_conan_doyle_character_template = {
 #         }
 #         earliest_usage_date = 1836.1.1
 #         latest_usage_date = 1870.6.9
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -941,7 +941,7 @@ ecchi_gbr_shackleton_character_template = {
         role = admiral
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1922.1.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -967,7 +967,7 @@ ecchi_gbr_nightinghale_character_template = {
         }
         earliest_usage_date = 1850.1.1
         latest_usage_date = 1910.8.13
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1006,7 +1006,7 @@ ecchi_gbr_stanley_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1904.5.10
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1032,7 +1032,7 @@ ecchi_gbr_tolkien_character_template = {
         role = general
         earliest_usage_date = 1912.1.1
         latest_usage_date = 1973.9.2
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1066,7 +1066,7 @@ ecchi_gbr_ross_character_template = {
         role = admiral
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1862.4.3
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1091,7 +1091,7 @@ ecchi_gbr_franklin_character_template = {
         role = admiral
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1850.1.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1116,7 +1116,7 @@ ecchi_gbr_scott_character_template = {
         role = admiral
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1920.1.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1134,6 +1134,7 @@ ecchi_gbr_kipling_character_template = {
     traits = { bigoted romantic arrogant }
     interest_group_leader_usage = {
         country_trigger = {
+            morgenrote_is_active = no
             OR = {
                 AND = {
                     exists = c:GBR
@@ -1185,7 +1186,7 @@ ecchi_gbr_harcourt_character_template = {
         }
         earliest_usage_date = 1868.1.1
         latest_usage_date = 1904.10.1
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1216,7 +1217,7 @@ ecchi_gbr_harcourt_character_template = {
 #         }
 #         earliest_usage_date = 1930.1.1
 #         latest_usage_date = 1946.4.21
-#         chance = 75
+#         chance = 65
 #     }
 # }
 
@@ -1256,7 +1257,7 @@ ecchi_gbr_carlyle_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1881.2.5
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1282,7 +1283,7 @@ ecchi_gbr_wood_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1836.4.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1310,7 +1311,7 @@ ecchi_gbr_cobden_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1865.4.20
-        chance = 75
+        chance = 65
     }
 }
 
@@ -1338,7 +1339,7 @@ ecchi_gbr_fawcett_character_template = {
         }
         earliest_usage_date = 1869.1.1
         latest_usage_date = 1929.8.5
-        chance = 75
+        chance = 65
     }
 }
 
