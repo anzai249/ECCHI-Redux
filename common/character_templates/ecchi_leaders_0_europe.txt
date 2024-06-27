@@ -408,47 +408,6 @@ ecchi_bel_wahis_character_template = {
     }
 }
 
-# Denmark
-
-ecchi_den_kierkegaard_character_template = {
-    first_name = ecchi_Soren
-    last_name = ecchi_Kierkegaard
-    historical = yes
-    culture = cu:danish
-    female = no
-    religion = rel:protestant
-    ideology = ideology_atheist
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_soren_kierkegaard
-    birth_date = 1813.5.5
-    traits = { romantic inspirational_orator }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:SCA
-                    this = c:SCA
-                    NOT = { exists = c:NOR }
-                }
-                AND = {
-                    exists = c:NOR
-                    this = c:NOR
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_landowners
-            }
-        }
-        earliest_usage_date = 1843.1.1
-        latest_usage_date = 1855.11.11
-        chance = 25
-    }
-}
-
 # Norway
 
 ecchi_nor_amundsen_character_template = {
