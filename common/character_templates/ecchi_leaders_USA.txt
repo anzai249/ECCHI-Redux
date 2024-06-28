@@ -2436,7 +2436,7 @@ ecchi_usa_thoreau_character_template = {
 ## Jim Bridger
 
 ecchi_usa_bridger_character_template = {
-    first_name = Jim
+    first_name = ecchi_Jim
     last_name = ecchi_Bridger
     historical = yes
     culture = cu:dixie

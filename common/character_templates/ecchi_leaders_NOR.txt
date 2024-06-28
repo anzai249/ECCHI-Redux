@@ -1,0 +1,134 @@
+﻿# Norway
+
+ecchi_nor_amundsen_character_template = {
+    first_name = ecchi_Roald
+    last_name = ecchi_Amundsen
+    historical = yes
+    culture = cu:norwegian
+    female = no
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_roald_amundsen
+    birth_date = 1872.7.16
+    traits = { explorer surveyor brave }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:SCA
+                    this = c:SCA
+                    NOT = { exists = c:NOR }
+                }
+                AND = {
+                    exists = c:NOR
+                    this = c:NOR
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1895.1.1
+        latest_usage_date = 1928.6.18
+        chance = 25
+    }
+}
+
+## Fridtjof Nansen
+
+ecchi_nor_nansen_fridtjof_character_template = {
+	dna = mr_nor_nansen_fridtjof
+	first_name = ecchi_fridtjof
+	last_name = ecchi_Nansen
+	culture = cu:norwegian
+	religion = rel:protestant
+	interest_group = ig_intelligentsia
+	ideology = ideology_humanitarian
+	female = no
+	birth_date = 1861.10.10
+	historical = yes
+	traits = { 
+		explorer
+		brave
+		surveyor
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_EASTERN_NORWAY
+			NOT = {
+				cu:norwegian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1930.5.13
+		chance = 50
+	}
+}
+
+## Christian Michelsen
+
+ecchi_nor_michelsen_christian_character_template = {
+	dna = ecchi_nor_michelsen_christian
+	first_name = ecchi_Christian
+	last_name = ecchi_Michelsen
+	culture = cu:norwegian
+	interest_group = ig_industrialists
+	female = no
+	birth_date = 1857.3.15
+	historical = yes
+	traits = { ambitious }
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_WESTERN_NORWAY
+			NOT = {
+				cu:norwegian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1891.1.1
+		latest_usage_date = 1925.6.29
+		chance = 65
+	}
+}
+
+## Vidkun Quisling
+
+ecchi_nor_quisling_vidkun_character_template = {
+	dna = ecchi_nor_quisling_vidkun
+	first_name = ecchi_Vidkun
+	last_name = ecchi_Quisling
+	culture = cu:norwegian
+	interest_group = ig_intelligentsia
+	ideology = ideology_fascist
+	female = no
+	birth_date = 1887.7.18
+	historical = yes
+	traits = { charismatic ambitious explorer }
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_EASTERN_NORWAY
+			NOT = {
+				cu:norwegian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1945.10.24
+		chance = 65
+	}
+}

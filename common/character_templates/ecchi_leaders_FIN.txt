@@ -43,3 +43,128 @@ ecchi_fin_juhani_aho_character_template = {
 		chance = 65
 	}
 }
+
+## Eino Leino
+
+ecchi_fin_eino_leino_character_template = {
+	first_name = ecchi_Eino
+	last_name = ecchi_Leino
+	historical = yes
+	culture = cu:finnish
+	female = no
+	ideology = ideology_humanitarian
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_eino_leino
+	birth_date = 1878.7.6
+	traits = {
+		romantic
+		literacy
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					c:SCA ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+				AND = {
+					c:FIN ?= this
+				}
+				AND = {
+					c:RUS ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1926.1.10
+		chance = 65
+	}
+}
+
+# Miina Sillanpaa
+
+ecchi_fin_miina_sillanpaa_character_template = {
+	first_name = ecchi_Miina
+	last_name = ecchi_Sillanpaa
+	historical = yes
+	culture = cu:finnish
+	female = yes
+	ideology = ideology_social_democrat
+	interest_group = ig_trade_unions
+	dna = ecchi_dna_miina_sillanpaa
+	birth_date = 1866.6.4
+	traits = {
+		persistent
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					c:SCA ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+				AND = {
+					c:FIN ?= this
+				}
+				AND = {
+					c:RUS ?= this
+					NOT = {
+						exists = c:FIN
+					}
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1952.4.3
+		chance = 65
+	}
+}
+
+## Risto Ryti
+
+ecchi_fin_risto_ryti_character_template = {
+	first_name = ecchi_Risto
+	last_name = ecchi_Ryti
+	historical = yes
+	culture = cu:finnish
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_risto_ryti
+	birth_date = 1889.2.3
+	traits = {
+		cautious
+		persistent
+		master_bureaucrat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+            has_state_in_state_region = STATE_UUSIMAA
+			NOT = {
+				cu:finnish = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1956.10.25
+		chance = 65
+	}
+}

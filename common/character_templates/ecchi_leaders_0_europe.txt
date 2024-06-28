@@ -407,39 +407,3 @@ ecchi_bel_wahis_character_template = {
         chance = 65
     }
 }
-
-# Norway
-
-ecchi_nor_amundsen_character_template = {
-    first_name = ecchi_Roald
-    last_name = ecchi_Amundsen
-    historical = yes
-    culture = cu:norwegian
-    female = no
-    religion = rel:protestant
-    ideology = ideology_moderate
-    interest_group = ig_armed_forces
-	dna = ecchi_dna_roald_amundsen
-    birth_date = 1872.7.16
-    traits = { explorer surveyor brave }
-    commander_rank = default
-    commander_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:SCA
-                    this = c:SCA
-                    NOT = { exists = c:NOR }
-                }
-                AND = {
-                    exists = c:NOR
-                    this = c:NOR
-                }
-            }
-        }
-        role = general
-        earliest_usage_date = 1895.1.1
-        latest_usage_date = 1928.6.18
-        chance = 25
-    }
-}

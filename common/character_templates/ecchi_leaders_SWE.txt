@@ -14,20 +14,14 @@ ecchi_swe_nobel_character_template = {
     traits = { tactful ambitious innovative }
     interest_group_leader_usage = {
         country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:SCA
-                    this = c:SCA
-                    NOT = { exists = c:NOR }
-                }
-                AND = {
-                    exists = c:NOR
-                    this = c:NOR
-                }
-            }
+            has_state_in_state_region = STATE_SVEALAND
+			NOT = {
+				cu:swedish = {
+					culture_is_discriminated_in = root
+				}
+			}
         }
         interest_group_trigger = {
-            is_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_industrialists
@@ -35,6 +29,98 @@ ecchi_swe_nobel_character_template = {
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1896.12.10
+        chance = 65
+    }
+}
+
+## Hjalmar Branting
+
+ecchi_swe_branting_character_template = {
+    first_name = ecchi_Hjalmar
+    last_name = ecchi_Branting
+    historical = yes
+    culture = cu:swedish
+    female = no
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    dna = mr_swe_branting_hjalmar
+    birth_date = 1860.11.23
+    traits = { charismatic persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_SVEALAND
+			NOT = {
+				cu:swedish = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1889.1.1
+        latest_usage_date = 1925.2.24
+        chance = 65
+    }
+}
+
+## Raoul Wallenberg
+
+ecchi_swe_wallenberg_character_template = {
+    first_name = ecchi_Raoul
+    last_name = ecchi_Wallenberg
+    historical = yes
+    culture = cu:swedish
+    female = no
+    ideology = ideology_humanitarian
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_raoul_wallenberg
+    birth_date = 1912.8.4
+    traits = { charismatic brave honorable experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_SVEALAND
+            NOT = {
+                cu:swedish = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 1952.7.31
+        chance = 65
+    }
+}
+
+## Sven Hedin
+
+ecchi_swe_hedin_character_template = {
+    first_name = ecchi_Sven
+    last_name = ecchi_Hedin
+    historical = yes
+    culture = cu:swedish
+    female = no
+    ideology = ideology_humanitarian
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_sven_hedin
+    birth_date = 1865.2.19
+    traits = { explorer charismatic inspirational_orator surveyor }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_SVEALAND
+            NOT = {
+                cu:swedish = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1894.1.1
+        latest_usage_date = 1952.11.26
         chance = 65
     }
 }

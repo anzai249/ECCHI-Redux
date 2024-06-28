@@ -1,4 +1,4 @@
-ecchi_dna_ivan_franko={
+﻿ecchi_dna_ivan_franko={
     portrait_info = {
 	genes={ 		
 		hair_color={ 198 86 25 231 }
