@@ -744,7 +744,7 @@ ecchi_usa_norton_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_royalist
-    interest_group = ig_rural_folk
+    interest_group = ig_petty_bourgeoisie
     birth_date = 1818.2.4
 	dna = ecchi_dna_joshua_norton
     traits = { psychological_affliction imperious romantic }
@@ -764,7 +764,7 @@ ecchi_usa_norton_character_template = {
             }
         }
         interest_group_trigger = {
-			is_interest_group_type = ig_rural_folk
+			is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1859.9.1
         latest_usage_date = 1880.1.8

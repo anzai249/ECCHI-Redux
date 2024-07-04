@@ -407,3 +407,37 @@ ecchi_bel_wahis_character_template = {
         chance = 65
     }
 }
+
+# Switzerland
+
+## Dufour, Guillaume Henri by LordR
+mr_swi_dufour_guillaume_henri_character_template = {
+	# Guillaume Henri Dufour, one of Switzerland's foremost generals from the 1810s through to the 1860s
+	dna = mr_swi_dufour_guillaume_henri
+	first_name = "Guillaume_Henri"
+	last_name = "Dufour"
+	culture = cu:francoprovencal
+	religion = rel:protestant # Not entirely sure, but his family was from Geneva
+	birth_date = 1787.9.15
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	historical = yes
+	traits = {
+		meticulous
+		surveyor
+		engineer
+		basic_diplomat
+	}
+	is_general = yes
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:SWI
+            this = c:SWI
+        }
+        role = general
+        earliest_usage_date = 1815.1.1
+        latest_usage_date = 1865.7.14
+        chance = 65
+    }
+}
