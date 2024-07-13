@@ -69,3 +69,7 @@ RRK_is_active_trigger = { # Rally Round the King
 WCR_is_active_trigger = { # Western Clothes: Redux
 	always = no
 }
+
+hga_is_active = { # Historical Generals and Admirals
+	always = no
+}

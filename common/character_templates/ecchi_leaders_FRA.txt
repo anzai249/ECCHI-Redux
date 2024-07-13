@@ -15,6 +15,7 @@ ecchi_fra_petain_character_template = {
 	commander_rank = default
     commander_usage = {
 		country_trigger = {
+            hga_is_active = no
 			exists = c:FRA
 			this = c:FRA
 		}
@@ -358,6 +359,82 @@ ecchi_fra_citroen_character_template = {
         }
         earliest_usage_date = 1908.1.1
         latest_usage_date = 1935.7.3
+        chance = 65
+    }
+}
+
+## Alphonse de Lamartine
+
+ecchi_fra_alphonse_de_lamartine_character_template = {
+    first_name = Alphonse
+    last_name = de_Lamartine
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1790.10.21
+    traits = { romantic literary }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                cu:french = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_BURGUNDY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1833.1.1
+        latest_usage_date = 1869.2.28
+        chance = 65
+    }
+}
+
+## Henri Barbusse
+
+ecchi_fra_henri_barbusse_character_template = {
+    first_name = Henri
+    last_name = ecchi_Barbusse
+    historical = yes
+    culture = cu:french
+    female = no
+    religion = rel:catholic
+    ideology = ideology_vangardist
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_henri_barbusse
+    birth_date = 1873.5.17
+    traits = { literary persistent }
+    agitator_usage = {
+        country_trigger = {
+            if = {
+                limit = {
+                    c:RUS ?= root
+                    c:RUS = {
+                        has_law = law_type:law_council_republic
+                    }
+                    cu:french = {
+                        culture_is_discriminated_in = root
+                    }
+                }
+            }
+            else = {
+                cu:french = {
+                    culture_is_discriminated_in = root
+                }
+                has_state_in_state_region = STATE_ILE_DE_FRANCE
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1916.1.1
+        latest_usage_date = 1935.8.30
         chance = 65
     }
 }

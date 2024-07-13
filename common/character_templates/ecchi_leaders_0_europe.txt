@@ -441,3 +441,35 @@ mr_swi_dufour_guillaume_henri_character_template = {
         chance = 65
     }
 }
+
+## Carl Jung
+
+mr_swi_jung_character_template = {
+    dna = ecchi_swi_carl_jung
+    first_name = Carl
+    last_name = ecchi_Jung
+    culture = cu:francoprovencal
+    religion = rel:protestant
+    birth_date = 1875.7.26
+    interest_group = ig_industrialists
+    ideology = ideology_humanitarian
+    historical = yes
+    traits = {
+        literacy
+        innovative
+        inspirational_orator
+    }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_EAST_SWITZERLAND
+			NOT = {
+				cu:francoprovencal = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1961.6.6
+        chance = 65
+    }
+}

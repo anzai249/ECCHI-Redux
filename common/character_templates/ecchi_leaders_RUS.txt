@@ -885,3 +885,69 @@ RUS_general_markov = {
 	}
 }
 
+## Nikolai Ostrovsky
+
+RUS_nikolai_ostrovsky = {
+	first_name = Nikolai
+	last_name = Ostrovsky
+	historical = yes
+	culture = cu:ukrainian
+	female = no
+	religion = rel:orthodox
+	ideology = ideology_vangardist
+	interest_group = ig_trade_unions
+	dna = dna_nikolai_ostrovsky
+	birth_date = 1904.2.29
+	traits = {
+		literacy
+		innovative
+		erudite
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_VOLHYNIA
+			NOT = {
+				cu:ukrainian = {
+					culture_is_discriminated_in = root
+				}
+			}
+			has_technology_researched = socialism
+		}
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1936.1.1
+		chance = 60
+	}
+}
+
+## Anton Chekhov
+
+RUS_anton_chekhov = {
+	first_name = ecchi_Anton
+	last_name = ecchi_Chekhov
+	historical = yes
+	culture = cu:russian
+	female = no
+	religion = rel:orthodox
+	ideology = ideology_liberal_leader
+	interest_group = ig_rural_folk
+	dna = dna_anton_chekhov
+	birth_date = 1860.1.29
+	traits = {
+		literacy
+		innovative
+		sickly
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_ROSTOV
+			NOT = {
+				cu:russian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1904.7.15
+		chance = 55
+	}
+}

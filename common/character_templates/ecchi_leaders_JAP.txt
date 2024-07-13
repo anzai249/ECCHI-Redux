@@ -590,6 +590,35 @@ ecchi_jap_suzuki_bunji_character_template = {
         }
         earliest_usage_date = 1912.1.1
         latest_usage_date = 1946.3.12
-        chance = 70
+        chance = 60
+    }
+}
+
+## Yasunari Kawabata
+
+ecchi_jap_yasunari_kawabata_character_template = {
+    first_name = ecchi_Yasunari
+    last_name = ecchi_Kawabata
+    historical = yes
+    culture = cu:japanese
+    female = no
+	dna = ecchi_dna_yasunari_kawabata
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_suzuki_bunji
+    birth_date = 1899.6.11
+    traits = { persistent literacy }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                cu:japanese = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_KANSAI
+        }
+        earliest_usage_date = 1924.10.1
+        latest_usage_date = 1972.4.16
+        chance = 65
     }
 }

@@ -563,38 +563,39 @@ ecchi_gbr_elphinstone_character_template = {
 	}
 }
 
-ecchi_gbr_haig_character_template = {
-	first_name = Douglas
-	last_name = Haig
-	culture = cu:british
-	female = no
-	religion = rel:protestant
-	ideology = ideology_moderate
-	commander_rank = default
-	interest_group = ig_armed_forces
-	birth_date = 1861.6.19
-	dna = ecchi_dna_douglas_haig
-	traits = { trench_rat expert_defensive_strategist experienced_artillery_commander }
-	commander_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:GBR
-                    this = c:GBR
-                    NOT = { exists = c:ENG }
-                }
-                AND = {
-                    exists = c:ENG
-                    this = c:ENG
-                }
-            }
-        }
-		role = general
-		earliest_usage_date = 1903.1.1
-		latest_usage_date = 1928.1.29
-		chance = 50
-	}
-}
+# ecchi_gbr_haig_character_template = {
+# 	first_name = Douglas
+# 	last_name = Haig
+# 	culture = cu:british
+# 	female = no
+# 	religion = rel:protestant
+# 	ideology = ideology_moderate
+# 	commander_rank = default
+# 	interest_group = ig_armed_forces
+# 	birth_date = 1861.6.19
+# 	dna = ecchi_dna_douglas_haig
+# 	traits = { trench_rat expert_defensive_strategist experienced_artillery_commander }
+# 	commander_usage = {
+#         country_trigger = {
+#             hga_is_active = no
+#             OR = {
+#                 AND = {
+#                     exists = c:GBR
+#                     this = c:GBR
+#                     NOT = { exists = c:ENG }
+#                 }
+#                 AND = {
+#                     exists = c:ENG
+#                     this = c:ENG
+#                 }
+#             }
+#         }
+# 		role = general
+# 		earliest_usage_date = 1903.1.1
+# 		latest_usage_date = 1928.1.29
+# 		chance = 50
+# 	}
+# }
 
 ecchi_gbr_lawrence_character_template = {
     first_name = ecchi_T_E

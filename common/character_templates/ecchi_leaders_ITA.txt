@@ -292,3 +292,34 @@ mr_ita_togliatti_character_template = {
         chance = 65
     }
 }
+
+## Antonio Canepa
+
+mr_ita_canepa_character_template = {
+    dna = ecchi_dna_ita_canepa
+    first_name = ecchi_Antonio
+    last_name = ecchi_Canepa
+    culture = cu:south_italian
+    female = no
+    interest_group = ig_armed_forces
+    birth_date = 1908.10.25
+    historical = yes
+    ideology = ideology_social_democrat
+    traits = {
+        charismatic
+        persistent
+    }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                cu:south_italian = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_SICILY
+        }
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 1945.6.17
+        chance = 65
+    }
+}

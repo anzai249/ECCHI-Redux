@@ -1,225 +1,327 @@
 ﻿# Modern Malaysia
-
 ecchi_joh_aw_character_template = {
-    first_name = ecchi_Boon-Haw
-    last_name = ecchi_Aw
-    historical = yes
-    culture = cu:hakka
-    female = no
-    religion = rel:mahayana
-    ideology = ideology_market_liberal
-    interest_group = ig_industrialists
+	first_name = ecchi_Boon-Haw
+	last_name = ecchi_Aw
+	historical = yes
+	culture = cu:hakka
+	female = no
+	religion = rel:mahayana
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
 	dna = ecchi_dna_aw_boon_haw
-    birth_date = 1882.12.11
-    traits = { innovative meticulous demagogue }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:BUR
-                    this = c:BUR
-                    NOT = { exists = c:JOH }
-                }
-                AND = {
-                    exists = c:JOH
-                    this = c:JOH
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
-        }
-        earliest_usage_date = 1925.1.1
-        latest_usage_date = 1954.9.4
-        chance = 65
-    }
+	birth_date = 1882.12.11
+	traits = {
+		innovative
+		meticulous
+		demagogue
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:BUR
+					this = c:BUR
+					NOT = {
+						exists = c:JOH
+					}
+				}
+				AND = {
+					exists = c:JOH
+					this = c:JOH
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1925.1.1
+		latest_usage_date = 1954.9.4
+		chance = 65
+	}
 }
 
 # Kazakhstan
-
 ecchi_kaz_bukeikhanov_character_template = {
-    first_name = ecchi_Alikhan
-    last_name = Bukeikhanov
-    historical = yes
-    culture = cu:kazak
-    female = no
-    religion = rel:sunni
-    ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+	first_name = ecchi_Alikhan
+	last_name = Bukeikhanov
+	historical = yes
+	culture = cu:kazak
+	female = no
+	religion = rel:sunni
+	ideology = ideology_republican_leader
+	interest_group = ig_intelligentsia
 	dna = ecchi_dna_alikhan_bukeikhanov
-    birth_date = 1866.3.5
-    traits = { romantic reckless persistent surveyor }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:KAZ
-            this = c:KAZ
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_trade_unions
-            }
-        }
-        earliest_usage_date = 1900.1.1
-        latest_usage_date = 1937.9.27
-        chance = 65
-    }
+	birth_date = 1866.3.5
+	traits = {
+		romantic
+		reckless
+		persistent
+		surveyor
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:KAZ
+			this = c:KAZ
+		}
+		interest_group_trigger = {
+			is_marginal = no
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_trade_unions
+			}
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1937.9.27
+		chance = 65
+	}
 }
 
 # Georgia
-
 ecchi_geo_chavchavadze_character_template = {
-    first_name = Ilia
-    last_name = ecchi_Chavchavadze
-    historical = yes
-    culture = cu:georgian
-    female = no
-    religion = rel:orthodox
-    ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+	first_name = Ilia
+	last_name = ecchi_Chavchavadze
+	historical = yes
+	culture = cu:georgian
+	female = no
+	religion = rel:orthodox
+	ideology = ideology_republican_leader
+	interest_group = ig_intelligentsia
 	dna = ecchi_dna_ilia_chavchavadze
-    birth_date = 1837.11.8
-    traits = { innovative romantic demagogue }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:GEO
-            this = c:GEO
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
-            }
-        }
-        earliest_usage_date = 1870.1.1
-        latest_usage_date = 1907.9.12
-        chance = 65
-    }
+	birth_date = 1837.11.8
+	traits = {
+		innovative
+		romantic
+		demagogue
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:GEO
+			this = c:GEO
+		}
+		interest_group_trigger = {
+			is_marginal = no
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_rural_folk
+			}
+		}
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1907.9.12
+		chance = 65
+	}
 }
 
 ecchi_geo_cholokashvili_character_template = {
-    first_name = ecchi_Kakutsa
-    last_name = Cholokashvili
-    historical = yes
-    culture = cu:georgian
-    female = no
-    religion = rel:orthodox
-    ideology = ideology_republican_leader
-    interest_group = ig_armed_forces
+	first_name = ecchi_Kakutsa
+	last_name = Cholokashvili
+	historical = yes
+	culture = cu:georgian
+	female = no
+	religion = rel:orthodox
+	ideology = ideology_republican_leader
+	interest_group = ig_armed_forces
 	dna = ecchi_dna_kakutsa_cholokashvili
-    birth_date = 1888.7.14
-    traits = { mountain_commander popular_commander }
-    commander_rank = default
-    commander_usage = {
-        country_trigger = {
-            exists = c:GEO
-            this = c:GEO
-        }
-        role = general
-        earliest_usage_date = 1910.1.1
-        latest_usage_date = 1930.6.27
-        chance = 65
-    }
+	birth_date = 1888.7.14
+	traits = {
+		mountain_commander
+		popular_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:GEO
+			this = c:GEO
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1930.6.27
+		chance = 65
+	}
 }
 
 # Turkey
-
 ecchi_tur_ataturk_character_template = {
-    first_name = ecchi_Mustafa_Kemal
-    last_name = ecchi_Ataturk
-    historical = yes
-    culture = cu:turkish
-    female = no
-    religion = rel:sunni
-    ideology = ideology_reformer
-    interest_group = ig_rural_folk
+	first_name = ecchi_Mustafa_Kemal
+	last_name = ecchi_Ataturk
+	historical = yes
+	culture = cu:turkish
+	female = no
+	religion = rel:sunni
+	ideology = ideology_reformer
+	interest_group = ig_rural_folk
 	dna = ecchi_dna_mustafa_kemal_ataturk
-    birth_date = 1881.5.19
-    traits = { innovative charismatic demagogue romantic celebrity_commander }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:TUR
-            this = c:TUR
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_intelligentsia
-            }
-        }
-        earliest_usage_date = 1910.1.1
-        latest_usage_date = 1938.11.10
-        chance = 65
-    }
+	birth_date = 1881.5.19
+	traits = {
+		innovative
+		charismatic
+		demagogue
+		romantic
+		celebrity_commander
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		interest_group_trigger = {
+			is_marginal = no
+			OR = {
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1938.11.10
+		chance = 65
+	}
 }
 
 ## Halide Edib Adivar
-
 ecchi_tur_halide_edib_adivar_character_template = {
-    first_name = ecchi_Halide_Edib
-    last_name = ecchi_Adivar
-    historical = yes
-    culture = cu:turkish
-    female = yes
-    religion = rel:sunni
-    ideology = ideology_feminist
-    interest_group = ig_intelligentsia
-    dna = ecchi_dna_halide_edib_adivar
-    birth_date = 1884.6.11
-    traits = { romantic demagogue literary }
-    agitator_usage = {
-        country_trigger = {
-            exists = c:TUR
-            this = c:TUR
-        }
-        earliest_usage_date = 1910.1.1
-        latest_usage_date = 1925.1.1
-        chance = 65
-    }
+	first_name = ecchi_Halide_Edib
+	last_name = ecchi_Adivar
+	historical = yes
+	culture = cu:turkish
+	female = yes
+	religion = rel:sunni
+	ideology = ideology_feminist
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_halide_edib_adivar
+	birth_date = 1884.6.11
+	traits = {
+		romantic
+		demagogue
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1925.1.1
+		chance = 65
+	}
 }
 
 # Palestine
-
 ecchi_pal_trumpeldor_character_template = {
-    first_name = Joseph
-    last_name = ecchi_Trumpeldor
-    historical = yes
-    culture = cu:russian
-    female = no
-    religion = rel:jewish
-    ideology = ideology_radical
-    interest_group = ig_armed_forces
+	first_name = Joseph
+	last_name = ecchi_Trumpeldor
+	historical = yes
+	culture = cu:ashkenazi
+	female = no
+	religion = rel:jewish
+	ideology = ideology_radical
+	interest_group = ig_armed_forces
 	dna = ecchi_dna_joseph_trumpeldor
-    birth_date = 1880.11.21
-    traits = { pious brave reckless }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:PAL
-                    this = c:PAL
-                    NOT = { exists = c:ISR }
-                }
-                AND = {
-                    exists = c:ISR
-                    this = c:ISR
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_devout
-            }
-        }
-        earliest_usage_date = 1911.1.1
-        latest_usage_date = 1920.3.1
-        chance = 65
-    }
+	birth_date = 1880.11.21
+	traits = {
+		pious
+		brave
+		reckless
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:ISR
+					this = c:ISR
+				}
+				AND = {
+					has_state_in_state_region = STATE_NORTH_CAUCASUS
+					NOT = {
+						cu:ashkenazi = {
+							culture_is_discriminated_in = root
+						}
+					}
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_marginal = no
+			OR = {
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_devout
+			}
+		}
+		earliest_usage_date = 1911.1.1
+		latest_usage_date = 1920.3.1
+		chance = 65
+	}
+}
+
+## Sholem Aleichem
+ecchi_pal_sholem_aleichem_character_template = {
+	first_name = ecchi_Sholem
+	last_name = ecchi_Aleichem
+	historical = yes
+	culture = cu:ashkenazi
+	female = no
+	religion = rel:jewish
+	ideology = ideology_pacifist
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_sholem_aleichem
+	birth_date = 1859.3.2
+	traits = {
+		literary
+		romantic
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:ISR
+					this = c:ISR
+				}
+				AND = {
+					has_state_in_state_region = STATE_KHARKOV
+					NOT = {
+						cu:ashkenazi = {
+							culture_is_discriminated_in = root
+						}
+					}
+				}
+			}
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1916.5.13
+		chance = 65
+	}
+}
+
+# Lebanon
+## Kahlil Gibran
+ecchi_pal_kahlil_gibran_character_template = {
+	first_name = ecchi_Kahlil
+	last_name = ecchi_Gibran
+	historical = yes
+	culture = cu:mashriqi
+	female = no
+	religion = rel:catholic
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_kahlil_gibran
+	birth_date = 1883.1.6
+	ideology = ideology_leader_atheist
+	traits = {
+		literary
+		charismatic
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_LEBANON
+			NOT = {
+				cu:mashriqi = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1931.4.10
+		chance = 65
+	}
 }

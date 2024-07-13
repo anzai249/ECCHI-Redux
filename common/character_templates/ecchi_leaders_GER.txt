@@ -584,3 +584,32 @@ ecchi_ger_benz_carl_character_template = {
 		chance = 65
 	}
 }
+
+## Jacob Grimm
+
+ecchi_ger_grimm_character_template = {
+	first_name = Jacob
+	last_name = ecchi_Grimm
+	culture = cu:north_german
+	religion = rel:protestant
+	historical = yes
+	female = no
+	ideology = ideology_corporatist
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_jacob_grimm
+	birth_date = 1785.1.4
+	traits = { meticulous erudite literacy }
+	agitator_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_HESSE
+            NOT = {
+                cu:north_german = {
+                    culture_is_discriminated_in = root
+                }
+            }
+		}
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1863.9.20
+		chance = 65
+	}
+}

@@ -333,3 +333,32 @@ ecchi_aot_solomon_character_template = {
         chance = 65
     }
 }
+
+## Katherine Mansfield
+
+ecchi_nzl_katherine_mansfield_character_template = {
+    first_name = ecchi_Katherine
+    last_name = ecchi_Mansfield
+    historical = yes
+    culture = cu:british
+    female = yes
+    religion = rel:protestant
+    interest_group = ig_intelligentsia
+    ideology = ideology_pacifist
+    birth_date = 1888.10.14
+	dna = ecchi_dna_katherine_mansfield
+    traits = { literacy explorer romantic charismatic }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_NORTH_ISLAND
+			NOT = {
+				cu:british = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1933.3.19
+        chance = 70
+    }
+}

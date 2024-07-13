@@ -283,6 +283,7 @@ ecchi_spa_weyler_character_template = {
     commander_rank = default
     commander_usage = {
         country_trigger = {
+            hga_is_active = no
             OR = {
                 AND = {
                     exists = c:SPA
