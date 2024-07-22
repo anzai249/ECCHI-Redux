@@ -417,14 +417,18 @@ ecchi_fra_henri_barbusse_character_template = {
                     c:RUS = {
                         has_law = law_type:law_council_republic
                     }
-                    cu:french = {
-                        culture_is_discriminated_in = root
+                    NOT = {
+                        cu:french = {
+                            culture_is_discriminated_in = root
+                        }
                     }
                 }
             }
             else = {
-                cu:french = {
-                    culture_is_discriminated_in = root
+                NOT = {
+                    cu:french = {
+                        culture_is_discriminated_in = root
+                    }
                 }
                 has_state_in_state_region = STATE_ILE_DE_FRANCE
             }

@@ -325,3 +325,70 @@ ecchi_pal_kahlil_gibran_character_template = {
 		chance = 65
 	}
 }
+
+# Nepal
+## Parijat
+
+ecchi_nep_parijat_character_template = {
+	first_name = ecchi_Bishnu_Kumari
+	last_name = ecchi_Waiba
+	historical = yes
+	culture = cu:nepali
+	female = yes
+	ideology = ideology_feminist
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_bishnu_kumari_waiba
+	birth_date = 1937.9.4
+	traits = {
+		literary
+		romantic
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			exists = c:NEP
+			this = c:NEP
+		}
+		earliest_usage_date = 1950.1.1
+		latest_usage_date = 1993.1.1
+		chance = 65
+	}
+}
+
+# Afghanistan
+
+## Mahmud Tarzi
+
+ecchi_afg_mahmud_tarzi_character_template = {
+	first_name = Mahmud
+	last_name = ecchi_Tarzi
+	historical = yes
+	culture = cu:pashtun
+	female = no
+	religion = rel:sunni
+	ideology = ideology_leader_atheist
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_mahmud_tarzi
+	birth_date = 1865.8.23
+	traits = {
+		innovative
+		persistent
+		experienced_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_KABUL
+			NOT = {
+				cu:pashtun = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1901.1.1
+		latest_usage_date = 1933.11.22
+		chance = 65
+	}
+}

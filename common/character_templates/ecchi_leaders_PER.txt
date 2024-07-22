@@ -1,0 +1,98 @@
+﻿# Persia
+## Jalal al-Din Mirza Qajar
+ecchi_per_jalal_al_din_mirza_character_template = {
+	first_name = ecchi_Jalal_al_Din_Mirza
+	last_name = Qajar
+	historical = yes
+	culture = cu:persian
+	female = no
+	ideology = ideology_liberal_leader
+	interest_group = ig_intelligentsia
+	dna = ecchi_dna_jalal_al_din_mirza
+	birth_date = 1827.1.1
+	traits = {
+		persistent
+		literacy
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_IRAKAJEMI
+			NOT = {
+				cu:persian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1872.1.1
+		chance = 65
+	}
+}
+
+## Tāhirih Qurrat al-‘Ayn
+ecchi_per_tahirih_qurrat_al_ayn_character_template = {
+	first_name = ecchi_Fatimah
+	last_name = ecchi_Baraghani
+	historical = yes
+	culture = cu:persian
+	female = yes
+	ideology = ideology_theocrat
+	interest_group = ig_devout
+	dna = ecchi_dna_tahirih_qurrat_al_ayn
+	birth_date = 1817.1.1
+	traits = {
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_IRAKAJEMI
+			NOT = {
+				cu:persian = {
+					culture_is_discriminated_in = root
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1852.8.16
+		chance = 65
+	}
+}
+
+# Amin al-Soltan
+ecchi_per_amin_al_soltan_character_template = {
+	first_name = ecchi_Ali
+	last_name = ecchi_Asghar
+	historical = yes
+	culture = cu:persian
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_landowners
+	dna = ecchi_dna_amin_al_soltan
+	birth_date = 1858.1.6
+	traits = {
+		persistent
+		experienced_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_IRAKAJEMI
+			NOT = {
+				cu:persian = {
+					culture_is_discriminated_in = root
+				}
+			}
+			interest_group_trigger = {
+				is_interest_group_type = ig_landowners
+			}
+			earliest_usage_date = 1887.1.1
+			latest_usage_date = 1907.8.31
+			chance = 65
+		}
+	}
+}

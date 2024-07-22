@@ -1597,3 +1597,40 @@ ecchi_gbr_chaplin_charlie_character_template = {
         chance = 60
     }
 }
+
+## Arthur Conolly
+
+ecchi_gbr_conolly_arthur_character_template = {
+    dna = ecchi_gbr_conolly_arthur
+    first_name = Arthur
+    last_name = Conolly
+    culture = cu:british
+    female = no
+    interest_group = ig_armed_forces
+    birth_date = 1807.7.2
+    historical = yes
+    ideology = ideology_traditionalist
+    commander_rank = default
+    traits = {
+        plains_commander
+        explorer
+        charismatic
+        literary
+    }
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                has_state_in_state_region = STATE_HOME_COUNTIES
+                NOT = {
+                    cu:british = {
+                        culture_is_discriminated_in = root
+                    }
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1842.6.17
+        chance = 50
+    }
+}

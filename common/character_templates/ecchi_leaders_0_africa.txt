@@ -325,6 +325,35 @@ ecchi_sud_az_zubayr_character_template = {
     }
 }
 
+## Taha Hussein
+
+ecchi_sud_taha_hussein_character_template = {
+    first_name = ecchi_Taha
+    last_name = ecchi_Hussein
+    historical = yes
+    culture = cu:sudanese
+    female = no
+    religion = rel:sunni
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_taha_hussein
+    birth_date = 1889.11.14
+    traits = { charismatic innovative experienced_political_operator }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_MIDDLE_EGYPT
+            NOT = {
+                cu:sudanese ={
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1973.10.28
+        chance = 65
+    }
+}
+
 # Somali
 
 ecchi_wsg_hassan_character_template = {
