@@ -43,7 +43,7 @@ ecchi_usa_van_buren_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_abolitionist #Free Soil Party
+    ideology = ideology_jacksonian_democrat #only became a true abolitionist later
     interest_group = ig_rural_folk
     birth_date = 1782.12.5
 	dna = ecchi_dna_martin_van_buren
@@ -157,7 +157,7 @@ ecchi_usa_fillmore_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant #Nontrinitarian
-    ideology = ideology_ethno_nationalist #Know Nothing Party
+    ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
     birth_date = 1800.1.7
 	dna = ecchi_dna_millard_fillmore
@@ -384,11 +384,11 @@ ecchi_usa_cleveland_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
+    ideology = ideology_market_liberal
     interest_group = ig_industrialists
     birth_date = 1837.3.18
 	dna = ecchi_dna_grover_cleveland
-    traits = { direct persistent tactful }
+    traits = { honorable persistent tactful }
     interest_group_leader_usage = {
         country_trigger = {
             is_usfp_active = no
@@ -461,6 +461,8 @@ ecchi_usa_mckinley_character_template = {
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_industrialists
 				is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_devout
 			}
         }
         earliest_usage_date = 1885.3.4
@@ -476,7 +478,7 @@ ecchi_usa_taft_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant #Nontrinitarian
-    ideology = ideology_traditionalist
+    ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_william_howard_taft
     birth_date = 1857.9.15
@@ -658,7 +660,7 @@ ecchi_usa_fremont_character_template = {
     culture = cu:dixie
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
+    ideology = ideology_abolitionist
     interest_group = ig_petty_bourgeoisie
     birth_date = 1813.1.21
 	dna = ecchi_dna_john_c_fremont
@@ -1046,7 +1048,7 @@ ecchi_usa_thomas_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_reformer
+    ideology = ideology_social_democrat
     interest_group = ig_trade_unions
 	dna = ecchi_dna_norman_thomas
     birth_date = 1884.11.20
@@ -1108,7 +1110,7 @@ ecchi_usa_browder_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_communist
+    ideology = ideology_vanguardist
     interest_group = ig_trade_unions
 	dna = ecchi_dna_earl_browder
     birth_date = 1891.5.20
@@ -1136,7 +1138,7 @@ ecchi_usa_lindbergh_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_jingoist_leader
+    ideology = ideology_ethno_nationalist
     interest_group = ig_armed_forces
     birth_date = 1902.2.4
 	dna = ecchi_dna_charles_linbergh
@@ -1221,7 +1223,7 @@ ecchi_usa_putnam_character_template = {
     birth_date = 1814.2.7
 	dna = ecchi_dna_george_putnam
     traits = { expensive_tastes meticulous cautious }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -1256,8 +1258,8 @@ ecchi_usa_barnum_character_template = {
     interest_group = ig_intelligentsia
     birth_date = 1810.7.5
 	dna = ecchi_dna_p_t_barnum
-    traits = { innovative meticulous }
-    interest_group_leader_usage = {
+    traits = { innovative meticulous grifter }
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             c:USA ?= this
@@ -1322,7 +1324,7 @@ ecchi_usa_westinghouse_character_template = {
 	dna = ecchi_dna_george_westinghouse
     birth_date = 1846.10.6
     traits = { persistent innovative }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             c:USA ?= this
@@ -1343,12 +1345,12 @@ ecchi_usa_keller_character_template = {
     culture = cu:dixie
     female = yes
     religion = rel:protestant
-    ideology = ideology_feminist
+    ideology = ideology_communist
     interest_group = ig_trade_unions
 	dna = ecchi_dna_helen_keller
     birth_date = 1880.6.27
     traits = { charismatic cautious }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -1374,6 +1376,21 @@ ecchi_usa_keller_character_template = {
         latest_usage_date = 1968.6.1
         chance = 65
     }
+    on_created = {
+        #in the United Syndicates, Communist ideology becomes less relevant since those laws are already in power
+        if = {
+            limit = {
+                owner = {
+                    has_technology_researched = feminism
+                    has_law = law_type:law_council_republic
+                }
+            }
+            set_ideology = ideology:ideology_feminist
+        }
+        else = {
+            set_ideology = ideology:ideology_communist
+        }
+    }
 }
 
 ecchi_usa_hill_character_template = {
@@ -1383,12 +1400,12 @@ ecchi_usa_hill_character_template = {
     culture = cu:swedish
     female = no
     religion = rel:protestant
-    ideology = ideology_social_democrat
+    ideology = ideology_communist
     interest_group = ig_trade_unions
 	dna = ecchi_dna_joe_hill
     birth_date = 1879.10.7
     traits = { romantic demagogue }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -1416,31 +1433,32 @@ ecchi_usa_hill_character_template = {
     }
 }
 
-ecchi_usa_twain_character_template = {
-    first_name = Mark
-    last_name = ecchi_Twain
-    historical = yes
-    culture = cu:yankee
-    female = no
-    religion = rel:protestant
-    ideology = ideology_social_democrat
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_mark_twain
-    birth_date = 1835.11.30
-    traits = { inspirational_orator charismatic }
-    interest_group_leader_usage = {
-        country_trigger = {
-            is_usfp_active = no
-            c:USA ?= this
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1865.1.1
-        latest_usage_date = 1910.4.21
-        chance = 65
-    }
-}
+#Mark Twain is in the base game now
+# ecchi_usa_twain_character_template = {
+#     first_name = Mark
+#     last_name = ecchi_Twain
+#     historical = yes
+#     culture = cu:yankee
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_social_democrat
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_mark_twain
+#     birth_date = 1835.11.30
+#     traits = { inspirational_orator charismatic }
+#     agitator_usage = {
+#         country_trigger = {
+#             is_usfp_active = no
+#             c:USA ?= this
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1865.1.1
+#         latest_usage_date = 1910.4.21
+#         chance = 65
+#     }
+# }
 
 ecchi_usa_chrysler_character_template = {
     first_name = Walter
@@ -1454,7 +1472,7 @@ ecchi_usa_chrysler_character_template = {
 	dna = ecchi_dna_walter_chrysler
     birth_date = 1875.4.2
     traits = { arrogant persistent expensive_tastes }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
@@ -1526,6 +1544,7 @@ ecchi_usa_colt_character_template = {
     }
 }
 
+#non-political figure
 ecchi_usa_capone_character_template = {
     first_name = ecchi_Al
     last_name = ecchi_Capone
@@ -1538,22 +1557,22 @@ ecchi_usa_capone_character_template = {
 	dna = ecchi_dna_al_capone
     birth_date = 1899.1.17
     traits = { cruel grifter imperious expensive_tastes scarred }
-    interest_group_leader_usage = {
-        country_trigger = {
-            is_usfp_active = no
-            c:USA ?= this
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_rural_folk
-            }
-        }
-        earliest_usage_date = 1920.1.1
-        latest_usage_date = 1947.1.25
-        chance = 25
-    }
+    # agitator_usage = {
+    #     country_trigger = {
+    #         is_usfp_active = no
+    #         c:USA ?= this
+    #     }
+    #     interest_group_trigger = {
+    #         is_marginal = no
+    #         OR = {
+    #             is_interest_group_type = ig_petty_bourgeoisie
+    #             is_interest_group_type = ig_rural_folk
+    #         }
+    #     }
+    #     earliest_usage_date = 1920.1.1
+    #     latest_usage_date = 1947.1.25
+    #     chance = 0 #non-political
+    # }
 }
 
 ecchi_usa_sutter_sr_character_template = {
@@ -1592,7 +1611,7 @@ ecchi_usa_sutter_sr_character_template = {
         }
         earliest_usage_date = 1840.1.1
         latest_usage_date = 1880.6.21
-        chance = 65
+        chance = 5
     }
 }
 
@@ -1608,7 +1627,7 @@ ecchi_cal_sutter_jr_character_template = {
 	dna = ecchi_dna_john_augustus_sutter
     birth_date = 1826.10.25
     traits = { persistent meticulous }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             exists = c:CAL
@@ -1635,7 +1654,7 @@ ecchi_cal_strauss_character_template = {
 	dna = ecchi_dna_levi_strauss
     birth_date = 1829.2.26
     traits = { innovative direct }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             exists = c:CAL
@@ -1666,7 +1685,7 @@ ecchi_usa_browning_character_template = {
 	dna = ecchi_dna_john_browning
     birth_date = 1855.1.23
     traits = { innovative meticulous }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
@@ -1703,7 +1722,7 @@ ecchi_usa_bates_character_template = {
 	dna = ecchi_dna_katharine_lee_bates
     birth_date = 1859.8.12
     traits = { romantic inspirational_orator }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -1739,7 +1758,7 @@ ecchi_usa_baum_character_template = {
 	dna = ecchi_dna_l_frank_baum
     birth_date = 1856.5.15
     traits = { bigoted pious }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             c:USA ?= this
@@ -2001,7 +2020,7 @@ ecchi_asa_delany_character_template = {
 	dna = ecchi_dna_martin_delany
     birth_date = 1812.5.6
     traits = { innovative firebrand expensive_tastes }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
 			exists = c:ASA
@@ -2033,7 +2052,7 @@ ecchi_asa_singleton_character_template = {
 	dna = ecchi_dna_benjamin_singleton
     birth_date = 1809.4.17
     traits = { charismatic tactful direct }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
 			exists = c:ASA
@@ -2064,7 +2083,7 @@ ecchi_asa_turner_character_template = {
 	dna = ecchi_dna_henry_turner
     birth_date = 1834.2.1
     traits = { pious tactful reserved }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
 			exists = c:ASA
@@ -2092,7 +2111,7 @@ ecchi_asa_garnet_character_template = {
 	dna = ecchi_dna_henry_garnet
     birth_date = 1815.12.23
     traits = { inspirational_orator romantic }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
 			exists = c:ASA
@@ -2145,36 +2164,37 @@ ecchi_asa_garnet_character_template = {
 #     }
 # }
 
-ecchi_asa_du_bois_character_template = {
-    first_name = ecchi_W_E_B
-    last_name = Du_Bois
-    historical = yes
-    culture = cu:afro_american
-    female = no
-    religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_trade_unions
-	dna = ecchi_dna_web_du_bois
-    birth_date = 1868.2.23
-    traits = { tactful romantic }
-    interest_group_leader_usage = {
-        country_trigger = {
-            is_usfp_active = no
-            exists = c:ASA
-            this = c:ASA
-        }
-        interest_group_trigger = {
-            is_marginal = no
-			OR = {
-				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_intelligentsia
-			}
-        }
-        earliest_usage_date = 1899.1.1
-        latest_usage_date = 1963.8.27
-        chance = 65
-    }
-}
+#WEB Du Bois is a base-game agitator now
+# ecchi_asa_du_bois_character_template = {
+#     first_name = ecchi_W_E_B
+#     last_name = Du_Bois
+#     historical = yes
+#     culture = cu:afro_american
+#     female = no
+#     religion = rel:protestant
+#     ideology = ideology_reformer
+#     interest_group = ig_trade_unions
+# 	dna = ecchi_dna_web_du_bois
+#     birth_date = 1868.2.23
+#     traits = { tactful romantic }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             is_usfp_active = no
+#             exists = c:ASA
+#             this = c:ASA
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+# 			OR = {
+# 				is_interest_group_type = ig_trade_unions
+# 				is_interest_group_type = ig_intelligentsia
+# 			}
+#         }
+#         earliest_usage_date = 1899.1.1
+#         latest_usage_date = 1963.8.27
+#         chance = 65
+#     }
+# }
 
 # US theologians
 
@@ -2185,7 +2205,7 @@ ecchi_usa_moody_character_template = {
     culture = cu:yankee
     female = no
     religion = rel:protestant
-    ideology = ideology_theocrat
+    ideology = ideology_moderate
     interest_group = ig_devout
     birth_date = 1837.2.5
     traits = { inspirational_orator charismatic ambitious }
@@ -2226,7 +2246,7 @@ ecchi_usa_joseph_smith_character_template = {
 	dna = ecchi_dna_joseph_smith
     birth_date = 1805.12.23
     traits = { hedonist ambitious inspirational_orator }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -2262,7 +2282,7 @@ ecchi_usa_brigham_young_character_template = {
 	dna = ecchi_dna_brigham_young
     birth_date = 1801.6.1
     traits = { bigoted hedonist persistent }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
             is_usfp_active = no
             OR = {
@@ -2302,6 +2322,7 @@ ecchi_usa_addams_character_template = {
     traits = { charismatic romantic }
     agitator_usage = {
         country_trigger = {
+            is_usfp_active = no
             OR = {
                 AND = {
                     exists = c:USA
