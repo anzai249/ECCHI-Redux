@@ -1334,6 +1334,7 @@ ecchi_gbr_fawcett_character_template = {
         country_trigger = {
             exists = c:GBR
             this = c:GBR
+			has_technology_researched = feminism
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia

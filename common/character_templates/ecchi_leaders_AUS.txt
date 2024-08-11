@@ -444,3 +444,36 @@ ecchi_aus_tito_character_template = {
         chance = 70
     }
 }
+
+## Karl Johann Kautsky
+
+ecchi_aus_kautsky_character_template = {
+    first_name = ecchi_Karl_Johann
+    last_name = ecchi_Kautsky
+    historical = yes
+    culture = cu:south_german
+    female = no
+    religion = rel:jewish
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_karl_johann_kautsky
+    birth_date = 1854.10.16
+    traits = { literary persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+			has_state_in_state_region = STATE_BRANDENBURG
+			NOT = {
+				cu:south_german = {
+					culture_is_discriminated_in = root
+				}
+			}
+			has_technology_researched = socialism
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1938.10.17
+        chance = 65
+    }
+}

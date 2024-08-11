@@ -60,6 +60,96 @@ ecchi_cub_marti_character_template = {
     }
 }
 
+## Antonio Maceo
+
+ecchi_cub_maceo_character_template = {
+    first_name = ecchi_Jose_Antonio
+    last_name = ecchi_Maceo
+    historical = yes
+    culture = cu:caribeno
+    female = no
+    religion = rel:catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_antonio_maceo
+    birth_date = 1845.6.14
+    traits = { forest_commander brave reckless }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+			NOT = {
+				cu:caribeno = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        role = general
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1896.12.7
+        chance = 55
+    }
+}
+
+## Máximo Goméz
+
+ecchi_cub_gomez_character_template = {
+    first_name = ecchi_Maximo
+    last_name = ecchi_Gomez
+    historical = yes
+    culture = cu:caribeno
+    female = no
+    religion = rel:catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_maximo_gomez
+    birth_date = 1836.11.18
+    traits = { brave reckless persistent }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:CUB
+            this = c:CUB
+        }
+        role = general
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1902.5.1
+        chance = 65
+    }
+}
+
+## Calixto García
+
+ecchi_cub_garcia_character_template = {
+    first_name = Calixto
+    last_name = Garcia
+    historical = yes
+    culture = cu:caribeno
+    female = no
+    religion = rel:catholic
+    ideology = ideology_abolitionist
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_calixto_garcia
+    birth_date = 1839.8.4
+    traits = { forest_commander ambitious reckless }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+			NOT = {
+				cu:caribeno = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        role = general
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1898.12.11
+        chance = 55
+    }
+}
+
+
 # Haiti
 
 ecchi_hai_soulouque_character_template = {

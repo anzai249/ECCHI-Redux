@@ -199,6 +199,7 @@ ecchi_tur_halide_edib_adivar_character_template = {
 		country_trigger = {
 			exists = c:TUR
 			this = c:TUR
+			has_technology_researched = feminism
 		}
 		earliest_usage_date = 1910.1.1
 		latest_usage_date = 1925.1.1
@@ -348,6 +349,7 @@ ecchi_nep_parijat_character_template = {
 		country_trigger = {
 			exists = c:NEP
 			this = c:NEP
+			has_technology_researched = feminism
 		}
 		earliest_usage_date = 1950.1.1
 		latest_usage_date = 1993.1.1

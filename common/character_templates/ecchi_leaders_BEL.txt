@@ -167,6 +167,7 @@ ecchi_bel_hamer_character_template = {
                     this = c:FLA
                 }
             }
+			has_technology_researched = feminism
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia
