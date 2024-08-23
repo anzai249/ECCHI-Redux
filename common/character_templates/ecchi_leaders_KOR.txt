@@ -115,8 +115,8 @@ ecchi_kor_son_byonghi_character_template = {
 ## Ho Hon
 
 ecchi_kor_ho_hon_character_template = {
-    first_name = ecchi_Ho_1
-    last_name = ecchi_Hon
+    first_name = ecchi_Hon
+    last_name = ecchi_Ho_1
     historical = yes
     culture = cu:korean
     female = no
