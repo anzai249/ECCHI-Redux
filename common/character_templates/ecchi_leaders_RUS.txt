@@ -860,7 +860,7 @@ RUS_georgy_lvov = {
 #Sergey Markov
 RUS_general_markov = {
 	first_name = Sergey
-	last_name = Markov
+	last_name = ecchi_Markov
 	historical = yes
 	culture = cu:russian
 	female = no

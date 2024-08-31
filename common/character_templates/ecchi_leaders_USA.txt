@@ -2636,7 +2636,7 @@ ecchi_usa_spooner_character_template = {
             limit = {
                 c:USA = {
                     has_law = law_slavery_banned
-                    has_technology_researched = anarchy
+                    has_technology_researched = anarchism
                 }
             }
             set_ideology = ideology:ideology_anarchist
