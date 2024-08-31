@@ -109,39 +109,39 @@ ecchi_rus_stalin_character_template = {
 	}
 }
 
-ecchi_rus_kerensky_character_template = {
-	first_name = Alexander
-	last_name = ecchi_Kerensky
-	historical = yes
-	culture = cu:russian
-	female = no
-	religion = rel:orthodox
-	ideology = ideology_social_democrat
-	interest_group = ig_rural_folk
-	dna = ecchi_dna_alexander_kerensky
-	birth_date = 1881.5.4
-	traits = {
-		reckless
-		wrathful
-		bandit
-	}
-	interest_group_leader_usage = {
-		country_trigger = {
-			exists = c:RUS
-			this = c:RUS
-		}
-		interest_group_trigger = {
-			is_marginal = no
-			OR = {
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_intelligentsia
-			}
-		}
-		earliest_usage_date = 1910.1.1
-		latest_usage_date = 1970.6.11
-		chance = 65
-	}
-}
+# ecchi_rus_kerensky_character_template = {
+# 	first_name = Alexander
+# 	last_name = ecchi_Kerensky
+# 	historical = yes
+# 	culture = cu:russian
+# 	female = no
+# 	religion = rel:orthodox
+# 	ideology = ideology_social_democrat
+# 	interest_group = ig_rural_folk
+# 	dna = ecchi_dna_alexander_kerensky
+# 	birth_date = 1881.5.4
+# 	traits = {
+# 		reckless
+# 		wrathful
+# 		bandit
+# 	}
+# 	interest_group_leader_usage = {
+# 		country_trigger = {
+# 			exists = c:RUS
+# 			this = c:RUS
+# 		}
+# 		interest_group_trigger = {
+# 			is_marginal = no
+# 			OR = {
+# 				is_interest_group_type = ig_rural_folk
+# 				is_interest_group_type = ig_intelligentsia
+# 			}
+# 		}
+# 		earliest_usage_date = 1910.1.1
+# 		latest_usage_date = 1970.6.11
+# 		chance = 65
+# 	}
+# }
 
 # Russia - theocrats
 ecchi_rus_rasputin_character_template = {
