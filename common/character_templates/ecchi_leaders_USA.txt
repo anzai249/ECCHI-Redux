@@ -2570,7 +2570,7 @@ ecchi_usa_mott_character_template = {
 		if = {
 			limit = {
 				c:USA = {
-					has_law = law_slavery_banned
+					has_law = law_type:law_slavery_banned
 			        has_technology_researched = feminism
 				}
 			}
@@ -2635,7 +2635,7 @@ ecchi_usa_spooner_character_template = {
         if = {
             limit = {
                 c:USA = {
-                    has_law = law_slavery_banned
+                    has_law = law_type:law_slavery_banned
                     has_technology_researched = anarchism
                 }
             }

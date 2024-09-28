@@ -742,23 +742,23 @@ ecchi_ger_zetkin_character_template = {
 		interest_group_trigger = {
 			is_interest_group_type = ig_petty_bourgeoisie
 		}
-		on_created = {
-			if = {
-				limit = {
-					owner = {
-						OR = {
-							has_law = law_type:law_womens_suffrage
-							has_law = law_type:law_women_in_the_workplace
-						}
-						has_technology_researched = socialism
-					}
-				}
-				set_ideology = ideology:ideology_communist
-			}
-		}
 		earliest_usage_date = 1883.1.1
 		latest_usage_date = 1933.6.20
 		chance = 65
+	}
+	on_created = {
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_law = law_type:law_womens_suffrage
+						has_law = law_type:law_women_in_the_workplace
+					}
+					has_technology_researched = socialism
+				}
+			}
+			set_ideology = ideology:ideology_communist
+		}
 	}
 }
 

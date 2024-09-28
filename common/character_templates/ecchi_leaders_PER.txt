@@ -87,12 +87,12 @@ ecchi_per_amin_al_soltan_character_template = {
 					culture_is_discriminated_in = root
 				}
 			}
-			interest_group_trigger = {
-				is_interest_group_type = ig_landowners
-			}
-			earliest_usage_date = 1887.1.1
-			latest_usage_date = 1907.8.31
-			chance = 65
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1907.8.31
+		chance = 65
 	}
 }

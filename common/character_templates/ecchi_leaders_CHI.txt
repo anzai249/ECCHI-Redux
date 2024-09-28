@@ -607,8 +607,8 @@ ecchi_chi_huang_xing_character_template = {
     birth_date = 1874.10.25
     traits = { brave direct }
     interest_group_leader_usage = {
-        hga_is_active = no
         country_trigger = {
+            hga_is_active = no
             exists = c:CHI
             this = c:CHI
         }

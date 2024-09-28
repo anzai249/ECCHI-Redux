@@ -394,3 +394,6 @@ ecchi_afg_mahmud_tarzi_character_template = {
 		chance = 65
 	}
 }
+
+# Lanfang
+## Gu Liubo

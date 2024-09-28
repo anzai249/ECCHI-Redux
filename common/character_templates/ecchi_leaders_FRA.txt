@@ -411,8 +411,8 @@ ecchi_fra_henri_barbusse_character_template = {
     traits = { literary persistent }
     agitator_usage = {
         country_trigger = {
-            if = {
-                limit = {
+            OR = {
+                AND = {
                     c:RUS ?= root
                     c:RUS = {
                         has_law = law_type:law_council_republic
@@ -423,14 +423,14 @@ ecchi_fra_henri_barbusse_character_template = {
                         }
                     }
                 }
-            }
-            else = {
-                NOT = {
-                    cu:french = {
-                        culture_is_discriminated_in = root
+                AND = {
+                    NOT = {
+                        cu:french = {
+                            culture_is_discriminated_in = root
+                        }
                     }
+                    has_state_in_state_region = STATE_ILE_DE_FRANCE
                 }
-                has_state_in_state_region = STATE_ILE_DE_FRANCE
             }
         }
         interest_group_trigger = {

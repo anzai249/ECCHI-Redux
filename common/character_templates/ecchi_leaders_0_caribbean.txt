@@ -149,6 +149,41 @@ ecchi_cub_garcia_character_template = {
     }
 }
 
+## Julio Antonio Mella
+
+ecchi_cub_mella_character_template = {
+    first_name = ecchi_Julio_Antonio
+    last_name = Mella
+    historical = yes
+    culture = cu:caribeno
+    female = no
+    religion = rel:catholic
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_julio_antonio_mella
+    birth_date = 1903.3.25
+    traits = { charismatic ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+			NOT = {
+				cu:caribeno = {
+					culture_is_discriminated_in = root
+				}
+			}
+			has_technology_researched = socialism
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1925.1.1
+        latest_usage_date = 1929.1.10
+        chance = 55
+    }
+}
+
+
 
 # Haiti
 
