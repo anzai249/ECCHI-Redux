@@ -6,7 +6,7 @@ ecchi_czh_palacky_character_template = {
     last_name = ecchi_Palacky
     historical = yes
     culture = cu:czech
-    female = no
+
     religion = rel:protestant
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -49,7 +49,7 @@ ecchi_czh_masaryk_character_template = {
     last_name = Masaryk
     historical = yes
     culture = cu:czech
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -96,7 +96,7 @@ ecchi_czh_kafka_character_template = {
     last_name = Kafka
     historical = yes
     culture = cu:czech
-    female = no
+
     religion = rel:jewish
     ideology = ideology_anarchist
     interest_group = ig_intelligentsia
@@ -146,7 +146,7 @@ ecchi_czh_tiso_character_template = {
     last_name = Tiso
     historical = yes
     culture = cu:slovak
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -193,7 +193,7 @@ ecchi_czh_stefanik_character_template = {
     last_name = Stefanik
     historical = yes
     culture = cu:slovak
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces

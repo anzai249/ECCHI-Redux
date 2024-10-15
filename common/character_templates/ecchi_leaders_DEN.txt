@@ -40,12 +40,12 @@ ecchi_den_kierkegaard_character_template = {
     last_name = ecchi_Kierkegaard
     historical = yes
     culture = cu:danish
-    female = no
+
     ideology = ideology_positivist
     interest_group = ig_petty_bourgeoisie
     dna = ecchi_dna_soren_kierkegaard
     birth_date = 1813.5.5
-    traits = { romantic inspirational_orator direct literacy }
+    traits = { romantic inspirational_orator direct literary }
     agitator_usage = {
         country_trigger = {
             has_state_in_state_region = STATE_ZEALAND

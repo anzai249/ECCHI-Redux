@@ -5,7 +5,6 @@ ecchi_brz_de_andrada_character_template = {
     last_name = ecchi_de_Andrada
     historical = yes
     culture = cu:brazilian
-    female = no
     religion = rel:catholic
     ideology = ideology_abolitionist
     interest_group = ig_intelligentsia
@@ -31,7 +30,6 @@ ecchi_brz_da_fonseca_character_template = {
     last_name = da_Fonseca
     historical = yes
     culture = cu:brazilian
-    female = no
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
@@ -56,7 +54,7 @@ ecchi_brz_da_fonseca_character_template = {
 #     last_name = ecchi_Gama
 #     historical = yes
 #     culture = cu:brazilian
-#     female = no
+# 
 #     religion = rel:catholic
 #     ideology = ideology_abolitionist
 #     interest_group = ig_intelligentsia
@@ -91,7 +89,6 @@ ecchi_brz_irineu_de_sousa_character_template = {
     last_name = de_Sousa
     historical = yes
     culture = cu:brazilian
-    female = no
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -126,7 +123,6 @@ ecchi_brz_paranhos_character_template = {
     last_name = ecchi_Paranhos
     historical = yes
     culture = cu:brazilian
-    female = no
     religion = rel:catholic
     ideology = ideology_royalist
     interest_group = ig_landowners
@@ -165,7 +161,6 @@ ecchi_brz_franciso_de_sousa_character_template = {
     last_name = de_Sousa
     historical = yes
     culture = cu:brazilian
-    female = no
     religion = rel:catholic
     ideology = ideology_slaver
     interest_group = ig_petty_bourgeoisie
@@ -204,7 +199,7 @@ ecchi_brz_franciso_de_sousa_character_template = {
 #     last_name = Vargas
 #     historical = yes
 #     culture = cu:brazilian
-#     female = no
+# 
 #     religion = rel:catholic
 #     ideology = ideology_traditionalist
 #     interest_group = ig_armed_forces
@@ -238,3 +233,118 @@ ecchi_brz_franciso_de_sousa_character_template = {
 #         chance = 65
 #     }
 # }
+
+## Machado de Assis
+ecchi_brz_machado_de_assis_character_template = {
+    first_name = ecchi_Joaquim
+    last_name = ecchi_Machado_de_Assis
+    historical = yes
+    culture = cu:brazilian
+    religion = rel:catholic
+    ideology = ideology_anarchist
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_joaquim_machado_de
+    birth_date = 1839.6.21
+    traits = { literary }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_RIO_DE_JANEIRO
+            has_technology_researched = anarchism
+			NOT = {
+				cu:brazilian = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        earliest_usage_date = 1860.1.1
+        latest_usage_date = 1908.9.29
+        chance = 65
+    }
+}
+
+## Plinio Salgado
+ecchi_brz_plinio_salgado_character_template = {
+    first_name = ecchi_Plinio
+    last_name = ecchi_Salgado
+    historical = yes
+    culture = cu:brazil
+    religion = rel:catholic
+    ideology = ideology_integralist
+    interest_group = ig_devout
+    dna = ecchi_dna_plinio_salgado
+    birth_date = 1895.1.22
+    traits = { experienced_political_operator ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            this = c:BRZ
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1920.1.1
+        latest_usage_date = 1975.12.8
+        chance = 65
+    }
+}
+
+## Anita Malfatti
+ecchi_brz_anita_malfatti_character_template = {
+    first_name = ecchi_Anita
+    last_name = ecchi_Malfatti
+    historical = yes
+    female = yes
+    culture = cu:brazilian
+    religion = rel:catholic
+    ideology = ideology_radical
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_anita_malfatti
+    birth_date = 1889.12.2
+    traits = { literary romantic }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_SAO_PAULO
+            NOT = {
+                cu:brazilian = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1915.1.1
+        latest_usage_date = 1964.11.6
+        chance = 65
+    }
+}
+
+## Monteiro Lobato
+ecchi_brz_monteiro_lobato_character_template = {
+    first_name = Jose
+    last_name = ecchi_Monteiro_Lobato
+    historical = yes
+    culture = cu:brazilian
+    religion = rel:catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_petty_bourgeoisie
+    dna = ecchi_dna_jose_monteiro_lobato
+    birth_date = 1882.4.18
+    traits = { literary }
+    agitator_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_SAO_PAULO
+            NOT = {
+                cu:brazilian = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1948.7.4
+        chance = 65
+    }
+}

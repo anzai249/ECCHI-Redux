@@ -5,7 +5,7 @@ ecchi_ply_gauguin_character_template = {
     last_name = ecchi_Gauguin
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -37,7 +37,7 @@ ecchi_haw_malo_character_template = {
     last_name = Malo
     historical = yes
     culture = cu:hawaiian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_devout
@@ -63,7 +63,7 @@ ecchi_haw_james_dole_character_template = {
     last_name = ecchi_Dole
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -93,7 +93,7 @@ ecchi_haw_dole_character_template = {
     last_name = ecchi_Dole
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_landowners

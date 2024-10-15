@@ -5,7 +5,7 @@ ecchi_net_thorbecke_character_template = {
     last_name = ecchi_Thorbecke
     historical = yes
     culture = cu:dutch
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -31,7 +31,7 @@ ecchi_net_van_den_bosch_character_template = {
     last_name = van_den_Bosch
     historical = yes
     culture = cu:dutch
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -65,7 +65,7 @@ ecchi_net_kuyper_character_template = {
     last_name = ecchi_Kuyper
     historical = yes
     culture = cu:dutch
-    female = no
+
     religion = rel:protestant
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -91,7 +91,7 @@ ecchi_net_troelstra_character_template = {
     last_name = ecchi_Troelstra
     historical = yes
     culture = cu:dutch
-    female = no
+
     religion = rel:protestant
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions

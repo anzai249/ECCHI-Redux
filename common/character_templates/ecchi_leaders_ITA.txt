@@ -5,7 +5,7 @@
 #     last_name = ecchi_DAnnunzio
 #     historical = yes
 #     culture = cu:south_italian
-#     female = no
+# 
 #     religion = rel:catholic
 #     ideology = ideology_ethno_nationalist
 #     interest_group = ig_petty_bourgeoisie
@@ -43,7 +43,7 @@ ecchi_ita_mussolini_character_template = {
     last_name = ecchi_Mussolini
     historical = yes
     culture = cu:north_italian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_fascist
     interest_group = ig_petty_bourgeoisie
@@ -134,7 +134,7 @@ mr_ita_cavour_character_template = {
     first_name = ecchi_Camillo
     last_name = ecchi_Benso
     culture = cu:north_italian
-    female = no
+
     interest_group = ig_industrialists
     birth_date = 1810.8.10
     historical = yes
@@ -175,7 +175,7 @@ mr_ita_balbo_character_template = {
     first_name = ecchi_Italo
     last_name = ecchi_Balbo
     culture = cu:south_italian
-    female = no
+
     interest_group = ig_armed_forces
     birth_date = 1896.6.6
     historical = yes
@@ -220,7 +220,7 @@ mr_ita_nicola_romeo_character_template = {
     first_name = Nicola
     last_name = ecchi_Romeo
     culture = cu:south_italian
-    female = no
+
     interest_group = ig_industrialists
     birth_date = 1876.4.28
     historical = yes
@@ -260,7 +260,7 @@ mr_ita_togliatti_character_template = {
     first_name = ecchi_Palmiro
     last_name = ecchi_Togliatti
     culture = cu:north_italian
-    female = no
+
     interest_group = ig_petty_bourgeoisie
     birth_date = 1893.3.26
     historical = yes
@@ -300,7 +300,7 @@ mr_ita_canepa_character_template = {
     first_name = ecchi_Antonio
     last_name = ecchi_Canepa
     culture = cu:south_italian
-    female = no
+
     interest_group = ig_armed_forces
     birth_date = 1908.10.25
     historical = yes
@@ -320,6 +320,34 @@ mr_ita_canepa_character_template = {
         }
         earliest_usage_date = 1930.1.1
         latest_usage_date = 1945.6.17
+        chance = 65
+    }
+}
+
+## Carlo Lorenzini
+ecchi_ita_collodi_character_template = {
+    first_name = ecchi_Carlo
+    last_name = ecchi_Collodi
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    interest_group = ig_trade_unions
+    dna = ecchi_dna_carlo_collodi
+    birth_date = 1826.11.24
+    ideology = ideology_humanitarian
+    traits = { literary charismatic persistent }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                cu:north_italian = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_TUSCANY
+        }
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1890.10.26
         chance = 65
     }
 }

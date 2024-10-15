@@ -5,7 +5,7 @@ ecchi_nor_amundsen_character_template = {
     last_name = ecchi_Amundsen
     historical = yes
     culture = cu:norwegian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -145,7 +145,7 @@ ecchi_nor_hamsun_knut_character_template = {
 	female = no
 	birth_date = 1859.8.4
 	historical = yes
-	traits = { charismatic ambitious literacy }
+	traits = { charismatic ambitious literary }
 	agitator_usage = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EASTERN_NORWAY

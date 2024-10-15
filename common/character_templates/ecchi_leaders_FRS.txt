@@ -5,7 +5,7 @@ ecchi_frs_tang_jingsong_character_template = {
     last_name = ecchi_Tang
     historical = yes
     culture = cu:han
-    female = no
+
     religion = rel:mahayana
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -39,7 +39,7 @@ ecchi_frs_liu_yongfu_character_template = {
     last_name = Liu
     historical = yes
     culture = cu:hakka
-    female = no
+
     religion = rel:mahayana
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -73,7 +73,7 @@ ecchi_frs_tai_chao_chuen_character_template = {
     last_name = ecchi_Tai
     historical = yes
     culture = cu:min
-    female = no
+
     religion = rel:mahayana
     ideology = ideology_republican_leader
     interest_group = ig_rural_folk
@@ -103,7 +103,7 @@ ecchi_frs_mona_rudao_character_template = {
     last_name = ecchi_Mahebo
     historical = yes
     culture = cu:polynesian
-    female = no
+
     religion = rel:animist
     ideology = ideology_radical
     interest_group = ig_rural_folk

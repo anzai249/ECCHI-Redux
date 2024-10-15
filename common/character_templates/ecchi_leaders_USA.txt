@@ -5,7 +5,7 @@ ecchi_usa_adams_character_template = {
     last_name = Adams
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_abolitionist
     interest_group = ig_petty_bourgeoisie
@@ -41,7 +41,7 @@ ecchi_usa_van_buren_character_template = {
     last_name = Van_Buren
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jacksonian_democrat #only became a true abolitionist later
     interest_group = ig_rural_folk
@@ -67,7 +67,7 @@ ecchi_usa_w_harrison_character_template = {
     last_name = Harrison
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Anglican
     ideology = ideology_republican_leader #Whig party
     interest_group = ig_petty_bourgeoisie
@@ -97,7 +97,7 @@ ecchi_usa_tyler_character_template = {
     last_name = ecchi_Tyler
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -123,7 +123,7 @@ ecchi_usa_polk_character_template = {
     last_name = ecchi_Polk
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_rural_folk
@@ -155,7 +155,7 @@ ecchi_usa_fillmore_template = {
     last_name = Fillmore
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -185,7 +185,7 @@ ecchi_usa_pierce_character_template = {
     last_name = Pierce
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Anglican
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -221,7 +221,7 @@ ecchi_usa_buchanan_character_template = {
     last_name = Buchanan
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_rural_folk
@@ -247,7 +247,7 @@ ecchi_usa_johnson_character_template = {
     last_name = Johnson
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -280,7 +280,7 @@ ecchi_usa_hayes_character_template = {
     last_name = Hayes
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -311,7 +311,7 @@ ecchi_usa_garfield_character_template = {
     last_name = Garfield
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -341,7 +341,7 @@ ecchi_usa_arthur_character_template = {
     last_name = Arthur
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -382,7 +382,7 @@ ecchi_usa_cleveland_character_template = {
     last_name = Cleveland
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -413,7 +413,7 @@ ecchi_usa_b_harrison_character_template = {
     last_name = Harrison
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -443,7 +443,7 @@ ecchi_usa_mckinley_character_template = {
     last_name = McKinley
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_petty_bourgeoisie
@@ -476,7 +476,7 @@ ecchi_usa_taft_character_template = {
     last_name = ecchi_Taft
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -506,7 +506,7 @@ ecchi_usa_wilson_character_template = {
     last_name = Wilson
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -533,7 +533,7 @@ ecchi_usa_harding_character_template = {
     last_name = ecchi_Harding
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_petty_bourgeoisie
@@ -559,7 +559,7 @@ ecchi_usa_coolidge_character_template = {
     last_name = ecchi_Coolidge
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -600,7 +600,7 @@ ecchi_usa_hoover_character_template = {
     last_name = ecchi_Hoover
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_petty_bourgeoisie
@@ -626,7 +626,7 @@ ecchi_usa_f_roosevelt_character_template = {
     last_name = Roosevelt
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_rural_folk
@@ -658,7 +658,7 @@ ecchi_usa_fremont_character_template = {
     last_name = ecchi_Fremont
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_petty_bourgeoisie
@@ -699,7 +699,7 @@ ecchi_usa_long_character_template = {
     last_name = Long
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_rural_folk
@@ -740,7 +740,7 @@ ecchi_usa_norton_character_template = {
     last_name = Norton
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_petty_bourgeoisie
@@ -776,7 +776,7 @@ ecchi_usa_brown_character_template = {
     last_name = Brown
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_rural_folk
@@ -832,7 +832,7 @@ ecchi_usa_custer_character_template = {
     last_name = Custer
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -863,7 +863,7 @@ ecchi_usa_astor_character_template = {
     last_name = ecchi_Astor
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_landowners
@@ -893,7 +893,7 @@ ecchi_usa_morgan_character_template = {
     last_name = Morgan
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_industrialists
@@ -919,7 +919,7 @@ ecchi_usa_rockefeller_character_template = {
     last_name = ecchi_Rockefeller
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -945,7 +945,7 @@ ecchi_usa_hearst_character_template = {
     last_name = ecchi_Hearst
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_industrialists
@@ -986,7 +986,7 @@ ecchi_usa_edison_character_template = {
     last_name = ecchi_Edison
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_feminist
     interest_group = ig_industrialists
@@ -1020,7 +1020,7 @@ ecchi_usa_edison_character_template = {
 #     last_name = ecchi_Debs
 #     historical = yes
 #     culture = cu:yankee
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_reformer
 #     interest_group = ig_trade_unions
@@ -1047,7 +1047,7 @@ ecchi_usa_thomas_character_template = {
     last_name = Thomas
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_social_democrat
     interest_group = ig_trade_unions
@@ -1073,7 +1073,7 @@ ecchi_usa_foster_character_template = {
     last_name = Foster
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_communist
     interest_group = ig_trade_unions
@@ -1109,7 +1109,7 @@ ecchi_usa_browder_character_template = {
     last_name = ecchi_Browder
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions
@@ -1137,7 +1137,7 @@ ecchi_usa_lindbergh_character_template = {
     last_name = ecchi_Lindbergh
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_ethno_nationalist
     interest_group = ig_armed_forces
@@ -1181,7 +1181,7 @@ ecchi_usa_emerson_character_template = {
     last_name = Emerson
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_intelligentsia
@@ -1217,7 +1217,7 @@ ecchi_usa_putnam_character_template = {
     last_name = Putnam
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -1253,7 +1253,7 @@ ecchi_usa_barnum_character_template = {
     last_name = Barnum
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_intelligentsia
@@ -1283,7 +1283,7 @@ ecchi_usa_patton_character_template = {
     last_name = Patton
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -1318,7 +1318,7 @@ ecchi_usa_westinghouse_character_template = {
     last_name = ecchi_Westinghouse
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -1399,7 +1399,7 @@ ecchi_usa_hill_character_template = {
     last_name = Hill
     historical = yes
     culture = cu:swedish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_communist
     interest_group = ig_trade_unions
@@ -1440,7 +1440,7 @@ ecchi_usa_hill_character_template = {
 #     last_name = ecchi_Twain
 #     historical = yes
 #     culture = cu:yankee
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_social_democrat
 #     interest_group = ig_intelligentsia
@@ -1466,7 +1466,7 @@ ecchi_usa_chrysler_character_template = {
     last_name = ecchi_Chrysler
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -1493,7 +1493,7 @@ ecchi_usa_seward_character_template = {
     last_name = Seward
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_rural_folk
@@ -1523,7 +1523,7 @@ ecchi_usa_colt_character_template = {
     last_name = ecchi_Colt
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_industrialists
@@ -1551,7 +1551,7 @@ ecchi_usa_capone_character_template = {
     last_name = ecchi_Capone
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_petty_bourgeoisie
@@ -1581,7 +1581,7 @@ ecchi_usa_sutter_sr_character_template = {
     last_name = ecchi_Sutter
     historical = yes
     culture = cu:alemannic
-    female = no
+
     religion = rel:protestant
     ideology = ideology_slaver
     interest_group = ig_landowners
@@ -1621,7 +1621,7 @@ ecchi_cal_sutter_jr_character_template = {
     last_name = ecchi_Sutter
     historical = yes
     culture = cu:alemannic
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_petty_bourgeoisie
@@ -1648,7 +1648,7 @@ ecchi_cal_strauss_character_template = {
     last_name = Strauss
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:jewish
     ideology = ideology_market_liberal
     interest_group = ig_petty_bourgeoisie
@@ -1679,7 +1679,7 @@ ecchi_usa_browning_character_template = {
     last_name = ecchi_Browning
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_industrialists
@@ -1753,7 +1753,7 @@ ecchi_usa_baum_character_template = {
     last_name = ecchi_Baum
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_feminist
     interest_group = ig_intelligentsia
@@ -1782,7 +1782,7 @@ ecchi_usa_jefferson_davis_character_template = {
     last_name = Davis
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_slaver
     interest_group = ig_rural_folk
@@ -1814,7 +1814,7 @@ ecchi_usa_stephens_character_template = {
     last_name = ecchi_Stephens
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_slaver
     interest_group = ig_rural_folk
@@ -1845,7 +1845,7 @@ ecchi_usa_ferguson_character_template = {
     last_name = ecchi_Ferguson
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -1871,7 +1871,7 @@ ecchi_usa_wirz_character_template = {
     last_name = ecchi_Wirz
     historical = yes
     culture = cu:alemannic
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -1897,7 +1897,7 @@ ecchi_usa_forrest_character_template = {
     last_name = Forrest
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_ethno_nationalist
     interest_group = ig_armed_forces
@@ -1926,7 +1926,7 @@ ecchi_tex_de_zavala_character_template = {
     last_name = ecchi_de_Zavala
     historical = yes
     culture = cu:mexican
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_petty_bourgeoisie
@@ -1957,7 +1957,7 @@ ecchi_tex_crockett_character_template = {
     last_name = ecchi_Crockett
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_rural_folk
@@ -2016,7 +2016,7 @@ ecchi_asa_delany_character_template = {
     last_name = Delany
     historical = yes
     culture = cu:afro_american
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_petty_bourgeoisie
@@ -2048,7 +2048,7 @@ ecchi_asa_singleton_character_template = {
     last_name = Singleton
     historical = yes
     culture = cu:afro_american
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_industrialists
@@ -2079,7 +2079,7 @@ ecchi_asa_turner_character_template = {
     last_name = Turner
     historical = yes
     culture = cu:afro_american
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_devout
@@ -2107,7 +2107,7 @@ ecchi_asa_garnet_character_template = {
     last_name = Garnet
     historical = yes
     culture = cu:afro_american
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_devout
@@ -2139,7 +2139,7 @@ ecchi_asa_garnet_character_template = {
 #     last_name = Douglass
 #     historical = yes
 #     culture = cu:afro_american
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_reformer
 #     interest_group = ig_petty_bourgeoisie
@@ -2173,7 +2173,7 @@ ecchi_asa_garnet_character_template = {
 #     last_name = Du_Bois
 #     historical = yes
 #     culture = cu:afro_american
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_reformer
 #     interest_group = ig_trade_unions
@@ -2206,7 +2206,7 @@ ecchi_usa_moody_character_template = {
     last_name = Moody
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_devout
@@ -2242,7 +2242,7 @@ ecchi_usa_joseph_smith_character_template = {
     last_name = Smith
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Mormon
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -2278,7 +2278,7 @@ ecchi_usa_brigham_young_character_template = {
     last_name = Young
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant #Mormon
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -2383,7 +2383,7 @@ ecchi_usa_bell_character_template = {
     last_name = Bell
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_positivist
     interest_group = ig_intelligentsia
@@ -2410,7 +2410,7 @@ ecchi_usa_lovecraft_character_template = {
     last_name = ecchi_Lovecraft
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_anarchist
     interest_group = ig_intelligentsia
@@ -2437,7 +2437,7 @@ ecchi_usa_thoreau_character_template = {
     last_name = ecchi_Thoreau
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_intelligentsia
@@ -2464,7 +2464,7 @@ ecchi_usa_bridger_character_template = {
     last_name = ecchi_Bridger
     historical = yes
     culture = cu:dixie
-    female = no
+
     religion = rel:protestant
     interest_group = ig_rural_folk
     dna = ecchi_dna_jim_bridger
@@ -2489,7 +2489,7 @@ ecchi_usa_dewey_character_template = {
     last_name = ecchi_Dewey
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
@@ -2516,7 +2516,7 @@ ecchi_usa_london_character_template = {
     last_name = ecchi_London
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_communist
     interest_group = ig_trade_unions
@@ -2552,7 +2552,7 @@ ecchi_usa_mott_character_template = {
     interest_group = ig_devout
     dna = ecchi_dna_lucretia_mott
     birth_date = 1793.1.3
-    traits = { inspirational_orator romantic literacy }
+    traits = { inspirational_orator romantic literary }
     agitator_usage = {
         country_trigger = {
             has_state_in_state_region = STATE_MASSACHUSETTS
@@ -2586,7 +2586,7 @@ ecchi_usa_irving_character_template = {
     last_name = ecchi_Irving
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_humanitarian
     interest_group = ig_intelligentsia
@@ -2615,7 +2615,7 @@ ecchi_usa_spooner_character_template = {
     last_name = ecchi_Spooner
     historical = yes
     culture = cu:yankee
-    female = no
+
     religion = rel:protestant
     ideology = ideology_abolitionist
     interest_group = ig_petty_bourgeoisie

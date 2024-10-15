@@ -7,7 +7,7 @@ ecchi_por_antonio_santos = {
     last_name = Santos
     historical = yes
     culture = cu:portuguese
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
@@ -43,7 +43,7 @@ ecchi_por_teofilo_braga = {
     last_name = Braga
     historical = yes
     culture = cu:portuguese
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_landowners

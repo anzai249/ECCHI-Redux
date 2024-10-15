@@ -5,7 +5,7 @@ ecchi_lit_basanavicius_character_template = {
     last_name = Basanavicius
     historical = yes
     culture = cu:lithuanian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -54,7 +54,7 @@ ecchi_bul_botev_character_template = {
     last_name = ecchi_Botev
     historical = yes
     culture = cu:bulgarian
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_radical
     interest_group = ig_intelligentsia
@@ -82,7 +82,7 @@ ecchi_rom_radulescu-motru_character_template = {
     last_name = ecchi_Radulescu-Motru
     historical = yes
     culture = cu:romanian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -123,7 +123,7 @@ ecchi_bye_kalinowski_character_template = {
     last_name = Kalinowski
     historical = yes
     culture = cu:byelorussian
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -155,7 +155,7 @@ ecchi_gre_kolokotronis_character_template = {
     last_name = Kolokotronis
     historical = yes
     culture = cu:greek
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -191,7 +191,7 @@ ecchi_gre_trikoupis_character_template = {
     last_name = Trikoupis
     historical = yes
     culture = cu:greek
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_reformer
     interest_group = ig_rural_folk
@@ -232,7 +232,7 @@ ecchi_gre_paparrigopoulos_character_template = {
     last_name = ecchi_Paparrigopoulos
     historical = yes
     culture = cu:greek
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -261,7 +261,7 @@ ecchi_hun_lukacs_character_template = {
     last_name = ecchi_Lukacs
     historical = yes
     culture = cu:hungarian
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_communist
     interest_group = ig_intelligentsia
@@ -302,7 +302,7 @@ ecchi_hun_turr_character_template = {
     last_name = ecchi_turr
     historical = yes
     culture = cu:hungarian
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_pacifist
     interest_group = ig_armed_forces
@@ -343,7 +343,7 @@ ecchi_ser_krstic_character_template = {
     last_name = ecchi_Krstic
     historical = yes
     culture = cu:serb
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -374,7 +374,7 @@ ecchi_bel_wahis_character_template = {
     last_name = Wahis
     historical = yes
     culture = cu:flemish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_slaver
     interest_group = ig_armed_forces
@@ -455,7 +455,7 @@ mr_swi_jung_character_template = {
     ideology = ideology_humanitarian
     historical = yes
     traits = {
-        literacy
+        literary
         innovative
         inspirational_orator
     }

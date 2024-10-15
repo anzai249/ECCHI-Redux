@@ -5,7 +5,7 @@ ecchi_zan_tip_character_template = {
     last_name = ecchi_Tip
     historical = yes
     culture = cu:swahili
-    female = no
+
     religion = rel:shiite
     ideology = ideology_slaver
     interest_group = ig_landowners
@@ -64,7 +64,7 @@ ecchi_eth_makonnen_character_template = {
     last_name = ecchi_of_Harar
     historical = yes
     culture = cu:amhara
-    female = no
+
     religion = rel:oriental_orthodox
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -99,7 +99,7 @@ ecchi_eth_tekle_haymanot_character_template = {
     last_name = ecchi_of_Gojjam
     historical = yes
     culture = cu:amhara
-    female = no
+
     religion = rel:oriental_orthodox
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -133,7 +133,7 @@ ecchi_eth_mikael_character_template = {
     last_name = ecchi_of_Wello
     historical = yes
     culture = cu:amhara
-    female = no
+
     religion = rel:oriental_orthodox
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -167,7 +167,7 @@ ecchi_eth_mengesha_character_template = {
     last_name = ecchi_of_Tigray
     historical = yes
     culture = cu:tigray
-    female = no
+
     religion = rel:oriental_orthodox
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -203,7 +203,7 @@ ecchi_sud_muhammad_ahmad_character_template = {
     last_name = Ahmad
     historical = yes
     culture = cu:sudanese
-    female = no
+
     religion = rel:sunni
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -243,7 +243,7 @@ ecchi_sud_abdallahi_ibn_muhammad_character_template = {
     last_name = ibn_Muhammad
     historical = yes
     culture = cu:sudanese
-    female = no
+
     religion = rel:sunni
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -291,7 +291,7 @@ ecchi_sud_az_zubayr_character_template = {
     last_name = ecchi_az-Zubayr
     historical = yes
     culture = cu:sudanese
-    female = no
+
     religion = rel:sunni
     ideology = ideology_slaver
     interest_group = ig_armed_forces
@@ -332,7 +332,7 @@ ecchi_sud_taha_hussein_character_template = {
     last_name = ecchi_Hussein
     historical = yes
     culture = cu:sudanese
-    female = no
+
     religion = rel:sunni
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -361,7 +361,7 @@ ecchi_wsg_hassan_character_template = {
     last_name = Hassan
     historical = yes
     culture = cu:somali
-    female = no
+
     religion = rel:sunni
     ideology = ideology_theocrat
     interest_group = ig_armed_forces
@@ -397,7 +397,7 @@ ecchi_mad_rainilaiarivony_character_template = {
     last_name = ecchi_EmptyRainilaiarivony
     historical = yes
     culture = cu:malagasy
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_landowners
@@ -427,7 +427,7 @@ ecchi_mad_rainivoninahitriniony_character_template = {
     last_name = ecchi_EmptyRainivoninahitriniony
     historical = yes
     culture = cu:malagasy
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_landowners
@@ -459,7 +459,7 @@ ecchi_ald_ben_aissa_character_template = {
     last_name = ecchi_ben_Aissa
     historical = yes
     culture = cu:maghrebi
-    female = no
+
     religion = rel:sunni
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -509,7 +509,7 @@ ecchi_ald_ben_aissa_character_template = {
 #     last_name = ecchi_Mokrani
 #     historical = yes
 #     culture = cu:maghrebi
-#     female = no
+# 
 #     religion = rel:sunni
 #     ideology = ideology_traditionalist
 #     interest_group = ig_landowners
@@ -536,7 +536,7 @@ ecchi_tri_karamanli_character_template = {
     last_name = ecchi_Karamanli
     historical = yes
     culture = cu:turkish
-    female = no
+
     religion = rel:sunni
     ideology = ideology_traditionalist
     interest_group = ig_landowners
@@ -568,7 +568,7 @@ ecchi_mor_ameziane_character_template = {
     last_name = ecchi_Ameziane
     historical = yes
     culture = cu:maghrebi
-    female = no
+
     religion = rel:sunni
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -593,7 +593,7 @@ ecchi_mor_el_krim_character_template = {
     last_name = ecchi_el-Krim
     historical = yes
     culture = cu:maghrebi
-    female = no
+
     religion = rel:sunni
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -620,7 +620,7 @@ ecchi_bst_masopha_character_template = {
     last_name = ecchi_EmptyMasopha
     historical = yes
     culture = cu:sotho
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -652,7 +652,7 @@ ecchi_zul_khoza_character_template = {
     last_name = Khoza
     historical = yes
     culture = cu:zulu
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -677,7 +677,7 @@ ecchi_zul_kampande_character_template = {
     last_name = kaMpande
     historical = yes
     culture = cu:zulu
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -702,7 +702,7 @@ ecchi_zul_zibhebhu_character_template = {
     last_name = ecchi_Zulu
     historical = yes
     culture = cu:zulu
-    female = no
+
     religion = rel:animist
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -803,7 +803,7 @@ ecchi_mdk_ture_character_template = {
     last_name = ecchi_Ture
     historical = yes
     culture = cu:mande
-    female = no
+
     religion = rel:sunni
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -868,7 +868,7 @@ ecchi_sil_cinque_character_template = {
     last_name = ecchi_Cinque
     historical = yes
     culture = cu:afro_caribbean
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -900,7 +900,7 @@ ecchi_oyo_ogedengbe_character_template = {
     last_name = ecchi_of_Ilesa
     historical = yes
     culture = cu:yoruba
-    female = no
+
     religion = rel:animist
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces

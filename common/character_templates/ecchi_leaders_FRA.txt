@@ -5,7 +5,7 @@ ecchi_fra_petain_character_template = {
     last_name = Petain
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -31,7 +31,7 @@ ecchi_fra_de_gaulle_character_template = {
     last_name = de_Gaulle
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -56,7 +56,7 @@ ecchi_fra_dreyfus_character_template = {
     last_name = ecchi_Dreyfus
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:jewish
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -81,7 +81,7 @@ ecchi_fra_zola_character_template = {
     last_name = ecchi_Zola
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -109,7 +109,7 @@ ecchi_fra_reclus_character_template = {
     last_name = ecchi_Reclus
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:protestant
     ideology = ideology_anarchist
     interest_group = ig_petty_bourgeoisie
@@ -138,7 +138,7 @@ ecchi_fra_blanc_character_template = {
     last_name = Blanc
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:protestant
     ideology = ideology_social_democrat
     interest_group = ig_trade_unions
@@ -166,7 +166,7 @@ ecchi_fra_buisson_character_template = {
     last_name = ecchi_Buisson
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:protestant
     ideology = ideology_humanitarian
     interest_group = ig_devout
@@ -194,7 +194,7 @@ ecchi_fra_passy_character_template = {
     last_name = ecchi_Passy
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -221,7 +221,7 @@ ecchi_fra_durkheim_character_template = {
     first_name = ecchi_Emile
     last_name = ecchi_Durkheim
     historical = yes
-    female = no
+
     culture = cu:french
     religion = rel:jewish
     ideology = ideology_social_democrat
@@ -314,7 +314,7 @@ ecchi_fra_pasteur_character_template = {
     last_name = ecchi_Pasteur
     historical = yes
     culture = cu:french
-    female = no
+
 	historical = yes
     interest_group = ig_intelligentsia
     birth_date = 1822.12.27
@@ -342,7 +342,7 @@ ecchi_fra_citroen_character_template = {
     last_name = ecchi_Citroen
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -370,7 +370,7 @@ ecchi_fra_alphonse_de_lamartine_character_template = {
     last_name = de_Lamartine
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_petty_bourgeoisie
@@ -402,7 +402,7 @@ ecchi_fra_henri_barbusse_character_template = {
     last_name = ecchi_Barbusse
     historical = yes
     culture = cu:french
-    female = no
+
     religion = rel:catholic
     ideology = ideology_vangardist
     interest_group = ig_trade_unions

@@ -5,7 +5,7 @@ ecchi_seq_sequoyah_character_template = {
     last_name = ecchi_EmptySequoyah
     historical = yes
     culture = cu:cherokee
-    female = no
+
     religion = rel:animist
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -32,7 +32,7 @@ ecchi_lkt_red_cloud_character_template = {
     last_name = ecchi_EmptyRed_Cloud
     historical = yes
     culture = cu:dakota
-    female = no
+
     religion = rel:animist
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -67,7 +67,7 @@ ecchi_lkt_sitting_bull_character_template = {
     last_name = ecchi_EmptySitting_Bull
     historical = yes
     culture = cu:dakota
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_petty_bourgeoisie
@@ -102,7 +102,7 @@ ecchi_lkt_crazy_horse_character_template = {
     last_name = ecchi_EmptyCrazy_Horse
     historical = yes
     culture = cu:dakota
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -137,7 +137,7 @@ ecchi_apc_geronimo_character_template = {
     last_name = ecchi_EmptyGeronimo
     historical = yes
     culture = cu:pueblo
-    female = no
+
     religion = rel:animist
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -172,7 +172,7 @@ ecchi_nzp_chief_joseph_character_template = {
     last_name = ecchi_EmptyChief_Joseph
     historical = yes
     culture = cu:nez_perce
-    female = no
+
     religion = rel:animist
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -207,7 +207,7 @@ ecchi_apc_victorio_character_template = {
     last_name = ecchi_EmptyVictorio
     historical = yes
     culture = cu:pueblo
-    female = no
+
     religion = rel:animist
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -242,7 +242,7 @@ ecchi_apc_cochise_character_template = {
     last_name = ecchi_EmptyCochise
     historical = yes
     culture = cu:pueblo
-    female = no
+
     religion = rel:animist
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -277,7 +277,7 @@ ecchi_apc_mangas_coloradas_character_template = {
     last_name = ecchi_EmptyMangas_Coloradas
     historical = yes
     culture = cu:pueblo
-    female = no
+
     religion = rel:animist
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -312,7 +312,7 @@ ecchi_irc_poundmaker_character_template = {
     last_name = ecchi_EmptyPoundmaker
     historical = yes
     culture = cu:cree
-    female = no
+
     religion = rel:animist
     ideology = ideology_pacifist
     interest_group = ig_landowners

@@ -5,7 +5,7 @@ ecchi_jap_sakamoto_character_template = {
     last_name = ecchi_Sakamoto
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_reformer
     interest_group = ig_rural_folk
@@ -35,7 +35,7 @@ ecchi_jap_enomoto_character_template = {
     last_name = Enomoto
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_traditionalist
     interest_group = ig_petty_bourgeoisie
@@ -75,7 +75,7 @@ ecchi_jap_katsu_character_template = {
     last_name = Katsu
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -100,7 +100,7 @@ ecchi_jap_matsudaira_character_template = {
     last_name = Matsudaira
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -125,7 +125,7 @@ ecchi_jap_kondo_character_template = {
     last_name = Kondo
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -150,7 +150,7 @@ ecchi_jap_hijikata_character_template = {
     last_name = ecchi_Hijikata
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -184,7 +184,7 @@ ecchi_jap_omura_character_template = {
     last_name = Omura
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -209,7 +209,7 @@ ecchi_jap_itagaki_character_template = {
     last_name = Itagaki
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_radical
     interest_group = ig_intelligentsia
@@ -235,7 +235,7 @@ ecchi_jap_yoshihisa_character_template = {
     last_name = ecchi_Kitashirakawa
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_royalist
     interest_group = ig_armed_forces
@@ -260,7 +260,7 @@ ecchi_jap_ito_character_template = {
     last_name = ecchi_Ito
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -291,7 +291,7 @@ ecchi_jap_saionji_character_template = {
     last_name = ecchi_Saionji
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_reformer
     interest_group = ig_landowners
@@ -322,7 +322,7 @@ ecchi_jap_shibusawa_character_template = {
     last_name = ecchi_Shibusawa
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
@@ -348,7 +348,7 @@ ecchi_jap_fukuba_character_template = {
     last_name = ecchi_Fukuba
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -456,7 +456,7 @@ ecchi_jap_okubo_toshimichi_character_template = {
     last_name = ecchi_Okubo
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -517,7 +517,7 @@ ecchi_jap_kido_takayoshi_character_template = {
     last_name = ecchi_Kido
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -545,7 +545,7 @@ ecchi_jap_shimazu_nariakira_character_template = {
     last_name = ecchi_Shimazu
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:shinto
     ideology = ideology_humanitarian
     interest_group = ig_industrialists
@@ -573,7 +573,7 @@ ecchi_jap_suzuki_bunji_character_template = {
     last_name = Suzuki
     historical = yes
     culture = cu:japanese
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_trade_unions
@@ -601,13 +601,13 @@ ecchi_jap_yasunari_kawabata_character_template = {
     last_name = ecchi_Kawabata
     historical = yes
     culture = cu:japanese
-    female = no
+
 	dna = ecchi_dna_yasunari_kawabata
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_suzuki_bunji
     birth_date = 1899.6.11
-    traits = { persistent literacy }
+    traits = { persistent literary }
     agitator_usage = {
         country_trigger = {
             NOT = {

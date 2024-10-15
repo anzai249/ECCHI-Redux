@@ -5,7 +5,7 @@ ecchi_pap_pecci_character_template = {
     last_name = ecchi_Pecci
     historical = yes
     culture = cu:south_italian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_trade_unions
@@ -36,7 +36,7 @@ ecchi_pap_sarto_character_template = {
     last_name = ecchi_Sarto
     historical = yes
     culture = cu:north_italian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_devout
@@ -67,7 +67,7 @@ ecchi_pap_della_chiesa_character_template = {
     last_name = ecchi_della_Chiesa
     historical = yes
     culture = cu:north_italian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_rural_folk
@@ -97,7 +97,7 @@ ecchi_pap_ratti_character_template = {
     last_name = ecchi_Ratti
     historical = yes
     culture = cu:north_italian
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners

@@ -30,7 +30,7 @@ ecchi_kor_daewongun_character_template = {
     last_name = Yi
     historical = yes
     culture = cu:korean
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_landowners
 	dna = ecchi_dna_daewongun
@@ -59,7 +59,7 @@ ecchi_kor_jeon_bongjun_character_template = {
     last_name = ecchi_Jeon
     historical = yes
     culture = cu:korean
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_jeon_bongjun
@@ -88,7 +88,7 @@ ecchi_kor_son_byonghi_character_template = {
     last_name = ecchi_Son
     historical = yes
     culture = cu:korean
-    female = no
+
     ideology = ideology_theocrat
     interest_group = ig_devout
 	dna = ecchi_dna_song_byong_hi
@@ -119,7 +119,7 @@ ecchi_kor_ho_hon_character_template = {
     last_name = ecchi_Ho_1
     historical = yes
     culture = cu:korean
-    female = no
+
     ideology = ideology_humanitarian
     interest_group = ig_intelligentsia
     dna = ecchi_dna_ho_hon

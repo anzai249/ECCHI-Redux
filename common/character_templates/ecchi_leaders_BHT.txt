@@ -5,7 +5,7 @@ ecchi_bht_tata_character_template = {
     last_name = ecchi_Tata
     historical = yes
     culture = cu:gujarati
-    female = no
+
     religion = rel:animist # Zoroastrian
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -52,7 +52,7 @@ ecchi_bht_gandhi_character_template = {
     last_name = ecchi_Gandhi
     historical = yes
     culture = cu:gujarati
-    female = no
+
     religion = rel:hindu
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -99,7 +99,7 @@ ecchi_bht_nehru_character_template = {
     last_name = ecchi_Nehru
     historical = yes
     culture = cu:kashmiri
-    female = no
+
     religion = rel:hindu
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -146,7 +146,7 @@ ecchi_sin_jinnah_character_template = {
     last_name = ecchi_Jinnah
     historical = yes
     culture = cu:gujarati
-    female = no
+
     religion = rel:sunni
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -246,7 +246,7 @@ ecchi_cey_senanayake_character_template = {
     last_name = ecchi_Senanayake
     historical = yes
     culture = cu:sinhala
-    female = no
+
     religion = rel:theravada
     ideology = ideology_republican_leader
     interest_group = ig_rural_folk
@@ -277,7 +277,7 @@ ecchi_bht_malaviya_character_template = {
     last_name = ecchi_Malaviya					
     historical = yes
     culture = cu:gujarati					
-    female = no					
+					
     religion = rel:hindu					
     ideology = ideology_moderate					
     interest_group = ig_intelligentsia

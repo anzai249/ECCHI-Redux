@@ -5,7 +5,7 @@ ecchi_aus_lueger_character_template = {
     last_name = ecchi_Lueger
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
     interest_group = ig_petty_bourgeoisie
@@ -45,7 +45,7 @@ ecchi_aus_bauer_character_template = {
     last_name = ecchi_Bauer
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:jewish
     ideology = ideology_social_democrat
     interest_group = ig_trade_unions
@@ -125,7 +125,7 @@ ecchi_aus_porsche_character_template = {
     last_name = ecchi_Porsche
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -170,7 +170,7 @@ ecchi_aus_dollfuss_character_template = {
     last_name = ecchi_Dollfuss
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:catholic
     ideology = ideology_fascist
     interest_group = ig_petty_bourgeoisie
@@ -202,7 +202,7 @@ ecchi_aus_von_trapp_character_template = {
     last_name = ecchi_von_Trapp
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:catholic
     ideology = ideology_humanitarian
     interest_group = ig_armed_forces
@@ -233,7 +233,7 @@ ecchi_aus_kudlich_character_template = {
     last_name = ecchi_Kudlich
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:catholic
     ideology = ideology_abolitionist
     interest_group = ig_rural_folk
@@ -271,7 +271,7 @@ ecchi_aus_kudlich_character_template = {
 #     last_name = ecchi_von_Metternich
 #     historical = yes
 #     culture = cu:south_german
-#     female = no
+# 
 #     religion = rel:catholic
 #     ideology = ideology_moderate
 #     interest_group = ig_landowners
@@ -303,7 +303,7 @@ ecchi_aus_berchtold_character_template = {
     last_name = ecchi_Berchtold
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_landowners
@@ -335,7 +335,7 @@ ecchi_aus_herzel_character_template = {
     last_name = ecchi_Herzel
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:jewish
     ideology = ideology_ethno_nationalist
     interest_group = ig_intelligentsia
@@ -372,7 +372,7 @@ ecchi_aus_franko_character_template = {
     last_name = ecchi_Franko
     historical = yes
     culture = cu:ukrainian
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_social_democrat
     interest_group = ig_rural_folk
@@ -407,7 +407,7 @@ ecchi_aus_tito_character_template = {
     last_name = ecchi_Tito
     historical = yes
     culture = cu:slovene
-    female = no
+
     religion = rel:orthodox
     ideology = ideology_communist
     interest_group = ig_armed_forces
@@ -452,7 +452,7 @@ ecchi_aus_kautsky_character_template = {
     last_name = ecchi_Kautsky
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:jewish
     ideology = ideology_social_democrat
     interest_group = ig_intelligentsia

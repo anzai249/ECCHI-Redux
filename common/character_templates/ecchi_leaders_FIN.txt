@@ -13,7 +13,7 @@ ecchi_fin_juhani_aho_character_template = {
 	birth_date = 1861.9.1
 	traits = {
 		romantic
-		literacy
+		literary
 	}
 	agitator_usage = {
 		country_trigger = {
@@ -58,7 +58,7 @@ ecchi_fin_eino_leino_character_template = {
 	birth_date = 1878.7.6
 	traits = {
 		romantic
-		literacy
+		literary
 	}
 	agitator_usage = {
 		country_trigger = {

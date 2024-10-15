@@ -5,7 +5,7 @@ ecchi_chl_o_higgins_character_template = {
     last_name = O_Higgins
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -37,7 +37,7 @@ ecchi_uru_artigas_character_template = {
     last_name = ecchi_Artigas
     historical = yes
     culture = cu:platinean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
@@ -68,7 +68,7 @@ ecchi_uru_berro_character_template = {
     last_name = Berro
     historical = yes
     culture = cu:platinean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -100,7 +100,7 @@ ecchi_uru_berro_character_template = {
 #     last_name = ecchi_Batlle_y_Ordonez
 #     historical = yes
 #     culture = cu:platinean
-#     female = no
+# 
 #     religion = rel:catholic
 #     ideology = ideology_republican_leader
 #     interest_group = ig_intelligentsia
@@ -132,7 +132,7 @@ ecchi_vnz_lopez_character_template = {
     last_name = Lopez
     historical = yes
     culture = cu:north_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces

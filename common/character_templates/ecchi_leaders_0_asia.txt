@@ -397,3 +397,83 @@ ecchi_afg_mahmud_tarzi_character_template = {
 
 # Lanfang
 ## Gu Liubo
+ecchi_lan_gu_liubo_character_template = {
+	first_name = ecchi_Liubo
+	last_name = ecchi_Gu_1
+	historical = yes
+	culture = cu:hakka
+	female = no
+	religion = rel:mahayana
+	interest_group = ig_intelligentsia
+	birth_date = 1811.1.1
+	traits = {
+		innovative
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:LAN
+			this = c:LAN
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1850.1.1
+		chance = 80
+	}
+}
+
+## Xie Guifang
+ecchi_lan_xie_guifang_character_template = {
+	first_name = ecchi_Guifang
+	last_name = ecchi_Xie
+	historical = yes
+	culture = cu:hakka
+	female = no
+	religion = rel:mahayana
+	interest_group = ig_petty_bourgeoisie
+	age = 40
+	traits = {
+		experienced_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:LAN
+			this = c:LAN
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1865.1.1
+		chance = 80
+	}
+}
+
+## Ye Tenghui
+ecchi_lan_ye_tenghui_character_template = {
+	first_name = ecchi_Tenghui
+	last_name = ecchi_Ye
+	historical = yes
+	culture = cu:hakka
+	female = no
+	religion = rel:mahayana
+	interest_group = ig_armed_forces
+	age = 40
+	traits = {
+		popular_commander
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:LAN
+			this = c:LAN
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1870.1.1
+		chance = 80
+	}
+}

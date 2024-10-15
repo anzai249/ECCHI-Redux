@@ -5,7 +5,7 @@ ecchi_ast_parkes_character_template = {
     last_name = ecchi_Parkes
     historical = yes
     culture = cu:australian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -44,7 +44,7 @@ ecchi_ast_hughes_character_template = {
     last_name = Hughes
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_rural_folk
@@ -74,7 +74,7 @@ ecchi_ast_barton_character_template = {
     last_name = Barton
     historical = yes
     culture = cu:australian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -113,7 +113,7 @@ ecchi_ast_deakin_character_template = {
     last_name = ecchi_Deakin
     historical = yes
     culture = cu:australian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_petty_bourgeoisie
@@ -144,7 +144,7 @@ ecchi_ast_curtin_character_template = {
     last_name = ecchi_Curtin
     historical = yes
     culture = cu:australian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_rural_folk
@@ -174,7 +174,7 @@ ecchi_ast_kelly_character_template = {
     last_name = Kelly
     historical = yes
     culture = cu:australian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_rural_folk
@@ -202,7 +202,7 @@ ecchi_ulr_wonga_character_template = {
     last_name = Wonga
     historical = yes
     culture = cu:aborigine
-    female = no
+
     religion = rel:animist
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -241,7 +241,7 @@ ecchi_ulr_biraban_character_template = {
     last_name = ecchi_EmptyBiraban
     historical = yes
     culture = cu:aborigine
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -276,7 +276,7 @@ ecchi_ulr_barak_character_template = {
     last_name = Barak
     historical = yes
     culture = cu:aborigine
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia

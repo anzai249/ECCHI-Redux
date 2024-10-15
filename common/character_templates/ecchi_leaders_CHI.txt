@@ -30,7 +30,7 @@ ecchi_chi_li_hongzhang_character_template = {
     last_name = Li
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_landowners
 	dna = ecchi_dna_li_hongzhang
@@ -67,7 +67,7 @@ ecchi_chi_yikuang_character_template = {
     last_name = Aisin_Gioro
     historical = yes
     culture = cu:manchu
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_landowners
     birth_date = 1838.11.16
@@ -91,7 +91,7 @@ ecchi_chi_zhang_zhidong_character_template = {
     last_name = Zhang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_reformer
     interest_group = ig_landowners
 	dna = ecchi_dna_zhang_zhidong
@@ -127,7 +127,7 @@ ecchi_chi_ronglu_character_template = {
     last_name = ecchi_Guwalgiya
     historical = yes
     culture = cu:manchu
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_landowners
 	dna = ecchi_dna_ronglu
@@ -157,7 +157,7 @@ ecchi_chi_zhang_jian_character_template = {
     last_name = Zhang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
     dna = ecchi_dna_zhang_jian
@@ -188,7 +188,7 @@ ecchi_chi_ilibu_character_template = {
     last_name = Aisin_Gioro
     historical = yes
     culture = cu:manchu
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
     ig_leader = yes
@@ -216,7 +216,7 @@ ecchi_chi_zhao_sanduo_character_template = {
     last_name = Zhao
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_luddite
     interest_group = ig_rural_folk
     birth_date = 1841.1.1
@@ -246,7 +246,7 @@ ecchi_chi_wenxiang_character_template = {
     last_name = ecchi_Guwalgiya
     historical = yes
     culture = cu:manchu
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_landowners
     dna = ecchi_dna_wenxiang
@@ -276,7 +276,7 @@ ecchi_chi_zuo_zongtang_character_template = {
     last_name = ecchi_Zuo
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_armed_forces
 	dna = ecchi_dna_zuo_zongtang
@@ -306,7 +306,7 @@ ecchi_chi_zhang_decheng_character_template = {
     last_name = Zhang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_ethno_nationalist
     interest_group = ig_rural_folk
     birth_date = 1821.1.1
@@ -335,7 +335,7 @@ ecchi_chi_shi_dakai_character_template = {
     last_name = ecchi_Shi
     historical = yes
     culture = cu:hakka
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_devout
@@ -381,7 +381,7 @@ ecchi_chi_shi_dakai_character_template = {
 #     last_name = Yang
 #     historical = yes
 #     culture = cu:hakka
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_theocrat
 #     interest_group = ig_rural_folk
@@ -426,7 +426,7 @@ ecchi_chi_wang_zebang_character_template = {
     last_name = Wang
     historical = yes
     culture = cu:yue
-    female = no
+
     religion = rel:mahayana
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -463,7 +463,7 @@ ecchi_chi_liang_qichao_character_template = {
     last_name = Liang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_liang_qichao
@@ -497,7 +497,7 @@ ecchi_chi_kang_youwei_character_template = {
     last_name = ecchi_Kang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_kang_youwei
@@ -531,7 +531,7 @@ ecchi_chi_chen_jiongming_character_template = {
     last_name = Chen
     historical = yes
     culture = cu:hakka
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_chen_jiongming
@@ -569,7 +569,7 @@ ecchi_chi_cai_yuanpei_character_template = {
     last_name = ecchi_Cai
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_radical
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_cai_yuanpei
@@ -600,7 +600,7 @@ ecchi_chi_huang_xing_character_template = {
     last_name = Huang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_huang_xing
@@ -626,7 +626,7 @@ ecchi_chi_hu_shih_character_template = {
     last_name = Hu
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_radical
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_hu_shih
@@ -654,7 +654,7 @@ ecchi_chi_chiang_kai_shek_character_template = {
     last_name = ecchi_Chiang
     historical = yes
     culture = cu:han
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -684,7 +684,7 @@ ecchi_chi_zhang_xun_character_template = {
     last_name = Zhang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_royalist
     interest_group = ig_armed_forces
 	dna = ecchi_dna_zhang_xun
@@ -708,7 +708,7 @@ ecchi_chi_zhang_zuolin_character_template = {
     last_name = Zhang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_rural_folk
 	dna = ecchi_dna_zhang_zuolin
@@ -747,7 +747,7 @@ ecchi_chi_yan_xishan_character_template = {
     last_name = ecchi_Yan
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_reformer
     interest_group = ig_armed_forces
 	dna = ecchi_dna_yan_xishan
@@ -782,7 +782,7 @@ ecchi_chi_xu_shicang_character_template = {
     last_name = Xu
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_rural_folk
 	dna = ecchi_dna_xu_shichang
@@ -821,7 +821,7 @@ ecchi_chi_wu_peifu_character_template = {
     last_name = Wu
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
 	dna = ecchi_dna_wu_peifu
@@ -854,7 +854,7 @@ ecchi_chi_ma_fuxiang_character_template = {
     last_name = Ma
     historical = yes
     culture = cu:han
-    female = no
+
     religion = rel:sunni
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -893,7 +893,7 @@ ecchi_chi_li_yuanhong_character_template = {
     last_name = ecchi_Li_2
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_armed_forces
 	dna = ecchi_dna_li_yuanhong
@@ -923,7 +923,7 @@ ecchi_chi_feng_yuxiang_character_template = {
     last_name = Feng
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_armed_forces
 	dna = ecchi_dna_feng_yuxiang
@@ -956,7 +956,7 @@ ecchi_chi_feng_guozhang_character_template = {
     last_name = Feng
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
 	dna = ecchi_dna_feng_guozhang
@@ -990,7 +990,7 @@ ecchi_chi_duan_qirui_character_template = {
     last_name = ecchi_Duan
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_armed_forces
 	dna = ecchi_dna_duan_qirui
@@ -1030,7 +1030,7 @@ ecchi_chi_cai_e_character_template = {
     last_name = ecchi_Cai
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
 	dna = ecchi_dna_cai_e
@@ -1063,7 +1063,7 @@ ecchi_chi_long_yun_character_template = {
     last_name = ecchi_Long_2
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_armed_forces
 	dna = ecchi_dna_long_yun
@@ -1099,7 +1099,7 @@ ecchi_chi_mao_zedong_character_template = {
     last_name = Mao
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_communist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_mao_zedong
@@ -1137,7 +1137,7 @@ ecchi_chi_li_dazhao_character_template = {
     last_name = Li
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_communist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_li_dazhao
@@ -1176,7 +1176,7 @@ ecchi_chi_chen_duxiu_character_template = {
     last_name = Chen
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_communist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_chen_duxiu
@@ -1215,7 +1215,7 @@ ecchi_chi_zhu_de_character_template = {
     last_name = Zhu
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_communist
     interest_group = ig_armed_forces
 	dna = ecchi_dna_zhu_de
@@ -1251,7 +1251,7 @@ ecchi_tpg_hong_xiuquan_character_template = {
     last_name = Hong
     historical = yes
     culture = cu:hakka
-    female = no
+
     religion = rel:protestant
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -1281,7 +1281,7 @@ ecchi_chi_cao_futian_character_template = {
     last_name = ecchi_Cao_2
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_cao_futian
@@ -1306,7 +1306,7 @@ ecchi_chi_du_yuesheng_character_template = {
     last_name = Du
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_market_liberal
     interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_du_yuesheng
@@ -1337,7 +1337,7 @@ ecchi_chi_tang_caichang_character_template = {
     last_name = ecchi_Tang
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_tang_caichang
@@ -1374,7 +1374,7 @@ ecchi_chi_wellington_koo_character_template = {
     last_name = ecchi_Koo
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_wellington_koo
@@ -1403,7 +1403,7 @@ ecchi_chi_wang_jingwei_character_template = {
     last_name = ecchi_Wang_2
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_wang_jingwei
@@ -1441,7 +1441,7 @@ ecchi_chi_lu_xun_character_template = {
     last_name = ecchi_Lu_2
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_social_democrat
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_lu_xun
@@ -1470,7 +1470,7 @@ ecchi_chi_lu_zhengxiang_character_template = {
     last_name = ecchi_Lu
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_ethno_nationalist
     interest_group = ig_devout
 	dna = ecchi_dna_lu_zhengxiang
@@ -1501,7 +1501,7 @@ ecchi_chi_gu_hongming_character_template = {
     last_name = ecchi_Ku
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_royalist
     interest_group = ig_devout
     dna = ecchi_dna_gu_hongming
@@ -1558,7 +1558,7 @@ ecchi_chi_qi_baishi_character_template = {
     last_name = ecchi_Qi
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_moderate
     interest_group = ig_rural_folk
     dna = ecchi_dna_qi_baishi
@@ -1589,7 +1589,7 @@ ecchi_chi_tan_sitong_character_template = {
     last_name = ecchi_Tan
     historical = yes
     culture = cu:han
-    female = no
+
     ideology = ideology_reformer
     interest_group = ig_landowners
     dna = ecchi_dna_tan_sitong
@@ -1656,7 +1656,7 @@ ecchi_chi_lin_huiyin_character_template = {
     interest_group = ig_intelligentsia
     dna = ecchi_dna_lin_huiyin
     birth_date = 1904.6.10
-    traits = { romantic innovative engineer literacy }
+    traits = { romantic innovative engineer literary }
     agitator_usage ={
         country_trigger = {
             NOT = {
@@ -1675,5 +1675,65 @@ ecchi_chi_lin_huiyin_character_template = {
         earliest_usage_date = 1925.1.1
         latest_usage_date = 1955.4.1
         chance = 40
+    }
+}
+
+## Kung Te-cheng
+ecchi_chi_kung_techeng_character_template = {
+    first_name = ecchi_Techeng
+    last_name = ecchi_Kung
+    historical = yes
+    culture = cu:han
+
+    ideology = ideology_moderate
+    interest_group = ig_devout
+    dna = ecchi_dna_kung_techeng
+    birth_date = 1920.2.23
+    traits = { innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                cu:han = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_SHANDONG
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 2008.10.28
+        chance = 45
+    }
+}
+
+## Zhu Yuxun
+ecchi_chi_zhu_yuxun_character_template = {
+    first_name = ecchi_Yuxun
+    last_name = Zhu
+    historical = yes
+    culture = cu:han
+
+    ideology = ideology_authoritarian
+    interest_group = ig_landowners
+    dna = ecchi_dna_zhu_yuxun
+    age = 30
+    traits = { expensive_tastes }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                cu:han = {
+                    culture_is_discriminated_in = root
+                }
+            }
+            has_state_in_state_region = STATE_BEIJING
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1891.1.1
+        latest_usage_date = 1933.10.1
+        chance = 30
     }
 }

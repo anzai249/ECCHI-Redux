@@ -4,7 +4,7 @@
 #     last_name = ecchi_Lenin
 #     historical = yes
 #     culture = cu:russian
-#     female = no
+# 
 #     religion = rel:orthodox
 #     ideology = ideology_communist
 #     interest_group = ig_intelligentsia
@@ -899,7 +899,7 @@ RUS_nikolai_ostrovsky = {
 	dna = dna_nikolai_ostrovsky
 	birth_date = 1904.2.29
 	traits = {
-		literacy
+		literary
 		innovative
 		erudite
 	}
@@ -933,7 +933,7 @@ RUS_anton_chekhov = {
 	dna = dna_anton_chekhov
 	birth_date = 1860.1.29
 	traits = {
-		literacy
+		literary
 		innovative
 		sickly
 	}

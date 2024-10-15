@@ -5,7 +5,7 @@ ecchi_pol_prus_character_template = {
     last_name = ecchi_Prus
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_intelligentsia
@@ -40,7 +40,7 @@ ecchi_pol_pilsudski_character_template = {
     last_name = Pilsudski
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_radical
     interest_group = ig_armed_forces
@@ -74,7 +74,7 @@ ecchi_pol_mieroslawski_character_template = {
     last_name = Mieroslawski
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_intelligentsia
@@ -108,7 +108,7 @@ ecchi_pol_wysocki_character_template = {
     last_name = Wysocki
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_landowners
@@ -142,7 +142,7 @@ ecchi_pol_conrad_character_template = {
     last_name = Conrad
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -245,7 +245,7 @@ ecchi_pol_mroczkowski_character_template = {
     last_name = ecchi_Mroczkowski
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_anarchist
     interest_group = ig_petty_bourgeoisie
@@ -292,7 +292,7 @@ ecchi_pol_dmoski_character_template = {
     last_name = ecchi_Dmowski
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
     interest_group = ig_petty_bourgeoisie
@@ -324,7 +324,7 @@ ecchi_pol_paderewski_character_template = {
     last_name = ecchi_Paderewski
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -359,7 +359,7 @@ ecchi_pol_sienkiewicz_character_template = {
     last_name = ecchi_Sienkiewicz
     historical = yes
     culture = cu:polish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_humanitarian
     interest_group = ig_landowners

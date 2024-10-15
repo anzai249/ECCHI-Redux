@@ -6,7 +6,7 @@ ecchi_tib_11_dalai_lama_character_template = {
     last_name = Gyatso
     historical = yes
     culture = cu:tibetan
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -32,7 +32,7 @@ ecchi_tib_12_dalai_lama_character_template = {
     last_name = Gyatso
     historical = yes
     culture = cu:tibetan
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -58,7 +58,7 @@ ecchi_tib_13_dalai_lama_character_template = {
     last_name = Gyatso
     historical = yes
     culture = cu:tibetan
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -84,7 +84,7 @@ ecchi_tib_dorzhiev_character_template = {
     last_name = ecchi_Dorzhiev
     historical = yes
     culture = cu:siberian	#Buryat
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_theocrat
     interest_group = ig_intelligentsia

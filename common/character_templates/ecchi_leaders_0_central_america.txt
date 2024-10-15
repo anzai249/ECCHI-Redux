@@ -5,7 +5,7 @@ ecchi_hon_de_herrera_character_template = {
     last_name = de_Herrera
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -61,7 +61,7 @@ ecchi_hon_cabanas_character_template = {
     last_name = Cabanas
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_intelligentsia
@@ -100,7 +100,7 @@ ecchi_hon_bogran_character_template = {
     last_name = ecchi_Bogran
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_landowners
@@ -133,7 +133,7 @@ ecchi_cos_castro_character_template = {
     last_name = Castro
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -161,7 +161,7 @@ ecchi_dom_salcedo_character_template = {
     last_name = ecchi_Salcedo
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -191,7 +191,7 @@ ecchi_dom_duarte_character_template = {
     last_name = Duarte
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_radical
     interest_group = ig_petty_bourgeoisie
@@ -221,7 +221,7 @@ ecchi_dom_polanco_character_template = {
     last_name = ecchi_Polanco
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -248,7 +248,7 @@ ecchi_gua_barrios_character_template = {
     last_name = Barrios
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -278,7 +278,7 @@ ecchi_gua_carrera_character_template = {
     last_name = Carrera
     historical = yes
     culture = cu:central_american
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk

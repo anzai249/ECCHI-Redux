@@ -5,7 +5,7 @@ ecchi_ire_collins_character_template = {
     last_name = Collins
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_radical
     interest_group = ig_rural_folk
@@ -35,7 +35,7 @@ ecchi_ire_griffith_character_template = {
     last_name = Griffith
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -65,7 +65,7 @@ ecchi_ire_larkin_character_template = {
     last_name = Larkin
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_communist
     interest_group = ig_trade_unions
@@ -93,7 +93,7 @@ ecchi_ire_guinness_character_template = {
     last_name = ecchi_Guinness_II
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_humanitarian
     interest_group = ig_petty_bourgeoisie
@@ -130,7 +130,7 @@ ecchi_ire_parnell_character_template = {
     last_name = ecchi_Parnell
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_landowners
@@ -167,7 +167,7 @@ ecchi_ire_butt_character_template = {
     last_name = ecchi_Butt
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_devout
@@ -204,7 +204,7 @@ ecchi_ire_bernal_character_template = {
     last_name = ecchi_Bernal
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_communist
     interest_group = ig_intelligentsia
@@ -241,7 +241,7 @@ ecchi_ire_casement_character_template = {
     last_name = ecchi_Casement
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
     interest_group = ig_intelligentsia

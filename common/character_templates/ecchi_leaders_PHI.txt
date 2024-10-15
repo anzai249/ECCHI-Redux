@@ -5,7 +5,7 @@ ecchi_phi_bonifacio_character_template = {
     last_name = Bonifacio
     historical = yes
     culture = cu:filipino
-    female = no
+
     religion = rel:catholic
     ideology = ideology_republican_leader
     interest_group = ig_intelligentsia
@@ -31,7 +31,7 @@ ecchi_phi_aguinaldo_character_template = {
     last_name = ecchi_Aguinaldo
     historical = yes
     culture = cu:filipino
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_landowners
@@ -63,7 +63,7 @@ ecchi_phi_rizal_character_template = {
     last_name = Rizal
     historical = yes
     culture = cu:filipino
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia

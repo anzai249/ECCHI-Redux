@@ -143,7 +143,7 @@ ecchi_ger_engels_character_template = {
 #     last_name = ecchi_Liebknecht
 #     historical = yes
 #     culture = cu:north_german
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_communist
 #     interest_group = ig_trade_unions
@@ -190,7 +190,7 @@ ecchi_ger_einstein_character_template = {
     last_name = ecchi_Einstein
     historical = yes
     culture = cu:south_german
-    female = no
+
     religion = rel:jewish
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -234,7 +234,7 @@ ecchi_ger_alfred_krupp_character_template = {
     last_name = ecchi_Krupp
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_industrialists
@@ -277,7 +277,7 @@ ecchi_ger_friedrich_krupp_character_template = {
     last_name = ecchi_Krupp
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_industrialists
@@ -320,7 +320,7 @@ ecchi_ger_wagner_character_template = {
     last_name = Wagner
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
@@ -364,7 +364,7 @@ ecchi_ger_schopenhauer_character_template = {
     last_name = ecchi_Schopenhauer
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_atheist
     interest_group = ig_intelligentsia
@@ -407,7 +407,7 @@ ecchi_ger_nietzsche_character_template = {
     last_name = ecchi_Nietzsche
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_atheist
     interest_group = ig_intelligentsia
@@ -598,7 +598,7 @@ ecchi_ger_grimm_character_template = {
 	interest_group = ig_intelligentsia
 	dna = ecchi_dna_jacob_grimm
 	birth_date = 1785.1.4
-	traits = { meticulous erudite literacy }
+	traits = { meticulous erudite literary }
 	agitator_usage = {
 		country_trigger = {
 			has_state_in_state_region = STATE_HESSE

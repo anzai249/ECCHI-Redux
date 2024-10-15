@@ -5,7 +5,7 @@ ecchi_spa_infante_carlos_character_template = {
     last_name = de_Borbon
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -83,7 +83,7 @@ ecchi_spa_serrano_character_template = {
     last_name = Serrano
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -122,7 +122,7 @@ ecchi_spa_iglesias_character_template = {
     last_name = ecchi_Iglesias
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_social_democrat
     interest_group = ig_trade_unions
@@ -161,7 +161,7 @@ ecchi_spa_franco_character_template = {
     last_name = Franco
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -195,7 +195,7 @@ ecchi_spa_picasso_character_template = {
     last_name = ecchi_Picasso
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_communist
     interest_group = ig_intelligentsia
@@ -233,7 +233,7 @@ ecchi_spa_sagasta_character_template = {
     last_name = ecchi_Mateo_Sagasta
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_rural_folk
@@ -273,7 +273,7 @@ ecchi_spa_weyler_character_template = {
     last_name = Weyler
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_authoritarian
     interest_group = ig_armed_forces
@@ -310,7 +310,7 @@ ecchi_spa_primo_de_rivera_character_template = {
     last_name = ecchi_Primo_de_Rivera
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_authoritarian
     interest_group = ig_landowners
@@ -350,7 +350,7 @@ ecchi_spa_silvela_character_template = {
     last_name = ecchi_Silvela
     historical = yes
     culture = cu:spanish
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_petty_bourgeoisie

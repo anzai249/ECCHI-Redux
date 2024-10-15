@@ -5,7 +5,7 @@ ecchi_mgl_bogd_khan_character_template = {
     last_name = Khan
     historical = yes
     culture = cu:tibetan
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_traditionalist
     interest_group = ig_devout
@@ -35,7 +35,7 @@ ecchi_mgl_khanddorj_character_template = {
     last_name = ecchi_Mijiddorjiin
     historical = yes
     culture = cu:mongol
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -65,7 +65,7 @@ ecchi_mgl_namnansuren_character_template = {
     last_name = ecchi_Togs-Ochiryn
     historical = yes
     culture = cu:mongol
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -95,7 +95,7 @@ ecchi_mgl_von_ungern_sternberg_character_template = {
     last_name = ecchi_von_Ungern-Sternberg
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:gelugpa
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces

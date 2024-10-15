@@ -5,7 +5,7 @@ ecchi_gbr_grey_character_template = {
     last_name = Grey
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -40,7 +40,7 @@ ecchi_gbr_john_russell_character_template = {
     last_name = Russell
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -75,7 +75,7 @@ ecchi_gbr_john_russell_character_template = {
 #     last_name = ecchi_Hamilton_Gordon
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_pacifist
 #     interest_group = ig_industrialists
@@ -114,7 +114,7 @@ ecchi_gbr_cecil_character_template = {
     last_name = ecchi_Gascoyne_Cecil
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -153,7 +153,7 @@ ecchi_gbr_primrose_character_template = {
     last_name = Primrose
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_intelligentsia
@@ -193,7 +193,7 @@ ecchi_gbr_primrose_character_template = {
 #     last_name = Balfour
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_moderate
 #     interest_group = ig_industrialists
@@ -232,7 +232,7 @@ ecchi_gbr_campbell_bannerman_character_template = {
     last_name = Campbell-Bannerman
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_radical
     interest_group = ig_intelligentsia
@@ -272,7 +272,7 @@ ecchi_gbr_asquith_character_template = {
     last_name = ecchi_Asquith
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -307,7 +307,7 @@ ecchi_gbr_asquith_character_template = {
 #     last_name = George
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_reformer
 #     interest_group = ig_intelligentsia
@@ -342,7 +342,7 @@ ecchi_gbr_law_character_template = {
     last_name = Law
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -381,7 +381,7 @@ ecchi_gbr_baldwin_character_template = {
     last_name = Baldwin
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -420,7 +420,7 @@ ecchi_gbr_macdonald_character_template = {
     last_name = MacDonald
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_trade_unions
@@ -459,7 +459,7 @@ ecchi_gbr_chamberlain_character_template = {
     last_name = Chamberlain
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_industrialists
@@ -498,7 +498,7 @@ ecchi_gbr_churchill_character_template = {
     last_name = Churchill
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -602,7 +602,7 @@ ecchi_gbr_lawrence_character_template = {
     last_name = Lawrence
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_armed_forces
@@ -637,7 +637,7 @@ ecchi_gbr_darby_character_template = {
     last_name = ecchi_Darby
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -672,7 +672,7 @@ ecchi_gbr_livingstone_character_template = {
     last_name = Livingstone
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_devout
@@ -715,7 +715,7 @@ ecchi_gbr_albert_character_template = {
     last_name = of_Saxe-Coburg-Gotha
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_intelligentsia
@@ -750,7 +750,7 @@ ecchi_gbr_albert_character_template = {
 #     last_name = ecchi_Darwin
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_atheist
 #     interest_group = ig_intelligentsia
@@ -790,7 +790,7 @@ ecchi_gbr_bertrand_russell_character_template = {
     last_name = Russell
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -825,7 +825,7 @@ ecchi_gbr_lionel_de_rothschild_sr_character_template = {
     last_name = ecchi_de_Rothschild
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:jewish
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -855,7 +855,7 @@ ecchi_gbr_conan_doyle_character_template = {
     last_name = ecchi_Conan_Doyle
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_intelligentsia
@@ -891,7 +891,7 @@ ecchi_gbr_conan_doyle_character_template = {
 #     last_name = ecchi_Dickens
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_reformer
 #     interest_group = ig_intelligentsia
@@ -917,7 +917,7 @@ ecchi_gbr_shackleton_character_template = {
     last_name = ecchi_Shackleton
     historical = yes
     culture = cu:irish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_armed_forces
@@ -977,7 +977,7 @@ ecchi_gbr_stanley_character_template = {
     last_name = Stanley
     historical = yes
     culture = cu:welsh
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -1016,7 +1016,7 @@ ecchi_gbr_tolkien_character_template = {
     last_name = ecchi_Tolkien
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -1042,7 +1042,7 @@ ecchi_gbr_ross_character_template = {
     last_name = Ross
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_armed_forces
@@ -1076,7 +1076,7 @@ ecchi_gbr_franklin_character_template = {
     last_name = Franklin
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -1101,7 +1101,7 @@ ecchi_gbr_scott_character_template = {
     last_name = Scott
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_armed_forces
@@ -1126,7 +1126,7 @@ ecchi_gbr_kipling_character_template = {
     last_name = ecchi_Kipling
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_petty_bourgeoisie
@@ -1166,7 +1166,7 @@ ecchi_gbr_harcourt_character_template = {
     last_name = Harcourt
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -1196,7 +1196,7 @@ ecchi_gbr_harcourt_character_template = {
 #     last_name = ecchi_Keynes
 #     historical = yes
 #     culture = cu:british
-#     female = no
+# 
 #     religion = rel:protestant
 #     ideology = ideology_social_democrat
 #     interest_group = ig_intelligentsia
@@ -1227,7 +1227,7 @@ ecchi_gbr_carlyle_character_template = {
     last_name = ecchi_Carlyle
     historical = yes
     culture = cu:scottish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_intelligentsia
@@ -1267,7 +1267,7 @@ ecchi_gbr_wood_character_template = {
     last_name = Wood
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -1295,7 +1295,7 @@ ecchi_gbr_cobden_character_template = {
     last_name = ecchi_Cobden
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_radical
     interest_group = ig_industrialists
@@ -1477,7 +1477,7 @@ ecchi_gbr_stevenson_robert_character_template = {
     first_name = ecchi_Robert_Lewis
     last_name = ecchi_Stevenson
     culture = cu:scottish
-    female = no
+
     interest_group = ig_intelligentsia
     birth_date = 1850.11.13
     historical = yes
@@ -1519,7 +1519,7 @@ ecchi_gbr_stevenson_robert_character_template = {
 #     first_name = George
 #     last_name = Stephenson
 #     culture = cu:british
-#     female = no
+# 
 #     interest_group = ig_industrialists
 #     birth_date = 1781.6.9
 #     historical = yes
@@ -1560,7 +1560,7 @@ ecchi_gbr_chaplin_charlie_character_template = {
     first_name = Charlie
     last_name = ecchi_Chaplin
     culture = cu:british
-    female = no
+
     interest_group = ig_petty_bourgeoisie
     birth_date = 1889.4.16
     historical = yes
@@ -1606,7 +1606,7 @@ ecchi_gbr_conolly_arthur_character_template = {
     first_name = Arthur
     last_name = Conolly
     culture = cu:british
-    female = no
+
     interest_group = ig_armed_forces
     birth_date = 1807.7.2
     historical = yes

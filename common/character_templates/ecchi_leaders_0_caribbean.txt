@@ -5,7 +5,7 @@ ecchi_cub_de_cespedes_character_template = {
     last_name = de_Cespedes
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_abolitionist
     interest_group = ig_landowners
@@ -35,7 +35,7 @@ ecchi_cub_marti_character_template = {
     last_name = ecchi_Marti
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -67,7 +67,7 @@ ecchi_cub_maceo_character_template = {
     last_name = ecchi_Maceo
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -98,7 +98,7 @@ ecchi_cub_gomez_character_template = {
     last_name = ecchi_Gomez
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -125,7 +125,7 @@ ecchi_cub_garcia_character_template = {
     last_name = Garcia
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_abolitionist
     interest_group = ig_armed_forces
@@ -156,7 +156,7 @@ ecchi_cub_mella_character_template = {
     last_name = Mella
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_communist
     interest_group = ig_trade_unions
@@ -183,7 +183,135 @@ ecchi_cub_mella_character_template = {
     }
 }
 
+## Francisco Vicente Aguilera
+ecchi_cub_aguilera_character_template = {
+    first_name = Francisco
+    last_name = ecchi_Vicente_Aguilera
+    historical = yes
+    culture = cu:caribeno
 
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_landowners
+    dna = ecchi_dna_francisco_vicente_aguilera
+    birth_date = 1821.6.23
+    traits = { explorer ambitious literary }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+			NOT = {
+				cu:caribeno = {
+					culture_is_discriminated_in = root
+				}
+			}
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1873.1.1
+        chance = 60
+    }
+}
+
+## Tomás Estrada Palma
+ecchi_cub_palma_character_template = {
+    first_name = Tomas
+    last_name = ecchi_Estrada_Palma
+    historical = yes
+    culture = cu:caribeno
+
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_tomas_estrada_palma
+    birth_date = 1832.7.9
+    traits = { ambitious wrathful }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+            NOT = {
+                cu:caribeno = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1908.11.4
+        chance = 60
+    }
+}
+
+## Gerardo Machado
+ecchi_cub_machado_character_template = {
+    first_name = Gerardo
+    last_name = Machado
+    historical = yes
+    culture = cu:caribeno
+
+    religion = rel:catholic
+    ideology = ideology_authoritarian
+    interest_group = ig_landowners
+    dna = ecchi_dna_gerardo_machado
+    birth_date = 1869.9.28
+    traits = { ambitious wrathful cruel }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_CUBA
+            NOT = {
+                cu:caribeno = {
+                    culture_is_discriminated_in = root
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1925.1.1
+        latest_usage_date = 1939.3.29
+        chance = 60
+    }
+}
+
+## Blas Villate
+ecchi_cub_villate_character_template = {
+    first_name = Blas
+    last_name = ecchi_Villate
+    historical = yes
+    culture = cu:caribeno
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    dna = ecchi_dna_blas_villate
+    birth_date = 1824.2.3
+    traits = { forest_commander }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:CUB
+                    this = c:CUB
+                }
+                AND = {
+                    NOT = {
+                        exists = c:CUB
+                    }
+                    exists = c:SPA
+                }
+            }
+        role = general
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1878.1.1
+        chance = 60
+        }
+    }
+}
 
 # Haiti
 
@@ -192,7 +320,7 @@ ecchi_hai_soulouque_character_template = {
     last_name = Soulouque
     historical = yes
     culture = cu:afro_caribeno
-    female = no
+
     religion = rel:animist #Vodou
     ideology = ideology_royalist
     interest_group = ig_rural_folk
@@ -222,7 +350,7 @@ ecchi_hai_pierrot_character_template = {
     last_name = Pierrot
     historical = yes
     culture = cu:caribeno
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -249,7 +377,7 @@ ecchi_jam_garvey_character_template = {
     last_name = ecchi_Garvey
     historical = yes
     culture = cu:afro_caribbean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_traditionalist
     interest_group = ig_landowners
@@ -279,7 +407,7 @@ ecchi_jam_bogle_character_template = {
     last_name = ecchi_Bogle
     historical = yes
     culture = cu:afro_caribbean
-    female = no
+
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_rural_folk

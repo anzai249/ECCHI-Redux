@@ -5,7 +5,7 @@ ecchi_dai_truong_dinh_character_template = {
     last_name = Truong
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_truong_dinh
@@ -35,7 +35,7 @@ ecchi_dai_nguyen_trung_truc_character_template = {
     last_name = Nguyen
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_nguyen_trung_truc
@@ -64,7 +64,7 @@ ecchi_dai_phan_dinh_phung_character_template = {
     last_name = ecchi_Phan
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_phan_dinh_phung
@@ -93,7 +93,7 @@ ecchi_dai_cao_ba_quat_character_template = {
     last_name = Cao
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_radical
     interest_group = ig_rural_folk
 	dna = ecchi_dna_cao_ba_quat
@@ -122,7 +122,7 @@ ecchi_dai_ho_chi_minh_character_template = {
     last_name = ecchi_Ho
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_communist
     interest_group = ig_rural_folk
 	dna = ecchi_dna_ho_chi_minh
@@ -153,7 +153,7 @@ ecchi_dai_huynh_thuc_khang_character_template = {
     last_name = ecchi_Huynh
     historical = yes
     culture = cu:vietnamese
-    female = no
+
     ideology = ideology_radical
     interest_group = ig_trade_unions
     dna = ecchi_dna_huynh_thuc_khang

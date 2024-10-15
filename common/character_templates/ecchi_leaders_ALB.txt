@@ -5,7 +5,7 @@ ecchi_alb_topulli_character_template = {
     last_name = ecchi_Topulli
     historical = yes
     culture = cu:albanian
-    female = no
+
     religion = rel:sunni
     ideology = ideology_radical
     interest_group = ig_armed_forces
@@ -30,7 +30,7 @@ ecchi_alb_boletini_character_template = {
     last_name = ecchi_Boletini
     historical = yes
     culture = cu:albanian
-    female = no
+
     religion = rel:sunni
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -55,7 +55,7 @@ ecchi_alb_qemali_character_template = {
     last_name = ecchi_Qemali
     historical = yes
     culture = cu:albanian
-    female = no
+
     religion = rel:sunni
     ideology = ideology_moderate
     interest_group = ig_intelligentsia
@@ -85,7 +85,7 @@ ecchi_alb_vilhelm_character_template = {
     last_name = ecchi_of_Wied
     historical = yes
     culture = cu:north_german
-    female = no
+
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_landowners
@@ -115,7 +115,7 @@ ecchi_alb_zogu_character_template = {
     last_name = Zogu
     historical = yes
     culture = cu:turkish
-    female = no
+
     religion = rel:sunni
     ideology = ideology_traditionalist
     interest_group = ig_landowners

@@ -5,7 +5,7 @@ ecchi_peu_bermudez_character_template = {
     last_name = ecchi_Bermudez
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -31,7 +31,7 @@ ecchi_peu_salaverry_character_template = {
     last_name = Salaverry
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_slaver
     interest_group = ig_armed_forces
@@ -61,7 +61,7 @@ ecchi_peu_gamarra_character_template = {
     last_name = Gamarra
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -91,7 +91,7 @@ ecchi_peu_de_san_roman_character_template = {
     last_name = ecchi_de_San_Roman
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -122,7 +122,7 @@ ecchi_peu_prado_character_template = {
     last_name = ecchi_Prado
     historical = yes
     culture = cu:south_andean
-    female = no
+
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces

@@ -5,7 +5,7 @@ ecchi_saf_rhodes_character_template = {
     last_name = ecchi_Rhodes
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_traditionalist
     interest_group = ig_industrialists
@@ -35,7 +35,7 @@ ecchi_saf_sprigg_character_template = {
     last_name = Sprigg
     historical = yes
     culture = cu:british
-    female = no
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_petty_bourgeoisie
@@ -65,7 +65,7 @@ ecchi_saf_botha_character_template = {
     last_name = Botha
     historical = yes
     culture = cu:boer
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_armed_forces
@@ -99,7 +99,7 @@ ecchi_saf_smuts_character_template = {
     last_name = ecchi_Smuts
     historical = yes
     culture = cu:boer
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -133,7 +133,7 @@ ecchi_saf_hertzog_character_template = {
     last_name = ecchi_Hertzog
     historical = yes
     culture = cu:boer
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_armed_forces

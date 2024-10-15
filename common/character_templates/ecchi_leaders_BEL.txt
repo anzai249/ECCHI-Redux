@@ -5,7 +5,7 @@ ecchi_bel_rogier_character_template = {
     last_name = Rogier
     historical = yes
     culture = cu:wallonian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_radical
     interest_group = ig_intelligentsia
@@ -40,7 +40,7 @@ ecchi_bel_pirenne_character_template = {
     last_name = ecchi_Pirenne
     historical = yes
     culture = cu:wallonian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -75,7 +75,7 @@ ecchi_bel_brialmont_character_template = {
     last_name = Brialmont
     historical = yes
     culture = cu:flemish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -110,7 +110,7 @@ ecchi_bel_de_paepe_character_template = {
     last_name = ecchi_De_Paepe
     historical = yes
     culture = cu:flemish
-    female = no
+
     religion = rel:protestant
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions
@@ -185,7 +185,7 @@ ecchi_bel_la_fontaine_character_template = {
     last_name = ecchi_La_Fontaine
     historical = yes
     culture = cu:wallonian
-    female = no
+
     religion = rel:protestant
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
