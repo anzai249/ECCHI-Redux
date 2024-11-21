@@ -10,3 +10,10 @@ Removed Characters:
 - Jamsetji Tata
 - Rabindranath Tagore
 - William Elphinstone
+
+Release 1.7.7
+(Game version 1.8)
+
+Fixes:
+
+- Game version 1.8 new descrimination.

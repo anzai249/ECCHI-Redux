@@ -57,9 +57,7 @@ ecchi_nor_nansen_fridtjof_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EASTERN_NORWAY
 			NOT = {
-				cu:norwegian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:norwegian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -87,9 +85,7 @@ ecchi_nor_michelsen_christian_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_WESTERN_NORWAY
 			NOT = {
-				cu:norwegian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:norwegian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -118,9 +114,7 @@ ecchi_nor_quisling_vidkun_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EASTERN_NORWAY
 			NOT = {
-				cu:norwegian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:norwegian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -150,9 +144,7 @@ ecchi_nor_hamsun_knut_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EASTERN_NORWAY
 			NOT = {
-				cu:norwegian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:norwegian value < acceptance_status_4 }
 			}
 		}
 		earliest_usage_date = 1890.1.1

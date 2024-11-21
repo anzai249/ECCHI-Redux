@@ -907,9 +907,7 @@ RUS_nikolai_ostrovsky = {
 		country_trigger = {
 			has_state_in_state_region = STATE_VOLHYNIA
 			NOT = {
-				cu:ukrainian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:ukrainian value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -941,9 +939,7 @@ RUS_anton_chekhov = {
 		country_trigger = {
 			has_state_in_state_region = STATE_ROSTOV
 			NOT = {
-				cu:russian = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:russian value < acceptance_status_4 }
 			}
 		}
 		earliest_usage_date = 1880.1.1

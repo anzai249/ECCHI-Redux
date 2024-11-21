@@ -16,9 +16,7 @@ ecchi_swe_nobel_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SVEALAND
 			NOT = {
-				cu:swedish = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:swedish value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {
@@ -50,9 +48,7 @@ ecchi_swe_branting_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SVEALAND
 			NOT = {
-				cu:swedish = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:swedish value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {
@@ -81,9 +77,7 @@ ecchi_swe_wallenberg_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SVEALAND
             NOT = {
-                cu:swedish = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:swedish value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {
@@ -113,9 +107,7 @@ ecchi_swe_hedin_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SVEALAND
             NOT = {
-                cu:swedish = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:swedish value < acceptance_status_4 }
             }
         }
         role = general

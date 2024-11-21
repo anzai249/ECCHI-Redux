@@ -352,9 +352,7 @@ ecchi_nzl_katherine_mansfield_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_NORTH_ISLAND
 			NOT = {
-				cu:british = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:british value < acceptance_status_4 }
 			}
         }
         earliest_usage_date = 1910.1.1

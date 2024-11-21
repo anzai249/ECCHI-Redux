@@ -2527,9 +2527,7 @@ ecchi_usa_london_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CALIFORNIA
             NOT = {
-                cu:yankee = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:yankee value < acceptance_status_4 }
             }
 			has_technology_researched = socialism
         }
@@ -2557,9 +2555,7 @@ ecchi_usa_mott_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_MASSACHUSETTS
             NOT = {
-                cu:yankee = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:yankee value < acceptance_status_4 }
             }
         }
         earliest_usage_date = 1820.1.1
@@ -2597,9 +2593,7 @@ ecchi_usa_irving_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_NEW_YORK
             NOT = {
-                cu:yankee = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:yankee value < acceptance_status_4 }
             }
         }
         earliest_usage_date = 1809.1.1

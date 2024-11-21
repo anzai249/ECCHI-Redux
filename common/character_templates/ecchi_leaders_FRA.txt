@@ -380,9 +380,7 @@ ecchi_fra_alphonse_de_lamartine_character_template = {
     agitator_usage = {
         country_trigger = {
             NOT = {
-                cu:french = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:french value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_BURGUNDY
         }
@@ -418,16 +416,12 @@ ecchi_fra_henri_barbusse_character_template = {
                         has_law = law_type:law_council_republic
                     }
                     NOT = {
-                        cu:french = {
-                            culture_is_discriminated_in = root
-                        }
+                        cultural_acceptance_base = { target = cu:french value < acceptance_status_4 }
                     }
                 }
                 AND = {
                     NOT = {
-                        cu:french = {
-                            culture_is_discriminated_in = root
-                        }
+                        cultural_acceptance_base = { target = cu:french value < acceptance_status_4 }
                     }
                     has_state_in_state_region = STATE_ILE_DE_FRANCE
                 }

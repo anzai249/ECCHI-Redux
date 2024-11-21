@@ -603,9 +603,7 @@ ecchi_ger_grimm_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_HESSE
             NOT = {
-                cu:north_german = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
             }
 		}
 		earliest_usage_date = 1836.1.1
@@ -631,9 +629,7 @@ ecchi_ger_bebel_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_NORTH_RHINE
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -666,9 +662,7 @@ ecchi_ger_wilhelm_liebknecht_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_HESSE
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 			NOT = { has_law = law_type:law_council_republic }
@@ -700,9 +694,7 @@ ecchi_ger_ebert_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_BADEN
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -733,9 +725,7 @@ ecchi_ger_zetkin_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_SAXONY
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = feminism
 		}
@@ -779,9 +769,7 @@ ecchi_ger_lasalle_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_SILESIA
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -808,9 +796,7 @@ ecchi_ger_arons_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_BRANDENBURG
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -837,9 +823,7 @@ ecchi_ger_bernstein_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_BRANDENBURG
 			NOT = {
-				cu:north_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}

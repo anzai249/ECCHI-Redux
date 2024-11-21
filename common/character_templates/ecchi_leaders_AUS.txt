@@ -463,9 +463,7 @@ ecchi_aus_kautsky_character_template = {
         country_trigger = {
 			has_state_in_state_region = STATE_BRANDENBURG
 			NOT = {
-				cu:south_german = {
-					culture_is_discriminated_in = root
-				}
+				cultural_acceptance_base = { target = cu:south_german value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
         }

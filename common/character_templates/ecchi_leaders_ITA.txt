@@ -312,9 +312,7 @@ mr_ita_canepa_character_template = {
     agitator_usage = {
         country_trigger = {
             NOT = {
-                cu:south_italian = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:south_italian value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_SICILY
         }
@@ -340,9 +338,7 @@ ecchi_ita_collodi_character_template = {
     agitator_usage = {
         country_trigger = {
             NOT = {
-                cu:north_italian = {
-                    culture_is_discriminated_in = root
-                }
+                cultural_acceptance_base = { target = cu:north_italian value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_TUSCANY
         }
