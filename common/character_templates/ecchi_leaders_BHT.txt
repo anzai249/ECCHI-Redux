@@ -1,51 +1,51 @@
 ﻿# India - politicians
 
-ecchi_bht_tata_character_template = {
-    first_name = ecchi_Jamsetji
-    last_name = ecchi_Tata
-    historical = yes
-    culture = cu:gujarati
+# ecchi_bht_tata_character_template = { 1.8
+#     first_name = ecchi_Jamsetji
+#     last_name = ecchi_Tata
+#     historical = yes
+#     culture = cu:gujarati
 
-    religion = rel:animist # Zoroastrian
-    ideology = ideology_moderate
-    interest_group = ig_industrialists
-	dna = ecchi_dna_jamsetji_tata
-    birth_date = 1839.3.3
-    traits = { innovative ambitious persistent }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:BIC
-                    this = c:BIC
-                    NOT = {
-						exists = c:BHT
-						exists = c:BER
-					}
-                }
-				 AND = {
-                    exists = c:BER
-                    this = c:BER
-                    NOT = { exists = c:BHT }
-                }
-                AND = {
-                    exists = c:BHT
-                    this = c:BHT
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_industrialists
-                is_interest_group_type = ig_landowners
-            }
-        }
-        earliest_usage_date = 1874.1.1
-        latest_usage_date = 1904.5.19
-        chance = 65
-    }
-}
+#     religion = rel:animist # Zoroastrian
+#     ideology = ideology_moderate
+#     interest_group = ig_industrialists
+# 	dna = ecchi_dna_jamsetji_tata
+#     birth_date = 1839.3.3
+#     traits = { innovative ambitious persistent }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:BIC
+#                     this = c:BIC
+#                     NOT = {
+# 						exists = c:BHT
+# 						exists = c:BER
+# 					}
+#                 }
+# 				 AND = {
+#                     exists = c:BER
+#                     this = c:BER
+#                     NOT = { exists = c:BHT }
+#                 }
+#                 AND = {
+#                     exists = c:BHT
+#                     this = c:BHT
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+#                 is_interest_group_type = ig_industrialists
+#                 is_interest_group_type = ig_landowners
+#             }
+#         }
+#         earliest_usage_date = 1874.1.1
+#         latest_usage_date = 1904.5.19
+#         chance = 65
+#     }
+# }
 
 ecchi_bht_gandhi_character_template = {
     first_name = ecchi_Mohandas
@@ -317,38 +317,38 @@ ecchi_bht_malaviya_character_template = {
 
 ## Rabindranath Tagore
 
-mr_hnd_tagore_rabindranath_character_template = {
-	dna = mr_hnd_tagore_rabindranath
-	first_name = ecchi_Rabindranath
-	last_name = ecchi_Tagore
-	culture = cu:bengali
-	religion = rel:hindu
-	female = no
-	ig_leader = no
-	interest_group = ig_intelligentsia
-	birth_date = 1861.5.7
-	historical = yes
-	traits = { 
-		literary
-		pious
-		honorable
-		charismatic
-	}
-    agitator_usage = {
-        country_trigger = {
-            morgenrote_is_active = no
-            has_state_in_state_region = STATE_SOUTH_BENGAL
-            NOT = {
-                cu:bengali = {
-                    culture_is_discriminated_in = root
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1880.1.1
-        latest_usage_date = 1916.5.7
-        chance = 65
-    }
-}
+# mr_hnd_tagore_rabindranath_character_template = { 1.8
+# 	dna = mr_hnd_tagore_rabindranath
+# 	first_name = ecchi_Rabindranath
+# 	last_name = ecchi_Tagore
+# 	culture = cu:bengali
+# 	religion = rel:hindu
+# 	female = no
+# 	ig_leader = no
+# 	interest_group = ig_intelligentsia
+# 	birth_date = 1861.5.7
+# 	historical = yes
+# 	traits = { 
+# 		literary
+# 		pious
+# 		honorable
+# 		charismatic
+# 	}
+#     agitator_usage = {
+#         country_trigger = {
+#             morgenrote_is_active = no
+#             has_state_in_state_region = STATE_SOUTH_BENGAL
+#             NOT = {
+#                 cu:bengali = {
+#                     culture_is_discriminated_in = root
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_intelligentsia
+#         }
+#         earliest_usage_date = 1880.1.1
+#         latest_usage_date = 1916.5.7
+#         chance = 65
+#     }
+# }

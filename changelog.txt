@@ -1,0 +1,12 @@
+Release 1.7.6
+(Game version 1.8)
+
+New Characters:
+
+- Semyon Budyonny
+
+Removed Characters:
+
+- Jamsetji Tata
+- Rabindranath Tagore
+- William Elphinstone

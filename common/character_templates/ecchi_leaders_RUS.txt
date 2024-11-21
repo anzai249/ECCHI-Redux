@@ -951,3 +951,32 @@ RUS_anton_chekhov = {
 		chance = 55
 	}
 }
+
+## Semyon Budyonny
+
+RUS_semyon_budyonny = {
+	first_name = Semyon
+	last_name = Budyonny
+	historical = yes
+	culture = cu:russian
+	religion = rel:orthodox
+	ideology = ideology_communist
+	interest_group = ig_rural_folk
+	dna = dna_semyon_budyonny
+	birth_date = 1883.4.25
+	traits = {
+		ambitious
+		basic_mountain_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:RUS
+			this = c:RUS
+		}
+		role = general
+		earliest_usage_date = 1917.1.1
+		latest_usage_date = 1973.1.1
+		chance = 50
+	}
+}

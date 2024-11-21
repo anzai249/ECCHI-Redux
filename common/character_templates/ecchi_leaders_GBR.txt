@@ -530,38 +530,38 @@ ecchi_gbr_churchill_character_template = {
 
 # Great Britain - Officers
 
-ecchi_gbr_elphinstone_character_template = {
-	first_name = William
-	last_name = Elphinstone
-	culture = cu:scottish
-	female = no
-	religion = rel:protestant
-	ideology = ideology_traditionalist
-	commander_rank = default
-	interest_group = ig_armed_forces
-	birth_date = 1782.1.26
-	dna = ecchi_dna_william_elphinstone
-	traits = { senile reckless plains_commander }
-	commander_usage = {
-		country_trigger = {
-			OR ={
-				AND = {
-					exists = c:GBR
-					this = c:GBR
-					NOT = { exists = c:SCO }
-				}
-				AND = {
-					exists = c:SCO
-					this = c:SCO
-				}
-			}
-		}
-		role = general
-		earliest_usage_date = 1836.1.1
-		latest_usage_date = 1842.4.23
-		chance = 50
-	}
-}
+# ecchi_gbr_elphinstone_character_template = { 1.8
+# 	first_name = William
+# 	last_name = Elphinstone
+# 	culture = cu:scottish
+# 	female = no
+# 	religion = rel:protestant
+# 	ideology = ideology_traditionalist
+# 	commander_rank = default
+# 	interest_group = ig_armed_forces
+# 	birth_date = 1782.1.26
+# 	dna = ecchi_dna_william_elphinstone
+# 	traits = { senile reckless plains_commander }
+# 	commander_usage = {
+# 		country_trigger = {
+# 			OR ={
+# 				AND = {
+# 					exists = c:GBR
+# 					this = c:GBR
+# 					NOT = { exists = c:SCO }
+# 				}
+# 				AND = {
+# 					exists = c:SCO
+# 					this = c:SCO
+# 				}
+# 			}
+# 		}
+# 		role = general
+# 		earliest_usage_date = 1836.1.1
+# 		latest_usage_date = 1842.4.23
+# 		chance = 50
+# 	}
+# }
 
 # ecchi_gbr_haig_character_template = {
 # 	first_name = Douglas
