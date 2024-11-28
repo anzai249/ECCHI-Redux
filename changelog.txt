@@ -17,3 +17,10 @@ Release 1.7.7
 Fixes:
 
 - Game version 1.8 new descrimination.
+
+Release 1.7.8
+(Game version 1.8)
+
+Fixes:
+
+- Triggers of USA agitators.
