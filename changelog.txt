@@ -24,3 +24,9 @@ Release 1.7.8
 Fixes:
 
 - Triggers of USA agitators.
+
+Release 1.7.9
+
+Fixes:
+
+- Character trait for Josip Broz Tito and Mao Zedong.
