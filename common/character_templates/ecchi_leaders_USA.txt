@@ -701,7 +701,7 @@ ecchi_usa_long_character_template = {
     culture = cu:dixie
 
     religion = rel:protestant
-    ideology = ideology_reformer
+    ideology = ideology_social_democrat
     interest_group = ig_rural_folk
     birth_date = 1893.8.30
 	dna = ecchi_dna_huey_long
@@ -2530,6 +2530,9 @@ ecchi_usa_london_character_template = {
                 cultural_acceptance_base = { target = cu:yankee value < acceptance_status_4 }
             }
 			has_technology_researched = socialism
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
         }
         earliest_usage_date = 1899.1.1
         latest_usage_date = 1916.11.22

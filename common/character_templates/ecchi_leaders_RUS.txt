@@ -894,7 +894,7 @@ RUS_nikolai_ostrovsky = {
 	culture = cu:ukrainian
 	female = no
 	religion = rel:orthodox
-	ideology = ideology_vangardist
+	ideology = ideology_vanguardist
 	interest_group = ig_trade_unions
 	dna = dna_nikolai_ostrovsky
 	birth_date = 1904.2.29
@@ -910,6 +910,9 @@ RUS_nikolai_ostrovsky = {
 				cultural_acceptance_base = { target = cu:ukrainian value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
 		}
 		earliest_usage_date = 1920.1.1
 		latest_usage_date = 1936.1.1
@@ -942,6 +945,9 @@ RUS_anton_chekhov = {
 				cultural_acceptance_base = { target = cu:russian value < acceptance_status_4 }
 			}
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
 		earliest_usage_date = 1880.1.1
 		latest_usage_date = 1904.7.15
 		chance = 55
@@ -962,7 +968,7 @@ RUS_semyon_budyonny = {
 	birth_date = 1883.4.25
 	traits = {
 		ambitious
-		basic_mountain_commander
+		mountain_commander
 	}
 	commander_rank = default
 	commander_usage = {

@@ -47,52 +47,53 @@
 #     }
 # }
 
-ecchi_bht_gandhi_character_template = {
-    first_name = ecchi_Mohandas
-    last_name = ecchi_Gandhi
-    historical = yes
-    culture = cu:gujarati
+# already in vanilla
+# ecchi_bht_gandhi_character_template = {
+#     first_name = ecchi_Mohandas
+#     last_name = ecchi_Gandhi
+#     historical = yes
+#     culture = cu:gujarati
 
-    religion = rel:hindu
-    ideology = ideology_pacifist
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_mohandas_gandhi
-    birth_date = 1869.10.2
-    traits = { charismatic tactful experienced_diplomat persistent }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:BIC
-                    this = c:BIC
-                    NOT = {
-						exists = c:BHT
-						exists = c:HND
-					}
-                }
-				 AND = {
-                    exists = c:HND
-                    this = c:HND
-                    NOT = { exists = c:BHT }
-                }
-                AND = {
-                    exists = c:BHT
-                    this = c:BHT
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
-            }
-        }
-        earliest_usage_date = 1915.1.1
-        latest_usage_date = 1948.1.30
-        chance = 65
-    }
-}
+#     religion = rel:hindu
+#     ideology = ideology_pacifist
+#     interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_mohandas_gandhi
+#     birth_date = 1869.10.2
+#     traits = { charismatic tactful experienced_diplomat persistent }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             OR = {
+#                 AND = {
+#                     exists = c:BIC
+#                     this = c:BIC
+#                     NOT = {
+# 						exists = c:BHT
+# 						exists = c:HND
+# 					}
+#                 }
+# 				 AND = {
+#                     exists = c:HND
+#                     this = c:HND
+#                     NOT = { exists = c:BHT }
+#                 }
+#                 AND = {
+#                     exists = c:BHT
+#                     this = c:BHT
+#                 }
+#             }
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+#                 is_interest_group_type = ig_intelligentsia
+#                 is_interest_group_type = ig_trade_unions
+#             }
+#         }
+#         earliest_usage_date = 1915.1.1
+#         latest_usage_date = 1948.1.30
+#         chance = 65
+#     }
+# }
 
 ecchi_bht_nehru_character_template = {
     first_name = ecchi_Jawaharlal

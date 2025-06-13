@@ -2,11 +2,7 @@
 
 dna_michael_alexandrovich_romanov = {
      portrait_info = {
- 
-      TODO_choose_portait_key={
-	type=male
-	id=0
-	age=0.375000
+
 	genes={ 		hair_color={ 116 164 110 77 }
  		skin_color={ 82 0 118 12 }
  		eye_color={ 221 163 162 89 }

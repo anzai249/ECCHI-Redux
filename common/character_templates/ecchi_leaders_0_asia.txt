@@ -201,11 +201,113 @@ ecchi_tur_halide_edib_adivar_character_template = {
 			this = c:TUR
 			has_technology_researched = feminism
 		}
+        interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+        }
 		earliest_usage_date = 1910.1.1
 		latest_usage_date = 1925.1.1
 		chance = 65
 	}
 }
+
+## Talaat Pasha
+
+ecchi_tur_talaat_pasha_character_template = {
+	first_name = Mehmed
+	last_name = ecchi_Talaat
+	historical = yes
+	culture = cu:turkish
+	female = no
+	religion = rel:sunni
+	ideology = ideology_liberal_leader
+	interest_group = ig_armed_forces
+	dna = ecchi_dna_mehmed_talaat
+	birth_date = 1874.9.1
+	traits = {
+		innovative
+		demagogue
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_EASTERN_THRACE
+			NOT = {
+				cultural_acceptance_base = { target = cu:turkish value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1921.3.15
+		chance = 60
+	}
+}
+
+## Enver Pasha
+ecchi_tur_enver_pasha_character_template = {
+	first_name = Ismail
+	last_name = ecchi_Enver
+	historical = yes
+	culture = cu:albanian
+	female = no
+	religion = rel:sunni
+	ideology = ideology_jingoist_leader
+	interest_group = ig_armed_forces
+	dna = ecchi_dna_ismail_enver
+	birth_date = 1881.11.22
+	traits = {
+		reckless
+		ambitious
+		cruel
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_EASTERN_THRACE
+			NOT = {
+				cultural_acceptance_base = { target = cu:albanian value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1922.8.4
+		chance = 75
+	}
+}
+
+## Djemal Pasha
+ecchi_tur_djemal_pasha_character_template = {
+	first_name = Ahmed 
+	last_name = ecchi_Djemal
+	historical = yes
+	culture = cu:turkish
+	female = no
+	religion = rel:sunni
+	ideology = ideology_jingoist_leader
+	interest_group = ig_armed_forces
+	dna = ecchi_dna_ahmed_djemal
+	birth_date = 1872.5.6
+	traits = {
+		ambitious
+		cruel
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_EAST_AEGEAN_ISLANDS
+			NOT = {
+				cultural_acceptance_base = { target = cu:turkish value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1911.1.1
+		latest_usage_date = 1922.7.21
+		chance = 60
+	}
+}
+
 
 # Palestine
 ecchi_pal_trumpeldor_character_template = {
@@ -284,6 +386,9 @@ ecchi_pal_sholem_aleichem_character_template = {
 				}
 			}
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
 		earliest_usage_date = 1900.1.1
 		latest_usage_date = 1916.5.13
 		chance = 65
@@ -302,7 +407,7 @@ ecchi_pal_kahlil_gibran_character_template = {
 	interest_group = ig_intelligentsia
 	dna = ecchi_dna_kahlil_gibran
 	birth_date = 1883.1.6
-	ideology = ideology_leader_atheist
+	ideology = ideology_atheist
 	traits = {
 		literary
 		charismatic
@@ -314,6 +419,9 @@ ecchi_pal_kahlil_gibran_character_template = {
 			NOT = {
 				cultural_acceptance_base = { target = cu:mashriqi value < acceptance_status_4 }
 			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
 		}
 		earliest_usage_date = 1900.1.1
 		latest_usage_date = 1931.4.10
@@ -345,6 +453,9 @@ ecchi_nep_parijat_character_template = {
 			this = c:NEP
 			has_technology_researched = feminism
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
 		earliest_usage_date = 1950.1.1
 		latest_usage_date = 1993.1.1
 		chance = 65
@@ -362,7 +473,7 @@ ecchi_afg_mahmud_tarzi_character_template = {
 	culture = cu:pashtun
 	female = no
 	religion = rel:sunni
-	ideology = ideology_leader_atheist
+	ideology = ideology_atheist
 	interest_group = ig_intelligentsia
 	dna = ecchi_dna_mahmud_tarzi
 	birth_date = 1865.8.23

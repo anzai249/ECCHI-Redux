@@ -142,7 +142,6 @@ mr_ita_cavour_character_template = {
     religion = rel:catholic
     traits = {
         ambitious
-        pragmatic
         masterful_diplomat
     }
     interest_group_leader_usage = {
@@ -267,7 +266,6 @@ mr_ita_togliatti_character_template = {
     ideology = ideology_communist
     traits = {
         charismatic
-        pragmatic
         masterful_diplomat
     }
     interest_group_leader_usage = {
@@ -316,6 +314,9 @@ mr_ita_canepa_character_template = {
             }
             has_state_in_state_region = STATE_SICILY
         }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
         earliest_usage_date = 1930.1.1
         latest_usage_date = 1945.6.17
         chance = 65
@@ -341,6 +342,9 @@ ecchi_ita_collodi_character_template = {
                 cultural_acceptance_base = { target = cu:north_italian value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_TUSCANY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
         }
         earliest_usage_date = 1853.1.1
         latest_usage_date = 1890.10.26

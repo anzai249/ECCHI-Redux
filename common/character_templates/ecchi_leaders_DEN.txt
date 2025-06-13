@@ -25,6 +25,9 @@ ecchi_den_andersen_hans_christian_character_template = {
 				cultural_acceptance_base = { target = cu:danish value < acceptance_status_4 }
 			}
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
 		earliest_usage_date = 1835.1.1
 		latest_usage_date = 1875.8.4
 		chance = 60
@@ -51,6 +54,9 @@ ecchi_den_kierkegaard_character_template = {
                 cultural_acceptance_base = { target = cu:danish value < acceptance_status_4 }
             }
         }
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
         earliest_usage_date = 1835.1.1
         latest_usage_date = 1855.11.11
         chance = 60

@@ -176,12 +176,6 @@ ecchi_arg_peron_character_template = {
             this = c:ARG
         }
         role = general
-        interest_group_trigger = {
-			OR = {
-            is_interest_group_type = ig_intelligentsia
-            is_interest_group_type = ig_armed_forces
-            }
-        }
         earliest_usage_date = 1912.1.1
         latest_usage_date = 1974.7.1
         chance = 65

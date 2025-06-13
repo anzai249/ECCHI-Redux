@@ -462,7 +462,7 @@ ecchi_jap_okubo_toshimichi_character_template = {
     interest_group = ig_armed_forces
 	dna = ecchi_dna_okubo_toshimichi
     birth_date = 1830.9.26
-    traits = { innovative experienced_offensive_commander }
+    traits = { innovative experienced_offensive_planner}
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:JAP
@@ -605,7 +605,6 @@ ecchi_jap_yasunari_kawabata_character_template = {
 	dna = ecchi_dna_yasunari_kawabata
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
-	dna = ecchi_dna_suzuki_bunji
     birth_date = 1899.6.11
     traits = { persistent literary }
     agitator_usage = {
@@ -614,6 +613,9 @@ ecchi_jap_yasunari_kawabata_character_template = {
                 cultural_acceptance_base = { target = cu:japanese value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_KANSAI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1924.10.1
         latest_usage_date = 1972.4.16

@@ -293,11 +293,11 @@ ecchi_cub_villate_character_template = {
                     exists = c:SPA
                 }
             }
+        }
         role = general
         earliest_usage_date = 1868.1.1
         latest_usage_date = 1878.1.1
         chance = 60
-        }
     }
 }
 

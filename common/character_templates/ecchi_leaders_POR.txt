@@ -64,6 +64,9 @@ ecchi_por_teofilo_braga = {
                 }
             }
         }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
         earliest_usage_date = 1910.10.5
         latest_usage_date = 1911.5.26
         chance = 65

@@ -147,6 +147,9 @@ ecchi_nor_hamsun_knut_character_template = {
 				cultural_acceptance_base = { target = cu:norwegian value < acceptance_status_4 }
 			}
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
 		earliest_usage_date = 1890.1.1
 		latest_usage_date = 1952.2.19
 		chance = 65

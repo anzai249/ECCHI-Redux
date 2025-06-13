@@ -400,9 +400,8 @@ ecchi_fra_henri_barbusse_character_template = {
     last_name = ecchi_Barbusse
     historical = yes
     culture = cu:french
-
     religion = rel:catholic
-    ideology = ideology_vangardist
+    ideology = ideology_vanguardist
     interest_group = ig_trade_unions
     dna = ecchi_dna_henri_barbusse
     birth_date = 1873.5.17

@@ -30,3 +30,32 @@ Release 1.7.9
 Fixes:
 
 - Character trait for Josip Broz Tito and Mao Zedong.
+
+Release 1.7.10
+
+New Characters:
+
+- Mehmed Talaat
+- Ismail Enver
+- Ahmed Djemal
+
+Removed Characters:
+
+- Mohandas Gandhi
+
+Fixes:
+
+- Agitator interest group triggers.
+- Convert lost culture_is_discriminated_in trigger to cultural_acceptance_base.
+- Plinio Salgado's culture.
+- Jozef Pilsudski's traits.
+- Ignacy Jan Paderewski's traits.
+- Semyon Budyonny's traits.
+- Nikolai Ostrovsky's ideology.
+- Okubo Toshimichi's traits.
+- Camillo Benso's traits.
+- Palmiro Togliatti's traits.
+- Wilhelm Liebknecht's ideology.
+- Henri Barbusse's ideology.
+- Louis Riel's traits.
+- Samuel Hughes's traits.

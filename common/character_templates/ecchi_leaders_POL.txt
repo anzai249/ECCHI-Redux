@@ -46,7 +46,7 @@ ecchi_pol_pilsudski_character_template = {
     interest_group = ig_armed_forces
 	dna = ecchi_dna_jozef_pilsudski
     birth_date = 1867.12.5
-    traits = { experienced_diplomat diplomat experienced_offensive_planner }
+    traits = { experienced_diplomat experienced_offensive_planner }
     commander_rank = default
     commander_usage = {
         country_trigger = {
@@ -151,11 +151,9 @@ ecchi_pol_conrad_character_template = {
     traits = { reserved persistent explorer }
     agitator_usage = {
         country_trigger = {
-            NOT = {
-                cu:polish = {
-                    culture_is_discriminated_in = ROOT
-                }
-            }
+			NOT = {
+				cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+			}
             OR = {
                 AND = {
                     exists = c:GBR
@@ -303,10 +301,8 @@ ecchi_pol_dmoski_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_MAZOVIA
             NOT = {
-                cu:polish = {
-                    culture_is_discriminated_in = ROOT
-                }
-            }
+				cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+			}
         }
         interest_group_trigger = {
             is_interest_group_type = ig_petty_bourgeoisie
@@ -330,7 +326,7 @@ ecchi_pol_paderewski_character_template = {
     interest_group = ig_intelligentsia
     dna = ecchi_dna_ignacy_paderewski
     birth_date = 1860.11.6
-    traits = { charismatic experienced_diplomat romatic inspirational_orator }
+    traits = { charismatic experienced_diplomat romantic inspirational_orator }
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
@@ -338,9 +334,7 @@ ecchi_pol_paderewski_character_template = {
                 c:POL ?= this
             }
             NOT = {
-                cu:polish = {
-                    culture_is_discriminated_in = ROOT
-                }
+                cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {
@@ -373,9 +367,7 @@ ecchi_pol_sienkiewicz_character_template = {
                 c:POL ?= this
             }
             NOT = {
-                cu:polish = {
-                    culture_is_discriminated_in = ROOT
-                }
+                cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {

@@ -352,9 +352,6 @@ ecchi_chi_shi_dakai_character_template = {
                 }
             }
         }
-        interest_group_trigger = {
-            is_interest_group_type = ig_devout
-        }
         role = general
         earliest_usage_date = 1850.1.1
         latest_usage_date = 1863.6.27

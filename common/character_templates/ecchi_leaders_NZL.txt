@@ -355,6 +355,9 @@ ecchi_nzl_katherine_mansfield_character_template = {
 				cultural_acceptance_base = { target = cu:british value < acceptance_status_4 }
 			}
         }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1933.3.19
         chance = 70

@@ -606,6 +606,9 @@ ecchi_ger_grimm_character_template = {
                 cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
             }
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1863.9.20
 		chance = 65
@@ -653,7 +656,7 @@ ecchi_ger_wilhelm_liebknecht_character_template = {
 	culture = cu:north_german
 	religion = rel:protestant
 	historical = yes
-	ideology = ideology_vangardist
+	ideology = ideology_vanguardist
 	interest_group = ig_trade_unions
 	dna = ecchi_dna_wilhelm_liebknecht
 	birth_date = 1826.3.29
@@ -773,6 +776,9 @@ ecchi_ger_lasalle_character_template = {
 			}
 			has_technology_researched = socialism
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
 		earliest_usage_date = 1845.1.1
 		latest_usage_date = 1864.8.31
 		chance = 85
@@ -800,6 +806,9 @@ ecchi_ger_arons_character_template = {
 			}
 			has_technology_researched = socialism
 		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}	
 		earliest_usage_date = 1890.1.1
 		latest_usage_date = 1919.10.10
 		chance = 55
