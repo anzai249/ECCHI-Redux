@@ -31,13 +31,18 @@ Fixes:
 
 - Character trait for Josip Broz Tito and Mao Zedong.
 
-Release 1.7.10
+Release 1.8 "Wolf"
 
 New Characters:
 
 - Mehmed Talaat
 - Ismail Enver
 - Ahmed Djemal
+- Antonio de Oliveira Salazar
+- Symon Petliura
+- Stepan Bandera
+- Taras Shevchenko
+- Mykhailo Hrushevsky
 
 Removed Characters:
 

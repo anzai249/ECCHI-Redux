@@ -72,3 +72,31 @@ ecchi_por_teofilo_braga = {
         chance = 65
     }
 }
+
+## António de Oliveira Salazar
+ecchi_por_antonio_salazar = {
+    first_name = Antonio
+    last_name = ecchi_Oliveira_Salazar
+    historical = yes
+    culture = cu:portuguese
+    religion = rel:catholic
+    ideology = ideology_corporatist_leader
+    interest_group = ig_landowners
+    dna = ecchi_dna_antonio_salazar
+    birth_date = 1889.4.28
+    traits = { master_bureaucrat meticulous ruthless }
+    interest_group_leader_usage = {
+        country_trigger = {
+            has_state_in_state_region = STATE_BEIRA
+			NOT = {
+				cultural_acceptance_base = { target = cu:portuguese value < acceptance_status_4 }
+			}
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1921.1.1
+        latest_usage_date = 1970.7.27
+        chance = 65
+    }
+}

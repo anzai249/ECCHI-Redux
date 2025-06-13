@@ -367,6 +367,152 @@ ecchi_ser_krstic_character_template = {
 
 ## nestor_makhno
 
+## Symon Petliura
+
+ecchi_ukr_petliura_character_template = {
+    first_name = ecchi_Symon
+    last_name = Petliura
+    historical = yes
+    culture = cu:ukrainian
+    religion = rel:orthodox
+    ideology = ideology_socialist
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_symon_petliura
+    birth_date = 1879.5.10
+    traits = { charismatic basic_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:UKR
+                    this = c:UKR
+                    NOT = { exists = c:RUS }
+                }
+                AND = {
+                    exists = c:RUS
+                    this = c:RUS
+                    NOT = { exists = c:UKR }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1926.5.25
+        chance = 50
+    }
+
+}
+
+## Stepan Bandera
+ecchi_ukr_bandera_character_template = {
+    first_name = Stepan
+    last_name = ecchi_Bandera
+    historical = yes
+    culture = cu:ukrainian
+    religion = rel:orthodox
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_devout
+    dna = ecchi_dna_stepan_bandera
+    birth_date = 1909.1.1
+    traits = { cruel brave ambitious }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:UKR
+                    this = c:UKR
+                    NOT = { exists = c:AUS }
+                }
+                AND = {
+                    exists = c:AUS
+                    this = c:AUS
+                    NOT = { exists = c:UKR }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1959.10.15
+        chance = 25
+    }
+}
+
+## Taras Shevchenko
+ecchi_ukr_shevchenko_character_template = {
+    first_name = ecchi_Taras
+    last_name = Shevchenko
+    historical = yes
+    culture = cu:ukrainian
+    religion = rel:orthodox
+    ideology = ideology_abolitionist
+    interest_group = ig_rural_folk
+    dna = ecchi_dna_taras_shevchenko
+    birth_date = 1814.3.9
+    traits = { literary romantic }
+    agitator_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:UKR
+                    this = c:UKR
+                    NOT = { exists = c:RUS }
+                }
+                AND = {
+                    exists = c:RUS
+                    this = c:RUS
+                    NOT = { exists = c:UKR }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1861.3.10
+        chance = 60
+    }
+}
+
+## Mykhailo Hrushevsky
+ecchi_ukr_hrushevsky_character_template = {
+    first_name = ecchi_Mykhailo
+    last_name = Hrushevsky
+    historical = yes
+    culture = cu:ukrainian
+    religion = rel:orthodox
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_mykhailo_hrushevsky
+    birth_date = 1866.9.29
+    traits = { erudite charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:UKR
+                    this = c:UKR
+                    NOT = { exists = c:RUS }
+                }
+                AND = {
+                    exists = c:RUS
+                    this = c:RUS
+                    NOT = { exists = c:UKR }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1897.1.1
+        latest_usage_date = 1934.11.24
+        chance = 50
+    }
+}
+
 # Belgium
 
 ecchi_bel_wahis_character_template = {
