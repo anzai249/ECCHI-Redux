@@ -1,34 +1,34 @@
 ﻿# South Africa
 
-ecchi_saf_rhodes_character_template = {
-    first_name = Cecil
-    last_name = ecchi_Rhodes
-    historical = yes
-    culture = cu:british
+# ecchi_saf_rhodes_character_template = {
+#     first_name = Cecil
+#     last_name = ecchi_Rhodes
+#     historical = yes
+#     culture = cu:british
 
-    religion = rel:protestant
-    ideology = ideology_traditionalist
-    interest_group = ig_industrialists
-	dna = ecchi_dna_cecil_rhodes
-    birth_date = 1853.7.5
-    traits = { bigoted ambitious meticulous }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:SAF
-            this = c:SAF
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_industrialists
-                is_interest_group_type = ig_petty_bourgeoisie
-            }
-        }
-        earliest_usage_date = 1880.1.1
-        latest_usage_date = 1902.3.26
-        chance = 65
-    }
-}
+#     religion = rel:protestant
+#     ideology = ideology_traditionalist
+#     interest_group = ig_industrialists
+# 	dna = ecchi_dna_cecil_rhodes
+#     birth_date = 1853.7.5
+#     traits = { bigoted ambitious meticulous }
+#     interest_group_leader_usage = {
+#         country_trigger = {
+#             exists = c:SAF
+#             this = c:SAF
+#         }
+#         interest_group_trigger = {
+#             is_marginal = no
+#             OR = {
+#                 is_interest_group_type = ig_industrialists
+#                 is_interest_group_type = ig_petty_bourgeoisie
+#             }
+#         }
+#         earliest_usage_date = 1880.1.1
+#         latest_usage_date = 1902.3.26
+#         chance = 65
+#     }
+# }
 
 ecchi_saf_sprigg_character_template = {
     first_name = Gordon

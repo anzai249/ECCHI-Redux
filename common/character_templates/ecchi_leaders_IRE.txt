@@ -270,3 +270,31 @@ ecchi_ire_casement_character_template = {
         chance = 60
     }
 }
+
+## Daniel O'Connell
+ecchi_ire_oconnell_character_template = {
+    first_name = Daniel
+    last_name = ecchi_OConnell
+    historical = yes
+    culture = cu:irish
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    # dna = ecchi_dna_daniel_oconnell
+    birth_date = 1775.8.6
+    traits = { charismatic experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            AND = {
+                exists = c:IRE
+                this = c:IRE
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1820.1.1
+        latest_usage_date = 1847.5.15
+        chance = 60
+    }
+}

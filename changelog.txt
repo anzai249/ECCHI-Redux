@@ -64,3 +64,18 @@ Fixes:
 - Henri Barbusse's ideology.
 - Louis Riel's traits.
 - Samuel Hughes's traits.
+
+
+Release 1.8.1 "Wolf"
+
+New Characters:
+
+- Daniel O'Connell
+
+Removed Characters:
+
+- Irineu Evangelista de Sousa
+- Alfred Krupp
+- John D. Rockefeller
+- Samuel Colt
+- Cecil Rhodes

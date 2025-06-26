@@ -229,48 +229,48 @@ ecchi_ger_einstein_character_template = {
     }
 }
 
-ecchi_ger_alfred_krupp_character_template = {
-    first_name = Alfred
-    last_name = ecchi_Krupp
-    historical = yes
-    culture = cu:north_german
+# ecchi_ger_alfred_krupp_character_template = {
+#     first_name = Alfred
+#     last_name = ecchi_Krupp
+#     historical = yes
+#     culture = cu:north_german
 
-    religion = rel:protestant
-    ideology = ideology_jingoist_leader
-    interest_group = ig_industrialists
-	dna = ecchi_dna_alfred_krupp
-    birth_date = 1812.4.26
-    traits = { meticulous cautious psychological_affliction }
-    interest_group_leader_usage = {
-		country_trigger = {
-			OR = {
-				AND = {
-					exists = c:GER
-					this = c:GER
-					NOT = {
-						exists = c:WES
-						exists = c:NGF
-					}
-				}
-				 AND = {
-					exists = c:NGF
-					this = c:NGF
-					NOT = { exists = c:WES }
-				}
-				AND = {
-					exists = c:WES
-					this = c:WES
-				}
-			}
-		}
-        interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
-        }
-        earliest_usage_date = 1850.1.1
-        latest_usage_date = 1887.7.14
-        chance = 65
-    }
-}
+#     religion = rel:protestant
+#     ideology = ideology_jingoist_leader
+#     interest_group = ig_industrialists
+# 	dna = ecchi_dna_alfred_krupp
+#     birth_date = 1812.4.26
+#     traits = { meticulous cautious psychological_affliction }
+#     interest_group_leader_usage = {
+# 		country_trigger = {
+# 			OR = {
+# 				AND = {
+# 					exists = c:GER
+# 					this = c:GER
+# 					NOT = {
+# 						exists = c:WES
+# 						exists = c:NGF
+# 					}
+# 				}
+# 				 AND = {
+# 					exists = c:NGF
+# 					this = c:NGF
+# 					NOT = { exists = c:WES }
+# 				}
+# 				AND = {
+# 					exists = c:WES
+# 					this = c:WES
+# 				}
+# 			}
+# 		}
+#         interest_group_trigger = {
+#             is_interest_group_type = ig_industrialists
+#         }
+#         earliest_usage_date = 1850.1.1
+#         latest_usage_date = 1887.7.14
+#         chance = 65
+#     }
+# }
 
 ecchi_ger_friedrich_krupp_character_template = {
     first_name = ecchi_Friedrich_Alfred
