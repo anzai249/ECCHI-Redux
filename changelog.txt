@@ -79,3 +79,43 @@ Removed Characters:
 - John D. Rockefeller
 - Samuel Colt
 - Cecil Rhodes
+
+
+Release 1.9
+(Game version 1.9.*)
+
+New Characters:
+
+- Paul Janson by Cipherparadox
+- Lucien Jottran by Cipherparadox
+- Jules Destree by Cipherparadox
+- Marie Popelin by Cipherparadox
+- Auguste Beernaert by Cipherparadox
+- Guillaume Groen van Prinsterer by Cipherparadox
+- Johan d'Ablaing van Giessenburg by Cipherparadox
+- Jacobus Arnoldus Mutsaers by Cipherparadox
+- Ferdinand Domela Nieuwenhuis by Cipherparadox
+- Samuel van Houten by Cipherparadox
+- Aletta Jacobs by Cipherparadox
+- Cornelis Jacobus Snijders by Cipherparadox
+- Wolter Robert van Hoevell by Cipherparadox
+- Bernhard von Lindenau, suggested by Nikolaos
+- Christian Friedrich Illgen, suggested by Nikolaos
+- Ernst Gustav von Gersdorff, suggested by Nikolaos
+
+Removed Characters:
+
+- Alexander Kolchak
+- Thomas Edison
+- Leon Trotsky
+- Nikolai Roerich
+- Justo Jose de Urquiza
+- Ismail Enver
+
+Edited Characters:
+
+- Francisco Villa, template by Enrxque
+
+Fixes:
+
+- Fixed all ideology_atheist to ideology_nihilist

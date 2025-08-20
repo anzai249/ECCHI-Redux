@@ -752,7 +752,7 @@ ecchi_gbr_albert_character_template = {
 #     culture = cu:british
 # 
 #     religion = rel:protestant
-#     ideology = ideology_atheist
+#     ideology = ideology_nihilist
 #     interest_group = ig_intelligentsia
 # 	dna = ecchi_dna_charles_darwin
 #     birth_date = 1809.2.12

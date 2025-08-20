@@ -1,8 +1,8 @@
-﻿#################################################
-# COMMUNITY MOD COMPATIBILITY SCRIPTED TRIGGERS #
-#################################################
+﻿##########################
+# COMMUNITY MOD TRIGGERS #
+##########################
 # FILE USAGE:
-# Copy this file into the /common/scripted_triggers folder of your mod.
+# DO NOT copy this file into your mod.
 #
 # If a mod contained in this file is not loaded, its trigger will return false.
 #
@@ -12,18 +12,31 @@
 #  
 # morgenrote_is_active = {
 #		always = yes
-# {
+# }
 #
 # Make sure your scripted trigger file is loaded AFTER this one. You can do this by adding zz_ to the filename.
 #
+# Your scripted trigger files goes in the /common/scripted_triggers folder of your mod.
+#
 
+anno1836_is_active = { # Anno 1836
+	always = no
+}
 
 anzfp_is_active = { # Australia & New Zealand Flavor Pack
 	always = no
 }
 
-basileia_is_active = {
-	always = no
+basileia_is_active = { # Basileia Romaion
+    always = no
+}
+
+betterdecrees_is_active = { # Better Decrees
+    always = no
+}
+
+BPM_is_active_trigger = { # Better Politics Mod
+    always = no
 }
 
 com_is_active = { # Community Outfit Mod
@@ -34,11 +47,27 @@ EACP_is_active_trigger = { # East Asian Clothes Patch
     always = no
 }
 
+ecchi_r_is_active = { # ECCHI Redux
+    always = no
+}
+
+eocfm_is_active_trigger = { # Eastern Orthodox Flavor
+	always = no
+}
+
 GGGG_is_active_trigger = { # Gas, Guns, Garb, & Grub
     always = no
 }
 
-grefm_is_active = { # Greece, Byzantium, & the Balkans Flavor
+gilded_age_is_active_trigger = { # Gilded Age
+    always = no
+}
+
+grefm_is_active = { # Gates of the Bosphorus
+	always = no
+}
+
+IEX_is_active_trigger = { # Industry Expanded
 	always = no
 }
 
@@ -46,8 +75,24 @@ is_usfp_active = { # Hail, Columbia!
     always = no
 }
 
+jotn_is_active_trigger = { # Jewel of the Nile
+	always = no
+}
+
 JKFP_is_active_trigger = { # James's Korea Flavor Pack
 	always = no
+}
+
+magic_gate_is_active = { # Manaflow: Ankaris Arrival
+	always = no
+}
+
+war_goal_framework_is_active = { # War Goal Framework
+    always = no
+}
+
+mandate_o_h_is_active = { # Mandate of Heaven
+    always = no
 }
 
 morgenrote_is_active = { # Morgenrote: Dawn of Flavor
@@ -65,9 +110,63 @@ PCT_is_active_trigger = { # James's Pop Clothing Tweaks
 RRK_is_active_trigger = { # Rally Round the King
 	always = no
 }
- 
+
+STMS_is_active_trigger = { # States That Make Sense
+    always = no
+}
+
+tlim_is_active_trigger = { # This Land is Mine
+    always = no
+}
+
+vtm_is_active_trigger = { # Victoria Tweaks Mod
+    always = no
+}
+
 WCR_is_active_trigger = { # Western Clothes: Redux
 	always = no
+}
+
+#### Grey's Little Reworks ####
+
+Grey_CIR_is_active = { # Clothing Industry Rework
+    always = no
+}
+
+Grey_FIR_is_active = { # Food Industry Rework
+    always = no
+}
+
+Grey_MIR_is_active = { # Military Industry Rework
+    always = no
+}
+
+Grey_PLP_is_active = { # Populist Legal Power
+    always = no
+}
+
+Grey_RPR_is_active = { # Ranch Production Rework
+    always = no
+}
+
+Grey_SEA_is_active = { # Soft Econ Adjustments
+    always = no
+}
+
+Grey_SPA_is_active = { # Soft Pop Adjustments
+    always = no
+}
+
+Grey_SIS_is_active = { # Subject Interaction Suite
+    always = no
+}
+
+Grey_TSC_is_active = { # Tweaked Start Conditions
+    always = no
+}
+
+Grey_USU_is_active = { # Urban Synergy Unleashed
+    always = no
 }
 
 hga_is_active = { # Historical Generals and Admirals

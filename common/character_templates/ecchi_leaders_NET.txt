@@ -115,3 +115,208 @@ ecchi_net_troelstra_character_template = {
         chance = 65
     }
 }
+
+net_prinsterer_character_template = {
+    first_name = Guillaume
+    last_name = Groen_van_Prinsterer
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+	dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1801.7.21
+    traits = { pious persistent literary }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1866.1.1
+        chance = 100
+    }
+}
+
+net_d_ablaing_van_giessenburg_character_template = {
+    first_name = Johan
+    last_name = D_Ablaing_van_Giessenburg
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_traditionalist
+    interest_group = ig_armed_forces
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1779.5.6
+    traits = { brave popular_commander }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1859.5.27
+        chance = 100
+    }
+}
+
+net_mutsaers_character_template = {
+    first_name = Jacobus_Arnoldus
+    last_name = Mutsaers
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1805.1.28
+    traits = { pious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1870.1.1
+        chance = 100
+    }
+}
+
+net_nieuwenhuis_character_template = {
+	first_name = Ferdinand_Domela
+	last_name = Nieuwenhuis
+	historical = yes
+	culture = cu:dutch
+	religion = rel:protestant
+	interest_group = ig_trade_unions
+	ideology = ideology_anarchist
+	birth_date = 1846.12.31
+	dna = dna_debs_eugene
+	traits = { ambitious direct charismatic }
+	agitator_usage = {
+		country_trigger = {
+			c:NET ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }
+		earliest_usage_date = 1879.1.1
+		latest_usage_date = 1919.11.18
+		chance = 50
+	}
+}
+
+net_van_houten_character_template = {
+	first_name = Samuel
+	last_name = van_Houten
+	historical = yes
+	culture = cu:dutch
+	religion = rel:protestant
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	birth_date = 1837.2.17
+	dna = mr_net_van_houten_samuel
+	traits = { imposing experienced_political_operator }
+	agitator_usage = {
+		country_trigger = {
+			c:NET ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1924.11.18
+		chance = 50
+	}
+}
+
+net_jacobs_character_template = {
+	first_name = Aletta
+	last_name = Jacobs
+	historical = yes
+	culture = cu:dutch
+	religion = rel:jewish
+    female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1854.2.9
+	dna = mr_net_jacobs_aletta
+	traits = { persistent erudite }
+	agitator_usage = {
+		country_trigger = {
+			c:NET ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1881.1.1
+		latest_usage_date = 1929.7.10
+		chance = 100
+	}
+}
+
+net_snijders_character_template = {
+	first_name = Cornelis_Jacobus
+	last_name = Snijders
+	historical = yes
+	culture = cu:dutch
+	religion = rel:protestant
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+	birth_date = 1852.9.29
+	dna = mr_net_snijders_cornelius_jacobus
+	traits = { brave honorable popular_commander }
+	agitator_usage = {
+		country_trigger = {
+			c:NET ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1939.5.26
+		chance = 50
+	}
+}
+
+net_hoevell_character_template = {
+    first_name = Wolter_Robert
+    last_name = van_Hoevell
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_abolitionist
+    interest_group = ig_intelligentsia
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1812.6.14
+    traits = { pious }
+	agitator_usage = {
+		country_trigger = {
+			c:NET ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1841.1.1
+		latest_usage_date = 1962.1.1
+		chance = 50
+	}
+}

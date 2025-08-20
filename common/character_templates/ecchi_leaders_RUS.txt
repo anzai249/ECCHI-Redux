@@ -28,40 +28,40 @@
 #         chance = 65
 #     }
 # }
-ecchi_rus_trotsky_character_template = {
-	first_name = Leon
-	last_name = ecchi_Trotsky
-	historical = yes
-	culture = cu:russian
-	female = no
-	religion = rel:jewish
-	ideology = ideology_communist
-	interest_group = ig_intelligentsia
-	dna = ecchi_dna_leon_trotsky
-	birth_date = 1879.11.7
-	traits = {
-		tactful
-		cruel
-		inspirational_orator
-	}
-	interest_group_leader_usage = {
-		country_trigger = {
-			exists = c:RUS
-			this = c:RUS
-		}
-		interest_group_trigger = {
-			is_marginal = no
-			OR = {
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_armed_forces
-			}
-		}
-		earliest_usage_date = 1903.1.1
-		latest_usage_date = 1940.8.21
-		chance = 65
-	}
-}
+# ecchi_rus_trotsky_character_template = {
+# 	first_name = Leon
+# 	last_name = ecchi_Trotsky
+# 	historical = yes
+# 	culture = cu:russian
+# 	female = no
+# 	religion = rel:jewish
+# 	ideology = ideology_communist
+# 	interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_leon_trotsky
+# 	birth_date = 1879.11.7
+# 	traits = {
+# 		tactful
+# 		cruel
+# 		inspirational_orator
+# 	}
+# 	interest_group_leader_usage = {
+# 		country_trigger = {
+# 			exists = c:RUS
+# 			this = c:RUS
+# 		}
+# 		interest_group_trigger = {
+# 			is_marginal = no
+# 			OR = {
+# 				is_interest_group_type = ig_intelligentsia
+# 				is_interest_group_type = ig_trade_unions
+# 				is_interest_group_type = ig_armed_forces
+# 			}
+# 		}
+# 		earliest_usage_date = 1903.1.1
+# 		latest_usage_date = 1940.8.21
+# 		chance = 65
+# 	}
+# }
 
 ecchi_rus_stalin_character_template = {
 	first_name = Joseph
@@ -180,45 +180,45 @@ ecchi_rus_rasputin_character_template = {
 }
 
 # Russian admirals
-ecchi_rus_kolchak_character_template = {
-	first_name = Alexander
-	last_name = Kolchak
-	historical = yes
-	culture = cu:russian
-	female = no
-	religion = rel:orthodox
-	ideology = ideology_traditionalist
-	interest_group = ig_armed_forces
-	dna = ecchi_dna_alexander_kolchak
-	birth_date = 1874.11.16
-	traits = {
-		ambitious
-		basic_naval_commander
-		explorer
-	}
-	commander_rank = default
-	commander_usage = {
-		country_trigger = {
-			OR = {
-				AND = {
-					exists = c:RUS
-					this = c:RUS
-					NOT = {
-						exists = c:SIB
-					}
-				}
-				AND = {
-					exists = c:SIB
-					this = c:SIB
-				}
-			}
-		}
-		role = admiral
-		earliest_usage_date = 1900.1.1
-		latest_usage_date = 1920.2.7
-		chance = 65
-	}
-}
+# ecchi_rus_kolchak_character_template = {
+# 	first_name = Alexander
+# 	last_name = Kolchak
+# 	historical = yes
+# 	culture = cu:russian
+# 	female = no
+# 	religion = rel:orthodox
+# 	ideology = ideology_traditionalist
+# 	interest_group = ig_armed_forces
+# 	dna = ecchi_dna_alexander_kolchak
+# 	birth_date = 1874.11.16
+# 	traits = {
+# 		ambitious
+# 		basic_naval_commander
+# 		explorer
+# 	}
+# 	commander_rank = default
+# 	commander_usage = {
+# 		country_trigger = {
+# 			OR = {
+# 				AND = {
+# 					exists = c:RUS
+# 					this = c:RUS
+# 					NOT = {
+# 						exists = c:SIB
+# 					}
+# 				}
+# 				AND = {
+# 					exists = c:SIB
+# 					this = c:SIB
+# 				}
+# 			}
+# 		}
+# 		role = admiral
+# 		earliest_usage_date = 1900.1.1
+# 		latest_usage_date = 1920.2.7
+# 		chance = 65
+# 	}
+# }
 
 # Don Cossack
 ecchi_rus_krasnov_character_template = {
@@ -391,36 +391,36 @@ ecchi_rus_goldman_character_template = {
 }
 
 ## Nicholas Roerich
-ecchi_rus_roerich_character_template = {
-	first_name = Nicholas
-	last_name = ecchi_Roerich
-	historical = yes
-	culture = cu:russian
-	female = no
-	religion = rel:orthodox
-	ideology = ideology_moderate
-	interest_group = ig_intelligentsia
-	dna = ecchi_dna_nicholas_roerich
-	birth_date = 1874.10.9
-	traits = {
-		innovative
-		erudite
-		explorer
-		romantic
-	}
-	interest_group_leader_usage = {
-		country_trigger = {
-			exists = c:RUS
-			this = c:RUS
-		}
-		interest_group_trigger = {
-			is_interest_group_type = ig_intelligentsia
-		}
-		earliest_usage_date = 1897.1.1
-		latest_usage_date = 1947.12.13
-		chance = 25
-	}
-}
+# ecchi_rus_roerich_character_template = {
+# 	first_name = Nicholas
+# 	last_name = ecchi_Roerich
+# 	historical = yes
+# 	culture = cu:russian
+# 	female = no
+# 	religion = rel:orthodox
+# 	ideology = ideology_moderate
+# 	interest_group = ig_intelligentsia
+# 	dna = ecchi_dna_nicholas_roerich
+# 	birth_date = 1874.10.9
+# 	traits = {
+# 		innovative
+# 		erudite
+# 		explorer
+# 		romantic
+# 	}
+# 	interest_group_leader_usage = {
+# 		country_trigger = {
+# 			exists = c:RUS
+# 			this = c:RUS
+# 		}
+# 		interest_group_trigger = {
+# 			is_interest_group_type = ig_intelligentsia
+# 		}
+# 		earliest_usage_date = 1897.1.1
+# 		latest_usage_date = 1947.12.13
+# 		chance = 25
+# 	}
+# }
 
 ## Grigory Zinoviev
 ecchi_rus_zinoviev_character_template = {

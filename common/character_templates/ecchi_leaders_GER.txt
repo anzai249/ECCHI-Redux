@@ -366,7 +366,7 @@ ecchi_ger_schopenhauer_character_template = {
     culture = cu:north_german
 
     religion = rel:protestant
-    ideology = ideology_atheist
+    ideology = ideology_nihilist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_arthur_schopenhauer
     birth_date = 1788.2.22
@@ -409,7 +409,7 @@ ecchi_ger_nietzsche_character_template = {
     culture = cu:north_german
 
     religion = rel:protestant
-    ideology = ideology_atheist
+    ideology = ideology_nihilist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_friedrich_nietzsche
     birth_date = 1844.10.15
@@ -842,5 +842,92 @@ ecchi_ger_bernstein_character_template = {
 		earliest_usage_date = 1870.1.1
 		latest_usage_date = 1919.11.18
 		chance = 50
+	}
+}
+
+## Bernhard von Lindenau
+
+ecchi_ger_lindenau_character_template = {
+	first_name = Bernhard
+	last_name = ecchi_von_Lindenau
+	culture = cu:north_german
+	religion = rel:protestant
+	historical = yes
+	ideology = ideology_reformer
+	interest_group = ig_petty_bourgeoisie
+	# dna = ecchi_dna_bernhard_von_lindenau
+	birth_date = 1799.6.11
+	traits = { erudite charismatic }
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_SAXONY
+			NOT = {
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1793.1.1
+		latest_usage_date = 1854.5.21
+		chance = 50
+	}
+}
+
+## Christian Friedrich Illgen
+
+ecchi_ger_illgen_character_template = {
+	first_name = ecchi_Christian_Friedrich
+	last_name = ecchi_Illgen
+	culture = cu:north_german
+	religion = rel:protestant
+	historical = yes
+	ideology = ideology_traditionalist
+	interest_group = ig_devout
+	# dna = ecchi_dna_christian_friedrich_illgen
+	birth_date = 1786.8.10
+	traits = { pious charismatic }
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_SAXONY
+			NOT = {
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1844.7.4
+		chance = 65
+	}
+}
+
+## Ernst Gustav von Gersdorff
+
+ecchi_ger_gersdorff_character_template = {
+	first_name = ecchi_Ernst_Gustav
+	last_name = ecchi_von_Gersdorff
+	culture = cu:north_german
+	religion = rel:protestant
+	historical = yes
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	# dna = ecchi_dna_ernst_gustav_von_gersdorff
+	birth_date = 1780.8.10
+	traits = { master_bureaucrat }
+	interest_group_leader_usage = {
+		country_trigger = {
+			has_state_in_state_region = STATE_SAXONY
+			NOT = {
+				cultural_acceptance_base = { target = cu:north_german value < acceptance_status_4 }
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1832.1.1
+		latest_usage_date = 1843.10.24
+		chance = 65
 	}
 }
