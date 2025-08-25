@@ -401,6 +401,32 @@ net_previnaire_character_template = {
     }
 }
 
+bel_peers_character_template = {
+    first_name = Ernest
+    last_name = Peers
+    historical = yes
+    culture = cu:flemish
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    #dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1804.11.24
+    traits = { literary political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BEL
+            this = c:BEL
+        }
+        interest_group_trigger = {
+            is_interest_group_type = iig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1868.1.1
+        chance = 100
+    }
+}
+
 bel_daens_character_template = {
     first_name = Adolf
     last_name = Daens
