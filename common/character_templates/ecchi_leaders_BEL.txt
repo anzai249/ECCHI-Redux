@@ -419,7 +419,7 @@ bel_peers_character_template = {
             this = c:BEL
         }
         interest_group_trigger = {
-            is_interest_group_type = iig_rural_folk
+            is_interest_group_type = ig_rural_folk
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1868.1.1
