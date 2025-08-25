@@ -375,6 +375,32 @@ bel_beernaert_character_template = {
     }
 }
 
+net_previnaire_character_template = {
+    first_name = Eugene
+    last_name = Previnaire
+    historical = yes
+    culture = cu:wallonian
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    #dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1805.10.18
+    traits = { ambitious persistent experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BEL
+            this = c:BEL
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1877.6.2
+        chance = 100
+    }
+}
+
 bel_daens_character_template = {
     first_name = Adolf
     last_name = Daens
