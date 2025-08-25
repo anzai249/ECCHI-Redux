@@ -347,18 +347,18 @@ net_regout_character_template = {
     }
 }
 
-net_hinlopen_character_template = {
-    first_name = Johan_Gulielmus
-    last_name = Hinlopen
+net_schimmelpenninck_character_template = {
+    first_name = Gerrit
+    last_name = Schimmelpenninck
     historical = yes
     culture = cu:dutch
 
     religion = rel:protestant
-    ideology = ideology_authoritarian
+    ideology = ideology_royalist
     interest_group = ig_landowners
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1801.4.23
-    traits = { honorable }
+    birth_date = 1794.2.25
+    traits = { honorable basic_entrepreneur experienced_diplomat }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
@@ -368,7 +368,7 @@ net_hinlopen_character_template = {
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1856.4.4
+        latest_usage_date = 1863.10.4
         chance = 100
     }
 }
