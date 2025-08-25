@@ -375,7 +375,7 @@ bel_beernaert_character_template = {
     }
 }
 
-net_previnaire_character_template = {
+bel_previnaire_character_template = {
     first_name = Eugene
     last_name = Previnaire
     historical = yes
@@ -410,9 +410,9 @@ bel_peers_character_template = {
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_rural_folk
-    #dna = mr_net_groen_van_prinsterer_guillaume
+	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1804.11.24
-    traits = { literary political_operator }
+    traits = { literary ambitious }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BEL
@@ -422,7 +422,7 @@ bel_peers_character_template = {
             is_interest_group_type = ig_rural_folk
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1868.1.1
+        latest_usage_date = 1868.4.19
         chance = 100
     }
 }
