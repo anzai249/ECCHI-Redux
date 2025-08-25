@@ -11,7 +11,7 @@ ecchi_net_thorbecke_character_template = {
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_johan_rudolph_thorbecke
     birth_date = 1798.1.14
-    traits = { tactful erudite firebrand }
+    traits = { erudite meticulous experienced_political_operator }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
@@ -56,7 +56,7 @@ ecchi_net_van_den_bosch_character_template = {
         role = general
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1844.1.28
-        chance = 0
+        chance = 65
     }
 }
 
@@ -179,7 +179,7 @@ net_mutsaers_character_template = {
     interest_group = ig_petty_bourgeoisie
 	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1805.1.28
-    traits = { pious }
+    traits = { pious tactful }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
