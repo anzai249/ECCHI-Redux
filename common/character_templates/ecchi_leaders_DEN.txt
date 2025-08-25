@@ -62,3 +62,227 @@ ecchi_den_kierkegaard_character_template = {
         chance = 60
     }
 }
+
+## Henrik Nicolai Clausen
+
+ecchi_den_clausen_character_template = {
+    first_name = ecchi_Henrik_Nicolai
+    last_name = ecchi_Clausen
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1793.4.22
+    traits = { tactful erudite }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.1.1
+        chance = 100
+    }
+}
+
+## Christian Albrecht Bluhme
+
+ecchi_den_bluhme_character_template = {
+    first_name = ecchi_Christian_Albrecht
+    last_name = ecchi_Bluhme
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_petty_bourgeoisie
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1794.12.27
+    traits = { cautious political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.11.6
+        chance = 100
+    }
+}
+
+## Adam Wilhelm Moltke
+
+ecchi_den_moltke_character_template = {
+    first_name = ecchi_Adam_Wilhelm
+    last_name = ecchi_Moltke
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1785.8.25
+    traits = { honorable orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1864.2.15
+        chance = 100
+    }
+}
+
+## Anton Frederik Tscherning
+
+ecchi_den_tscherning_character_template = {
+    first_name = ecchi_Anton_Frederik
+    last_name = ecchi_Tscherning
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_armed_forces
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1795.11.12
+    traits = { popular_commander charismatic innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1874.7.29
+        chance = 100
+    }
+}
+
+## Rasmus Sørensen
+
+ecchi_den_sorensen_character_template = {
+    first_name = ecchi_Rasmus
+    last_name = ecchi_Sørensen
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_reformer
+    interest_group = ig_rural_folk
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1799.4.8
+    traits = { demagogue pious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1865.4.23
+        chance = 100
+    }
+}
+
+## Henrik Gamst
+
+ecchi_den_gamst_character_template = {
+    first_name = ecchi_Henrik
+    last_name = ecchi_Gamst
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1788.9.3
+    traits = { innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1861.9.3
+        chance = 100
+    }
+}
+
+## Nikolaj Frederik Severin Grundtvig
+
+ecchi_den_grundtvig_character_template = {
+    first_name = ecchi_Nikolaj
+    last_name = ecchi_Grundtvig
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_devout
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1783.9.8
+    traits = { erudite persistent pious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:DEN
+            this = c:DEN
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1873.9.2
+        chance = 100
+    }
+}
+
+## Matilde Bajer
+
+ecchi_den_bajer_character_template = {
+	first_name = ecchi_Matilde
+	last_name = ecchi_Bajer
+	historical = yes
+	culture = cu:danish
+	religion = rel:protestant
+    female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1840.1.4
+	#dna = mr_net_jacobs_aletta
+	traits = { charismatic }
+	agitator_usage = {
+		country_trigger = {
+			c:DEN ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1934.4.4
+		chance = 100
+	}
+}

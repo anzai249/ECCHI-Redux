@@ -5,7 +5,8 @@ ecchi_bel_rogier_character_template = {
     last_name = Rogier
     historical = yes
     culture = cu:wallonian
-    ideology = ideology_radical
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_charles_rogier
     birth_date = 1800.8.17
@@ -29,7 +30,7 @@ ecchi_bel_rogier_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1885.5.27
-        chance = 65
+        chance = 100
     }
 }
 
@@ -38,6 +39,7 @@ ecchi_bel_pirenne_character_template = {
     last_name = ecchi_Pirenne
     historical = yes
     culture = cu:wallonian
+    religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_henri_pirenne
@@ -71,6 +73,7 @@ ecchi_bel_brialmont_character_template = {
     last_name = Brialmont
     historical = yes
     culture = cu:flemish
+    religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
 	dna = ecchi_dna_henri_alexis_brialmont
@@ -140,6 +143,7 @@ ecchi_bel_hamer_character_template = {
     historical = yes
     female = yes
     culture = cu:wallonian
+    religion = rel:catholic
     ideology = ideology_feminist
     interest_group = ig_intelligentsia
     dna = ecchi_dna_eugenie_hamer
@@ -176,6 +180,7 @@ ecchi_bel_la_fontaine_character_template = {
     last_name = ecchi_La_Fontaine
     historical = yes
     culture = cu:wallonian
+    religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
     dna = ecchi_dna_henri_la_fontaine
@@ -368,4 +373,30 @@ bel_beernaert_character_template = {
         latest_usage_date = 1912.3.26
         chance = 100
     }
+}
+
+bel_daens_character_template = {
+    first_name = Adolf
+    last_name = Daens
+    historical = yes
+    culture = cu:flemish
+
+    religion = rel:catholic
+    ideology = ideology_modernizer
+    interest_group = ig_devout
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1804.1.31
+    traits = { charismatic pious }
+	agitator_usage = {
+		country_trigger = {
+			c:BEL ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1907.6.4
+		chance = 50
+	}
 }
