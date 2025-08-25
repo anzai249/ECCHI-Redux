@@ -240,7 +240,7 @@ ecchi_den_grundtvig_character_template = {
     culture = cu:danish
 
     religion = rel:protestant
-    ideology = ideology_moderate
+    ideology = ideology_reformer
     interest_group = ig_devout
 	#dna = ecchi_dna_johan_rudolph_thorbecke
     birth_date = 1783.9.8
