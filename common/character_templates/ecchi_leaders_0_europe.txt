@@ -588,6 +588,96 @@ mr_swi_dufour_guillaume_henri_character_template = {
     }
 }
 
+## Nazar von Reding
+
+ecchi_swi_von_reding_character_template = {
+    first_name = ecchi_Nazar
+    last_name = ecchi_von_Reding
+    historical = yes
+    culture = cu:alemannic
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1806.6.30
+    traits = { persistent honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            is_usfp_active = no
+            morgenrote_is_active = no
+            exists = c:SWI
+            this = c:SWI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1865.12.28
+        chance = 100
+    }
+}
+
+## François Gaussen
+
+swi_gaussen_character_template = {
+    first_name = Francois
+    last_name = ecchi_Gaussen
+    historical = yes
+    culture = cu:francoprovencal
+
+    religion = rel:protestant
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+    #dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1790.8.25
+    traits = { pious ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            is_usfp_active = no
+            morgenrote_is_active = no
+            exists = c:SWI
+            this = c:SWI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.5.18
+        chance = 100
+    }
+}
+
+## Hans Caspar Escher
+
+ecchi_swi_von_reding_character_template = {
+    first_name = ecchi_Hans_Caspar
+    last_name = ecchi_Escher
+    historical = yes
+    culture = cu:alemannic
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1775.8.9
+    traits = { ambitious experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            is_usfp_active = no
+            morgenrote_is_active = no
+            exists = c:SWI
+            this = c:SWI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1859.8.29
+        chance = 100
+    }
+}
+
 ## Carl Jung
 
 mr_swi_jung_character_template = {
