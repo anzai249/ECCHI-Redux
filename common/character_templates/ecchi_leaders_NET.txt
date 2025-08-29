@@ -22,7 +22,7 @@ ecchi_net_thorbecke_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1872.6.4
-        chance = 65
+        chance = 100
     }
 }
 
@@ -383,7 +383,7 @@ net_teenstra_character_template = {
     ideology = ideology_land_reformer
     interest_group = ig_rural_folk
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1801.4.23
+    birth_date = 1795.9.17
     traits = { literary meticulous }
     interest_group_leader_usage = {
         country_trigger = {
@@ -409,7 +409,7 @@ net_van_der_voo_character_template = {
     ideology = ideology_utopian
     interest_group = ig_trade_unions
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1801.4.23
+    birth_date = 1806.1.1
     traits = { ambitious persistent }
     interest_group_leader_usage = {
         country_trigger = {
