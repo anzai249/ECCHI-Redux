@@ -475,3 +475,31 @@ ecchi_aus_kautsky_character_template = {
         chance = 65
     }
 }
+
+## Wilhelm Alexander Schoeller
+
+aus_schoeller_character_template = {
+    first_name = ecchi_Wilhelm_Alexander
+    last_name = ecchi_Schoeller
+    historical = yes
+    culture = cu:south_german
+
+    religion = rel:catholic
+    ideology = ideology_protectionist
+    interest_group = ig_industrialists
+    #dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1805.7.12
+    traits = { honorable experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1868.1.1
+        chance = 100
+    }
+}

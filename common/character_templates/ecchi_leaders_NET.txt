@@ -7,11 +7,11 @@ ecchi_net_thorbecke_character_template = {
     culture = cu:dutch
 
     religion = rel:protestant
-    ideology = ideology_reformer
+    ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_johan_rudolph_thorbecke
     birth_date = 1798.1.14
-    traits = { tactful experienced_political_operator }
+    traits = { erudite meticulous experienced_political_operator }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
@@ -20,9 +20,9 @@ ecchi_net_thorbecke_character_template = {
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia
         }
-        earliest_usage_date = 1844.1.1
+        earliest_usage_date = 1836.1.1
         latest_usage_date = 1872.6.4
-        chance = 65
+        chance = 100
     }
 }
 
@@ -149,7 +149,7 @@ net_d_ablaing_van_giessenburg_character_template = {
     culture = cu:dutch
 
     religion = rel:protestant
-    ideology = ideology_traditionalist
+    ideology = ideology_royalist
     interest_group = ig_armed_forces
 	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1779.5.6
@@ -176,17 +176,17 @@ net_mutsaers_character_template = {
 
     religion = rel:catholic
     ideology = ideology_traditionalist
-    interest_group = ig_rural_folk
+    interest_group = ig_petty_bourgeoisie
 	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1805.1.28
-    traits = { pious }
+    traits = { pious tactful }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
             this = c:NET
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
+            is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1870.1.1
@@ -319,4 +319,108 @@ net_hoevell_character_template = {
 		latest_usage_date = 1962.1.1
 		chance = 50
 	}
+}
+
+net_regout_character_template = {
+    first_name = Petrus_Laurentius
+    last_name = Regout
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:catholic
+    ideology = ideology_protectionist
+    interest_group = ig_industrialists
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1801.4.23
+    traits = { ambitious reckless experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1878.2.18
+        chance = 100
+    }
+}
+
+net_schimmelpenninck_character_template = {
+    first_name = Gerrit
+    last_name = Schimmelpenninck
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1794.2.25
+    traits = { honorable basic_entrepreneur experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.10.4
+        chance = 100
+    }
+}
+
+net_teenstra_character_template = {
+    first_name = Marten_Douwes
+    last_name = Teenstra
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_land_reformer
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1795.9.17
+    traits = { literary meticulous }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1864.10.29
+        chance = 100
+    }
+}
+
+net_van_der_voo_character_template = {
+    first_name = Goose
+    last_name = van_der_Voo
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_utopian
+    interest_group = ig_trade_unions
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1806.1.1
+    traits = { ambitious persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1870.1.1
+        chance = 100
+    }
 }

@@ -62,3 +62,59 @@ ecchi_den_kierkegaard_character_template = {
         chance = 60
     }
 }
+
+## Nikolaj Frederik Severin Grundtvig
+
+ecchi_den_grundtvig_character_template = {
+    first_name = ecchi_Nikolaj
+    last_name = ecchi_Grundtvig
+    historical = yes
+    culture = cu:danish
+
+    religion = rel:protestant
+    ideology = ideology_reformer
+    interest_group = ig_devout
+	#dna = ecchi_dna_johan_rudolph_thorbecke
+    birth_date = 1783.9.8
+    traits = { erudite persistent pious literary }
+	agitator_usage = {
+		country_trigger = {
+			c:DEN ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1873.9.2
+		chance = 100
+	}
+}
+
+## Matilde Bajer
+
+ecchi_den_bajer_character_template = {
+	first_name = ecchi_Matilde
+	last_name = ecchi_Bajer
+	historical = yes
+	culture = cu:danish
+	religion = rel:protestant
+    female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1840.1.4
+	#dna = mr_net_jacobs_aletta
+	traits = { charismatic }
+	agitator_usage = {
+		country_trigger = {
+			c:DEN ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1934.4.4
+		chance = 100
+	}
+}

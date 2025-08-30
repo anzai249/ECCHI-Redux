@@ -931,3 +931,59 @@ ecchi_ger_gersdorff_character_template = {
 		chance = 65
 	}
 }
+
+## August von Haxthausen
+
+ecchi_ger_haxthausen_character_template = {
+    first_name = August
+    last_name = ecchi_von_Haxthausen
+    historical = yes
+    culture = cu:north_german
+
+    religion = rel:catholic
+    ideology = ideology_land_reformer
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1791.2.3
+    traits = { aesthete literary persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:PRU
+            this = c:PRU
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1866.12.31
+        chance = 100
+    }
+}
+
+## Arnold Ruge
+
+ecchi_ger_ruge_character_template = {
+    first_name = Arnold
+    last_name = ecchi_Ruge
+    historical = yes
+    culture = cu:north_german
+
+    religion = rel:protestant
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1802.9.13
+    traits = { literary erudite demagogue }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:PRU
+            this = c:PRU
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1870.1.1
+        chance = 100
+    }
+}
