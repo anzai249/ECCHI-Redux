@@ -118,7 +118,7 @@ ecchi_net_troelstra_character_template = {
 
 net_prinsterer_character_template = {
     first_name = Guillaume
-    last_name = Groen_van_Prinsterer
+    last_name = ecchi_Groen_van_Prinsterer
     historical = yes
     culture = cu:dutch
 

@@ -119,3 +119,35 @@ Edited Characters:
 Fixes:
 
 - Fixed all ideology_atheist to ideology_nihilist
+
+
+Release 1.9.1
+(Game version 1.9.*)
+
+New Characters:
+
+- Petrus Laurentius Regout
+- Gerrit Schimmelpenninck
+- Marten Douwes Teenstra
+- Goose van der Voo
+- Adolf Daens
+- Eugène Prévinaire
+- Ernest Peers
+- Nikolaj Frederik Severin Grundtvig
+- Matilde Bajer
+- Nazar von Reding
+- François Gaussen
+- Hans Caspar Escher
+- Wilhelm Alexander Schoeller
+- August von Haxthausen
+- Arnold Ruge
+
+All made by Cipherparadox. Thanks!
+
+Fixes:
+
+- Last name of von Gersdorff.
+
+Changes:
+
+- Switch Jacobus Arnoldus Mutsaers's ig to petty bourgeoisie.
