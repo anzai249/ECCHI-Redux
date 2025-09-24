@@ -231,7 +231,7 @@ ecchi_tur_talaat_pasha_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EASTERN_THRACE
 			NOT = {
-				cultural_acceptance_base = { target = cu:turkish value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:turkish value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -264,7 +264,7 @@ ecchi_tur_talaat_pasha_character_template = {
 # 		country_trigger = {
 # 			has_state_in_state_region = STATE_EASTERN_THRACE
 # 			NOT = {
-# 				cultural_acceptance_base = { target = cu:albanian value < acceptance_status_4 }
+# 				country_average_cultural_acceptance = { target = cu:albanian value < acceptance_status_4 }
 # 			}
 # 		}
 # 		interest_group_trigger = {
@@ -296,7 +296,7 @@ ecchi_tur_djemal_pasha_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_EAST_AEGEAN_ISLANDS
 			NOT = {
-				cultural_acceptance_base = { target = cu:turkish value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:turkish value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -336,7 +336,7 @@ ecchi_pal_trumpeldor_character_template = {
 				AND = {
 					has_state_in_state_region = STATE_NORTH_CAUCASUS
 					NOT = {
-						cultural_acceptance_base = { target = cu:ashkenazi value < acceptance_status_4 }
+						country_average_cultural_acceptance = { target = cu:ashkenazi value < acceptance_status_4 }
 					}
 				}
 			}
@@ -381,7 +381,7 @@ ecchi_pal_sholem_aleichem_character_template = {
 				AND = {
 					has_state_in_state_region = STATE_KHARKOV
 					NOT = {
-						cultural_acceptance_base = { target = cu:ashkenazi value < acceptance_status_4 }
+						country_average_cultural_acceptance = { target = cu:ashkenazi value < acceptance_status_4 }
 					}
 				}
 			}
@@ -417,7 +417,7 @@ ecchi_pal_kahlil_gibran_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_LEBANON
 			NOT = {
-				cultural_acceptance_base = { target = cu:mashriqi value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:mashriqi value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -486,7 +486,7 @@ ecchi_afg_mahmud_tarzi_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_KABUL
 			NOT = {
-				cultural_acceptance_base = { target = cu:pashtun value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:pashtun value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {

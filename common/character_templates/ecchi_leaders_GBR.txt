@@ -1573,7 +1573,7 @@ ecchi_gbr_chaplin_charlie_character_template = {
     agitator_usage = {
         country_trigger = {
             NOT = {
-                cultural_acceptance_base = { target = cu:british value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:british value < acceptance_status_4 }
             }
             OR = {
                 AND = {
@@ -1621,7 +1621,7 @@ ecchi_gbr_conolly_arthur_character_template = {
             OR = {
                 has_state_in_state_region = STATE_HOME_COUNTIES
                 NOT = {
-                    cultural_acceptance_base = { target = cu:british value < acceptance_status_4 }
+                    country_average_cultural_acceptance = { target = cu:british value < acceptance_status_4 }
                 }
             }
         }

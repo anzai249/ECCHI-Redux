@@ -907,7 +907,7 @@ RUS_nikolai_ostrovsky = {
 		country_trigger = {
 			has_state_in_state_region = STATE_VOLHYNIA
 			NOT = {
-				cultural_acceptance_base = { target = cu:ukrainian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:ukrainian value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
 		}
@@ -942,7 +942,7 @@ RUS_anton_chekhov = {
 		country_trigger = {
 			has_state_in_state_region = STATE_ROSTOV
 			NOT = {
-				cultural_acceptance_base = { target = cu:russian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:russian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {

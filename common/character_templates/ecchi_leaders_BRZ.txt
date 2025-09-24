@@ -251,7 +251,7 @@ ecchi_brz_machado_de_assis_character_template = {
             has_state_in_state_region = STATE_RIO_DE_JANEIRO
             has_technology_researched = anarchism
 			NOT = {
-				cultural_acceptance_base = { target = cu:brazilian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:brazilian value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {
@@ -306,7 +306,7 @@ ecchi_brz_anita_malfatti_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SAO_PAULO
             NOT = {
-                cultural_acceptance_base = { target = cu:brazilian value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:brazilian value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {
@@ -334,7 +334,7 @@ ecchi_brz_monteiro_lobato_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_SAO_PAULO
             NOT = {
-                cultural_acceptance_base = { target = cu:brazilian value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:brazilian value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {

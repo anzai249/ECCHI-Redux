@@ -18,7 +18,7 @@ ecchi_per_jalal_al_din_mirza_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_IRAKAJEMI
 			NOT = {
-				cultural_acceptance_base = { target = cu:persian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:persian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -48,7 +48,7 @@ ecchi_per_tahirih_qurrat_al_ayn_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_IRAKAJEMI
 			NOT = {
-				cultural_acceptance_base = { target = cu:persian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:persian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -79,7 +79,7 @@ ecchi_per_amin_al_soltan_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_IRAKAJEMI
 			NOT = {
-				cultural_acceptance_base = { target = cu:persian value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:persian value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {

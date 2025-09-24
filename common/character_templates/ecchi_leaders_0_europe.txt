@@ -699,7 +699,7 @@ mr_swi_jung_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_EAST_SWITZERLAND
 			NOT = {
-				cultural_acceptance_base = { target = cu:francoprovencal value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:francoprovencal value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {

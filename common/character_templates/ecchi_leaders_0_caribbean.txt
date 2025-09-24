@@ -79,7 +79,7 @@ ecchi_cub_maceo_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
 			NOT = {
-				cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
         }
         role = general
@@ -135,7 +135,7 @@ ecchi_cub_garcia_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
 			NOT = {
-				cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
         }
         role = general
@@ -163,7 +163,7 @@ ecchi_cub_mella_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
 			NOT = {
-				cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
 			has_technology_researched = socialism
         }
@@ -194,7 +194,7 @@ ecchi_cub_aguilera_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
 			NOT = {
-				cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {
@@ -224,7 +224,7 @@ ecchi_cub_palma_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
             NOT = {
-                cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {
@@ -253,7 +253,7 @@ ecchi_cub_machado_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_CUBA
             NOT = {
-                cultural_acceptance_base = { target = cu:caribeno value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {

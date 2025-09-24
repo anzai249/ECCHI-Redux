@@ -417,7 +417,7 @@ ecchi_ont_johnson_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             NOT = {
-                cultural_acceptance_base = { target = cu:iroquoian value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:iroquoian value < acceptance_status_4 }
             }
             OR = {
                 AND = {

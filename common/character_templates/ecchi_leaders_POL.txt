@@ -152,7 +152,7 @@ ecchi_pol_conrad_character_template = {
     agitator_usage = {
         country_trigger = {
 			NOT = {
-				cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:polish value < acceptance_status_4 }
 			}
             OR = {
                 AND = {
@@ -301,7 +301,7 @@ ecchi_pol_dmoski_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_MAZOVIA
             NOT = {
-				cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:polish value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {
@@ -334,7 +334,7 @@ ecchi_pol_paderewski_character_template = {
                 c:POL ?= this
             }
             NOT = {
-                cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:polish value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {
@@ -367,7 +367,7 @@ ecchi_pol_sienkiewicz_character_template = {
                 c:POL ?= this
             }
             NOT = {
-                cultural_acceptance_base = { target = cu:polish value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:polish value < acceptance_status_4 }
             }
         }
         interest_group_trigger = {

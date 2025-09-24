@@ -22,7 +22,7 @@ ecchi_den_andersen_hans_christian_character_template = {
 		country_trigger = {
 			has_state_in_state_region = STATE_ZEALAND
 			NOT = {
-				cultural_acceptance_base = { target = cu:danish value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:danish value < acceptance_status_4 }
 			}
 		}
 		interest_group_trigger = {
@@ -51,7 +51,7 @@ ecchi_den_kierkegaard_character_template = {
         country_trigger = {
             has_state_in_state_region = STATE_ZEALAND
             NOT = {
-                cultural_acceptance_base = { target = cu:danish value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:danish value < acceptance_status_4 }
             }
         }
 		interest_group_trigger = {

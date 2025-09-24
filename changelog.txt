@@ -151,3 +151,10 @@ Fixes:
 Changes:
 
 - Switch Jacobus Arnoldus Mutsaers's ig to petty bourgeoisie.
+
+Release 1.9.2
+(Game version 1.10.*)
+
+Changes:
+
+- Changed all occurrences of "cultural_acceptance_base" to "cultural_acceptance".

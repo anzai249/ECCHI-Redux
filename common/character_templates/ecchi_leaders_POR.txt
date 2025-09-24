@@ -89,7 +89,7 @@ ecchi_por_antonio_salazar = {
         country_trigger = {
             has_state_in_state_region = STATE_BEIRA
 			NOT = {
-				cultural_acceptance_base = { target = cu:portuguese value < acceptance_status_4 }
+				country_average_cultural_acceptance = { target = cu:portuguese value < acceptance_status_4 }
 			}
         }
         interest_group_trigger = {

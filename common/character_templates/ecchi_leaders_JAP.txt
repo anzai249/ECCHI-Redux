@@ -610,7 +610,7 @@ ecchi_jap_yasunari_kawabata_character_template = {
     agitator_usage = {
         country_trigger = {
             NOT = {
-                cultural_acceptance_base = { target = cu:japanese value < acceptance_status_4 }
+                country_average_cultural_acceptance = { target = cu:japanese value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_KANSAI
         }
