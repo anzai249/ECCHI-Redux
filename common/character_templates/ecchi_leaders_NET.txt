@@ -1,30 +1,30 @@
 ﻿# Netherlands
 
-ecchi_net_thorbecke_character_template = {
-    first_name = ecchi_Johan_Rudolph
-    last_name = ecchi_Thorbecke
-    historical = yes
-    culture = cu:dutch
-
-    religion = rel:protestant
-    ideology = ideology_liberal_leader
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_johan_rudolph_thorbecke
-    birth_date = 1798.1.14
-    traits = { erudite meticulous experienced_political_operator }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:NET
-            this = c:NET
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1836.1.1
-        latest_usage_date = 1872.6.4
-        chance = 100
-    }
-}
+#ecchi_net_thorbecke_character_template = {
+#    first_name = ecchi_Johan_Rudolph
+#    last_name = ecchi_Thorbecke
+#    historical = yes
+#    culture = cu:dutch
+#
+#    religion = rel:protestant
+#    ideology = ideology_liberal_leader
+#    interest_group = ig_intelligentsia
+#	dna = ecchi_dna_johan_rudolph_thorbecke
+#    birth_date = 1798.1.14
+#    traits = { erudite meticulous experienced_political_operator }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:NET
+#            this = c:NET
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_intelligentsia
+#        }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1872.6.4
+#        chance = 100
+#    }
+#}
 
 ecchi_net_van_den_bosch_character_template = {
     first_name = Johannes
@@ -421,6 +421,32 @@ net_van_der_voo_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1870.1.1
+        chance = 100
+    }
+}
+
+net_luzac_character_template = {
+    first_name = Lodewijk_Caspar
+    last_name = Luzac
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1786.8.1
+    traits = { experienced_political_operator ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1861.2.18
         chance = 100
     }
 }
