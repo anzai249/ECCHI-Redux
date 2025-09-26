@@ -375,9 +375,61 @@ bel_beernaert_character_template = {
     }
 }
 
-bel_previnaire_character_template = {
-    first_name = Eugene
-    last_name = Previnaire
+#bel_previnaire_character_template = {
+#    first_name = Eugene
+#    last_name = Previnaire
+#    historical = yes
+#    culture = cu:wallonian
+#
+#    religion = rel:catholic
+#    ideology = ideology_market_liberal
+#    interest_group = ig_industrialists
+#    #dna = mr_net_groen_van_prinsterer_guillaume
+#    birth_date = 1805.10.18
+#    traits = { ambitious persistent experienced_entrepreneur }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:BEL
+#            this = c:BEL
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_industrialists
+#        }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1877.6.2
+#        chance = 100
+#    }
+#}
+
+#bel_peers_character_template = {
+#    first_name = Ernest
+#    last_name = Peers
+#    historical = yes
+#    culture = cu:flemish
+#
+#    religion = rel:catholic
+#    ideology = ideology_liberal_leader
+#    interest_group = ig_rural_folk
+#	#dna = mr_net_groen_van_prinsterer_guillaume
+#    birth_date = 1804.11.24
+#    traits = { literary ambitious }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:BEL
+#            this = c:BEL
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_rural_folk
+#    }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1868.4.19
+#        chance = 100
+#    }
+#}
+
+bel_dumont_character_template = {
+    first_name = Guillaume
+    last_name = Dumont
     historical = yes
     culture = cu:wallonian
 
@@ -385,8 +437,8 @@ bel_previnaire_character_template = {
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
     #dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1805.10.18
-    traits = { ambitious persistent experienced_entrepreneur }
+    birth_date = 1787.1.26
+    traits = { ambitious experienced_entrepreneur }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BEL
@@ -396,23 +448,23 @@ bel_previnaire_character_template = {
             is_interest_group_type = ig_industrialists
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1877.6.2
+        latest_usage_date = 1855.8.1
         chance = 100
     }
 }
 
-bel_peers_character_template = {
-    first_name = Ernest
-    last_name = Peers
+bel__character_template = {
+    first_name = Pierre_Lambert
+    last_name = Eloy
     historical = yes
-    culture = cu:flemish
+    culture = cu:wallonian
 
     religion = rel:catholic
-    ideology = ideology_liberal_leader
+    ideology = ideology_protectionist
     interest_group = ig_rural_folk
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1804.11.24
-    traits = { literary ambitious }
+    birth_date = 1776.7.10
+    traits = { persistent honorable }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BEL
@@ -422,7 +474,7 @@ bel_peers_character_template = {
             is_interest_group_type = ig_rural_folk
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1868.4.19
+        latest_usage_date = 1855.1.15
         chance = 100
     }
 }

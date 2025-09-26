@@ -168,31 +168,31 @@ net_d_ablaing_van_giessenburg_character_template = {
     }
 }
 
-net_mutsaers_character_template = {
-    first_name = Jacobus_Arnoldus
-    last_name = Mutsaers
-    historical = yes
-    culture = cu:dutch
-
-    religion = rel:catholic
-    ideology = ideology_traditionalist
-    interest_group = ig_petty_bourgeoisie
-	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1805.1.28
-    traits = { pious tactful }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:NET
-            this = c:NET
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
-        }
-        earliest_usage_date = 1836.1.1
-        latest_usage_date = 1870.1.1
-        chance = 100
-    }
-}
+#net_mutsaers_character_template = {
+#    first_name = Jacobus_Arnoldus
+#    last_name = Mutsaers
+#    historical = yes
+#    culture = cu:dutch
+#
+#    religion = rel:catholic
+#    ideology = ideology_traditionalist
+#    interest_group = ig_petty_bourgeoisie
+#	#dna = mr_net_groen_van_prinsterer_guillaume
+#    birth_date = 1805.1.28
+#    traits = { pious tactful }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:NET
+#            this = c:NET
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_petty_bourgeoisie
+#        }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1870.1.1
+#        chance = 100
+#    }
+#}
 
 net_nieuwenhuis_character_template = {
 	first_name = Ferdinand_Domela
@@ -355,17 +355,17 @@ net_schimmelpenninck_character_template = {
 
     religion = rel:protestant
     ideology = ideology_royalist
-    interest_group = ig_landowners
+    interest_group = ig_petty_bourgeoisie
 	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1794.2.25
-    traits = { honorable basic_entrepreneur experienced_diplomat }
+    traits = { direct basic_entrepreneur experienced_diplomat }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:NET
             this = c:NET
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1863.10.4
@@ -447,6 +447,32 @@ net_luzac_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1861.2.18
+        chance = 100
+    }
+}
+
+net_de_jonge_van_campensnieuwland_character_template = {
+    first_name = Marinus
+    last_name = de_Jonge_van_Campensnieuwland
+    historical = yes
+    culture = cu:dutch
+
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1786.3.29
+    traits = { inspirational_orator persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:NET
+            this = c:NET
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1858.9.11
         chance = 100
     }
 }
