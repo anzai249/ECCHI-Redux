@@ -380,7 +380,7 @@ net_teenstra_character_template = {
     culture = cu:dutch
 
     religion = rel:protestant
-    ideology = ideology_land_reformer
+    ideology = ideology_abolitionist
     interest_group = ig_rural_folk
 	#dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1795.9.17
