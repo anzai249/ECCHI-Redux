@@ -453,7 +453,7 @@ bel_dumont_character_template = {
     }
 }
 
-bel__character_template = {
+bel_eloy_character_template = {
     first_name = Pierre_Lambert
     last_name = Eloy
     historical = yes
