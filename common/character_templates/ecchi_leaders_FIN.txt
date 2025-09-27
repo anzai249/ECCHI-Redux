@@ -323,7 +323,7 @@ ecchi_fin_pipping_character_template = {
     }
 }
 
-ecchi_fin__character_template = {
+ecchi_fin_von_Kothen_character_template = {
     first_name = Gustaf
     last_name = ecchi_von_Kothen
     historical = yes
