@@ -351,3 +351,87 @@ ecchi_ita_collodi_character_template = {
         chance = 65
     }
 }
+
+## Luigi Francesetti di Mezzenile
+
+ecchi_ita_francesetti_di_mezzenile_character_template = {
+    first_name = Luigi
+    last_name = ecchi_Francesetti_di_Mezzenile
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1776.1.10
+    traits = { basic_entrepreneur erudite }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1850.4.20
+        chance = 100
+    }
+}
+
+## Giovanni Battista Sella
+
+ecchi_ita_battista_sella_character_template = {
+    first_name = Giovanni
+    last_name = ecchi_Battista_Sella
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1788.4.5
+    traits = { ambitious experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1878.4.9
+        chance = 100
+    }
+}
+
+## Giacomo Giovanetti
+
+ecchi_ita_giovanetti_character_template = {
+    first_name = ecchi_Giacomo
+    last_name = ecchi_Giovanetti
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1787.5.1
+    traits = { direct experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1849.1.22
+        chance = 100
+    }
+}
