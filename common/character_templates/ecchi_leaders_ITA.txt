@@ -351,3 +351,283 @@ ecchi_ita_collodi_character_template = {
         chance = 65
     }
 }
+
+## Luigi Francesetti di Mezzenile
+
+ecchi_ita_francesetti_di_mezzenile_character_template = {
+    first_name = Luigi
+    last_name = ecchi_Francesetti_di_Mezzenile
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1776.1.10
+    traits = { basic_entrepreneur erudite }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1850.4.20
+        chance = 100
+    }
+}
+
+## Giovanni Battista Sella
+
+ecchi_ita_battista_sella_character_template = {
+    first_name = Giovanni
+    last_name = ecchi_Battista_Sella
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1788.4.5
+    traits = { ambitious experienced_entrepreneur }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1878.4.9
+        chance = 100
+    }
+}
+
+## Giacomo Giovanetti
+
+ecchi_ita_giovanetti_character_template = {
+    first_name = ecchi_Giacomo
+    last_name = ecchi_Giovanetti
+    historical = yes
+    culture = cu:north_italian
+
+    religion = rel:catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1787.5.1
+    traits = { direct experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SAR
+            this = c:SAR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1849.1.22
+        chance = 100
+    }
+}
+
+## Giuseppe De Leva Gravina
+
+ecchi_ita_de_leva_gravina_character_template = {
+    first_name = Giuseppe
+    last_name = ecchi_De_Leva_Gravina
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_devout
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1786.1.1
+    traits = { erudite tactful }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1861.4.31
+        chance = 100
+    }
+}
+
+## Carlo Filangieri
+
+ecchi_ita_filangieri_character_template = {
+    first_name = Carlo
+    last_name = ecchi_Filangieri
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_royalist
+    interest_group = ig_armed_forces
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1784.4.10
+    traits = { popular_commander persistent meticulous }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1867.10.9
+        chance = 100
+    }
+}
+
+## Luigi Giura
+
+ecchi_ita_guira_character_template = {
+    first_name = Luigi
+    last_name = ecchi_Giura
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1795.10.14
+    traits = { engineer ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1864.10.1
+        chance = 100
+    }
+}
+
+## Vincenzo Florio
+
+ecchi_ita_florio_character_template = {
+    first_name = ecchi_Vincenzo
+    last_name = ecchi_Florio
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1799.5.4
+    traits = { basic_entrepreneur inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1868.9.11
+        chance = 100
+    }
+}
+
+## Tommaso Russo, Really obscure. Had no bio anywere so I had piece him together with litte bits of info
+
+ecchi_ita_russo_character_template = {
+    first_name = ecchi_Tommaso
+    last_name = ecchi_Russo
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1791.11.20
+    traits = { pious honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1857.12.13
+        chance = 100
+    }
+}
+
+## Ruggero Settimo
+
+ecchi_ita_settimo_character_template = {
+    first_name = ecchi_Ruggero
+    last_name = ecchi_Settimo
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1778.4.19
+    traits = { popular_commander ruthless }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.4.2
+        chance = 100
+    }
+}
+
+## Antonio Statella di Cassaro
+
+ecchi_ita_statella_di_cassaro_character_template = {
+    first_name = Antonio
+    last_name = ecchi_Statella_di_Cassaro
+    historical = yes
+    culture = cu:south_italian
+
+    religion = rel:catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1785.6.31
+    traits = { experienced_diplomat basic_political_operator ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:SIC
+            this = c:SIC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1864.12.11
+        chance = 100
+    }
+}

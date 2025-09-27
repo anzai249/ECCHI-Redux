@@ -982,3 +982,31 @@ RUS_semyon_budyonny = {
 		chance = 50
 	}
 }
+
+## Ivan Alekseevich Kolesov Иван Алексеевич Колесов
+
+RUS_kolesov_character_template = {
+    first_name = ecchi_Ivan_Alekseevich
+    last_name = ecchi_Kolesov
+    historical = yes
+    culture = cu:russian
+
+    religion = rel:orthodox
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1778.10.7
+    traits = { basic_entrepreneur pious honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:RUS
+            this = c:RUS
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1852.8.31
+        chance = 100
+    }
+}
