@@ -631,3 +631,32 @@ ecchi_ita_statella_di_cassaro_character_template = {
         chance = 100
     }
 }
+
+## Giovanni Gentile
+
+ecchi_ita_gentile_character_template = {
+    first_name = ecchi_Giovanni
+    last_name = ecchi_Gentile
+    historical = yes
+    culture = cu:south_italian
+    religion = rel:catholic
+    ideology = ideology_fascist
+    interest_group = ig_intelligentsia
+    dna = ecchi_dna_giovanni_gentile
+    birth_date = 1875.5.30
+    traits = { erudite charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:south_italian value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_SICILY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1944.4.15
+        chance = 80
+    }
+}

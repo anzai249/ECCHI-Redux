@@ -158,3 +158,49 @@ Release 1.9.2
 Changes:
 
 - Changed all occurrences of "cultural_acceptance_base" to "cultural_acceptance".
+
+
+Release 1.9.3
+(Game version 1.10.*)
+
+New Characters:
+
+- Giovanni Gentile (recommended by Vince Russo)
+
+(made by Cipherparadox. Thanks!)
+- Ivan Alekseevich Kolesov
+- Erik Gabriel Melartin
+- Gustaf Magnus Armfelt
+- John Jacob Julin
+- Kristian Trapp
+- Lars Gabriel von Haartman
+- Fredrik Wilhelm Pipping
+- Gustaf von Kothen
+- Luigi Francesetti di Mezzenile
+- Giacomo Giovanetti
+- Giovanni Battista Sella
+- Giuseppe De Leva Gravina
+- Carlo Filangieri
+- Luigi Giura
+- Vincenzo Florio
+- Tommaso Russo
+- Ruggero Settimo
+- Antonio Statella di Cassaro
+- Nifon Rusailă
+- Gheorghe Magheru
+- Petrache Poenaru
+- Constantin Cantacuzino
+- Marinus de Jonge van Campensnieuwland.
+
+Changes:
+
+(made by Cipherparadox. Thanks!)
+
+- Disabled Thorbecke because Paradox added him in the 1.10 update.
+- Ported Lodewijk Caspar Luzac from my mod to replace him.
+- Moved Gerrit Schimmelpenninck from landowners to petite bourgeoisie.
+- Disabled Jacobus Arnoldus Mutsaers.
+- Replaced Eugene Previnaire with older and more senior Guillaume Dumont.
+- Replaced Ernest Peers with older and more senior Pierre Lambert Eloy.
+- Replaced Arnold Ruge with older and more senior Friedrich von Raumer.
+- Disabled Wilhelm Alexander Schoeller because Paradox Added a new industrialist IG leader in 1.10 update.
