@@ -962,17 +962,45 @@ ecchi_ger_haxthausen_character_template = {
 
 ## Arnold Ruge
 
+#ecchi_ger_ruge_character_template = {
+#    first_name = Arnold
+#    last_name = ecchi_Ruge
+#    historical = yes
+#    culture = cu:north_german
+#
+#    religion = rel:protestant
+#    ideology = ideology_reformer
+#    interest_group = ig_intelligentsia
+#	#dna = mr_net_groen_van_prinsterer_guillaume
+#    birth_date = 1802.9.13
+#    traits = { literary erudite demagogue }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:PRU
+#            this = c:PRU
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_intelligentsia
+#        }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1870.1.1
+#        chance = 100
+#    }
+#}
+
+## Friedrich von Raumer
+
 ecchi_ger_ruge_character_template = {
-    first_name = Arnold
-    last_name = ecchi_Ruge
+    first_name = Friedrich
+    last_name = ecchi_von_Raumer
     historical = yes
     culture = cu:north_german
 
     religion = rel:protestant
-    ideology = ideology_reformer
+    ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1802.9.13
+    birth_date = 1781.3.14
     traits = { literary erudite demagogue }
     interest_group_leader_usage = {
         country_trigger = {
@@ -983,7 +1011,7 @@ ecchi_ger_ruge_character_template = {
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1870.1.1
+        latest_usage_date = 1873.5.13
         chance = 100
     }
 }
