@@ -466,9 +466,37 @@ ecchi_ita_de_leva_gravina_character_template = {
 
 ## Carlo Filangieri
 
-ecchi_ita_filangieri_character_template = {
-    first_name = Carlo
-    last_name = ecchi_Filangieri
+#ecchi_ita_filangieri_character_template = {
+#    first_name = Carlo
+#    last_name = ecchi_Filangieri
+#    historical = yes
+#    culture = cu:south_italian
+#
+#    religion = rel:catholic
+#    ideology = ideology_royalist
+#    interest_group = ig_armed_forces
+#	dna = mr_net_groen_van_prinsterer_guillaume
+#    birth_date = 1784.4.10
+#   traits = { popular_commander persistent meticulous }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:SIC
+#            this = c:SIC
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_armed_forces
+#        }
+#        earliest_usage_date = 1836.1.1
+#        latest_usage_date = 1867.10.9
+#        chance = 100
+#    }
+#}
+
+## Francesco Antonio Winspeare
+
+ecchi_ita_winspeare_character_template = {
+    first_name = ecchi_Francesco_Antonio
+    last_name = ecchi_Winspeare
     historical = yes
     culture = cu:south_italian
 
@@ -476,8 +504,8 @@ ecchi_ita_filangieri_character_template = {
     ideology = ideology_royalist
     interest_group = ig_armed_forces
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1784.4.10
-    traits = { popular_commander persistent meticulous }
+    birth_date = 1783.4.29
+    traits = { popular_commander meticulous }
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:SIC
@@ -487,7 +515,7 @@ ecchi_ita_filangieri_character_template = {
             is_interest_group_type = ig_armed_forces
         }
         earliest_usage_date = 1836.1.1
-        latest_usage_date = 1867.10.9
+        latest_usage_date = 1860.4.1
         chance = 100
     }
 }
