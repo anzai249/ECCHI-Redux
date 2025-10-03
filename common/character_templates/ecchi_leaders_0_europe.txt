@@ -694,7 +694,7 @@ mr_swi_dufour_guillaume_henri_character_template = {
 
 ## Nazar von Reding
 
-ecchi_swi_von_reding_character_template = {
+swi_von_reding_character_template = {
     first_name = ecchi_Nazar
     last_name = ecchi_von_Reding
     historical = yes
@@ -703,7 +703,7 @@ ecchi_swi_von_reding_character_template = {
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners
-	#dna = ecchi_dna_johan_rudolph_thorbecke
+    #dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1806.6.30
     traits = { persistent honorable }
     interest_group_leader_usage = {
