@@ -622,3 +622,31 @@ ecchi_jap_yasunari_kawabata_character_template = {
         chance = 65
     }
 }
+
+## Ninomiya Sontoku
+
+ecchi_jap_sontoku_character_template = {
+    first_name = ecchi_Ninomiya
+    last_name = ecchi_Sontoku
+    historical = yes
+    culture = cu:japanese
+
+    religion = rel:shinto
+    ideology = ideology_land_reformer
+    interest_group = ig_rural_folk
+    #dna = ecchi_dna_ho_hon
+    birth_date = 1787.9.4
+    traits = { persistent meticulous innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:JAP
+            this = c:JAP
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1856.11.17
+        chance = 100
+    }
+}

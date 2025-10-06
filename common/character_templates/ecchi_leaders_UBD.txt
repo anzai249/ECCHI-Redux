@@ -1,0 +1,167 @@
+﻿## Gustav Reinhold von Klot
+
+ecchi_ubd_von_klot_character_template = {
+    first_name = ecchi_Gustav_Reinhold
+    last_name = ecchi_von_Klot
+    historical = yes
+    culture = cu:east_german
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_devout
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1780.10.18
+    traits = { pious bigoted }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1855.10.18
+        chance = 100
+    }
+}
+
+## Fabian Gottlieb von Bellingshausen
+
+ecchi_ubd_von_bellingshausen_character_template = {
+    first_name = ecchi_Fabian_Gottlieb
+    last_name = ecchi_von_Bellingshausen
+    historical = yes
+    culture = cu:east_german
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1778.9.11
+    traits = { direct explorer }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1852.1.13
+        chance = 100
+    }
+}
+
+## Johann Karl Girard de Soucanton
+
+ecchi_ubd_girard_de_soucanton_character_template = {
+    first_name = ecchi_Johann_Karl
+    last_name = ecchi_Girard_de_Soucanton
+    historical = yes
+    culture = cu:estonian
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1785.7.2
+    traits = { basic_entrepreneur persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1868.12.22
+        chance = 100
+    }
+}
+
+## Karl Axel Christer von Bruiningk
+
+ecchi_ubd_von_bruiningk_character_template = {
+    first_name = ecchi_Karl_Axel
+    last_name = ecchi_von_Bruiningk
+    historical = yes
+    culture = cu:latvian
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1782.1.1
+    traits = { meticulous honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1848.1.1
+        chance = 100
+    }
+}
+
+## Johann Engelbrecht Christoph von Grünewaldt
+
+ecchi_ubd_von_grunewaldt_character_template = {
+    first_name = ecchi_Johann_Engelbrecht
+    last_name = ecchi_von_Grunewaldt
+    historical = yes
+    culture = cu:east_german
+
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_intelligentsia
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1796.4.21
+    traits = { innovative meticulous }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1862.4.18
+        chance = 100
+    }
+}
+
+## Christoph Engelbrecht von Brevern
+
+ecchi_ubd_von_brevern_character_template = {
+    first_name = ecchi_Christoph_Engelbrecht
+    last_name =  ecchi_von_Brevern
+    historical = yes
+    culture = cu:east_german
+
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1782.12.17
+    traits = { honorable ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UBD
+            this = c:UBD
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1863.1.4
+        chance = 100
+    }
+}
