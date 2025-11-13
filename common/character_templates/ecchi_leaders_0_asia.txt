@@ -308,6 +308,33 @@ ecchi_tur_djemal_pasha_character_template = {
 	}
 }
 
+## Hovahannes Dadyan
+
+ecchi_tur_dadyan_character_template = {
+    first_name = ecchi_Hovahannes
+    last_name = ecchi_Dadyan
+    historical = yes
+    culture = cu:armenian
+
+    religion = rel:oriental_orthodox
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1799.1.1
+    traits = { basic_entrepreneur engineer inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:TUR
+            this = c:TUR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1869.1.1
+        chance = 100
+    }
+}
 
 # Palestine
 ecchi_pal_trumpeldor_character_template = {

@@ -220,6 +220,58 @@ ecchi_rom_character_template = {
     }
 }
 
+ecchi_rom_otetelesanu_character_template = {
+    first_name = Ioan
+    last_name = ecchi_Otetelesanu
+    historical = yes
+    culture = cu:romanian
+
+    religion = rel:orthodox
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1795.1.1
+    traits = { basic_entrepreneur experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:WAL
+            this = c:WAL
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1876.1.1
+        chance = 100
+    }
+}
+
+ecchi_rom_ghica_character_template = { #leader of the Agriculture Society of Romania 1836, intelligentsia may be more fittig but he best thing i could find for rural folk Romania
+    first_name = ecchi_Mihail
+    last_name = ecchi_Ghica
+    historical = yes
+    culture = cu:romanian
+
+    religion = rel:orthodox
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+	#dna = mr_net_groen_van_prinsterer_guillaume
+    birth_date = 1794.1.1
+    traits = { erudite aesthete }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:WAL
+            this = c:WAL
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1850.1.1
+        chance = 100
+    }
+}
+
 # Belarus
 
 ecchi_bye_kalinowski_character_template = {
@@ -694,7 +746,7 @@ mr_swi_dufour_guillaume_henri_character_template = {
 
 ## Nazar von Reding
 
-ecchi_swi_von_reding_character_template = {
+swi_von_reding_character_template = {
     first_name = ecchi_Nazar
     last_name = ecchi_von_Reding
     historical = yes
@@ -703,7 +755,7 @@ ecchi_swi_von_reding_character_template = {
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_landowners
-	#dna = ecchi_dna_johan_rudolph_thorbecke
+    #dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1806.6.30
     traits = { persistent honorable }
     interest_group_leader_usage = {
