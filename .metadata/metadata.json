@@ -1,8 +1,8 @@
 {
   "name" : "ECCHI Redux",
   "id" : "ecchi_redux",
-  "version" : "1.9.3",
-  "supported_game_version" : "1.10.*",
+  "version" : "1.9.4",
+  "supported_game_version" : "1.11.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

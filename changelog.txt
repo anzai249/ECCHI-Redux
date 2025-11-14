@@ -196,11 +196,39 @@ Changes:
 
 (made by Cipherparadox. Thanks!)
 
-- Disabled Thorbecke because Paradox added him in the 1.10 update.
+- Disabled Thorbecke because Paradox - him in the 1.10 update.
 - Ported Lodewijk Caspar Luzac from my mod to replace him.
 - Moved Gerrit Schimmelpenninck from landowners to petite bourgeoisie.
 - Disabled Jacobus Arnoldus Mutsaers.
 - Replaced Eugene Previnaire with older and more senior Guillaume Dumont.
 - Replaced Ernest Peers with older and more senior Pierre Lambert Eloy.
 - Replaced Arnold Ruge with older and more senior Friedrich von Raumer.
-- Disabled Wilhelm Alexander Schoeller because Paradox Added a new industrialist IG leader in 1.10 update.
+- Disabled Wilhelm Alexander Schoeller because Paradox - a new industrialist IG leader in 1.10 update.
+
+
+Release 1.9.4
+(Game version 1.11.*)
+
+New Characters:
+
+- Ioan Oteteleșanu
+- Mihail Ghica
+- Hovahannes Dadyan
+- Ninomiya Sontoku
+- Lee Hang-ro
+- Jeong Hak-yu
+- Gustav Reinhold von Klot
+- Fabian Gottlieb von Bellingshause
+- Johann Karl Girard de Soucanton
+- Karl Axel Christer von Bruiningk
+- Johann Engelbrecht Christoph von Grünewaldt
+- Christoph Engelbrecht von Brevern
+
+Changes:
+
+- Disabled Henri Alexis Brialmont for Historical Generals and Admirals
+- Disabled Cornelis Jacobus Snijders for Historical Generals and Admirals
+
+(made by Cipherparadox. Thanks!)
+- Replaced dupe Carlo Filangieri with Francesco Antonio Winspeare
+- Fixed Nazar von Reding not showing up

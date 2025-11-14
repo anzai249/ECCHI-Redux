@@ -82,6 +82,7 @@ ecchi_bel_brialmont_character_template = {
     commander_rank = default
     commander_usage = {
         country_trigger = {
+            hga_is_active = no
             morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
             OR = {
                 AND = {

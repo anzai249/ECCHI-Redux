@@ -283,6 +283,7 @@ net_snijders_character_template = {
 	traits = { brave honorable popular_commander }
 	agitator_usage = {
 		country_trigger = {
+            hga_is_active = no
 			c:NET ?= this
 		}
         interest_group_trigger = {
