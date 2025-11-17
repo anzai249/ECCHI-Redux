@@ -1644,7 +1644,7 @@ ecchi_chi_kung_techeng_character_template = {
 
     ideology = ideology_moderate
     interest_group = ig_devout
-    dna = ecchi_dna_kung_techeng
+    # dna = ecchi_dna_kung_techeng
     birth_date = 1920.2.23
     traits = { innovative }
     interest_group_leader_usage = {

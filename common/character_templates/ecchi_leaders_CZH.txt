@@ -235,3 +235,47 @@ ecchi_czh_stefanik_character_template = {
     }
 }
 
+## Radola Gajda
+
+ecchi_czh_gajda_character_template = {
+    first_name = Radola
+    last_name = Gajda
+    historical = yes
+    culture = cu:czech
+    religion = rel:orthodox
+    ideology = ideology_fascist
+    interest_group = ig_armed_forces
+    dna = ecchi_dna_radola_gajda
+    birth_date = 1892.2.14
+    traits = { brave ruthless ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            # Kotor, Kingdom of Dalmatia???
+            OR = {
+                AND = {
+                    exists = c:KUK
+                    this = c:KUK
+                    NOT = { 
+                        exists = c:CZH
+                        exists = c:SLV
+                    }
+                }
+                AND = {
+                    exists = c:CZH
+                    this = c:CZH
+                    NOT = { exists = c:SLV }
+                }
+                AND = {
+                    exists = c:SLV
+                    this = c:SLV
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1917.1.30
+        latest_usage_date = 1947.10.13
+        chance = 45
+    }
+}

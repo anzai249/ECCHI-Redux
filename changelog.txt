@@ -232,3 +232,20 @@ Changes:
 (made by Cipherparadox. Thanks!)
 - Replaced dupe Carlo Filangieri with Francesco Antonio Winspeare
 - Fixed Nazar von Reding not showing up
+
+
+Release 1.9.5
+(Game version 1.11.*)
+
+New Characters:
+
+- Radola Gajda
+- Jack Lang
+
+Fixes:
+
+- Ferdinand Lasalle spawn trigger.
+
+Changes:
+
+- Compatibility with ANZFP.

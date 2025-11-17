@@ -770,7 +770,7 @@ ecchi_ger_lasalle_character_template = {
 	traits = { innovative arrogant ambitious hedonist }
 	agitator_usage = {
 		country_trigger = {
-			has_state_in_state_region = STATE_SILESIA
+			has_state_in_state_region = STATE_LOWER_SILESIA
 			NOT = {
 				country_average_cultural_acceptance = { target = cu:north_german value < acceptance_status_4 }
 			}
