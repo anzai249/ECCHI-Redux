@@ -241,6 +241,7 @@ New Characters:
 
 - Radola Gajda
 - Jack Lang
+- Eric Campbell
 
 Fixes:
 

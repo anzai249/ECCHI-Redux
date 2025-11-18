@@ -392,3 +392,39 @@ ecchi_ast_lang_character_template = {
 		chance = 65
 	}
 }
+
+## Eric Campbell
+ecchi_ast_campbell_character_template = {
+	first_name = Eric
+	last_name = Campbell
+	historical = yes
+	culture = cu:australian
+	religion = rel:protestant
+	ideology = ideology_fascist
+	interest_group = ig_petty_bourgeoisie
+	dna = ecchi_dna_eric_campbell
+	birth_date = 1893.4.11
+	traits = {
+		ruthless
+		ambitious
+		firebrand
+	}
+	agitator_usage = {
+		country_trigger = {
+			anzfp_is_active = no
+			has_state_in_state_region = STATE_NEW_SOUTH_WALES
+			NOT = {
+				country_average_cultural_acceptance = {
+					target = cu:australian
+					value < acceptance_status_4
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1925.1.1
+		latest_usage_date = 1970.2.2
+		chance = 50
+	}
+}
