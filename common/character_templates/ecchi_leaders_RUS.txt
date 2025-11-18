@@ -62,7 +62,6 @@
 # 		chance = 65
 # 	}
 # }
-
 ecchi_rus_stalin_character_template = {
 	first_name = Joseph
 	last_name = ecchi_Stalin
@@ -142,7 +141,6 @@ ecchi_rus_stalin_character_template = {
 # 		chance = 65
 # 	}
 # }
-
 # Russia - theocrats
 ecchi_rus_rasputin_character_template = {
 	first_name = ecchi_Grigori
@@ -219,7 +217,6 @@ ecchi_rus_rasputin_character_template = {
 # 		chance = 65
 # 	}
 # }
-
 # Don Cossack
 ecchi_rus_krasnov_character_template = {
 	first_name = Pyotr
@@ -356,35 +353,35 @@ ecchi_rus_goldman_character_template = {
 	first_name = Emma
 	last_name = ecchi_Goldman
 	historical = yes
-	culture = cu:russian
+	culture = cu:ashkenazi
 	female = yes
-	religion = rel:jewish
+	religion = rel:atheist
 	ideology = ideology_anarchist
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_intelligentsia
 	dna = ecchi_dna_emma_goldman
 	birth_date = 1869.6.27
 	traits = {
+		inspirational_orator
 		charismatic
 		brave
 		persistent
+		literary
 	}
 	agitator_usage = {
 		country_trigger = {
+			is_usfp_active = no
 			OR = {
+				c:USA ?= this
 				AND = {
-					exists = c:RUS
-					this = c:RUS
-				}
-				AND = {
-					exists = c:USA
-					this = c:USA
+					c:RUS ?= this
+					has_law_or_variant = law_type:law_council_republic
 				}
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_petty_bourgeoisie
+			is_interest_group_type = ig_intelligentsia
 		}
-		earliest_usage_date = 1885.1.1
+		earliest_usage_date = 1886.1.1
 		latest_usage_date = 1940.5.14
 		chance = 25
 	}
@@ -421,7 +418,6 @@ ecchi_rus_goldman_character_template = {
 # 		chance = 25
 # 	}
 # }
-
 ## Grigory Zinoviev
 ecchi_rus_zinoviev_character_template = {
 	first_name = Grigory
@@ -886,7 +882,6 @@ RUS_general_markov = {
 }
 
 ## Nikolai Ostrovsky
-
 RUS_nikolai_ostrovsky = {
 	first_name = Nikolai
 	last_name = Ostrovsky
@@ -907,7 +902,10 @@ RUS_nikolai_ostrovsky = {
 		country_trigger = {
 			has_state_in_state_region = STATE_VOLHYNIA
 			NOT = {
-				country_average_cultural_acceptance = { target = cu:ukrainian value < acceptance_status_4 }
+				country_average_cultural_acceptance = {
+					target = cu:ukrainian
+					value < acceptance_status_4
+				}
 			}
 			has_technology_researched = socialism
 		}
@@ -921,7 +919,6 @@ RUS_nikolai_ostrovsky = {
 }
 
 ## Anton Chekhov
-
 RUS_anton_chekhov = {
 	first_name = ecchi_Anton
 	last_name = ecchi_Chekhov
@@ -942,7 +939,10 @@ RUS_anton_chekhov = {
 		country_trigger = {
 			has_state_in_state_region = STATE_ROSTOV
 			NOT = {
-				country_average_cultural_acceptance = { target = cu:russian value < acceptance_status_4 }
+				country_average_cultural_acceptance = {
+					target = cu:russian
+					value < acceptance_status_4
+				}
 			}
 		}
 		interest_group_trigger = {
@@ -955,7 +955,6 @@ RUS_anton_chekhov = {
 }
 
 ## Semyon Budyonny
-
 RUS_semyon_budyonny = {
 	first_name = Semyon
 	last_name = Budyonny
@@ -984,29 +983,31 @@ RUS_semyon_budyonny = {
 }
 
 ## Ivan Alekseevich Kolesov Иван Алексеевич Колесов
-
 RUS_kolesov_character_template = {
-    first_name = ecchi_Ivan_Alekseevich
-    last_name = ecchi_Kolesov
-    historical = yes
-    culture = cu:russian
-
-    religion = rel:orthodox
-    ideology = ideology_moderate
-    interest_group = ig_petty_bourgeoisie
+	first_name = ecchi_Ivan_Alekseevich
+	last_name = ecchi_Kolesov
+	historical = yes
+	culture = cu:russian
+	religion = rel:orthodox
+	ideology = ideology_moderate
+	interest_group = ig_petty_bourgeoisie
 	#dna = mr_net_groen_van_prinsterer_guillaume
-    birth_date = 1778.10.7
-    traits = { basic_entrepreneur pious honorable }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:RUS
-            this = c:RUS
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
-        }
-        earliest_usage_date = 1836.1.1
-        latest_usage_date = 1852.8.31
-        chance = 100
-    }
+	birth_date = 1778.10.7
+	traits = {
+		basic_entrepreneur
+		pious
+		honorable
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:RUS
+			this = c:RUS
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1852.8.31
+		chance = 100
+	}
 }

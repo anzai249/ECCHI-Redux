@@ -249,3 +249,4 @@ Fixes:
 Changes:
 
 - Compatibility with ANZFP.
+- New Emma Goldman template thanks to CaelReader.
