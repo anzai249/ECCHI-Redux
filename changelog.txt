@@ -242,6 +242,9 @@ New Characters:
 - Radola Gajda
 - Jack Lang
 - Eric Campbell
+- Pieter Cort van der Linden
+- Charles Ruijs de Beerenbrouck
+- Louis de Visser
 
 Fixes:
 

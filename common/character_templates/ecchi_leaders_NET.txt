@@ -477,3 +477,87 @@ net_de_jonge_van_campensnieuwland_character_template = {
         chance = 100
     }
 }
+
+## Pieter Cort van der Linden
+net_cort_van_der_linden_character_template = {
+    first_name = Pieter_Cort
+    last_name = van_der_Linden
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_industrialists
+    birth_date = 1846.5.14
+    traits = { erudite meticulous experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1935.7.15
+        chance = 50
+    }
+}
+
+## Charles Ruijs de Beerenbrouck
+net_ruijs_de_beerenbrouck_character_template = {
+    first_name = Charles
+    last_name = ecchi_Ruijs_de_Beerenbrouck
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_conservative_leader
+    interest_group = ig_landowners
+    birth_date = 1873.7.28
+    dna = ecchi_net_ruijs_de_beerenbrouck_charles
+    traits = { meticulous experienced_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_GELRE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1946.6.21
+        chance = 50
+    }
+}
+
+## Louis de Visser
+net_de_visser_character_template = {
+    first_name = Louis
+    last_name = ecchi_de_Visser
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1878.5.21
+    dna = ecchi_net_de_visser_louis
+    traits = { ambitious direct charismatic }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1945.5.3
+        chance = 50
+    }
+}
