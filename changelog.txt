@@ -245,6 +245,26 @@ New Characters:
 - Pieter Cort van der Linden
 - Charles Ruijs de Beerenbrouck
 - Louis de Visser
+- René Nicod
+- Léon Blum
+- Eugène Deloncle
+- Paul Julien de Granier de Cassagnac
+- Maurice Leblanc
+- Louis Dimier
+- Jules Guesde
+- Jean Grave
+- Henri-Dominique Lacordaire
+- Albert de Mun
+- Maurice Barrès
+- Jules Méline
+- Marguerite Durand
+- Eugène Pelletan
+- Léon Bourgeois
+- Léon Harmel
+- Jean Plichon
+- Ernest Courtot de Cissey
+- Hubert Lyautey
+- Raymond Poincaré
 
 Fixes:
 
