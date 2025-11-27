@@ -265,6 +265,7 @@ New Characters:
 - Ernest Courtot de Cissey
 - Hubert Lyautey
 - Raymond Poincaré
+- Joseph Capus
 
 Fixes:
 

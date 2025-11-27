@@ -1012,3 +1012,31 @@ ecchi_fra_poincare_character_template = {
         chance = 65
     }
 }
+
+## Joseph Capus
+
+ecchi_fra_capus_character_template = {
+    first_name = Joseph
+    last_name = ecchi_Capus
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1867.8.18
+    traits = { meticulous innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1947.3.4
+        chance = 65
+    }
+}
