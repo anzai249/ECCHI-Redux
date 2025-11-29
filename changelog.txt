@@ -245,6 +245,8 @@ New Characters:
 - Pieter Cort van der Linden
 - Charles Ruijs de Beerenbrouck
 - Louis de Visser
+- August Weitzel
+- Henri Staal
 
 Fixes:
 

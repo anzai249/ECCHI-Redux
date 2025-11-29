@@ -561,3 +561,69 @@ net_de_visser_character_template = {
         chance = 50
     }
 }
+
+## August Weitzel 
+net_weitzel_character_template = {
+    first_name = August
+    last_name = Weitzel
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+    birth_date = 1816.1.6
+    dna = ecchi_net_weitzel_august
+    traits = { brave honorable popular_commander }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1896.3.29
+        chance = 50
+    }
+    commander_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        role = general
+        earliest_usage_date = 1873.1.1
+        latest_usage_date = 1896.3.29
+        chance = 50
+    }
+}
+
+## Henri Staal
+net_staal_character_template = {
+    first_name = Henri
+    last_name = Staal
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_pacifist
+    interest_group = ig_devout
+    birth_date = 1845.6.17
+    dna = ecchi_net_staal_henri
+    traits = { demagogue erudite }
+    commander_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_FRIESLAND
+        }
+        role = general
+        earliest_usage_date = 1866.1.1
+        latest_usage_date = 1920.10.15
+        chance = 50
+    }
+}
