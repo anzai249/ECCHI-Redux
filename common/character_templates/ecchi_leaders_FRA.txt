@@ -211,7 +211,7 @@ ecchi_fra_passy_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1912.6.12
-        chance = 80
+        chance = 65
     }
 }
 
@@ -432,6 +432,611 @@ ecchi_fra_henri_barbusse_character_template = {
         }
         earliest_usage_date = 1916.1.1
         latest_usage_date = 1935.8.30
+        chance = 65
+    }
+}
+
+## René Nicod
+
+ecchi_fra_rene_nicod_character_template = {
+    first_name = ecchi_Rene
+    last_name = ecchi_Nicod
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1881.6.18
+    traits = { direct persistent }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_FRANCHE_COMTE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1950.3.14
+        chance = 65
+    }
+}
+
+## Léon Blum
+
+ecchi_fra_blum_character_template = {
+    first_name = ecchi_Leon
+    last_name = ecchi_Blum
+    historical = yes
+    culture = cu:french
+
+    religion = rel:jewish
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1872.4.9
+    traits = { political_operator charismatic honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1920.1.1
+        latest_usage_date = 1950.4.30
+        chance = 65
+    }
+}
+
+## Eugène Deloncle
+
+ecchi_fra_deloncle_character_template = {
+    first_name = ecchi_Eugene
+    last_name = ecchi_Deloncle
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_fascist
+    interest_group = ig_petty_bourgeoisie
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1890.5.20
+    traits = { ruthless engineer }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_BRITTANY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1925.1.1
+        latest_usage_date = 1944.1.7
+        chance = 65
+    }
+}
+
+## Paul Julien de Granier de Cassagnac
+
+ecchi_fra_de_granier_de_cassagnac_character_template = {
+    first_name = ecchi_Paul_Julien
+    last_name = ecchi_de_Granier_de_Cassagnac
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_royalist
+    interest_group = ig_petty_bourgeoisie
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1880.4.12
+    traits = { literary persistent demagogue }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_ILE_DE_FRANCE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1966.9.7
+        chance = 65
+    }
+}
+
+## Maurice Leblanc
+
+ecchi_leblanc_character_template = {
+    first_name = ecchi_Maurice
+    last_name = ecchi_Leblanc
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1861.4.14
+    traits = { literary meticulous honorable }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_NORMANDY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1941.11.6
+        chance = 25
+    }
+}
+
+
+## Louis Dimier
+
+ecchi_fra_dimier_character_template = {
+    first_name = Louis
+    last_name = ecchi_Dimier
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1865.2.12
+    traits = { pious aesthete literary }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1943.11.21
+        chance = 65
+    }
+}
+
+## Jules Guesde
+
+ecchi_fra_guesde_character_template = {
+    first_name = Jules
+    last_name = ecchi_Guesde
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1845.11.11
+    traits = { firebrand ambitious }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_ILE_DE_FRANCE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1922.6.28
+        chance = 65
+    }
+}
+
+## Jean Grave
+
+ecchi_fra_grave_character_template = {
+    first_name = Jean
+    last_name = ecchi_Grave
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_anarchist
+    interest_group = ig_trade_unions
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1854.10.16
+    traits = { ruthless reserved ambitious }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_ILE_DE_FRANCE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1880.1.1
+        latest_usage_date = 1930.1.1
+        chance = 65
+    }
+}
+
+## Henri-Dominique Lacordaire
+
+ecchi_fra_dimier_character_template = {
+    first_name = ecchi_Henri_Dominique
+    last_name = ecchi_Lacordaire
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_reformer
+    interest_group = ig_devout
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1802.5.12
+    traits = { pious charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1843.3.1
+        latest_usage_date = 1861.11.21
+        chance = 65
+    }
+}
+
+
+## Albert de Mun
+
+ecchi_fra_de_mun_character_template = {
+    first_name = Albert
+    last_name = ecchi_de_Mun
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_enlightened_royalist
+    interest_group = ig_devout
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1841.2.28
+    traits = { pious ambitious demagogue }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1876.4.1
+        latest_usage_date = 1914.10.6
+        chance = 65
+    }
+}
+
+## Maurice Barrès
+
+ecchi_fra_barres_character_template = {
+    first_name = ecchi_Maurice
+    last_name = ecchi_Barres
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_devout
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1862.8.19
+    traits = { literary meticulous }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_LORRAINE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1923.11.4
+        chance = 65
+    }
+}
+
+## Jules Méline
+
+ecchi_fra_meline_character_template = {
+    first_name = Jules
+    last_name = ecchi_meline
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_protectionist
+    interest_group = ig_rural_folk
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1838.5.28
+    traits = { direct meticulous }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1912.1.1
+        chance = 65
+    }
+}
+
+## Marguerite Durand
+
+ecchi_fra_durand_character_template = {
+	first_name = ecchi_Marguerite
+	last_name = ecchi_Durand
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+    female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1864.1.24
+	#dna = mr_net_jacobs_aletta
+	traits = { literary persistent charismatic }
+	agitator_usage = {
+		country_trigger = {
+			c:FRA ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1891.1.1
+		latest_usage_date = 1936.4.26
+		chance = 75
+	}
+}
+
+## Eugène Pelletan
+
+ecchi_fra_pelletan_character_template = {
+    first_name = ecchi_Eugene
+    last_name = ecchi_Pelletan
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1813.10.29
+    traits = { literary erudite persistent }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1850.1.1
+        latest_usage_date = 1884.1.1
+        chance = 65
+    }
+}
+
+## Léon Bourgeois
+
+ecchi_fra_bourgeois_character_template = {
+    first_name = ecchi_Leon
+    last_name = ecchi_Bourgeois
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_modernizer
+    interest_group = ig_intelligentsia
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1851.5.21
+    traits = { ambitious honorable political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1887.1.1
+        latest_usage_date = 1925.9.29
+        chance = 65
+    }
+}
+
+
+## Léon Harmel
+
+ecchi_fra_harmel_character_template = {
+    first_name = ecchi_Leon
+    last_name = ecchi_Harmel
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_utilitarian
+    interest_group = ig_industrialists
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1829.2.17
+    traits = { pious honorable innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1861.1.1
+        latest_usage_date = 1910.1.1
+        chance = 65
+    }
+}
+
+## Jean Plichon
+
+ecchi_fra_plichonl_character_template = {
+    first_name = Jean
+    last_name = ecchi_Plichon
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_protectionist
+    interest_group = ig_industrialists
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1863.5.14
+    traits = { meticulous ambitious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1936.1.1
+        chance = 65
+    }
+}
+
+## Ernest Courtot de Cissey
+
+ecchi_fra_courtot_de_cissey_character_template = {
+    first_name = Ernest
+    last_name = ecchi_Courtot_de_Cissey
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1810.9.12
+    traits = { popular_commander ambitious brave }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1875.1.1
+        chance = 65
+    }
+}
+
+## Hubert Lyautey
+
+ecchi_fra_lyautey_character_template = {
+    first_name = Hubert
+    last_name = ecchi_Lyautey
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_armed_forces
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1854.11.17
+    traits = { charismatic direct }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1930.1.1
+        chance = 65
+    }
+}
+
+## Raymond Poincaré
+
+ecchi_fra_poincare_character_template = {
+    first_name = ecchi_Raymond
+    last_name = ecchi_Poincare
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_petty_bourgeoisie
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1860.8.20
+    traits = { meticulous cautious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1895.1.1
+        latest_usage_date = 1934.10.15
+        chance = 65
+    }
+}
+
+## Joseph Capus
+
+ecchi_fra_capus_character_template = {
+    first_name = Joseph
+    last_name = ecchi_Capus
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1867.8.18
+    traits = { meticulous innovative }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1947.3.4
         chance = 65
     }
 }
