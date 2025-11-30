@@ -93,7 +93,7 @@ ecchi_net_troelstra_character_template = {
     culture = cu:dutch
 
     religion = rel:protestant
-    ideology = ideology_vanguardist
+    ideology = ideology_republican
     interest_group = ig_trade_unions
 	dna = ecchi_dna_pieter_jelles_troelstra
     birth_date = 1860.4.20
@@ -317,7 +317,7 @@ net_hoevell_character_template = {
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1841.1.1
-		latest_usage_date = 1962.1.1
+		latest_usage_date = 1862.1.1
 		chance = 50
 	}
 }
