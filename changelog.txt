@@ -261,6 +261,8 @@ New Characters:
 - Jan Westerdijk
 - Carel Gerretson
 - Gerlach Cornelis Joannes van Reenen
+- Jacob Adriaan de Wilde
+- Derk Welt
 - René Nicod
 - Léon Blum
 - Eugène Deloncle

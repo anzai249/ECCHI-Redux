@@ -974,7 +974,7 @@ net_luyben_character_template = {
     last_name = ecchi_Westerdijk
     historical = yes
     culture = cu:dutch
-    religion = rel:catholic
+    religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_rural_folk
     birth_date = 1860.1.14
@@ -1029,7 +1029,7 @@ net_luyben_character_template = {
     last_name = ecchi_van_Reenen
     historical = yes
     culture = cu:dutch
-    religion = rel:catholic
+    religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_landowners
     birth_date = 1818.9.30
@@ -1046,6 +1046,60 @@ net_luyben_character_template = {
         }
         earliest_usage_date = 1858.1.1
         latest_usage_date = 1893.5.31
+        chance = 50
+    }
+}
+
+## Jacob Adriaan de Wilde
+net_de_wilde_character_template = {
+    first_name = ecchi_Jacob_Adriaan
+    last_name = ecchi_de_Wilde
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_devout
+    birth_date = 1879.1.7
+    traits = { tactful honorable }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1953.1.1
+        chance = 50
+    }
+}
+
+## Derk Welt
+net_welt_character_template = {
+    first_name = ecchi_Derk
+    last_name = ecchi_Welt
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_rural_folk
+    birth_date = 1835.10.18
+    traits = { meticulous cautious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_FRIESLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1865.1.1
+        latest_usage_date = 1900.1.1
         chance = 50
     }
 }
