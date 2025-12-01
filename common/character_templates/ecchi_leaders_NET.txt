@@ -1182,3 +1182,30 @@ net_beelaerts_van_blokland_character_template = {
         chance = 50
     }
 }
+
+## Dolf Joekes
+net_joekes_character_template = {
+    first_name = ecchi_Dolf
+    last_name = ecchi_Joekes
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_modernizer
+    interest_group = ig_intelligentsia
+    birth_date = 1885.5.4
+    traits = { literary master_bureaucrat meticulous  }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1925.1.1
+        latest_usage_date = 1952.1.1
+        chance = 50
+    }
+}

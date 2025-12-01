@@ -265,6 +265,7 @@ New Characters:
 - Willem Roëll
 - Frans Beelaerts van Blokland
 - Derk Welt
+- Dolf Joekes
 - René Nicod
 - Léon Blum
 - Eugène Deloncle
