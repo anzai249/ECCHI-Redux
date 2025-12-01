@@ -262,6 +262,7 @@ New Characters:
 - Carel Gerretson
 - Gerlach Cornelis Joannes van Reenen
 - Jacob Adriaan de Wilde
+- Willem Roëll
 - Derk Welt
 - René Nicod
 - Léon Blum
@@ -293,3 +294,4 @@ Changes:
 
 - Compatibility with ANZFP.
 - New Emma Goldman template thanks to CaelReader.
+- Cornelis Jacobus Snijders changed from agitator to IG leader
