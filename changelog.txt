@@ -288,6 +288,9 @@ New Characters:
 - Hubert Lyautey
 - Raymond Poincaré
 - Joseph Capus
+- Marthe de Vogüé
+- Armand de Baudry d'Asson
+- Antoine de Lévis-Mirepoix
 
 Fixes:
 
