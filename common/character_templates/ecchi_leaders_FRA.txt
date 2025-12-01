@@ -1051,6 +1051,7 @@ ecchi_fra_de_vogue_character_template = {
     culture = cu:french
 
     religion = rel:catholic
+    female = yes
     ideology = ideology_royalist
     interest_group = ig_landowners
     #dna = ecchi_dna_andre_citroen
