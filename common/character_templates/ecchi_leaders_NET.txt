@@ -525,11 +525,11 @@ net_ruijs_de_beerenbrouck_character_template = {
     historical = yes
     culture = cu:dutch
     religion = rel:catholic
-    ideology = ideology_utilitarian #was nicknamed the red junker because of him bening a nobleman supporting welfare
+    ideology = ideology_utilitarian #was nicknamed the red junker because of him being a nobleman supporting welfare
     interest_group = ig_landowners
     birth_date = 1873.7.28
     dna = ecchi_net_ruijs_de_beerenbrouck_charles
-    traits = { meticulous experienced_political_operator }
+    traits = { tactful meticulous experienced_political_operator }
     interest_group_leader_usage = {
         country_trigger = {
             NOT = {
@@ -540,8 +540,8 @@ net_ruijs_de_beerenbrouck_character_template = {
         interest_group_trigger = {
             is_interest_group_type = ig_landowners
         }
-        earliest_usage_date = 1918.1.1
-        latest_usage_date = 1946.6.21
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1936.6.21
         chance = 50
     }
 }
@@ -1152,6 +1152,33 @@ net_general_roell_character_template = {
         role = general
         earliest_usage_date = 1822.1.1
         latest_usage_date = 1950.1.1
+        chance = 50
+    }
+}
+
+## Frans Beelaerts van Blokland
+net_beelaerts_van_blokland_character_template = {
+    first_name = ecchi_Frans
+    last_name = ecchi_Beelaerts_van_Blokland
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners #was not a major landownwer himself but he is a nobleman and was loyal to queen Wilhelmina
+    birth_date = 1872.1.21
+    traits = { imposing direct experienced_diplomat }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1823.1.1
+        latest_usage_date = 1956.3.27
         chance = 50
     }
 }
