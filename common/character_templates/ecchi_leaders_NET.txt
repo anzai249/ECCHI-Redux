@@ -1209,3 +1209,30 @@ net_joekes_character_template = {
         chance = 50
     }
 }
+
+## Laurentius Nicolaas Deckers
+net_deckers_character_template = {
+    first_name = ecchi_Laurentius_Nicolaas
+    last_name = ecchi_Deckers
+    historical = yes
+    culture = cu:dutch
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1883.2.14
+    traits = { pious master_bureaucrat inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_GELRE
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1925.1.1
+        latest_usage_date = 1958.1.1
+        chance = 50
+    }
+}
