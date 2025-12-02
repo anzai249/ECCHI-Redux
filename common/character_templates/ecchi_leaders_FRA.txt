@@ -587,7 +587,7 @@ ecchi_leblanc_character_template = {
 
 ## Louis Dimier
 
-ecchi_fra_dimier_character_template = {
+ecchi_fra_dimier_character_template= {
     first_name = Louis
     last_name = ecchi_Dimier
     historical = yes
@@ -596,21 +596,22 @@ ecchi_fra_dimier_character_template = {
     religion = rel:catholic
     ideology = ideology_royalist
     interest_group = ig_intelligentsia
-    #dna = ecchi_dna_andre_citroen
+    #dna = ecchi_dna_alphonse_de_lamartine
     birth_date = 1865.2.12
     traits = { pious aesthete literary }
-    interest_group_leader_usage = {
     agitator_usage = {
         country_trigger = {
-            exists = c:FRA
-            this = c:FRA
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_ILE_DE_FRANCE
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1893.1.1
         latest_usage_date = 1943.11.21
-        chance = 55
+        chance = 65
     }
 }
 
