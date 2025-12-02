@@ -982,7 +982,7 @@ net_luyben_character_template = {
 }
 
 ## Jan Westerdijk
-net_luyben_character_template = {
+net_westerdijk_character_template = {
     first_name = Jan
     last_name = ecchi_Westerdijk
     historical = yes
@@ -1009,7 +1009,7 @@ net_luyben_character_template = {
 }
 
 ## Carel Gerretson
-net_pannekoek_character_template = {
+net_gerretson_character_template = {
     first_name = Carel
     last_name = ecchi_Gerretson
     historical = yes
@@ -1037,7 +1037,7 @@ net_pannekoek_character_template = {
 }
 
 ## Gerlach Cornelis Joannes van Reenen
-net_luyben_character_template = {
+net_van_reenen_character_template = {
     first_name = ecchi_Gerlach
     last_name = ecchi_van_Reenen
     historical = yes
@@ -1233,6 +1233,146 @@ net_deckers_character_template = {
         }
         earliest_usage_date = 1925.1.1
         latest_usage_date = 1958.1.1
+        chance = 50
+    }
+}
+
+## Jan Jakob Lodewijk ten Kate
+net_ten_kate_character_template = {
+    first_name = Jan
+    last_name = ecchi_ten_Kate
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+    birth_date = 1819.11.23
+    traits = { literary meticulous   }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1852.1.1
+        latest_usage_date = 1887.1.1
+        chance = 50
+    }
+}
+
+## Isaac da Costa
+net_da_costa_character_template = {
+    first_name = Isaac
+    last_name = ecchi_da_Costa
+    historical = yes
+    culture = cu:dutch
+    religion = rel:jewish
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+    birth_date = 1798.1.14
+    traits = { literary charismatic persistent }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1830.1.1
+        latest_usage_date = 1860.4.28
+        chance = 50
+    }
+}
+
+## Bernard van der Wijck
+net_van_der_wijckcharacter_template = {
+    first_name = Bernard
+    last_name = ecchi_van_der_Wijckcharacter
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_jingoist_leader
+    interest_group = ig_landowners
+    birth_date = 1836.3.30
+    traits = { erudite pious direct }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1925.3.13
+        chance = 50
+    }
+}
+
+## Conrad Busken Huet
+net_busken_huet_template = {
+    first_name = ecchi_Conrad
+    last_name = ecchi_Busken_Huet
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_royalist
+    interest_group = ig_intelligentsia
+    birth_date = 1826.11.28
+    traits = { literary direct reckless inspirational_orator }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1854.1.1
+        latest_usage_date = 1884.1.1
+        chance = 50
+    }
+}
+
+## Gerard Heymans
+net_heymans_template = {
+    first_name = ecchi_Gerard
+    last_name = ecchi_Heymans
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_intelligentsia
+    birth_date = 1857.4.17
+    traits = { erudite ambitious innovative }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_FRIESLAND
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1830.2.18
         chance = 50
     }
 }
