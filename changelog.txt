@@ -291,6 +291,10 @@ New Characters:
 - Marthe de Vogüé
 - Armand de Baudry d'Asson
 - Antoine de Lévis-Mirepoix
+- Paul Valéry
+- Henri Groussau
+- Paul Claudel
+- Gaston d'Audiffret-Pasquier
 
 Fixes:
 

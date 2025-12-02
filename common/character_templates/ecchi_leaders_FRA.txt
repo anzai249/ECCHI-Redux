@@ -320,7 +320,7 @@ ecchi_fra_pasteur_character_template = {
     birth_date = 1822.12.27
     ideology = ideology_positivist
     dna = ecchi_dna_louis_pasteur
-    traits = { meticulous innovative persistent }
+    traits = { pious aesthete }
     agitator_usage = {
         country_trigger = {
             exists = c:FRA
@@ -1045,7 +1045,7 @@ ecchi_fra_capus_character_template = {
 
 ## Marthe de Vogüé
 
-ecchi_fra_de_vogue_character_template = {
+ecchi_fra_de_vogue_character_template  = {
     first_name = ecchi_Marthe
     last_name = ecchi_de_Vogue
     historical = yes
@@ -1055,21 +1055,22 @@ ecchi_fra_de_vogue_character_template = {
     female = yes
     ideology = ideology_royalist
     interest_group = ig_landowners
-    #dna = ecchi_dna_andre_citroen
+    #dna = ecchi_dna_alphonse_de_lamartine
     birth_date = 1860.11.21
     traits = { pious charismatic persistent }
-    interest_group_leader_usage = {
     agitator_usage = {
         country_trigger = {
-            exists = c:FRA
-            this = c:FRA
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_ILE_DE_FRANCE
         }
         interest_group_trigger = {
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1903.1.1
         latest_usage_date = 1923.6.9
-        chance = 55
+        chance = 65
     }
 }
 
@@ -1125,6 +1126,122 @@ ecchi_fra_de_levis_mirepoix_character_template = {
         }
         earliest_usage_date = 1934.1.1
         latest_usage_date = 1960.1.1
+        chance = 65
+    }
+}
+
+## Paul Valéry
+
+ecchi_fra_valery_character_template  = {
+    first_name = Paul
+    last_name = ecchi_Valery
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_intelligentsia
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1871.10.30
+    traits = { romantic direct literary }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_LANGUEDOC
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1945.6.20
+        chance = 65
+    }
+}
+
+## Henri Groussau
+
+ecchi_fra_groussau_character_template = {
+    first_name = Henri
+    last_name = ecchi_Groussau
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_devout
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1851.6.17
+    traits = { erudite meticulous basic_political_operator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1928.1.1
+        chance = 65
+    }
+}
+
+## Paul Claudel
+
+ecchi_fra_claudel_character_template = {
+    first_name = Paul
+    last_name = ecchi_Claudel
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_moderate
+    interest_group = ig_devout
+    #dna = ecchi_dna_alphonse_de_lamartine
+    birth_date = 1871.10.30
+    traits = { pious erudite diplomat }
+    agitator_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_PICARDY
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1955.1.23
+        chance = 65
+    }
+}
+
+## Gaston d'Audiffret-Pasquier
+
+ecchi_fra_d_audiffret_pasquier_character_template = {
+    first_name = Gaston
+    last_name = ecchi_d_Audiffret_Pasquier
+    historical = yes
+    culture = cu:french
+
+    religion = rel:catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    #dna = ecchi_dna_andre_citroen
+    birth_date = 1823.10.21
+    traits = { ambitious honorable inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1895.1.1
         chance = 65
     }
 }
