@@ -1376,3 +1376,31 @@ net_heymans_template = {
         chance = 50
     }
 }
+
+## René de Marees van Swinderen
+net_de_marees_van_swinderen_template = {
+    first_name = Rene
+    last_name = ecchi_de_Marees_van_Swinderen
+    historical = yes
+    culture = cu:dutch
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    dna = ecchi_net_de_marees_van_swinderen_rene
+    birth_date = 1860.10.6
+    traits = { experienced_diplomat inept charismatic }
+    interest_group_leader_usage = {
+        country_trigger = {
+            NOT = {
+                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
+            }
+            has_state_in_state_region = STATE_HOLLAND
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1955.1.17
+        chance = 50
+    }
+}

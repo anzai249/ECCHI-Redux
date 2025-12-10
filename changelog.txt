@@ -300,6 +300,7 @@ New Characters:
 - Henri Groussau
 - Paul Claudel
 - Gaston d'Audiffret-Pasquier
+- René de Marees van Swinderen
 
 Fixes:
 
