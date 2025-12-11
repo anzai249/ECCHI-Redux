@@ -1631,3 +1631,31 @@ ecchi_gbr_conolly_arthur_character_template = {
         chance = 50
     }
 }
+
+#Gilbert Keith Chesterton
+ecchi_gbr_chesterton_character_template = {
+    first_name = ecchi_Gilbert_Keith
+    last_name = ecchi_Chesterton
+    historical = yes
+    culture = cu:british
+    female = no
+    religion = rel:catholic
+    ideology = ideology_liberal_leader
+    interest_group = ig_devout
+    dna = mr_gbr_chesterton_gilbert_keith
+    birth_date = 1874.5.29
+    traits = { literary honorable erudite }
+    agitator_usage = {
+        country_trigger = {
+            morgenrote_is_active = no #This character is in Morgenröte and should not spawn if Morgenröte is active
+            exists = c:GBR
+            this = c:GBR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_devout
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1936.6.14
+        chance = 65
+    }
+}
