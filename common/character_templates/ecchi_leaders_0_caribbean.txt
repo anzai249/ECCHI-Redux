@@ -77,7 +77,7 @@ ecchi_cub_maceo_character_template = {
     commander_rank = default
     commander_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
 			NOT = {
 				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
@@ -133,7 +133,7 @@ ecchi_cub_garcia_character_template = {
     commander_rank = default
     commander_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
 			NOT = {
 				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
@@ -161,7 +161,7 @@ ecchi_cub_mella_character_template = {
     traits = { charismatic ambitious }
     interest_group_leader_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
 			NOT = {
 				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
@@ -192,7 +192,7 @@ ecchi_cub_aguilera_character_template = {
     traits = { explorer ambitious literary }
     interest_group_leader_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
 			NOT = {
 				country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
 			}
@@ -222,7 +222,7 @@ ecchi_cub_palma_character_template = {
     traits = { ambitious wrathful }
     interest_group_leader_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
             NOT = {
                 country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
             }
@@ -251,7 +251,7 @@ ecchi_cub_machado_character_template = {
     traits = { ambitious wrathful cruel }
     interest_group_leader_usage = {
         country_trigger = {
-            has_state_in_state_region = STATE_CUBA
+            has_state_in_state_region = STATE_WESTERN_CUBA
             NOT = {
                 country_average_cultural_acceptance = { target = cu:caribeno value < acceptance_status_4 }
             }
