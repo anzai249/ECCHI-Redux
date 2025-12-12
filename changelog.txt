@@ -301,6 +301,8 @@ New Characters:
 - Paul Claudel
 - Gaston d'Audiffret-Pasquier
 - René de Marees van Swinderen
+- Karl Ludwig von Haller
+- Gilbert Keith Chesterton
 
 Fixes:
 
@@ -311,3 +313,4 @@ Changes:
 - Compatibility with ANZFP.
 - New Emma Goldman template thanks to CaelReader.
 - Cornelis Jacobus Snijders changed from agitator to IG leader
+- Nazar von Reding changed from IG leader to agitator

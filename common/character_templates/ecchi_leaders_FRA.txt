@@ -565,7 +565,7 @@ ecchi_leblanc_character_template = {
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
-    #dna = ecchi_dna_alphonse_de_lamartine
+    dna = mr_fra_leblanc_maurice
     birth_date = 1861.4.14
     traits = { literary meticulous honorable }
     agitator_usage = {
@@ -574,6 +574,7 @@ ecchi_leblanc_character_template = {
                 country_average_cultural_acceptance = { target = cu:french value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_NORMANDY
+            morgenrote_is_active = no
         }
         interest_group_trigger = {
             is_interest_group_type = ig_intelligentsia

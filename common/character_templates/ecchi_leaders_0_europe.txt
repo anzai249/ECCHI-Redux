@@ -744,6 +744,35 @@ mr_swi_dufour_guillaume_henri_character_template = {
     }
 }
 
+## Karl Ludwig von Haller
+
+swi_von_haller_character_template = {
+    first_name = ecchi_Karl_Ludwig
+    last_name = ecchi_von_Haller
+    historical = yes
+    culture = cu:alemannic
+
+    religion = rel:catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_landowners
+    dna = mr_swi_von_haller_karl_ludwig
+    birth_date = 1768.8.1
+    traits = { master_bureaucrat experienced_diplomat literary }
+    interest_group_leader_usage = {
+        country_trigger = {
+            morgenrote_is_active = no
+            exists = c:SWI
+            this = c:SWI
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1854.5.21
+        chance = 100
+    }
+}
+
 ## Nazar von Reding
 
 swi_von_reding_character_template = {
@@ -758,19 +787,19 @@ swi_von_reding_character_template = {
     #dna = mr_net_groen_van_prinsterer_guillaume
     birth_date = 1806.6.30
     traits = { persistent honorable }
-    interest_group_leader_usage = {
+    agitator_usage = {
         country_trigger = {
-            is_usfp_active = no
-            morgenrote_is_active = no
-            exists = c:SWI
-            this = c:SWI
+            has_state_in_state_region = STATE_EAST_SWITZERLAND
+			NOT = {
+				country_average_cultural_acceptance = { target = cu:alemannic value < acceptance_status_4 }
+			}
         }
         interest_group_trigger = {
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1865.12.28
-        chance = 100
+        chance = 65
     }
 }
 
@@ -843,7 +872,7 @@ mr_swi_jung_character_template = {
     culture = cu:francoprovencal
     religion = rel:protestant
     birth_date = 1875.7.26
-    interest_group = ig_industrialists
+    interest_group = ig_intelligentsia
     ideology = ideology_humanitarian
     historical = yes
     traits = {
@@ -859,7 +888,7 @@ mr_swi_jung_character_template = {
 			}
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1961.6.6

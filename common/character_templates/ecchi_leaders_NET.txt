@@ -1358,6 +1358,7 @@ net_heymans_template = {
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_intelligentsia
+    dna = mr_net_heymans_gerard
     birth_date = 1857.4.17
     traits = { erudite ambitious innovative }
     agitator_usage = {
@@ -1366,6 +1367,7 @@ net_heymans_template = {
                 country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_FRIESLAND
+            morgenrote_is_active = no
         }
         interest_group_trigger = {
             is_marginal = no
