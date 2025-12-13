@@ -35,7 +35,7 @@ ecchi_lit_basanavicius_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk
@@ -104,7 +104,7 @@ ecchi_rom_radulescu-motru_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_landowners
@@ -292,7 +292,7 @@ ecchi_bye_kalinowski_character_template = {
             this = c:BYE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_armed_forces
@@ -370,7 +370,7 @@ ecchi_gre_trikoupis_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
             }
@@ -439,7 +439,7 @@ ecchi_hun_lukacs_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_trade_unions
@@ -481,7 +481,7 @@ ecchi_hun_turr_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
             }
@@ -698,7 +698,7 @@ ecchi_bel_wahis_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners

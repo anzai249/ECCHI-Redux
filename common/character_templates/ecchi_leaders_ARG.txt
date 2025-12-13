@@ -27,7 +27,7 @@ ecchi_arg_de_san_martin_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_rural_folk
@@ -58,7 +58,7 @@ ecchi_arg_de_san_martin_character_template = {
 #             this = c:ARG
 #         }
 #         interest_group_trigger = {
-#             is_marginal = no
+#             ig_counts_as_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_rural_folk
 #                 is_interest_group_type = ig_armed_forces
@@ -88,7 +88,7 @@ ecchi_arg_mitre_character_template = {
             this = c:ARG
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_armed_forces
@@ -118,7 +118,7 @@ ecchi_arg_sarmiento_character_template = {
             this = c:ARG
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk
@@ -202,7 +202,7 @@ ecchi_arg_yrigoyen_character_template = {
             this = c:ARG
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_intelligentsia

@@ -27,7 +27,7 @@ ecchi_spa_infante_carlos_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_landowners
@@ -66,7 +66,7 @@ ecchi_spa_maria_christina_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_landowners
@@ -105,7 +105,7 @@ ecchi_spa_serrano_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_intelligentsia
@@ -144,7 +144,7 @@ ecchi_spa_iglesias_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
                 is_interest_group_type = ig_intelligentsia

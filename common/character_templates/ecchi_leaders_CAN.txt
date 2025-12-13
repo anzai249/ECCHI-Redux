@@ -44,7 +44,7 @@ ecchi_que_nelson_character_template = {
             this = c:QUE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_intelligentsia
@@ -74,7 +74,7 @@ ecchi_que_bowen_character_template = {
             this = c:QUE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_landowners
@@ -104,7 +104,7 @@ ecchi_que_cartier_character_template = {
             this = c:QUE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_intelligentsia
@@ -230,7 +230,7 @@ ecchi_nvs_howe_character_template = {
             this = c:NVS
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_trade_unions
@@ -281,7 +281,7 @@ ecchi_org_douglas_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_landowners
@@ -358,7 +358,7 @@ ecchi_ont_robinson_character_template = {
             this = c:ONT
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_landowners
@@ -388,7 +388,7 @@ ecchi_ont_mowat_character_template = {
             this = c:ONT
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_rural_folk
@@ -558,7 +558,7 @@ ecchi_can_macdonald_character_template = {
             this = c:CAN
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1844.1.1
@@ -585,7 +585,7 @@ ecchi_can_laurier_character_template = {
             this = c:CAN
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk
@@ -615,7 +615,7 @@ ecchi_can_king_character_template = {
             this = c:CAN
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk

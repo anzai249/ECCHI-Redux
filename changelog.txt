@@ -234,8 +234,8 @@ Changes:
 - Fixed Nazar von Reding not showing up
 
 
-Release 1.9.5
-(Game version 1.11.*)
+Release 1.10
+(Game version 1.12.*)
 
 New Characters:
 
@@ -307,6 +307,7 @@ New Characters:
 Fixes:
 
 - Ferdinand Lasalle spawn trigger.
+- IG marginal triggers.
 
 Changes:
 

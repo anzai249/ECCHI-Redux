@@ -18,7 +18,7 @@ ecchi_zan_tip_character_template = {
             this = c:ZAN
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_landowners
@@ -226,7 +226,7 @@ ecchi_sud_muhammad_ahmad_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_rural_folk
@@ -272,7 +272,7 @@ ecchi_sud_abdallahi_ibn_muhammad_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_armed_forces
@@ -313,7 +313,7 @@ ecchi_sud_az_zubayr_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
@@ -414,7 +414,7 @@ ecchi_mad_rainilaiarivony_character_template = {
             this = c:MAD
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_intelligentsia
@@ -444,7 +444,7 @@ ecchi_mad_rainivoninahitriniony_character_template = {
             this = c:MAD
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_petty_bourgeoisie
@@ -553,7 +553,7 @@ ecchi_tri_karamanli_character_template = {
             this = c:TRI
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_armed_forces
@@ -637,7 +637,7 @@ ecchi_bst_masopha_character_template = {
             this = c:BST
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
@@ -719,7 +719,7 @@ ecchi_zul_zibhebhu_character_template = {
             this = c:ZUL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
@@ -787,7 +787,7 @@ ecchi_rwd_muhumusa_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_rural_folk
@@ -820,7 +820,7 @@ ecchi_mdk_ture_character_template = {
             this = c:MDK
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_armed_forces
@@ -852,7 +852,7 @@ ecchi_ash_asantewaa_character_template = {
             this = c:ASH
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_armed_forces
@@ -885,7 +885,7 @@ ecchi_sil_cinque_character_template = {
             this = c:SIL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_armed_forces
@@ -953,7 +953,7 @@ ecchi_zim_nyakasikana_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_rural_folk

@@ -26,7 +26,7 @@
 #             }
 #         }
 #         interest_group_trigger = {
-#             is_marginal = no
+#             ig_counts_as_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_petty_bourgeoisie
 #                 is_interest_group_type = ig_armed_forces
@@ -65,7 +65,7 @@ ecchi_ita_mussolini_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_armed_forces
@@ -116,7 +116,7 @@ mr_ita_bugatti_ettore_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_industrialists
             }

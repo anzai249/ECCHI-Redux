@@ -17,7 +17,7 @@
 #             this = c:RUS
 #         }
 #         interest_group_trigger = {
-#             is_marginal = no
+#             ig_counts_as_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_intelligentsia
 #                 is_interest_group_type = ig_trade_unions
@@ -50,7 +50,7 @@
 # 			this = c:RUS
 # 		}
 # 		interest_group_trigger = {
-# 			is_marginal = no
+# 			ig_counts_as_marginal = no
 # 			OR = {
 # 				is_interest_group_type = ig_intelligentsia
 # 				is_interest_group_type = ig_trade_unions
@@ -95,7 +95,7 @@ ecchi_rus_stalin_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_trade_unions
@@ -130,7 +130,7 @@ ecchi_rus_stalin_character_template = {
 # 			this = c:RUS
 # 		}
 # 		interest_group_trigger = {
-# 			is_marginal = no
+# 			ig_counts_as_marginal = no
 # 			OR = {
 # 				is_interest_group_type = ig_rural_folk
 # 				is_interest_group_type = ig_intelligentsia
@@ -165,7 +165,7 @@ ecchi_rus_rasputin_character_template = {
 			this = c:RUS
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_devout
@@ -802,7 +802,7 @@ RUS_boris_savinkov = {
 			has_law = law_type:law_monarchy
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			is_interest_group_type = ig_petty_bourgeoisie
 		}
 		earliest_usage_date = 1904.1.1
@@ -844,7 +844,7 @@ RUS_georgy_lvov = {
 			this = c:RUS
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			is_interest_group_type = ig_intelligentsia
 		}
 		earliest_usage_date = 1900.1.1

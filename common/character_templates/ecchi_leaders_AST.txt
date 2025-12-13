@@ -32,7 +32,7 @@ ecchi_ast_parkes_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_rural_folk
@@ -66,7 +66,7 @@ ecchi_ast_hughes_character_template = {
 			this = c:AST
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_intelligentsia
@@ -111,7 +111,7 @@ ecchi_ast_barton_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_rural_folk
@@ -146,7 +146,7 @@ ecchi_ast_deakin_character_template = {
 			this = c:AST
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_rural_folk
@@ -181,7 +181,7 @@ ecchi_ast_curtin_character_template = {
 			this = c:AST
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_intelligentsia
@@ -258,7 +258,7 @@ ecchi_ulr_wonga_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_landowners
 				is_interest_group_type = ig_rural_folk
@@ -343,7 +343,7 @@ ecchi_ulr_barak_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_rural_folk

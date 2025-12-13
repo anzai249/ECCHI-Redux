@@ -44,7 +44,7 @@ ecchi_peu_salaverry_character_template = {
             this = c:PEU
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
@@ -74,7 +74,7 @@ ecchi_peu_gamarra_character_template = {
             this = c:PEU
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_rural_folk
@@ -104,7 +104,7 @@ ecchi_peu_de_san_roman_character_template = {
             this = c:PEU
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_rural_folk
