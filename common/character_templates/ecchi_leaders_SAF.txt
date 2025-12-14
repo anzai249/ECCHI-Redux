@@ -18,7 +18,7 @@
 #             this = c:SAF
 #         }
 #         interest_group_trigger = {
-#             is_marginal = no
+#             ig_counts_as_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_industrialists
 #                 is_interest_group_type = ig_petty_bourgeoisie
@@ -48,7 +48,7 @@ ecchi_saf_sprigg_character_template = {
             this = c:SAF
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_rural_folk

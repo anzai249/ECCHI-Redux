@@ -810,7 +810,7 @@ ecchi_fra_durand_character_template = {
 			c:FRA ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1891.1.1

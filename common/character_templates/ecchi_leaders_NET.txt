@@ -104,7 +104,7 @@ ecchi_net_troelstra_character_template = {
             this = c:NET
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
                 is_interest_group_type = ig_intelligentsia
@@ -210,7 +210,7 @@ net_nieuwenhuis_character_template = {
 			c:NET ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_trade_unions
         }
 		earliest_usage_date = 1879.1.1
@@ -235,7 +235,7 @@ net_van_houten_character_template = {
 			c:NET ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1864.1.1
@@ -261,7 +261,7 @@ net_jacobs_character_template = {
 			c:NET ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1881.1.1
@@ -326,7 +326,7 @@ net_hoevell_character_template = {
 			c:NET ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1841.1.1
@@ -566,7 +566,7 @@ net_de_visser_character_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_trade_unions
         }
         earliest_usage_date = 1905.1.1
@@ -782,7 +782,7 @@ net_van_mierop_character_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_devout
         }
         earliest_usage_date = 1899.1.1
@@ -810,7 +810,7 @@ net_pannekoek_character_template = {
             has_state_in_state_region = STATE_GELRE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1906.1.1
@@ -837,7 +837,7 @@ net_lutkie_character_template = {
             has_state_in_state_region = STATE_GELRE
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_devout
         }
         earliest_usage_date = 1924.1.1
@@ -1027,7 +1027,7 @@ net_gerretson_character_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1911.1.1
@@ -1256,7 +1256,7 @@ net_ten_kate_character_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_devout
         }
         earliest_usage_date = 1852.1.1
@@ -1284,7 +1284,7 @@ net_da_costa_character_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_devout
         }
         earliest_usage_date = 1830.1.1
@@ -1312,7 +1312,7 @@ net_van_der_wijckcharacter_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1868.1.1
@@ -1340,7 +1340,7 @@ net_busken_huet_template = {
             has_state_in_state_region = STATE_HOLLAND
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1854.1.1
@@ -1370,7 +1370,7 @@ net_heymans_template = {
             morgenrote_is_active = no
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1890.1.1

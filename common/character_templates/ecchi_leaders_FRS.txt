@@ -86,7 +86,7 @@ ecchi_frs_tai_chao_chuen_character_template = {
             this = c:FRS
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_intelligentsia

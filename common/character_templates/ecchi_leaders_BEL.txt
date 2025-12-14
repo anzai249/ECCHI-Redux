@@ -271,7 +271,7 @@ bel_jottrand_character_template = {
 			c:BEL ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
 		earliest_usage_date = 1836.1.1
@@ -332,7 +332,7 @@ net_popelin_character_template = {
 			c:BEL ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_petty_bourgeoisie
         }
 		earliest_usage_date = 1889.1.1
@@ -497,7 +497,7 @@ bel_daens_character_template = {
 			c:BEL ?= this
 		}
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             is_interest_group_type = ig_devout
         }
 		earliest_usage_date = 1871.1.1

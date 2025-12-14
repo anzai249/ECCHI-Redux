@@ -44,7 +44,7 @@ ecchi_phi_aguinaldo_character_template = {
             this = c:PHI
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_petty_bourgeoisie

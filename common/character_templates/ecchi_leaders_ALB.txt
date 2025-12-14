@@ -68,7 +68,7 @@ ecchi_alb_qemali_character_template = {
             this = c:ALB
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_petty_bourgeoisie
@@ -98,7 +98,7 @@ ecchi_alb_vilhelm_character_template = {
             this = c:ALB
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_petty_bourgeoisie
@@ -128,7 +128,7 @@ ecchi_alb_zogu_character_template = {
             this = c:ALB
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_petty_bourgeoisie

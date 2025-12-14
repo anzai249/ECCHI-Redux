@@ -18,7 +18,7 @@ ecchi_nzl_sewell_character_template = {
             this = c:NZL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk
@@ -48,7 +48,7 @@ ecchi_nzl_fox_character_template = {
             this = c:NZL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_landowners
@@ -78,7 +78,7 @@ ecchi_nzl_savage_character_template = {
             this = c:NZL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
                 is_interest_group_type = ig_intelligentsia
@@ -108,7 +108,7 @@ ecchi_nzl_seddon_character_template = {
             this = c:NZL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_landowners
@@ -138,7 +138,7 @@ ecchi_nzl_ballance_character_template = {
             this = c:NZL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_trade_unions
@@ -188,7 +188,7 @@ ecchi_aot_heke_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
@@ -277,7 +277,7 @@ ecchi_aot_o_rongomai_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_intelligentsia

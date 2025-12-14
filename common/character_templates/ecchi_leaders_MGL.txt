@@ -18,7 +18,7 @@ ecchi_mgl_bogd_khan_character_template = {
             this = c:MGL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_landowners
@@ -48,7 +48,7 @@ ecchi_mgl_khanddorj_character_template = {
             this = c:MGL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_intelligentsia
@@ -78,7 +78,7 @@ ecchi_mgl_namnansuren_character_template = {
             this = c:MGL
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_intelligentsia

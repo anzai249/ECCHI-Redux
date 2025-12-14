@@ -64,7 +64,7 @@ ecchi_kaz_bukeikhanov_character_template = {
 			this = c:KAZ
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_rural_folk
@@ -100,7 +100,7 @@ ecchi_geo_chavchavadze_character_template = {
 			this = c:GEO
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_rural_folk
@@ -165,7 +165,7 @@ ecchi_tur_ataturk_character_template = {
 			this = c:TUR
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_armed_forces
@@ -369,7 +369,7 @@ ecchi_pal_trumpeldor_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_armed_forces
 				is_interest_group_type = ig_devout

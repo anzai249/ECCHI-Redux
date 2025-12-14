@@ -18,7 +18,7 @@ ecchi_ply_gauguin_character_template = {
             this = c:PLY
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_petty_bourgeoisie
@@ -76,7 +76,7 @@ ecchi_haw_james_dole_character_template = {
             this = c:HAW
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_industrialists
                 is_interest_group_type = ig_landowners
@@ -106,7 +106,7 @@ ecchi_haw_dole_character_template = {
             this = c:HAW
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_devout

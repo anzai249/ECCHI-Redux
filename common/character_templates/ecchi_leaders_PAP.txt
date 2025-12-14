@@ -18,7 +18,7 @@ ecchi_pap_pecci_character_template = {
             this = c:PAP
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
                 is_interest_group_type = ig_rural_folk
@@ -49,7 +49,7 @@ ecchi_pap_sarto_character_template = {
             this = c:PAP
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_devout
                 is_interest_group_type = ig_landowners
@@ -80,7 +80,7 @@ ecchi_pap_della_chiesa_character_template = {
             this = c:PAP
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_devout
@@ -110,7 +110,7 @@ ecchi_pap_ratti_character_template = {
             this = c:PAP
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
                 is_interest_group_type = ig_rural_folk

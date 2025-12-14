@@ -35,7 +35,7 @@ ecchi_ger_hitler_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_armed_forces
@@ -126,7 +126,7 @@ ecchi_ger_engels_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			OR = {
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_intelligentsia
@@ -173,7 +173,7 @@ ecchi_ger_engels_character_template = {
 # 			}
 # 		}
 #         interest_group_trigger = {
-#             is_marginal = no
+#             ig_counts_as_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_trade_unions
 #                 is_interest_group_type = ig_intelligentsia
@@ -671,7 +671,7 @@ ecchi_ger_wilhelm_liebknecht_character_template = {
 			NOT = { has_law = law_type:law_council_republic }
 		}
 		interest_group_trigger = {
-			is_marginal = no
+			ig_counts_as_marginal = no
 			is_interest_group_type = ig_trade_unions
 		}
 		earliest_usage_date = 1850.1.1
