@@ -70,35 +70,35 @@ ecchi_arg_de_san_martin_character_template = {
 #     }
 # }
 
-ecchi_arg_mitre_character_template = {
-    first_name = Bartolome
-    last_name = Mitre
-    historical = yes
-    culture = cu:platinean
-
-    religion = rel:catholic
-    ideology = ideology_moderate
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_bartolome_mitre
-    birth_date = 1821.6.26
-    traits = { reserved reckless traditionalist_commander }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:ARG
-            this = c:ARG
-        }
-        interest_group_trigger = {
-            ig_counts_as_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_armed_forces
-            }
-        }
-        earliest_usage_date = 1860.1.1
-        latest_usage_date = 1906.1.19
-        chance = 65
-    }
-}
+#ecchi_arg_mitre_character_template = {
+#    first_name = Bartolome
+#    last_name = Mitre
+#    historical = yes
+#    culture = cu:platinean
+#
+#    religion = rel:catholic
+#    ideology = ideology_moderate
+#    interest_group = ig_intelligentsia
+#	dna = ecchi_dna_bartolome_mitre
+#    birth_date = 1821.6.26
+#    traits = { reserved reckless traditionalist_commander }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:ARG
+#            this = c:ARG
+#        }
+#        interest_group_trigger = {
+#            ig_counts_as_marginal = no
+#            OR = {
+#                is_interest_group_type = ig_intelligentsia
+#                is_interest_group_type = ig_armed_forces
+#            }
+#        }
+#        earliest_usage_date = 1860.1.1
+#        latest_usage_date = 1906.1.19
+#        chance = 65
+#    }
+#}
 
 ecchi_arg_sarmiento_character_template = {
     first_name = ecchi_Domingo_Faustino

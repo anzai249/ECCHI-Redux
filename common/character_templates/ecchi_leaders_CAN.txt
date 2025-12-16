@@ -627,31 +627,31 @@ ecchi_can_king_character_template = {
     }
 }
 
-ecchi_can_riel_character_template = {
-    first_name = Louis
-    last_name = Riel
-    historical = yes
-    culture = cu:metis
-
-    religion = rel:catholic
-    ideology = ideology_radical
-    interest_group = ig_rural_folk
-	dna = ecchi_dna_louis_riel
-    birth_date = 1844.10.22
-    traits = { charismatic psychological_affliction popular_commander }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:CAN
-            this = c:CAN
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
-        }
-        earliest_usage_date = 1869.1.1
-        latest_usage_date = 1885.11.16
-        chance = 65
-    }
-}
+#ecchi_can_riel_character_template = {
+#    first_name = Louis
+#    last_name = Riel
+#    historical = yes
+#    culture = cu:metis
+#
+#    religion = rel:catholic
+#    ideology = ideology_radical
+#    interest_group = ig_rural_folk
+#	dna = ecchi_dna_louis_riel
+#    birth_date = 1844.10.22
+#    traits = { charismatic psychological_affliction popular_commander }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:CAN
+#            this = c:CAN
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_rural_folk
+#        }
+#        earliest_usage_date = 1869.1.1
+#        latest_usage_date = 1885.11.16
+#        chance = 65
+#    }
+#}
 
 ecchi_can_massey_character_template = {
     first_name = ecchi_Hart

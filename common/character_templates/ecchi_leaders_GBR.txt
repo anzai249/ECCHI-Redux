@@ -946,31 +946,31 @@ ecchi_gbr_shackleton_character_template = {
     }
 }
 
-ecchi_gbr_nightinghale_character_template = {
-    first_name = Florence
-    last_name = ecchi_Nightingale
-    historical = yes
-    culture = cu:british
-    female = yes
-    religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_florence_nightingale
-    birth_date = 1820.5.12
-    traits = { charismatic brave }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:GBR
-            this = c:GBR
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
-        }
-        earliest_usage_date = 1850.1.1
-        latest_usage_date = 1910.8.13
-        chance = 65
-    }
-}
+#ecchi_gbr_nightinghale_character_template = {
+#    first_name = Florence
+#    last_name = ecchi_Nightingale
+#    historical = yes
+#    culture = cu:british
+#    female = yes
+#    religion = rel:protestant
+#    ideology = ideology_reformer
+#    interest_group = ig_intelligentsia
+#	dna = ecchi_dna_florence_nightingale
+#    birth_date = 1820.5.12
+#    traits = { charismatic brave }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            exists = c:GBR
+#            this = c:GBR
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_intelligentsia
+#        }
+#        earliest_usage_date = 1850.1.1
+#        latest_usage_date = 1910.8.13
+#        chance = 65
+#    }
+#}
 
 ecchi_gbr_stanley_character_template = {
     first_name = ecchi_Henry_Morton

@@ -315,3 +315,30 @@ Changes:
 - New Emma Goldman template thanks to CaelReader.
 - Cornelis Jacobus Snijders changed from agitator to IG leader
 - Nazar von Reding changed from IG leader to agitator
+
+
+
+Release 1.1.1
+(Game version 1.12.*)
+
+New Characters:
+
+- Jan Fresemann Viëtor
+- Melitta Bentz
+
+
+Fixes:
+
+-
+
+
+Changes:
+
+-
+
+Removed Characters from ecchi that are in the base game or DLC:
+
+- Florence Nightingale
+- Louis Riel
+- Bartolomé Mitre
+
