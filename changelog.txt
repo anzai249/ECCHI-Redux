@@ -341,4 +341,11 @@ Removed Characters from ecchi that are in the base game or DLC:
 - Florence Nightingale
 - Louis Riel
 - Bartolomé Mitre
+- Albert Einstein
+- Pablo Iglesias
+- Miguel Primo de Rivera
+- Francisco Serrano
+- Práxedes Mateo Sagasta
+- Valeriano Weyler
+- Teófilo Braga
 

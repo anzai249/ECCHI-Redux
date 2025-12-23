@@ -38,40 +38,40 @@ ecchi_por_antonio_santos = {
 
 ## Teófilo Braga
 
-ecchi_por_teofilo_braga = {
-    first_name = ecchi_Teofilo
-    last_name = Braga
-    historical = yes
-    culture = cu:portuguese
-
-    religion = rel:catholic
-    ideology = ideology_republican_leader
-    interest_group = ig_landowners
-    dna = ecchi_dna_teofilo_braga
-    birth_date = 1843.2.24
-    traits = { firebrand persistent }
-    interest_group_leader_usage = {
-        country_trigger = {
-            OR = {
-                AND = {
-                    exists = c:POR
-                    this = c:POR
-                }
-                AND = {
-                    exists = c:SPA
-                    this = c:SPA
-                    NOT = { exists = c:POR }
-                }
-            }
-        }
-        interest_group_trigger = {
-            is_interest_group_type = ig_landowners
-        }
-        earliest_usage_date = 1910.10.5
-        latest_usage_date = 1911.5.26
-        chance = 65
-    }
-}
+#ecchi_por_teofilo_braga = {
+#    first_name = ecchi_Teofilo
+#    last_name = Braga
+#    historical = yes
+#    culture = cu:portuguese
+#
+#    religion = rel:catholic
+#    ideology = ideology_republican_leader
+#    interest_group = ig_landowners
+#    dna = ecchi_dna_teofilo_braga
+#    birth_date = 1843.2.24
+#    traits = { firebrand persistent }
+#    interest_group_leader_usage = {
+#        country_trigger = {
+#            OR = {
+#                AND = {
+#                    exists = c:POR
+#                    this = c:POR
+#                }
+#                AND = {
+#                    exists = c:SPA
+#                    this = c:SPA
+#                    NOT = { exists = c:POR }
+#                }
+#            }
+#        }
+#        interest_group_trigger = {
+#            is_interest_group_type = ig_landowners
+#        }
+#        earliest_usage_date = 1910.10.5
+#        latest_usage_date = 1911.5.26
+#        chance = 65
+#    }
+#}
 
 ## António de Oliveira Salazar
 ecchi_por_antonio_salazar = {

@@ -422,7 +422,7 @@ net_van_der_voo_character_template = {
     religion = rel:protestant
     ideology = ideology_utopian
     interest_group = ig_trade_unions
-	#dna = mr_net_groen_van_prinsterer_guillaume
+	dna = ecchi_net_van_der_voo
     birth_date = 1806.1.1
     traits = { ambitious persistent }
     interest_group_leader_usage = {
@@ -448,7 +448,7 @@ net_luzac_character_template = {
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
-	#dna = mr_net_groen_van_prinsterer_guillaume
+	dna =  ecchi_net_luzac
     birth_date = 1786.8.1
     traits = { experienced_political_operator ambitious }
     interest_group_leader_usage = {
@@ -474,7 +474,7 @@ net_de_jonge_van_campensnieuwland_character_template = {
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_landowners
-	#dna = mr_net_groen_van_prinsterer_guillaume
+	dna = ecchi_net_campensnieuwland
     birth_date = 1786.3.29
     traits = { inspirational_orator persistent }
     interest_group_leader_usage = {
@@ -500,6 +500,7 @@ net_cort_van_der_linden_character_template = {
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
+    dna = ecchi_net_van_der_linden
     birth_date = 1846.5.14
     traits = { erudite meticulous experienced_political_operator }
     interest_group_leader_usage = {
@@ -540,7 +541,7 @@ net_ruijs_de_beerenbrouck_character_template = {
         interest_group_trigger = {
             is_interest_group_type = ig_landowners
         }
-        earliest_usage_date = 1905.1.1
+        earliest_usage_date = 1910.1.1
         latest_usage_date = 1936.6.21
         chance = 50
     }
@@ -1246,7 +1247,7 @@ net_ten_kate_character_template = {
     religion = rel:protestant
     ideology = ideology_theocrat
     interest_group = ig_devout
-    birth_date = 1819.11.23
+    birth_date = 1819.12.23
     traits = { literary meticulous   }
     agitator_usage = {
         country_trigger = {
@@ -1294,7 +1295,7 @@ net_da_costa_character_template = {
 }
 
 ## Bernard van der Wijck
-net_van_der_wijckcharacter_template = {
+net_van_der_wijck_character_template = {
     first_name = Bernard
     last_name = ecchi_van_der_Wijckcharacter
     historical = yes
@@ -1431,6 +1432,6 @@ net_fresemann_vietor_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1852.2.6
-        chance = 50
+        chance = 100
     }
 }
