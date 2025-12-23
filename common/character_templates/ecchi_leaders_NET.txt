@@ -1248,13 +1248,14 @@ net_ten_kate_character_template = {
     ideology = ideology_theocrat
     interest_group = ig_devout
     birth_date = 1819.12.23
-    traits = { literary meticulous   }
+    traits = { literary meticulous erudite }
     agitator_usage = {
         country_trigger = {
             NOT = {
                 country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_HOLLAND
+            morgenrote_is_active = no
         }
         interest_group_trigger = {
             ig_counts_as_marginal = no
@@ -1339,6 +1340,7 @@ net_busken_huet_template = {
                 country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
             }
             has_state_in_state_region = STATE_HOLLAND
+            morgenrote_is_active = no
         }
         interest_group_trigger = {
             ig_counts_as_marginal = no
@@ -1403,29 +1405,29 @@ net_de_marees_van_swinderen_template = {
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1910.1.1
-        latest_usage_date = 1955.1.17
+        latest_usage_date = 1940.1.1
         chance = 50
     }
 }
 
 ## Jan Fresemann Viëtor
-net_fresemann_vietor_template = {
+
+ecchi_net_fresemann_vietor_character_template = {
     first_name = Jan
     last_name = ecchi_Fresemann_Vietor
     historical = yes
     culture = cu:dutch
+
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_industrialists
-    #dna = ecchi_net_de_marees_van_swinderen_rene
+    #dna = ecchi_dna_andre_citroen
     birth_date = 1784.12.20
-    traits = { basic_entrepreneur meticulous political_operator }
+    traits = { meticulous experienced_political_operator }
     interest_group_leader_usage = {
         country_trigger = {
-            NOT = {
-                country_average_cultural_acceptance = { target = cu:dutch value < acceptance_status_4 }
-            }
-            has_state_in_state_region = STATE_FRIESLAND
+            exists = c:NET
+            this = c:NET
         }
         interest_group_trigger = {
             is_interest_group_type = ig_industrialists
