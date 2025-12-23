@@ -318,23 +318,13 @@ Changes:
 
 
 
-Release 1.1.1
+Release 1.10.1
 (Game version 1.12.*)
 
 New Characters:
 
 - Jan Fresemann Viëtor
 - Melitta Bentz
-
-
-Fixes:
-
--
-
-
-Changes:
-
--
 
 Removed Characters from ecchi that are in the base game or DLC:
 
