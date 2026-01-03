@@ -339,3 +339,9 @@ Removed Characters from ecchi that are in the base game or DLC:
 - Valeriano Weyler
 - Teófilo Braga
 
+
+Release 1.10.2
+(Game version 1.12.*)
+
+Fixes:
+- Compatibility trigger for 1.12.*.
