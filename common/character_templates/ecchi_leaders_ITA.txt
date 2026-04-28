@@ -43,6 +43,7 @@ ecchi_ita_mussolini_character_template = {
     last_name = ecchi_Mussolini
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_EMILIA
 
     religion = rel:catholic
     ideology = ideology_fascist
@@ -84,6 +85,7 @@ mr_ita_bugatti_ettore_character_template = {
 	first_name = ecchi_ettore
 	last_name = ecchi_bugatti
 	culture = cu:north_italian
+	home_region = STATE_LOMBARDY
 	female = no
 	interest_group = ig_industrialists
 	birth_date = 1881.9.15
@@ -134,6 +136,7 @@ mr_ita_cavour_character_template = {
     first_name = ecchi_Camillo
     last_name = ecchi_Benso
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     interest_group = ig_industrialists
     birth_date = 1810.8.10
@@ -174,6 +177,7 @@ mr_ita_balbo_character_template = {
     first_name = ecchi_Italo
     last_name = ecchi_Balbo
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     interest_group = ig_armed_forces
     birth_date = 1896.6.6
@@ -219,6 +223,7 @@ mr_ita_nicola_romeo_character_template = {
     first_name = Nicola
     last_name = ecchi_Romeo
     culture = cu:south_italian
+    home_region = STATE_CAMPANIA
 
     interest_group = ig_industrialists
     birth_date = 1876.4.28
@@ -259,6 +264,7 @@ mr_ita_togliatti_character_template = {
     first_name = ecchi_Palmiro
     last_name = ecchi_Togliatti
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     interest_group = ig_petty_bourgeoisie
     birth_date = 1893.3.26
@@ -298,6 +304,7 @@ mr_ita_canepa_character_template = {
     first_name = ecchi_Antonio
     last_name = ecchi_Canepa
     culture = cu:south_italian
+    home_region = STATE_CAMPANIA
 
     interest_group = ig_armed_forces
     birth_date = 1908.10.25
@@ -329,6 +336,7 @@ ecchi_ita_collodi_character_template = {
     last_name = ecchi_Collodi
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_TUSCANY
 
     religion = rel:catholic
     interest_group = ig_trade_unions
@@ -359,6 +367,7 @@ ecchi_ita_francesetti_di_mezzenile_character_template = {
     last_name = ecchi_Francesetti_di_Mezzenile
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -387,6 +396,7 @@ ecchi_ita_battista_sella_character_template = {
     last_name = ecchi_Battista_Sella
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     religion = rel:catholic
     ideology = ideology_market_liberal
@@ -415,6 +425,7 @@ ecchi_ita_giovanetti_character_template = {
     last_name = ecchi_Giovanetti
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     religion = rel:catholic
     ideology = ideology_market_liberal
@@ -443,6 +454,7 @@ ecchi_ita_de_leva_gravina_character_template = {
     last_name = ecchi_De_Leva_Gravina
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -471,6 +483,7 @@ ecchi_ita_de_leva_gravina_character_template = {
 #    last_name = ecchi_Filangieri
 #    historical = yes
 #    culture = cu:south_italian
+#    home_region = STATE_CAMPANIA
 #
 #    religion = rel:catholic
 #    ideology = ideology_royalist
@@ -499,6 +512,7 @@ ecchi_ita_winspeare_character_template = {
     last_name = ecchi_Winspeare
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -527,6 +541,7 @@ ecchi_ita_guira_character_template = {
     last_name = ecchi_Giura
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -555,6 +570,7 @@ ecchi_ita_florio_character_template = {
     last_name = ecchi_Florio
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -583,6 +599,7 @@ ecchi_ita_russo_character_template = {
     last_name = ecchi_Russo
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -611,6 +628,7 @@ ecchi_ita_settimo_character_template = {
     last_name = ecchi_Settimo
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -639,6 +657,7 @@ ecchi_ita_statella_di_cassaro_character_template = {
     last_name = ecchi_Statella_di_Cassaro
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -668,6 +687,7 @@ ecchi_ita_gentile_character_template = {
     historical = yes
     culture = cu:south_italian
     religion = rel:catholic
+    home_region = STATE_SICILY
     ideology = ideology_fascist
     interest_group = ig_intelligentsia
     dna = ecchi_dna_giovanni_gentile

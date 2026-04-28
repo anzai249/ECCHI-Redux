@@ -345,3 +345,9 @@ Release 1.10.2
 
 Fixes:
 - Compatibility trigger for 1.12.*.
+
+Release 1.10.3
+(Game version 1.13.*)
+
+Fixes:
+- Compatibility trigger for 1.13.*.

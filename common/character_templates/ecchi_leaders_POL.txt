@@ -5,6 +5,7 @@ ecchi_pol_prus_character_template = {
     last_name = ecchi_Prus
     historical = yes
     culture = cu:polish
+    home_region = STATE_LESSER_POLAND
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -40,6 +41,7 @@ ecchi_pol_pilsudski_character_template = {
     last_name = Pilsudski
     historical = yes
     culture = cu:polish
+    home_region = STATE_VILNIUS
 
     religion = rel:catholic
     ideology = ideology_radical
@@ -74,6 +76,7 @@ ecchi_pol_mieroslawski_character_template = {
     last_name = Mieroslawski
     historical = yes
     culture = cu:polish
+    home_region = STATE_MAZOVIA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -108,6 +111,7 @@ ecchi_pol_wysocki_character_template = {
     last_name = Wysocki
     historical = yes
     culture = cu:polish
+    home_region = STATE_MAZOVIA
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -142,6 +146,7 @@ ecchi_pol_conrad_character_template = {
     last_name = Conrad
     historical = yes
     culture = cu:polish
+    home_region = STATE_VOLHYNIA
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -243,6 +248,7 @@ ecchi_pol_mroczkowski_character_template = {
     last_name = ecchi_Mroczkowski
     historical = yes
     culture = cu:polish
+    home_region = STATE_LESSER_POLAND
 
     religion = rel:catholic
     ideology = ideology_anarchist
@@ -290,6 +296,7 @@ ecchi_pol_dmoski_character_template = {
     last_name = ecchi_Dmowski
     historical = yes
     culture = cu:polish
+    home_region = STATE_MAZOVIA
 
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
@@ -320,6 +327,7 @@ ecchi_pol_paderewski_character_template = {
     last_name = ecchi_Paderewski
     historical = yes
     culture = cu:polish
+    home_region = STATE_MAZOVIA
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -353,6 +361,7 @@ ecchi_pol_sienkiewicz_character_template = {
     last_name = ecchi_Sienkiewicz
     historical = yes
     culture = cu:polish
+    home_region = STATE_LESSER_POLAND
 
     religion = rel:catholic
     ideology = ideology_humanitarian

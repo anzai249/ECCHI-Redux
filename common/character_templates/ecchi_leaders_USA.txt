@@ -5,6 +5,7 @@ ecchi_usa_adams_character_template = {
     last_name = Adams
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_abolitionist
@@ -41,6 +42,7 @@ ecchi_usa_van_buren_character_template = {
     last_name = Van_Buren
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_jacksonian_democrat #only became a true abolitionist later
@@ -67,6 +69,7 @@ ecchi_usa_w_harrison_character_template = {
     last_name = Harrison
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VIRGINIA
 
     religion = rel:protestant #Anglican
     ideology = ideology_republican_leader #Whig party
@@ -97,6 +100,7 @@ ecchi_usa_tyler_character_template = {
     last_name = ecchi_Tyler
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VIRGINIA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -123,6 +127,7 @@ ecchi_usa_polk_character_template = {
     last_name = ecchi_Polk
     historical = yes
     culture = cu:dixie
+    home_region = STATE_NORTH_CAROLINA
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -155,6 +160,7 @@ ecchi_usa_fillmore_template = {
     last_name = Fillmore
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_moderate
@@ -185,6 +191,7 @@ ecchi_usa_pierce_character_template = {
     last_name = Pierce
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_HAMPSHIRE
 
     religion = rel:protestant #Anglican
     ideology = ideology_traditionalist
@@ -221,6 +228,7 @@ ecchi_usa_buchanan_character_template = {
     last_name = Buchanan
     historical = yes
     culture = cu:yankee
+    home_region = STATE_PENNSYLVANIA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -247,6 +255,7 @@ ecchi_usa_johnson_character_template = {
     last_name = Johnson
     historical = yes
     culture = cu:dixie
+    home_region = STATE_NORTH_CAROLINA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -280,6 +289,7 @@ ecchi_usa_hayes_character_template = {
     last_name = Hayes
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -311,6 +321,7 @@ ecchi_usa_garfield_character_template = {
     last_name = Garfield
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -341,6 +352,7 @@ ecchi_usa_arthur_character_template = {
     last_name = Arthur
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VERMONT
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -382,6 +394,7 @@ ecchi_usa_cleveland_character_template = {
     last_name = Cleveland
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_JERSEY
 
     religion = rel:protestant
     ideology = ideology_market_liberal
@@ -413,6 +426,7 @@ ecchi_usa_b_harrison_character_template = {
     last_name = Harrison
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -443,6 +457,7 @@ ecchi_usa_mckinley_character_template = {
     last_name = McKinley
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -476,6 +491,7 @@ ecchi_usa_taft_character_template = {
     last_name = ecchi_Taft
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant #Nontrinitarian
     ideology = ideology_reformer
@@ -506,6 +522,7 @@ ecchi_usa_wilson_character_template = {
     last_name = Wilson
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VIRGINIA
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -533,6 +550,7 @@ ecchi_usa_harding_character_template = {
     last_name = ecchi_Harding
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_pacifist
@@ -559,6 +577,7 @@ ecchi_usa_coolidge_character_template = {
     last_name = ecchi_Coolidge
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VERMONT
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -600,6 +619,7 @@ ecchi_usa_hoover_character_template = {
     last_name = ecchi_Hoover
     historical = yes
     culture = cu:yankee
+    home_region = STATE_IOWA
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -626,6 +646,7 @@ ecchi_usa_f_roosevelt_character_template = {
     last_name = Roosevelt
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -658,6 +679,7 @@ ecchi_usa_fremont_character_template = {
     last_name = ecchi_Fremont
     historical = yes
     culture = cu:dixie
+    home_region = STATE_GEORGIA
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -699,6 +721,7 @@ ecchi_usa_long_character_template = {
     last_name = Long
     historical = yes
     culture = cu:dixie
+    home_region = STATE_LOUISIANA
 
     religion = rel:protestant
     ideology = ideology_social_democrat
@@ -740,6 +763,7 @@ ecchi_usa_norton_character_template = {
     last_name = Norton
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -776,6 +800,7 @@ ecchi_usa_brown_character_template = {
     last_name = Brown
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CONNECTICUT
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -803,6 +828,7 @@ ecchi_usa_macarthur_character_template = {
 	first_name = Douglas
 	last_name = ecchi_MacArthur
 	culture = cu:dixie
+	home_region = STATE_ARKANSAS
 	female = no
 	religion = rel:protestant
 	ideology = ideology_jingoist_leader
@@ -832,6 +858,7 @@ ecchi_usa_custer_character_template = {
     last_name = Custer
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -863,6 +890,7 @@ ecchi_usa_astor_character_template = {
     last_name = ecchi_Astor
     historical = yes
     culture = cu:yankee
+    home_region = STATE_BADEN
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -893,6 +921,7 @@ ecchi_usa_morgan_character_template = {
     last_name = Morgan
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CONNECTICUT
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -945,6 +974,7 @@ ecchi_usa_hearst_character_template = {
     last_name = ecchi_Hearst
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CALIFORNIA
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -1047,6 +1077,7 @@ ecchi_usa_thomas_character_template = {
     last_name = Thomas
     historical = yes
     culture = cu:yankee
+    home_region = STATE_OHIO
 
     religion = rel:protestant
     ideology = ideology_social_democrat
@@ -1073,6 +1104,7 @@ ecchi_usa_foster_character_template = {
     last_name = Foster
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant
     ideology = ideology_communist
@@ -1109,6 +1141,7 @@ ecchi_usa_browder_character_template = {
     last_name = ecchi_Browder
     historical = yes
     culture = cu:yankee
+    home_region = STATE_KANSAS
 
     religion = rel:protestant
     ideology = ideology_vanguardist
@@ -1137,6 +1170,7 @@ ecchi_usa_lindbergh_character_template = {
     last_name = ecchi_Lindbergh
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MICHIGAN
 
     religion = rel:protestant
     ideology = ideology_ethno_nationalist
@@ -1181,6 +1215,7 @@ ecchi_usa_emerson_character_template = {
     last_name = Emerson
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -1217,6 +1252,7 @@ ecchi_usa_putnam_character_template = {
     last_name = Putnam
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -1253,6 +1289,7 @@ ecchi_usa_barnum_character_template = {
     last_name = Barnum
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CONNECTICUT
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -1283,6 +1320,7 @@ ecchi_usa_patton_character_template = {
     last_name = Patton
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CALIFORNIA
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -1318,6 +1356,7 @@ ecchi_usa_westinghouse_character_template = {
     last_name = ecchi_Westinghouse
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_market_liberal
@@ -1581,6 +1620,7 @@ ecchi_usa_sutter_sr_character_template = {
     last_name = ecchi_Sutter
     historical = yes
     culture = cu:alemannic
+    home_region = STATE_BADEN
 
     religion = rel:protestant
     ideology = ideology_slaver
@@ -1621,6 +1661,7 @@ ecchi_cal_sutter_jr_character_template = {
     last_name = ecchi_Sutter
     historical = yes
     culture = cu:alemannic
+    home_region = STATE_WEST_SWITZERLAND
 
     religion = rel:protestant
     ideology = ideology_market_liberal
@@ -1648,6 +1689,7 @@ ecchi_cal_strauss_character_template = {
     last_name = Strauss
     historical = yes
     culture = cu:south_german
+    home_region = STATE_BAVARIA
 
     religion = rel:jewish
     ideology = ideology_market_liberal
@@ -1679,6 +1721,7 @@ ecchi_usa_browning_character_template = {
     last_name = ecchi_Browning
     historical = yes
     culture = cu:dixie
+    home_region = STATE_UTAH
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -1716,6 +1759,7 @@ ecchi_usa_bates_character_template = {
     last_name = Bates
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
     female = yes
     religion = rel:protestant
     ideology = ideology_feminist
@@ -1753,6 +1797,7 @@ ecchi_usa_baum_character_template = {
     last_name = ecchi_Baum
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_feminist
@@ -1782,6 +1827,7 @@ ecchi_usa_jefferson_davis_character_template = {
     last_name = Davis
     historical = yes
     culture = cu:dixie
+    home_region = STATE_KENTUCKY
 
     religion = rel:protestant
     ideology = ideology_slaver
@@ -1814,6 +1860,7 @@ ecchi_usa_stephens_character_template = {
     last_name = ecchi_Stephens
     historical = yes
     culture = cu:dixie
+    home_region = STATE_GEORGIA
 
     religion = rel:protestant
     ideology = ideology_slaver
@@ -1845,6 +1892,7 @@ ecchi_usa_ferguson_character_template = {
     last_name = ecchi_Ferguson
     historical = yes
     culture = cu:dixie
+    home_region = STATE_KENTUCKY
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -1871,6 +1919,7 @@ ecchi_usa_wirz_character_template = {
     last_name = ecchi_Wirz
     historical = yes
     culture = cu:alemannic
+    home_region = STATE_EAST_SWITZERLAND
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -1897,6 +1946,7 @@ ecchi_usa_forrest_character_template = {
     last_name = Forrest
     historical = yes
     culture = cu:dixie
+    home_region = STATE_TENNESSEE
 
     religion = rel:protestant
     ideology = ideology_ethno_nationalist
@@ -1926,6 +1976,7 @@ ecchi_tex_de_zavala_character_template = {
     last_name = ecchi_de_Zavala
     historical = yes
     culture = cu:mexican
+    home_region = STATE_YUCATAN
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -1957,6 +2008,7 @@ ecchi_tex_crockett_character_template = {
     last_name = ecchi_Crockett
     historical = yes
     culture = cu:dixie
+    home_region = STATE_TENNESSEE
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -2016,6 +2068,7 @@ ecchi_asa_delany_character_template = {
     last_name = Delany
     historical = yes
     culture = cu:afro_american
+    home_region = STATE_WEST_VIRGINIA
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -2048,6 +2101,7 @@ ecchi_asa_singleton_character_template = {
     last_name = Singleton
     historical = yes
     culture = cu:afro_american
+    home_region = STATE_TENNESSEE
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -2079,6 +2133,7 @@ ecchi_asa_turner_character_template = {
     last_name = Turner
     historical = yes
     culture = cu:afro_american
+    home_region = STATE_SOUTH_CAROLINA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -2107,6 +2162,7 @@ ecchi_asa_garnet_character_template = {
     last_name = Garnet
     historical = yes
     culture = cu:afro_american
+    home_region = STATE_MARYLAND
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -2206,6 +2262,7 @@ ecchi_usa_moody_character_template = {
     last_name = Moody
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -2242,6 +2299,7 @@ ecchi_usa_joseph_smith_character_template = {
     last_name = Smith
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VERMONT
 
     religion = rel:protestant #Mormon
     ideology = ideology_theocrat
@@ -2278,6 +2336,7 @@ ecchi_usa_brigham_young_character_template = {
     last_name = Young
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VERMONT
 
     religion = rel:protestant #Mormon
     ideology = ideology_theocrat
@@ -2316,6 +2375,7 @@ ecchi_usa_addams_character_template = {
     last_name = ecchi_Addams
     historical = yes
     culture = cu:yankee
+    home_region = STATE_ILLINOIS
     female = yes
     religion = rel:protestant
     ideology = ideology_feminist
@@ -2355,6 +2415,7 @@ ecchi_usa_paul_character_template = {
     last_name = Paul
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_JERSEY
     female = yes
     religion = rel:protestant
     ideology = ideology_feminist
@@ -2383,6 +2444,7 @@ ecchi_usa_bell_character_template = {
     last_name = Bell
     historical = yes
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     religion = rel:protestant
     ideology = ideology_positivist
@@ -2410,6 +2472,7 @@ ecchi_usa_lovecraft_character_template = {
     last_name = ecchi_Lovecraft
     historical = yes
     culture = cu:yankee
+    home_region = STATE_RHODE_ISLAND
 
     religion = rel:protestant
     ideology = ideology_anarchist
@@ -2437,6 +2500,7 @@ ecchi_usa_thoreau_character_template = {
     last_name = ecchi_Thoreau
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -2464,6 +2528,7 @@ ecchi_usa_bridger_character_template = {
     last_name = ecchi_Bridger
     historical = yes
     culture = cu:dixie
+    home_region = STATE_VIRGINIA
 
     religion = rel:protestant
     interest_group = ig_rural_folk
@@ -2489,6 +2554,7 @@ ecchi_usa_dewey_character_template = {
     last_name = ecchi_Dewey
     historical = yes
     culture = cu:yankee
+    home_region = STATE_VERMONT
 
     religion = rel:protestant
     ideology = ideology_liberal_leader
@@ -2516,6 +2582,7 @@ ecchi_usa_london_character_template = {
     last_name = ecchi_London
     historical = yes
     culture = cu:yankee
+    home_region = STATE_CALIFORNIA
 
     religion = rel:protestant
     ideology = ideology_communist
@@ -2547,6 +2614,7 @@ ecchi_usa_mott_character_template = {
     last_name = ecchi_Mott
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
     female = yes
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -2588,6 +2656,7 @@ ecchi_usa_irving_character_template = {
     last_name = ecchi_Irving
     historical = yes
     culture = cu:yankee
+    home_region = STATE_NEW_YORK
 
     religion = rel:protestant
     ideology = ideology_humanitarian
@@ -2618,6 +2687,7 @@ ecchi_usa_spooner_character_template = {
     last_name = ecchi_Spooner
     historical = yes
     culture = cu:yankee
+    home_region = STATE_MASSACHUSETTS
 
     religion = rel:protestant
     ideology = ideology_abolitionist

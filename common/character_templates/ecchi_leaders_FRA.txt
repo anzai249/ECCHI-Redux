@@ -5,6 +5,7 @@ ecchi_fra_petain_character_template = {
     last_name = Petain
     historical = yes
     culture = cu:french
+    home_region = STATE_FRENCH_LOW_COUNTRIES
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -31,6 +32,7 @@ ecchi_fra_de_gaulle_character_template = {
     last_name = de_Gaulle
     historical = yes
     culture = cu:french
+    home_region = STATE_FRENCH_LOW_COUNTRIES
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -56,6 +58,7 @@ ecchi_fra_dreyfus_character_template = {
     last_name = ecchi_Dreyfus
     historical = yes
     culture = cu:french
+    home_region = STATE_ALSACE_LORRAINE
 
     religion = rel:jewish
     ideology = ideology_moderate
@@ -81,6 +84,7 @@ ecchi_fra_zola_character_template = {
     last_name = ecchi_Zola
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -109,6 +113,7 @@ ecchi_fra_reclus_character_template = {
     last_name = ecchi_Reclus
     historical = yes
     culture = cu:french
+    home_region = STATE_GUYENNE
 
     religion = rel:protestant
     ideology = ideology_anarchist
@@ -138,6 +143,7 @@ ecchi_fra_blanc_character_template = {
     last_name = Blanc
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:protestant
     ideology = ideology_social_democrat
@@ -166,6 +172,7 @@ ecchi_fra_buisson_character_template = {
     last_name = ecchi_Buisson
     historical = yes
     culture = cu:french
+    home_region = STATE_AQUITAINE
 
     religion = rel:protestant
     ideology = ideology_humanitarian
@@ -194,6 +201,7 @@ ecchi_fra_passy_character_template = {
     last_name = ecchi_Passy
     historical = yes
     culture = cu:french
+    home_region = STATE_PICARDY
 
     religion = rel:protestant
     ideology = ideology_market_liberal
@@ -223,6 +231,7 @@ ecchi_fra_durkheim_character_template = {
     historical = yes
 
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
     religion = rel:jewish
     ideology = ideology_social_democrat
     interest_group = ig_intelligentsia
@@ -249,6 +258,7 @@ ecchi_fra_dumas_alexandre_character_template = {
 	first_name = ecchi_alexandre
 	last_name = ecchi_dumas
 	culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 	female = no
 	interest_group = ig_intelligentsia
 	birth_date = 1802.7.24
@@ -281,6 +291,7 @@ mr_fra_verne_jules_character_template = {
 	first_name = ecchi_jules
 	last_name = ecchi_verne
 	culture = cu:french
+    home_region = STATE_NORMANDY
 	female = no
 	interest_group = ig_intelligentsia
 	birth_date = 1828.2.8
@@ -314,6 +325,7 @@ ecchi_fra_pasteur_character_template = {
     last_name = ecchi_Pasteur
     historical = yes
     culture = cu:french
+    home_region = STATE_FRANCHE_COMTE
 
 	historical = yes
     interest_group = ig_intelligentsia
@@ -342,6 +354,7 @@ ecchi_fra_citroen_character_template = {
     last_name = ecchi_Citroen
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_market_liberal
@@ -370,6 +383,7 @@ ecchi_fra_alphonse_de_lamartine_character_template = {
     last_name = de_Lamartine
     historical = yes
     culture = cu:french
+    home_region = STATE_BURGUNDY
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -400,6 +414,7 @@ ecchi_fra_henri_barbusse_character_template = {
     last_name = ecchi_Barbusse
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
     religion = rel:catholic
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions
@@ -443,6 +458,7 @@ ecchi_fra_rene_nicod_character_template = {
     last_name = ecchi_Nicod
     historical = yes
     culture = cu:french
+    home_region = STATE_FRANCHE_COMTE
 
     religion = rel:catholic
     ideology = ideology_vanguardist
@@ -473,6 +489,7 @@ ecchi_fra_blum_character_template = {
     last_name = ecchi_Blum
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:jewish
     ideology = ideology_social_democrat
@@ -501,6 +518,7 @@ ecchi_fra_deloncle_character_template = {
     last_name = ecchi_Deloncle
     historical = yes
     culture = cu:french
+    home_region = STATE_BRITTANY
 
     religion = rel:catholic
     ideology = ideology_fascist
@@ -531,6 +549,7 @@ ecchi_fra_de_granier_de_cassagnac_character_template = {
     last_name = ecchi_de_Granier_de_Cassagnac
     historical = yes
     culture = cu:french
+    home_region = STATE_AQUITAINE
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -561,6 +580,7 @@ ecchi_leblanc_character_template = {
     last_name = ecchi_Leblanc
     historical = yes
     culture = cu:french
+    home_region = STATE_NORMANDY
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -593,6 +613,7 @@ ecchi_fra_dimier_character_template= {
     last_name = ecchi_Dimier
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -623,6 +644,7 @@ ecchi_fra_guesde_character_template = {
     last_name = ecchi_Guesde
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_communist
@@ -653,6 +675,7 @@ ecchi_fra_grave_character_template = {
     last_name = ecchi_Grave
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_anarchist
@@ -683,6 +706,7 @@ ecchi_fra_dimier_character_template = {
     last_name = ecchi_Lacordaire
     historical = yes
     culture = cu:french
+    home_region = STATE_BURGUNDY
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -712,6 +736,7 @@ ecchi_fra_de_mun_character_template = {
     last_name = ecchi_de_Mun
     historical = yes
     culture = cu:french
+    home_region = STATE_BRITTANY
 
     religion = rel:catholic
     ideology = ideology_enlightened_royalist
@@ -740,6 +765,7 @@ ecchi_fra_barres_character_template = {
     last_name = ecchi_Barres
     historical = yes
     culture = cu:french
+    home_region = STATE_LORRAINE
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -770,6 +796,7 @@ ecchi_fra_meline_character_template = {
     last_name = ecchi_meline
     historical = yes
     culture = cu:french
+    home_region = STATE_FRANCHE_COMTE
 
     religion = rel:catholic
     ideology = ideology_protectionist
@@ -798,6 +825,7 @@ ecchi_fra_durand_character_template = {
 	last_name = ecchi_Durand
 	historical = yes
 	culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 	religion = rel:catholic
     female = yes
 	interest_group = ig_intelligentsia
@@ -826,6 +854,7 @@ ecchi_fra_pelletan_character_template = {
     last_name = ecchi_Pelletan
     historical = yes
     culture = cu:french
+    home_region = STATE_AQUITAINE
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -854,6 +883,7 @@ ecchi_fra_bourgeois_character_template = {
     last_name = ecchi_Bourgeois
     historical = yes
     culture = cu:french
+    home_region = STATE_CHAMPAGNE
 
     religion = rel:catholic
     ideology = ideology_modernizer
@@ -883,6 +913,7 @@ ecchi_fra_harmel_character_template = {
     last_name = ecchi_Harmel
     historical = yes
     culture = cu:french
+    home_region = STATE_ILE_DE_FRANCE
 
     religion = rel:catholic
     ideology = ideology_utilitarian
@@ -911,6 +942,7 @@ ecchi_fra_plichonl_character_template = {
     last_name = ecchi_Plichon
     historical = yes
     culture = cu:french
+    home_region = STATE_FRENCH_LOW_COUNTRIES
 
     religion = rel:catholic
     ideology = ideology_protectionist
@@ -939,6 +971,7 @@ ecchi_fra_courtot_de_cissey_character_template = {
     last_name = ecchi_Courtot_de_Cissey
     historical = yes
     culture = cu:french
+    home_region = STATE_BURGUNDY
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -967,6 +1000,7 @@ ecchi_fra_lyautey_character_template = {
     last_name = ecchi_Lyautey
     historical = yes
     culture = cu:french
+    home_region = STATE_LORRAINE
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -995,6 +1029,7 @@ ecchi_fra_poincare_character_template = {
     last_name = ecchi_Poincare
     historical = yes
     culture = cu:french
+    home_region = STATE_LORRAINE
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -1023,6 +1058,7 @@ ecchi_fra_capus_character_template = {
     last_name = ecchi_Capus
     historical = yes
     culture = cu:french
+    home_region = STATE_AQUITAINE
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -1051,6 +1087,7 @@ ecchi_fra_de_vogue_character_template  = {
     last_name = ecchi_de_Vogue
     historical = yes
     culture = cu:french
+    home_region = STATE_BURGUNDY
 
     religion = rel:catholic
     female = yes
@@ -1082,6 +1119,7 @@ ecchi_fra_capusde_baudry_d_asson_character_template = {
     last_name = ecchi_Capusde_Baudry_d_Asson
     historical = yes
     culture = cu:french
+    home_region = STATE_POITOU
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -1110,6 +1148,7 @@ ecchi_fra_de_levis_mirepoix_character_template = {
     last_name = ecchi_de_Levis_Mirepoix
     historical = yes
     culture = cu:french
+    home_region = STATE_LORRAINE
 
     religion = rel:catholic
     ideology = ideology_royalist
@@ -1138,6 +1177,7 @@ ecchi_fra_valery_character_template  = {
     last_name = ecchi_Valery
     historical = yes
     culture = cu:french
+    home_region = STATE_LANGUEDOC
 
     religion = rel:catholic
     ideology = ideology_liberal_leader
@@ -1169,6 +1209,7 @@ ecchi_fra_groussau_character_template = {
     last_name = ecchi_Groussau
     historical = yes
     culture = cu:french
+    home_region = STATE_FRENCH_LOW_COUNTRIES
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -1197,6 +1238,7 @@ ecchi_fra_claudel_character_template = {
     last_name = ecchi_Claudel
     historical = yes
     culture = cu:french
+    home_region = STATE_CHAMPAGNE
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -1227,6 +1269,7 @@ ecchi_fra_d_audiffret_pasquier_character_template = {
     last_name = ecchi_d_Audiffret_Pasquier
     historical = yes
     culture = cu:french
+    home_region = STATE_PICARDY
 
     religion = rel:catholic
     ideology = ideology_royalist

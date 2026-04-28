@@ -5,6 +5,7 @@ ecchi_que_lambton_character_template = {
     last_name = Lambton
     historical = yes
     culture = cu:british
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -31,6 +32,7 @@ ecchi_que_nelson_character_template = {
     last_name = Nelson
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_radical
@@ -61,6 +63,7 @@ ecchi_que_bowen_character_template = {
     last_name = Bowen
     historical = yes
     culture = cu:irish
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -91,6 +94,7 @@ ecchi_que_cartier_character_template = {
     last_name = Cartier
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -123,6 +127,7 @@ ecchi_que_hart_character_template = {
     last_name = ecchi_Hart
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:jewish
     ideology = ideology_moderate
@@ -152,6 +157,7 @@ ecchi_que_duvernay_character_template = {
     last_name = ecchi_Duvernay
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -180,6 +186,7 @@ ecchi_que_desjardins_character_template = {
     last_name = ecchi_Desjardins
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_humanitarian
@@ -217,6 +224,7 @@ ecchi_nvs_howe_character_template = {
     last_name = ecchi_Howe
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_NEW_BRUNSWICK
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -250,6 +258,7 @@ ecchi_org_douglas_character_template = {
     last_name = Douglas
     historical = yes
     culture = cu:scottish
+    home_region = STATE_BRITISH_COLUMBIA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -299,6 +308,7 @@ ecchi_org_de_cosmos_character_template = {
     last_name = ecchi_De_Cosmos
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_BRITISH_COLUMBIA
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -345,6 +355,7 @@ ecchi_ont_robinson_character_template = {
     last_name = Robinson
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -375,6 +386,7 @@ ecchi_ont_mowat_character_template = {
     last_name = ecchi_Mowat
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -408,6 +420,7 @@ ecchi_ont_johnson_character_template = {
     last_name = Johnson
     historical = yes
     culture = cu:iroquoian
+    home_region = STATE_ONTARIO
 
     religion = rel:animist
     interest_group = ig_rural_folk
@@ -447,6 +460,7 @@ ecchi_ont_strachan_character_template = {
     last_name = ecchi_Strachan
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_humanitarian
@@ -475,6 +489,7 @@ ecchi_ont_walsh_character_template = {
     last_name = Walsh
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_rural_folk
@@ -510,6 +525,7 @@ ecchi_ont_steele_character_template = {
     last_name = Steele
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_rural_folk
@@ -545,6 +561,7 @@ ecchi_can_macdonald_character_template = {
     last_name = Macdonald
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_republican_leader
@@ -572,6 +589,7 @@ ecchi_can_laurier_character_template = {
     last_name = ecchi_Laurier
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -602,6 +620,7 @@ ecchi_can_king_character_template = {
     last_name = King
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -658,6 +677,7 @@ ecchi_can_massey_character_template = {
     last_name = Massey
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -684,6 +704,7 @@ ecchi_can_van_horne_character_template = {
     last_name = ecchi_Van_Horne
     historical = yes
     culture = cu:yankee
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -712,6 +733,7 @@ ecchi_can_hughes_character_template = {
     last_name = Hughes
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_intelligentsia

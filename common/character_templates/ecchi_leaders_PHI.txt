@@ -5,6 +5,7 @@ ecchi_phi_bonifacio_character_template = {
     last_name = Bonifacio
     historical = yes
     culture = cu:filipino
+    home_region = STATE_LUZON
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -31,6 +32,7 @@ ecchi_phi_aguinaldo_character_template = {
     last_name = ecchi_Aguinaldo
     historical = yes
     culture = cu:filipino
+    home_region = STATE_LUZON
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -63,6 +65,7 @@ ecchi_phi_rizal_character_template = {
     last_name = Rizal
     historical = yes
     culture = cu:filipino
+    home_region = STATE_LUZON
 
     religion = rel:catholic
     ideology = ideology_reformer

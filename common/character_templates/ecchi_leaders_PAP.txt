@@ -5,6 +5,7 @@ ecchi_pap_pecci_character_template = {
     last_name = ecchi_Pecci
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_LAZIO
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -36,6 +37,7 @@ ecchi_pap_sarto_character_template = {
     last_name = ecchi_Sarto
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_VENETIA
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -67,6 +69,7 @@ ecchi_pap_della_chiesa_character_template = {
     last_name = ecchi_della_Chiesa
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_PIEDMONT
 
     religion = rel:catholic
     ideology = ideology_pacifist
@@ -97,6 +100,7 @@ ecchi_pap_ratti_character_template = {
     last_name = ecchi_Ratti
     historical = yes
     culture = cu:north_italian
+    home_region = STATE_LOMBARDY
 
     religion = rel:catholic
     ideology = ideology_moderate

@@ -7,6 +7,7 @@ ecchi_por_antonio_santos = {
     last_name = Santos
     historical = yes
     culture = cu:portuguese
+    home_region = STATE_ESTREMADURA
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -79,6 +80,7 @@ ecchi_por_antonio_salazar = {
     last_name = ecchi_Oliveira_Salazar
     historical = yes
     culture = cu:portuguese
+    home_region = STATE_BEIRA
     religion = rel:catholic
     ideology = ideology_corporatist_leader
     interest_group = ig_landowners

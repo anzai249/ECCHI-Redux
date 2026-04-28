@@ -5,6 +5,7 @@ ecchi_arg_de_san_martin_character_template = {
     last_name = ecchi_de_San_Martin
     historical = yes
     culture = cu:platinean
+    home_region = STATE_RIO_NEGRO
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -105,6 +106,7 @@ ecchi_arg_sarmiento_character_template = {
     last_name = ecchi_Sarmiento
     historical = yes
     culture = cu:platinean
+    home_region = STATE_TUCUMAN
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -135,6 +137,7 @@ ecchi_arg_roca_character_template = {
     last_name = Roca
     historical = yes
     culture = cu:platinean
+    home_region = STATE_RIO_NEGRO
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -162,6 +165,7 @@ ecchi_arg_peron_character_template = {
     last_name = ecchi_Peron
     historical = yes
     culture = cu:platinean
+    home_region = STATE_BUENOS_AIRES
 
     religion = rel:catholic
     ideology = ideology_despotic_utopian
@@ -189,6 +193,7 @@ ecchi_arg_yrigoyen_character_template = {
     last_name = Yrigoyen
     historical = yes
     culture = cu:platinean
+    home_region = STATE_BUENOS_AIRES
 
     religion = rel:catholic
     ideology = ideology_radical

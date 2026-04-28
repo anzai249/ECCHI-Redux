@@ -5,6 +5,7 @@ ecchi_gbr_grey_character_template = {
     last_name = Grey
     historical = yes
     culture = cu:british
+    home_region = STATE_YORKSHIRE
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -40,6 +41,7 @@ ecchi_gbr_john_russell_character_template = {
     last_name = Russell
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -114,6 +116,7 @@ ecchi_gbr_cecil_character_template = {
     last_name = ecchi_Gascoyne_Cecil
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -153,6 +156,7 @@ ecchi_gbr_primrose_character_template = {
     last_name = Primrose
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -232,6 +236,7 @@ ecchi_gbr_campbell_bannerman_character_template = {
     last_name = Campbell-Bannerman
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_radical
@@ -272,6 +277,7 @@ ecchi_gbr_asquith_character_template = {
     last_name = ecchi_Asquith
     historical = yes
     culture = cu:british
+    home_region = STATE_YORKSHIRE
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -342,6 +348,7 @@ ecchi_gbr_law_character_template = {
     last_name = Law
     historical = yes
     culture = cu:scottish
+    home_region = STATE_NEW_BRUNSWICK
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -381,6 +388,7 @@ ecchi_gbr_baldwin_character_template = {
     last_name = Baldwin
     historical = yes
     culture = cu:british
+    home_region = STATE_MIDLANDS
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -420,6 +428,7 @@ ecchi_gbr_macdonald_character_template = {
     last_name = MacDonald
     historical = yes
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -459,6 +468,7 @@ ecchi_gbr_chamberlain_character_template = {
     last_name = Chamberlain
     historical = yes
     culture = cu:british
+    home_region = STATE_MIDLANDS
 
     religion = rel:protestant
     ideology = ideology_pacifist
@@ -498,6 +508,7 @@ ecchi_gbr_churchill_character_template = {
     last_name = Churchill
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -602,6 +613,7 @@ ecchi_gbr_lawrence_character_template = {
     last_name = Lawrence
     historical = yes
     culture = cu:british
+    home_region = STATE_WALES
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -637,6 +649,7 @@ ecchi_gbr_darby_character_template = {
     last_name = ecchi_Darby
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_theocrat
@@ -672,6 +685,7 @@ ecchi_gbr_livingstone_character_template = {
     last_name = Livingstone
     historical = yes
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -715,6 +729,7 @@ ecchi_gbr_albert_character_template = {
     last_name = of_Saxe-Coburg-Gotha
     historical = yes
     culture = cu:north_german
+    home_region = STATE_BAVARIA
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -790,6 +805,7 @@ ecchi_gbr_bertrand_russell_character_template = {
     last_name = Russell
     historical = yes
     culture = cu:british
+    home_region = STATE_WALES
 
     religion = rel:protestant
     ideology = ideology_pacifist
@@ -825,6 +841,7 @@ ecchi_gbr_lionel_de_rothschild_sr_character_template = {
     last_name = ecchi_de_Rothschild
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:jewish
     ideology = ideology_moderate
@@ -855,6 +872,7 @@ ecchi_gbr_conan_doyle_character_template = {
     last_name = ecchi_Conan_Doyle
     historical = yes
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -917,6 +935,7 @@ ecchi_gbr_shackleton_character_template = {
     last_name = ecchi_Shackleton
     historical = yes
     culture = cu:irish
+    home_region = STATE_LEINSTER
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -977,6 +996,7 @@ ecchi_gbr_stanley_character_template = {
     last_name = Stanley
     historical = yes
     culture = cu:welsh
+    home_region = STATE_WALES
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -1016,6 +1036,7 @@ ecchi_gbr_tolkien_character_template = {
     last_name = ecchi_Tolkien
     historical = yes
     culture = cu:british
+    home_region = STATE_VRYSTAAT
 
     religion = rel:catholic
     ideology = ideology_pacifist
@@ -1042,6 +1063,7 @@ ecchi_gbr_ross_character_template = {
     last_name = Ross
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -1076,6 +1098,7 @@ ecchi_gbr_franklin_character_template = {
     last_name = Franklin
     historical = yes
     culture = cu:british
+    home_region = STATE_MIDLANDS
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -1101,6 +1124,7 @@ ecchi_gbr_scott_character_template = {
     last_name = Scott
     historical = yes
     culture = cu:british
+    home_region = STATE_WEST_COUNTRY
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -1126,6 +1150,7 @@ ecchi_gbr_kipling_character_template = {
     last_name = ecchi_Kipling
     historical = yes
     culture = cu:british
+    home_region = STATE_BOMBAY
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -1166,6 +1191,7 @@ ecchi_gbr_harcourt_character_template = {
     last_name = Harcourt
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -1227,6 +1253,7 @@ ecchi_gbr_carlyle_character_template = {
     last_name = ecchi_Carlyle
     historical = yes
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -1267,6 +1294,7 @@ ecchi_gbr_wood_character_template = {
     last_name = Wood
     historical = yes
     culture = cu:british
+    home_region = STATE_WEST_COUNTRY
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -1295,6 +1323,7 @@ ecchi_gbr_cobden_character_template = {
     last_name = ecchi_Cobden
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_radical
@@ -1323,6 +1352,7 @@ ecchi_gbr_fawcett_character_template = {
     last_name = ecchi_Fawcett
     historical = yes
     culture = cu:british
+    home_region = STATE_EAST_ANGLIA
     female = yes
     religion = rel:protestant
     ideology = ideology_feminist
@@ -1352,6 +1382,7 @@ ecchi_ire_stoker_bram_character_template = {
 	first_name = ecchi_bram
 	last_name = ecchi_stoker
 	culture = cu:irish
+    home_region = STATE_LEINSTER
 	female = no
 	interest_group = ig_intelligentsia
 	birth_date = 1847.11.8
@@ -1393,6 +1424,7 @@ ecchi_ire_joyce_james_character_template = {
 	first_name = ecchi_james
 	last_name = ecchi_joyce
 	culture = cu:irish
+    home_region = STATE_LEINSTER
 	female = no
 	interest_group = ig_intelligentsia
 	birth_date = 1882.2.2
@@ -1435,6 +1467,7 @@ ecchi_gbr_wells_hg_character_template = {
 	first_name = ecchi_H_G
 	last_name = ecchi_Wells
 	culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 	female = no
 	interest_group = ig_intelligentsia
 	birth_date = 1866.9.21
@@ -1477,6 +1510,7 @@ ecchi_gbr_stevenson_robert_character_template = {
     first_name = ecchi_Robert_Lewis
     last_name = ecchi_Stevenson
     culture = cu:scottish
+    home_region = STATE_LOWLANDS
 
     interest_group = ig_intelligentsia
     birth_date = 1850.11.13
@@ -1560,6 +1594,7 @@ ecchi_gbr_chaplin_charlie_character_template = {
     first_name = Charlie
     last_name = ecchi_Chaplin
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     interest_group = ig_petty_bourgeoisie
     birth_date = 1889.4.16
@@ -1604,6 +1639,7 @@ ecchi_gbr_conolly_arthur_character_template = {
     first_name = Arthur
     last_name = Conolly
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     interest_group = ig_armed_forces
     birth_date = 1807.7.2
@@ -1638,6 +1674,7 @@ ecchi_gbr_chesterton_character_template = {
     last_name = ecchi_Chesterton
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
     female = no
     religion = rel:catholic
     ideology = ideology_liberal_leader

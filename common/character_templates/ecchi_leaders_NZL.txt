@@ -5,6 +5,7 @@ ecchi_nzl_sewell_character_template = {
     last_name = ecchi_Sewell
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_pacifist
@@ -35,6 +36,7 @@ ecchi_nzl_fox_character_template = {
     last_name = Fox
     historical = yes
     culture = cu:british
+    home_region = STATE_HOME_COUNTIES
 
     religion = rel:protestant
     ideology = ideology_republican_leader
@@ -65,6 +67,7 @@ ecchi_nzl_savage_character_template = {
     last_name = ecchi_Savage
     historical = yes
     culture = cu:australian
+    home_region = STATE_VICTORIA
 
     religion = rel:protestant
     ideology = ideology_social_democrat
@@ -95,6 +98,7 @@ ecchi_nzl_seddon_character_template = {
     last_name = ecchi_Seddon
     historical = yes
     culture = cu:british
+    home_region = STATE_LANCASHIRE
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -125,6 +129,7 @@ ecchi_nzl_ballance_character_template = {
     last_name = ecchi_Ballance
     historical = yes
     culture = cu:irish
+    home_region = STATE_ULSTER
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -158,6 +163,7 @@ ecchi_aot_heke_character_template = {
     last_name = Heke
     historical = yes
     culture = cu:maori
+    home_region = STATE_NORTH_ISLAND
 
     religion = rel:animist
     ideology = ideology_jingoist_leader
@@ -205,6 +211,7 @@ ecchi_aot_kawiti_character_template = {
     last_name = ecchi_Kawiti
     historical = yes
     culture = cu:maori
+    home_region = STATE_NORTH_ISLAND
 
     religion = rel:animist
     ideology = ideology_traditionalist
@@ -247,6 +254,7 @@ ecchi_aot_o_rongomai_character_template = {
     last_name = ecchi_o_Rongomai
     historical = yes
     culture = cu:maori
+    home_region = STATE_NORTH_ISLAND
 
     religion = rel:animist
     ideology = ideology_theocrat
@@ -296,6 +304,7 @@ ecchi_aot_solomon_character_template = {
     last_name = Solomon
     historical = yes
     culture = cu:polynesian
+    home_region = STATE_SOUTH_ISLAND
 
     religion = rel:animist
     ideology = ideology_pacifist
@@ -341,6 +350,7 @@ ecchi_nzl_katherine_mansfield_character_template = {
     last_name = ecchi_Mansfield
     historical = yes
     culture = cu:british
+    home_region = STATE_NORTH_ISLAND
     female = yes
     religion = rel:protestant
     interest_group = ig_intelligentsia

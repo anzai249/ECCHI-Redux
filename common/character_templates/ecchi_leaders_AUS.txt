@@ -5,6 +5,7 @@ ecchi_aus_lueger_character_template = {
     last_name = ecchi_Lueger
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
@@ -45,6 +46,7 @@ ecchi_aus_bauer_character_template = {
     last_name = ecchi_Bauer
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:jewish
     ideology = ideology_social_democrat
@@ -86,6 +88,7 @@ ecchi_aus_von_suttner_character_template = {
     historical = yes
     culture = cu:south_german
     female = yes
+    home_region = STATE_AUSTRIA
     religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -125,6 +128,7 @@ ecchi_aus_porsche_character_template = {
     last_name = ecchi_Porsche
     historical = yes
     culture = cu:south_german
+    home_region = STATE_BOHEMIA
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -170,6 +174,7 @@ ecchi_aus_dollfuss_character_template = {
     last_name = ecchi_Dollfuss
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:catholic
     ideology = ideology_fascist
@@ -202,6 +207,7 @@ ecchi_aus_von_trapp_character_template = {
     last_name = ecchi_von_Trapp
     historical = yes
     culture = cu:south_german
+    home_region = STATE_TYROL
 
     religion = rel:catholic
     ideology = ideology_humanitarian
@@ -233,6 +239,7 @@ ecchi_aus_kudlich_character_template = {
     last_name = ecchi_Kudlich
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:catholic
     ideology = ideology_abolitionist
@@ -303,6 +310,7 @@ ecchi_aus_berchtold_character_template = {
     last_name = ecchi_Berchtold
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -335,6 +343,7 @@ ecchi_aus_herzel_character_template = {
     last_name = ecchi_Herzel
     historical = yes
     culture = cu:south_german
+    home_region = STATE_AUSTRIA
 
     religion = rel:jewish
     ideology = ideology_ethno_nationalist
@@ -372,6 +381,7 @@ ecchi_aus_franko_character_template = {
     last_name = ecchi_Franko
     historical = yes
     culture = cu:ukrainian
+    home_region = STATE_WEST_GALICIA
 
     religion = rel:orthodox
     ideology = ideology_social_democrat
@@ -407,6 +417,7 @@ ecchi_aus_tito_character_template = {
     last_name = ecchi_Tito
     historical = yes
     culture = cu:slovene
+    home_region = STATE_SLOVENIA
 
     religion = rel:orthodox
     ideology = ideology_communist
@@ -452,6 +463,7 @@ ecchi_aus_kautsky_character_template = {
     last_name = ecchi_Kautsky
     historical = yes
     culture = cu:south_german
+    home_region = STATE_BOHEMIA
 
     religion = rel:jewish
     ideology = ideology_social_democrat

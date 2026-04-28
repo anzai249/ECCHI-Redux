@@ -5,6 +5,7 @@ ecchi_ubd_von_klot_character_template = {
     last_name = ecchi_von_Klot
     historical = yes
     culture = cu:east_german
+    home_region = STATE_COURLAND
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -33,6 +34,7 @@ ecchi_ubd_von_bellingshausen_character_template = {
     last_name = ecchi_von_Bellingshausen
     historical = yes
     culture = cu:east_german
+    home_region = STATE_TALINN
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -61,6 +63,7 @@ ecchi_ubd_girard_de_soucanton_character_template = {
     last_name = ecchi_Girard_de_Soucanton
     historical = yes
     culture = cu:estonian
+    home_region = STATE_TALINN
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -89,6 +92,7 @@ ecchi_ubd_von_bruiningk_character_template = {
     last_name = ecchi_von_Bruiningk
     historical = yes
     culture = cu:latvian
+    home_region = STATE_RIGA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -117,6 +121,7 @@ ecchi_ubd_von_grunewaldt_character_template = {
     last_name = ecchi_von_Grunewaldt
     historical = yes
     culture = cu:east_german
+    home_region = STATE_COURLAND
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -145,6 +150,7 @@ ecchi_ubd_von_brevern_character_template = {
     last_name =  ecchi_von_Brevern
     historical = yes
     culture = cu:east_german
+    home_region = STATE_RIGA
 
     religion = rel:protestant
     ideology = ideology_royalist

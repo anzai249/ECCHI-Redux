@@ -5,6 +5,7 @@ ecchi_spa_infante_carlos_character_template = {
     last_name = de_Borbon
     historical = yes
     culture = cu:spanish
+    home_region = STATE_NEW_CASTILE
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -44,6 +45,7 @@ ecchi_spa_maria_christina_character_template = {
     last_name = de_Borbon
     historical = yes
     culture = cu:south_italian
+    home_region = STATE_SICILY
     female = yes
     religion = rel:catholic
     ideology = ideology_moderate
@@ -161,6 +163,7 @@ ecchi_spa_franco_character_template = {
     last_name = Franco
     historical = yes
     culture = cu:spanish
+    home_region = STATE_GALICIA
 
     religion = rel:catholic
     ideology = ideology_traditionalist
@@ -195,6 +198,7 @@ ecchi_spa_picasso_character_template = {
     last_name = ecchi_Picasso
     historical = yes
     culture = cu:spanish
+    home_region = STATE_LOWER_ANDALUSIA
 
     religion = rel:catholic
     ideology = ideology_communist
@@ -350,6 +354,7 @@ ecchi_spa_silvela_character_template = {
     last_name = ecchi_Silvela
     historical = yes
     culture = cu:spanish
+    home_region = STATE_NEW_CASTILE
 
     religion = rel:catholic
     ideology = ideology_traditionalist

@@ -5,6 +5,7 @@ chilam_villa_character_template = {
     last_name = Villa
     historical = yes
     culture = cu:mexican
+    home_region = STATE_DURANGO
     religion = rel:catholic
     ideology = ideology_radical
     interest_group = ig_armed_forces

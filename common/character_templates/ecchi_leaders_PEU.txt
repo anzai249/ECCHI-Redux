@@ -5,6 +5,7 @@ ecchi_peu_bermudez_character_template = {
     last_name = ecchi_Bermudez
     historical = yes
     culture = cu:south_andean
+    home_region = STATE_LIMA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -31,6 +32,7 @@ ecchi_peu_salaverry_character_template = {
     last_name = Salaverry
     historical = yes
     culture = cu:south_andean
+    home_region = STATE_LIMA
 
     religion = rel:catholic
     ideology = ideology_slaver
@@ -61,6 +63,7 @@ ecchi_peu_gamarra_character_template = {
     last_name = Gamarra
     historical = yes
     culture = cu:south_andean
+    home_region = STATE_AREQUIPA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -91,6 +94,7 @@ ecchi_peu_de_san_roman_character_template = {
     last_name = ecchi_de_San_Roman
     historical = yes
     culture = cu:south_andean
+    home_region = STATE_AREQUIPA
 
     religion = rel:catholic
     ideology = ideology_moderate
@@ -122,6 +126,7 @@ ecchi_peu_prado_character_template = {
     last_name = ecchi_Prado
     historical = yes
     culture = cu:south_andean
+    home_region = STATE_LIMA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader

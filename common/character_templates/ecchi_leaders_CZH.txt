@@ -6,6 +6,7 @@ ecchi_czh_palacky_character_template = {
     last_name = ecchi_Palacky
     historical = yes
     culture = cu:czech
+    home_region = STATE_BOHEMIA
 
     religion = rel:protestant
     ideology = ideology_republican_leader
@@ -49,6 +50,7 @@ ecchi_czh_masaryk_character_template = {
     last_name = Masaryk
     historical = yes
     culture = cu:czech
+    home_region = STATE_MORAVIA
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -96,6 +98,7 @@ ecchi_czh_kafka_character_template = {
     last_name = Kafka
     historical = yes
     culture = cu:czech
+    home_region = STATE_BOHEMIA
 
     religion = rel:jewish
     ideology = ideology_anarchist
@@ -146,6 +149,7 @@ ecchi_czh_tiso_character_template = {
     last_name = Tiso
     historical = yes
     culture = cu:slovak
+    home_region = STATE_SLOVAKIA
 
     religion = rel:catholic
     ideology = ideology_jingoist_leader
@@ -193,6 +197,7 @@ ecchi_czh_stefanik_character_template = {
     last_name = Stefanik
     historical = yes
     culture = cu:slovak
+    home_region = STATE_SLOVAKIA
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -242,6 +247,7 @@ ecchi_czh_gajda_character_template = {
     last_name = Gajda
     historical = yes
     culture = cu:czech
+    home_region = STATE_DALMATIA
     religion = rel:orthodox
     ideology = ideology_fascist
     interest_group = ig_armed_forces

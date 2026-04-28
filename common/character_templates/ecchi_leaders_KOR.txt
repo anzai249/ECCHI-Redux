@@ -30,6 +30,7 @@ ecchi_kor_daewongun_character_template = {
     last_name = Yi
     historical = yes
     culture = cu:korean
+    home_region = STATE_SEOUL
 
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -59,6 +60,7 @@ ecchi_kor_jeon_bongjun_character_template = {
     last_name = ecchi_Jeon
     historical = yes
     culture = cu:korean
+    home_region = STATE_YANGHO
 
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -88,6 +90,7 @@ ecchi_kor_son_byonghi_character_template = {
     last_name = ecchi_Son
     historical = yes
     culture = cu:korean
+    home_region = STATE_SARIWON
 
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -119,6 +122,7 @@ ecchi_kor_ho_hon_character_template = {
     last_name = ecchi_Ho_1
     historical = yes
     culture = cu:korean
+    home_region = STATE_SEOUL
 
     ideology = ideology_humanitarian
     interest_group = ig_intelligentsia
@@ -146,6 +150,7 @@ ecchi_kor_hang_ro_character_template = {
     last_name = ecchi_Hang_ro
     historical = yes
     culture = cu:korean
+    home_region = STATE_SARIWON
 
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -173,6 +178,7 @@ ecchi_kor_hak_yu_character_template = {
     last_name = ecchi_Hak_yu
     historical = yes
     culture = cu:korean
+    home_region = STATE_BUSAN
 
     ideology = ideology_moderate
     interest_group = ig_rural_folk
