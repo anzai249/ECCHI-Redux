@@ -1,6 +1,6 @@
 ﻿# Norway
 
-ecchi_nor_amundsen_character_template = {
+ecchi_nor_amundsen = {
     first_name = ecchi_Roald
     last_name = ecchi_Amundsen
     historical = yes
@@ -37,7 +37,7 @@ ecchi_nor_amundsen_character_template = {
 
 ## Fridtjof Nansen
 
-ecchi_nor_nansen_fridtjof_character_template = {
+ecchi_nor_nansen_fridtjof = {
 	dna = mr_nor_nansen_fridtjof
 	first_name = ecchi_fridtjof
 	last_name = ecchi_Nansen
@@ -73,7 +73,7 @@ ecchi_nor_nansen_fridtjof_character_template = {
 
 ## Christian Michelsen
 
-ecchi_nor_michelsen_christian_character_template = {
+ecchi_nor_michelsen_christian = {
 	dna = ecchi_nor_michelsen_christian
 	first_name = ecchi_Christian
 	last_name = ecchi_Michelsen
@@ -102,7 +102,7 @@ ecchi_nor_michelsen_christian_character_template = {
 
 ## Vidkun Quisling
 
-ecchi_nor_quisling_vidkun_character_template = {
+ecchi_nor_quisling_vidkun = {
 	dna = ecchi_nor_quisling_vidkun
 	first_name = ecchi_Vidkun
 	last_name = ecchi_Quisling
@@ -133,7 +133,7 @@ ecchi_nor_quisling_vidkun_character_template = {
 
 ## Knut Hamsun
 
-ecchi_nor_hamsun_knut_character_template = {
+ecchi_nor_hamsun_knut = {
 	dna = ecchi_nor_hamsun_knut
 	first_name = ecchi_Knut
 	last_name = ecchi_Hamsun

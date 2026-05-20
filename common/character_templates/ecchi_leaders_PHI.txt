@@ -1,6 +1,6 @@
 ﻿# Philippines
 
-ecchi_phi_bonifacio_character_template = {
+ecchi_phi_bonifacio = {
     first_name = Andres
     last_name = Bonifacio
     historical = yes
@@ -27,7 +27,7 @@ ecchi_phi_bonifacio_character_template = {
     }
 }
 
-ecchi_phi_aguinaldo_character_template = {
+ecchi_phi_aguinaldo = {
     first_name = Emilio
     last_name = ecchi_Aguinaldo
     historical = yes
@@ -60,7 +60,7 @@ ecchi_phi_aguinaldo_character_template = {
 }
 
 
-ecchi_phi_rizal_character_template = {
+ecchi_phi_rizal = {
     first_name = ecchi_Jose
     last_name = Rizal
     historical = yes

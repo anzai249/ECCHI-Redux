@@ -1,6 +1,6 @@
 ﻿# Native American leaders
 
-ecchi_seq_sequoyah_character_template = {
+ecchi_seq_sequoyah = {
     first_name = ecchi_Sequoyah
     last_name = ecchi_EmptySequoyah
     historical = yes
@@ -27,7 +27,7 @@ ecchi_seq_sequoyah_character_template = {
     }
 }
 
-ecchi_lkt_red_cloud_character_template = {
+ecchi_lkt_red_cloud = {
     first_name = ecchi_Red_Cloud
     last_name = ecchi_EmptyRed_Cloud
     historical = yes
@@ -62,7 +62,7 @@ ecchi_lkt_red_cloud_character_template = {
     }
 }
 
-ecchi_lkt_sitting_bull_character_template = {
+ecchi_lkt_sitting_bull = {
     first_name = ecchi_Sitting_Bull
     last_name = ecchi_EmptySitting_Bull
     historical = yes
@@ -97,7 +97,7 @@ ecchi_lkt_sitting_bull_character_template = {
     }
 }
 
-ecchi_lkt_crazy_horse_character_template = {
+ecchi_lkt_crazy_horse = {
     first_name = ecchi_Crazy_Horse
     last_name = ecchi_EmptyCrazy_Horse
     historical = yes
@@ -132,7 +132,7 @@ ecchi_lkt_crazy_horse_character_template = {
     }
 }
 
-ecchi_apc_geronimo_character_template = {
+ecchi_apc_geronimo = {
     first_name = Geronimo
     last_name = ecchi_EmptyGeronimo
     historical = yes
@@ -167,7 +167,7 @@ ecchi_apc_geronimo_character_template = {
     }
 }
 
-ecchi_nzp_chief_joseph_character_template = {
+ecchi_nzp_chief_joseph = {
     first_name = ecchi_Chief_Joseph
     last_name = ecchi_EmptyChief_Joseph
     historical = yes
@@ -202,7 +202,7 @@ ecchi_nzp_chief_joseph_character_template = {
     }
 }
 
-ecchi_apc_victorio_character_template = {
+ecchi_apc_victorio = {
     first_name = Victorio
     last_name = ecchi_EmptyVictorio
     historical = yes
@@ -237,7 +237,7 @@ ecchi_apc_victorio_character_template = {
     }
 }
 
-ecchi_apc_cochise_character_template = {
+ecchi_apc_cochise = {
     first_name = Cochise
     last_name = ecchi_EmptyCochise
     historical = yes
@@ -272,7 +272,7 @@ ecchi_apc_cochise_character_template = {
     }
 }
 
-ecchi_apc_mangas_coloradas_character_template = {
+ecchi_apc_mangas_coloradas = {
     first_name = ecchi_Mangas_Coloradas
     last_name = ecchi_EmptyMangas_Coloradas
     historical = yes
@@ -307,7 +307,7 @@ ecchi_apc_mangas_coloradas_character_template = {
     }
 }
 
-ecchi_irc_poundmaker_character_template = {
+ecchi_irc_poundmaker = {
     first_name = ecchi_Poundmaker
     last_name = ecchi_EmptyPoundmaker
     historical = yes

@@ -1,6 +1,6 @@
 ﻿# Chile
 
-ecchi_chl_o_higgins_character_template = {
+ecchi_chl_o_higgins = {
     first_name = Bernardo
     last_name = O_Higgins
     historical = yes
@@ -32,7 +32,7 @@ ecchi_chl_o_higgins_character_template = {
 
 # Uruguay
 
-ecchi_uru_artigas_character_template = {
+ecchi_uru_artigas = {
     first_name = ecchi_Jose_Gervasio
     last_name = ecchi_Artigas
     historical = yes
@@ -63,7 +63,7 @@ ecchi_uru_artigas_character_template = {
     }
 }
 
-ecchi_uru_berro_character_template = {
+ecchi_uru_berro = {
     first_name = Bernardo
     last_name = Berro
     historical = yes
@@ -95,7 +95,7 @@ ecchi_uru_berro_character_template = {
 
 ## José Batlle y Ordóñez
 
-# ecchi_uru_batlle_character_template = {
+# ecchi_uru_batlle = {
 #     first_name = ecchi_Jose
 #     last_name = ecchi_Batlle_y_Ordonez
 #     historical = yes
@@ -127,7 +127,7 @@ ecchi_uru_berro_character_template = {
 
 # Venezuela
 
-ecchi_vnz_lopez_character_template = {
+ecchi_vnz_lopez = {
     first_name = Narciso
     last_name = Lopez
     historical = yes

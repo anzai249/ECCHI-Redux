@@ -1,6 +1,6 @@
 ﻿# Korea
 
-# ecchi_kor_myeongseong_character_template = {
+# ecchi_kor_myeongseong = {
 #     first_name = Ja-yeong # Empress Myeongseong
 #     last_name = Min
 #     historical = yes
@@ -25,7 +25,7 @@
 #     }
 # }
 
-ecchi_kor_daewongun_character_template = {
+ecchi_kor_daewongun = {
     first_name = Ha-eung # Heungseon Daewongun
     last_name = Yi
     historical = yes
@@ -55,7 +55,7 @@ ecchi_kor_daewongun_character_template = {
     }
 }
 
-ecchi_kor_jeon_bongjun_character_template = {
+ecchi_kor_jeon_bongjun = {
     first_name = ecchi_Bong-jun
     last_name = ecchi_Jeon
     historical = yes
@@ -85,7 +85,7 @@ ecchi_kor_jeon_bongjun_character_template = {
     }
 }
 
-ecchi_kor_son_byonghi_character_template = {
+ecchi_kor_son_byonghi = {
     first_name = ecchi_Byong-hi
     last_name = ecchi_Son
     historical = yes
@@ -117,7 +117,7 @@ ecchi_kor_son_byonghi_character_template = {
 
 ## Ho Hon
 
-ecchi_kor_ho_hon_character_template = {
+ecchi_kor_ho_hon = {
     first_name = ecchi_Hon
     last_name = ecchi_Ho_1
     historical = yes
@@ -145,7 +145,7 @@ ecchi_kor_ho_hon_character_template = {
 
 ## Lee Hang-ro 이항로
 
-ecchi_kor_hang_ro_character_template = {
+ecchi_kor_hang_ro = {
     first_name = Lee
     last_name = ecchi_Hang_ro
     historical = yes
@@ -173,7 +173,7 @@ ecchi_kor_hang_ro_character_template = {
 
 ## Jeong Hak-yu 정학유
 
-ecchi_kor_hak_yu_character_template = {
+ecchi_kor_hak_yu = {
     first_name = ecchi_Jeong
     last_name = ecchi_Hak_yu
     historical = yes

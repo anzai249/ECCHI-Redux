@@ -1,6 +1,6 @@
 ﻿# Japan - politicians
 
-ecchi_jap_enomoto_character_template = {
+ecchi_jap_enomoto = {
     first_name = Takeaki
     last_name = Enomoto
     historical = yes
@@ -40,7 +40,7 @@ ecchi_jap_enomoto_character_template = {
     }
 }
 
-ecchi_jap_katsu_character_template = {
+ecchi_jap_katsu = {
     first_name = ecchi_Kaishu
     last_name = Katsu
     historical = yes
@@ -65,7 +65,7 @@ ecchi_jap_katsu_character_template = {
     }
 }
 
-ecchi_jap_matsudaira_character_template = {
+ecchi_jap_matsudaira = {
     first_name = ecchi_Katamori
     last_name = Matsudaira
     historical = yes
@@ -91,7 +91,7 @@ ecchi_jap_matsudaira_character_template = {
     }
 }
 
-ecchi_jap_kondo_character_template = {
+ecchi_jap_kondo = {
     first_name = ecchi_Isami
     last_name = Kondo
     historical = yes
@@ -116,7 +116,7 @@ ecchi_jap_kondo_character_template = {
     }
 }
 
-ecchi_jap_hijikata_character_template = {
+ecchi_jap_hijikata = {
     first_name = ecchi_Toshizo
     last_name = ecchi_Hijikata
     historical = yes
@@ -150,7 +150,7 @@ ecchi_jap_hijikata_character_template = {
     }
 }
 
-ecchi_jap_omura_character_template = {
+ecchi_jap_omura = {
     first_name = Masujiro
     last_name = Omura
     historical = yes
@@ -175,7 +175,7 @@ ecchi_jap_omura_character_template = {
     }
 }
 
-ecchi_jap_itagaki_character_template = {
+ecchi_jap_itagaki = {
     first_name = ecchi_Taisuke
     last_name = Itagaki
     historical = yes
@@ -201,7 +201,7 @@ ecchi_jap_itagaki_character_template = {
     }
 }
 
-ecchi_jap_yoshihisa_character_template = {
+ecchi_jap_yoshihisa = {
     first_name = ecchi_Yoshihisa #Prince Kitashirakawa Yoshihisa
     last_name = ecchi_Kitashirakawa
     historical = yes
@@ -227,7 +227,7 @@ ecchi_jap_yoshihisa_character_template = {
     }
 }
 
-ecchi_jap_fukuba_character_template = {
+ecchi_jap_fukuba = {
     first_name = ecchi_Bisei
     last_name = ecchi_Fukuba
     historical = yes
@@ -255,7 +255,7 @@ ecchi_jap_fukuba_character_template = {
 
 # Ainu
 
-ecchi_ain_imekanu_character_template = {
+ecchi_ain_imekanu = {
     first_name = Imekanu
     last_name = ecchi_EmptyImekanu
     historical = yes
@@ -294,7 +294,7 @@ ecchi_ain_imekanu_character_template = {
     }
 }
 
-ecchi_ain_batchelor_character_template = {
+ecchi_ain_batchelor = {
     first_name = Yaeko
     last_name = ecchi_Batchelor
     historical = yes
@@ -335,7 +335,7 @@ ecchi_ain_batchelor_character_template = {
 
 ## Okubo Toshimichi
 
-ecchi_jap_okubo_toshimichi_character_template = {
+ecchi_jap_okubo_toshimichi = {
     first_name = ecchi_Toshimichi
     last_name = ecchi_Okubo
     historical = yes
@@ -363,7 +363,7 @@ ecchi_jap_okubo_toshimichi_character_template = {
 
 ## Ito Noe
 
-ecchi_jap_ito_noe_character_template = {
+ecchi_jap_ito_noe = {
     first_name = ecchi_Noe
     last_name = ecchi_Ito
     historical = yes
@@ -397,7 +397,7 @@ ecchi_jap_ito_noe_character_template = {
 
 ## Kido Takayoshi
 
-ecchi_jap_kido_takayoshi_character_template = {
+ecchi_jap_kido_takayoshi = {
     first_name = ecchi_Takayoshi
     last_name = ecchi_Kido
     historical = yes
@@ -426,7 +426,7 @@ ecchi_jap_kido_takayoshi_character_template = {
 
 ## Yasunari Kawabata
 
-ecchi_jap_yasunari_kawabata_character_template = {
+ecchi_jap_yasunari_kawabata = {
     first_name = ecchi_Yasunari
     last_name = ecchi_Kawabata
     historical = yes

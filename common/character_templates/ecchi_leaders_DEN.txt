@@ -2,7 +2,7 @@
 
 ## Hans Christian Andersen
 
-ecchi_den_andersen_hans_christian_character_template = {
+ecchi_den_andersen_hans_christian = {
 	dna = mr_den_andersen_hans_christian
 	first_name = ecchi_hans_christian
 	last_name = ecchi_Andersen
@@ -37,7 +37,7 @@ ecchi_den_andersen_hans_christian_character_template = {
 
 ## Soren Kierkegaard
 
-ecchi_den_kierkegaard_character_template = {
+ecchi_den_kierkegaard = {
     first_name = ecchi_Soren_Aabye
     last_name = ecchi_Kierkegaard
     historical = yes
@@ -67,7 +67,7 @@ ecchi_den_kierkegaard_character_template = {
 
 ## Nikolaj Frederik Severin Grundtvig
 
-ecchi_den_grundtvig_character_template = {
+ecchi_den_grundtvig = {
     first_name = ecchi_Nikolaj
     last_name = ecchi_Grundtvig
     historical = yes
@@ -96,7 +96,7 @@ ecchi_den_grundtvig_character_template = {
 
 ## Matilde Bajer
 
-ecchi_den_bajer_character_template = {
+ecchi_den_bajer = {
 	first_name = ecchi_Matilde
 	last_name = ecchi_Bajer
 	historical = yes

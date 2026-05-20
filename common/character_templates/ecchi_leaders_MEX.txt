@@ -1,6 +1,6 @@
 ﻿# Mexico - revolutionaries
 
-chilam_villa_character_template = {
+chilam_villa = {
     first_name = Francisco
     last_name = Villa
     historical = yes

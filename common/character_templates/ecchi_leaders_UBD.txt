@@ -1,6 +1,6 @@
 ﻿## Gustav Reinhold von Klot
 
-ecchi_ubd_von_klot_character_template = {
+ecchi_ubd_von_klot = {
     first_name = ecchi_Gustav_Reinhold
     last_name = ecchi_von_Klot
     historical = yes
@@ -29,7 +29,7 @@ ecchi_ubd_von_klot_character_template = {
 
 ## Fabian Gottlieb von Bellingshausen
 
-ecchi_ubd_von_bellingshausen_character_template = {
+ecchi_ubd_von_bellingshausen = {
     first_name = ecchi_Fabian_Gottlieb
     last_name = ecchi_von_Bellingshausen
     historical = yes
@@ -58,7 +58,7 @@ ecchi_ubd_von_bellingshausen_character_template = {
 
 ## Johann Karl Girard de Soucanton
 
-ecchi_ubd_girard_de_soucanton_character_template = {
+ecchi_ubd_girard_de_soucanton = {
     first_name = ecchi_Johann_Karl
     last_name = ecchi_Girard_de_Soucanton
     historical = yes
@@ -87,7 +87,7 @@ ecchi_ubd_girard_de_soucanton_character_template = {
 
 ## Karl Axel Christer von Bruiningk
 
-ecchi_ubd_von_bruiningk_character_template = {
+ecchi_ubd_von_bruiningk = {
     first_name = ecchi_Karl_Axel
     last_name = ecchi_von_Bruiningk
     historical = yes
@@ -116,7 +116,7 @@ ecchi_ubd_von_bruiningk_character_template = {
 
 ## Johann Engelbrecht Christoph von Grünewaldt
 
-ecchi_ubd_von_grunewaldt_character_template = {
+ecchi_ubd_von_grunewaldt = {
     first_name = ecchi_Johann_Engelbrecht
     last_name = ecchi_von_Grunewaldt
     historical = yes
@@ -145,7 +145,7 @@ ecchi_ubd_von_grunewaldt_character_template = {
 
 ## Christoph Engelbrecht von Brevern
 
-ecchi_ubd_von_brevern_character_template = {
+ecchi_ubd_von_brevern = {
     first_name = ecchi_Christoph_Engelbrecht
     last_name =  ecchi_von_Brevern
     historical = yes

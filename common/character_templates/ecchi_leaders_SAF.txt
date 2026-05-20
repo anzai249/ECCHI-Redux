@@ -1,6 +1,6 @@
 ﻿# South Africa
 
-# ecchi_saf_rhodes_character_template = {
+# ecchi_saf_rhodes = {
 #     first_name = Cecil
 #     last_name = ecchi_Rhodes
 #     historical = yes
@@ -30,7 +30,7 @@
 #     }
 # }
 
-ecchi_saf_sprigg_character_template = {
+ecchi_saf_sprigg = {
     first_name = Gordon
     last_name = Sprigg
     historical = yes
@@ -61,7 +61,7 @@ ecchi_saf_sprigg_character_template = {
     }
 }
 
-ecchi_saf_botha_character_template = {
+ecchi_saf_botha = {
     first_name = Louis
     last_name = Botha
     historical = yes
@@ -96,7 +96,7 @@ ecchi_saf_botha_character_template = {
     }
 }
 
-ecchi_saf_smuts_character_template = {
+ecchi_saf_smuts = {
     first_name = Jan
     last_name = ecchi_Smuts
     historical = yes
@@ -131,7 +131,7 @@ ecchi_saf_smuts_character_template = {
     }
 }
 
-ecchi_saf_hertzog_character_template = {
+ecchi_saf_hertzog = {
     first_name = ecchi_JBM
     last_name = ecchi_Hertzog
     historical = yes

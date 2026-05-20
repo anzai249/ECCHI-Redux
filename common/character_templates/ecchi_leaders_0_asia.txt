@@ -1,5 +1,5 @@
 ﻿# Modern Malaysia
-ecchi_joh_aw_character_template = {
+ecchi_joh_aw = {
 	first_name = ecchi_Boon-Haw
 	last_name = ecchi_Aw
 	historical = yes
@@ -41,7 +41,7 @@ ecchi_joh_aw_character_template = {
 }
 
 # Kazakhstan
-ecchi_kaz_bukeikhanov_character_template = {
+ecchi_kaz_bukeikhanov = {
 	first_name = ecchi_Alikhan
 	last_name = Bukeikhanov
 	historical = yes
@@ -78,7 +78,7 @@ ecchi_kaz_bukeikhanov_character_template = {
 }
 
 # Georgia
-ecchi_geo_chavchavadze_character_template = {
+ecchi_geo_chavchavadze = {
 	first_name = Ilia
 	last_name = ecchi_Chavchavadze
 	historical = yes
@@ -112,7 +112,7 @@ ecchi_geo_chavchavadze_character_template = {
 	}
 }
 
-ecchi_geo_cholokashvili_character_template = {
+ecchi_geo_cholokashvili = {
 	first_name = ecchi_Kakutsa
 	last_name = Cholokashvili
 	historical = yes
@@ -141,7 +141,7 @@ ecchi_geo_cholokashvili_character_template = {
 }
 
 # Turkey
-ecchi_tur_ataturk_character_template = {
+ecchi_tur_ataturk = {
 	first_name = ecchi_Mustafa_Kemal
 	last_name = ecchi_Ataturk
 	historical = yes
@@ -179,7 +179,7 @@ ecchi_tur_ataturk_character_template = {
 }
 
 ## Halide Edib Adivar
-ecchi_tur_halide_edib_adivar_character_template = {
+ecchi_tur_halide_edib_adivar = {
 	first_name = ecchi_Halide_Edib
 	last_name = ecchi_Adivar
 	historical = yes
@@ -212,7 +212,7 @@ ecchi_tur_halide_edib_adivar_character_template = {
 
 ## Talaat Pasha
 
-ecchi_tur_talaat_pasha_character_template = {
+ecchi_tur_talaat_pasha = {
 	first_name = Mehmed
 	last_name = ecchi_Talaat
 	historical = yes
@@ -244,7 +244,7 @@ ecchi_tur_talaat_pasha_character_template = {
 }
 
 ## Enver Pasha
-# ecchi_tur_enver_pasha_character_template = {
+# ecchi_tur_enver_pasha = {
 # 	first_name = Ismail
 # 	last_name = ecchi_Enver
 # 	historical = yes
@@ -277,7 +277,7 @@ ecchi_tur_talaat_pasha_character_template = {
 # }
 
 ## Djemal Pasha
-ecchi_tur_djemal_pasha_character_template = {
+ecchi_tur_djemal_pasha = {
 	first_name = Ahmed 
 	last_name = ecchi_Djemal
 	historical = yes
@@ -310,7 +310,7 @@ ecchi_tur_djemal_pasha_character_template = {
 
 ## Hovahannes Dadyan
 
-ecchi_tur_dadyan_character_template = {
+ecchi_tur_dadyan = {
     first_name = ecchi_Hovahannes
     last_name = ecchi_Dadyan
     historical = yes
@@ -337,7 +337,7 @@ ecchi_tur_dadyan_character_template = {
 }
 
 # Palestine
-ecchi_pal_trumpeldor_character_template = {
+ecchi_pal_trumpeldor = {
 	first_name = Joseph
 	last_name = ecchi_Trumpeldor
 	historical = yes
@@ -382,7 +382,7 @@ ecchi_pal_trumpeldor_character_template = {
 }
 
 ## Sholem Aleichem
-ecchi_pal_sholem_aleichem_character_template = {
+ecchi_pal_sholem_aleichem = {
 	first_name = ecchi_Sholem
 	last_name = ecchi_Aleichem
 	historical = yes
@@ -424,7 +424,7 @@ ecchi_pal_sholem_aleichem_character_template = {
 
 # Lebanon
 ## Kahlil Gibran
-ecchi_pal_kahlil_gibran_character_template = {
+ecchi_pal_kahlil_gibran = {
 	first_name = ecchi_Kahlil
 	last_name = ecchi_Gibran
 	historical = yes
@@ -459,7 +459,7 @@ ecchi_pal_kahlil_gibran_character_template = {
 # Nepal
 ## Parijat
 
-ecchi_nep_parijat_character_template = {
+ecchi_nep_parijat = {
 	first_name = ecchi_Bishnu_Kumari
 	last_name = ecchi_Waiba
 	historical = yes
@@ -493,7 +493,7 @@ ecchi_nep_parijat_character_template = {
 
 ## Mahmud Tarzi
 
-ecchi_afg_mahmud_tarzi_character_template = {
+ecchi_afg_mahmud_tarzi = {
 	first_name = Mahmud
 	last_name = ecchi_Tarzi
 	historical = yes
@@ -527,7 +527,7 @@ ecchi_afg_mahmud_tarzi_character_template = {
 
 # Lanfang
 ## Gu Liubo
-ecchi_lan_gu_liubo_character_template = {
+ecchi_lan_gu_liubo = {
 	first_name = ecchi_Liubo
 	last_name = ecchi_Gu_1
 	historical = yes
@@ -555,7 +555,7 @@ ecchi_lan_gu_liubo_character_template = {
 }
 
 ## Xie Guifang
-ecchi_lan_xie_guifang_character_template = {
+ecchi_lan_xie_guifang = {
 	first_name = ecchi_Guifang
 	last_name = ecchi_Xie
 	historical = yes
@@ -582,7 +582,7 @@ ecchi_lan_xie_guifang_character_template = {
 }
 
 ## Ye Tenghui
-ecchi_lan_ye_tenghui_character_template = {
+ecchi_lan_ye_tenghui = {
 	first_name = ecchi_Tenghui
 	last_name = ecchi_Ye
 	historical = yes

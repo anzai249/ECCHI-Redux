@@ -1,6 +1,6 @@
 ﻿# Mongolia
 
-ecchi_mgl_bogd_khan_character_template = {
+ecchi_mgl_bogd_khan = {
     first_name = ecchi_Bogd
     last_name = Khan
     historical = yes
@@ -30,7 +30,7 @@ ecchi_mgl_bogd_khan_character_template = {
     }
 }
 
-ecchi_mgl_khanddorj_character_template = {
+ecchi_mgl_khanddorj = {
     first_name = ecchi_Khanddorj
     last_name = ecchi_Mijiddorjiin
     historical = yes
@@ -60,7 +60,7 @@ ecchi_mgl_khanddorj_character_template = {
     }
 }
 
-ecchi_mgl_namnansuren_character_template = {
+ecchi_mgl_namnansuren = {
     first_name = ecchi_Namnansuren
     last_name = ecchi_Togs-Ochiryn
     historical = yes
@@ -90,7 +90,7 @@ ecchi_mgl_namnansuren_character_template = {
     }
 }
 
-ecchi_mgl_von_ungern_sternberg_character_template = {
+ecchi_mgl_von_ungern_sternberg = {
     first_name = Roman
     last_name = ecchi_von_Ungern-Sternberg
     historical = yes

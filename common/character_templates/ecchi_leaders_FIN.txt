@@ -1,6 +1,6 @@
 ﻿# Finland
 ## Juhani Aho
-ecchi_fin_juhani_aho_character_template = {
+ecchi_fin_juhani_aho = {
 	first_name = ecchi_Juhani
 	last_name = Aho
 	historical = yes
@@ -47,7 +47,7 @@ ecchi_fin_juhani_aho_character_template = {
 
 ## Eino Leino
 
-ecchi_fin_eino_leino_character_template = {
+ecchi_fin_eino_leino = {
 	first_name = ecchi_Eino
 	last_name = ecchi_Leino
 	historical = yes
@@ -93,7 +93,7 @@ ecchi_fin_eino_leino_character_template = {
 
 # Miina Sillanpaa
 
-ecchi_fin_miina_sillanpaa_character_template = {
+ecchi_fin_miina_sillanpaa = {
 	first_name = ecchi_Miina
 	last_name = ecchi_Sillanpaa
 	historical = yes
@@ -139,7 +139,7 @@ ecchi_fin_miina_sillanpaa_character_template = {
 
 ## Risto Ryti
 
-ecchi_fin_risto_ryti_character_template = {
+ecchi_fin_risto_ryti = {
 	first_name = ecchi_Risto
 	last_name = ecchi_Ryti
 	historical = yes
@@ -171,7 +171,7 @@ ecchi_fin_risto_ryti_character_template = {
 	}
 }
 
-ecchi_fin_melartin_character_template = {
+ecchi_fin_melartin = {
     first_name = ecchi_Erik_Gabriel
     last_name = ecchi_Melartin
     historical = yes
@@ -198,7 +198,7 @@ ecchi_fin_melartin_character_template = {
     }
 }
 
-ecchi_fin_armfelt_character_template = {
+ecchi_fin_armfelt = {
     first_name = ecchi_Gustaf_Magnus
     last_name = ecchi_Armfelt
     historical = yes
@@ -225,7 +225,7 @@ ecchi_fin_armfelt_character_template = {
     }
 }
 
-ecchi_fin_julin_character_template = {
+ecchi_fin_julin = {
     first_name = ecchi_John_Jacob
     last_name = ecchi_Julin
     historical = yes
@@ -252,7 +252,7 @@ ecchi_fin_julin_character_template = {
     }
 }
 
-ecchi_fin_trapp_character_template = {
+ecchi_fin_trapp = {
     first_name = ecchi_Kristian
     last_name = ecchi_Trapp
     historical = yes
@@ -279,7 +279,7 @@ ecchi_fin_trapp_character_template = {
     }
 }
 
-ecchi_fin_von_haartman_character_template = {
+ecchi_fin_von_haartman = {
     first_name = ecchi_Lars_Gabriel
     last_name = ecchi_von_Haartman
     historical = yes
@@ -306,7 +306,7 @@ ecchi_fin_von_haartman_character_template = {
     }
 }
 
-ecchi_fin_pipping_character_template = {
+ecchi_fin_pipping = {
     first_name = ecchi_Fredrik_Wilhelm
     last_name = ecchi_Pipping
     historical = yes
@@ -333,7 +333,7 @@ ecchi_fin_pipping_character_template = {
     }
 }
 
-ecchi_fin_von_Kothen_character_template = {
+ecchi_fin_von_Kothen = {
     first_name = Gustaf
     last_name = ecchi_von_Kothen
     historical = yes

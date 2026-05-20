@@ -1,6 +1,6 @@
 ﻿# New Zealand
 
-ecchi_nzl_sewell_character_template = {
+ecchi_nzl_sewell = {
     first_name = Henry
     last_name = ecchi_Sewell
     historical = yes
@@ -31,7 +31,7 @@ ecchi_nzl_sewell_character_template = {
     }
 }
 
-ecchi_nzl_fox_character_template = {
+ecchi_nzl_fox = {
     first_name = William
     last_name = Fox
     historical = yes
@@ -62,7 +62,7 @@ ecchi_nzl_fox_character_template = {
     }
 }
 
-ecchi_nzl_savage_character_template = {
+ecchi_nzl_savage = {
     first_name = ecchi_Michael_Joseph
     last_name = ecchi_Savage
     historical = yes
@@ -93,7 +93,7 @@ ecchi_nzl_savage_character_template = {
     }
 }
 
-ecchi_nzl_seddon_character_template = {
+ecchi_nzl_seddon = {
     first_name = Richard
     last_name = ecchi_Seddon
     historical = yes
@@ -124,7 +124,7 @@ ecchi_nzl_seddon_character_template = {
     }
 }
 
-ecchi_nzl_ballance_character_template = {
+ecchi_nzl_ballance = {
     first_name = John
     last_name = ecchi_Ballance
     historical = yes
@@ -158,7 +158,7 @@ ecchi_nzl_ballance_character_template = {
 
 # Maori
 
-ecchi_aot_heke_character_template = {
+ecchi_aot_heke = {
     first_name = ecchi_Hone
     last_name = Heke
     historical = yes
@@ -206,7 +206,7 @@ ecchi_aot_heke_character_template = {
     }
 }
 
-ecchi_aot_kawiti_character_template = {
+ecchi_aot_kawiti = {
     first_name = ecchi_Te_Ruki
     last_name = ecchi_Kawiti
     historical = yes
@@ -249,7 +249,7 @@ ecchi_aot_kawiti_character_template = {
     }
 }
 
-ecchi_aot_o_rongomai_character_template = {
+ecchi_aot_o_rongomai = {
     first_name = ecchi_Te_Whiti
     last_name = ecchi_o_Rongomai
     historical = yes
@@ -299,7 +299,7 @@ ecchi_aot_o_rongomai_character_template = {
 
 # Moriori
 
-ecchi_aot_solomon_character_template = {
+ecchi_aot_solomon = {
     first_name = ecchi_Tommy
     last_name = Solomon
     historical = yes
@@ -345,7 +345,7 @@ ecchi_aot_solomon_character_template = {
 
 ## Katherine Mansfield
 
-ecchi_nzl_katherine_mansfield_character_template = {
+ecchi_nzl_katherine_mansfield = {
     first_name = ecchi_Katherine
     last_name = ecchi_Mansfield
     historical = yes

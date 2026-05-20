@@ -1,6 +1,6 @@
 ﻿# Cuba
 
-ecchi_cub_de_cespedes_character_template = {
+ecchi_cub_de_cespedes = {
     first_name = ecchi_Carlos_Manuel
     last_name = de_Cespedes
     historical = yes
@@ -30,7 +30,7 @@ ecchi_cub_de_cespedes_character_template = {
     }
 }
 
-ecchi_cub_marti_character_template = {
+ecchi_cub_marti = {
     first_name = ecchi_Jose
     last_name = ecchi_Marti
     historical = yes
@@ -62,7 +62,7 @@ ecchi_cub_marti_character_template = {
 
 ## Antonio Maceo
 
-ecchi_cub_maceo_character_template = {
+ecchi_cub_maceo = {
     first_name = ecchi_Jose_Antonio
     last_name = ecchi_Maceo
     historical = yes
@@ -91,7 +91,7 @@ ecchi_cub_maceo_character_template = {
 
 ## Máximo Goméz
 
-ecchi_cub_gomez_character_template = {
+ecchi_cub_gomez = {
     first_name = ecchi_Maximo
     last_name = ecchi_Gomez
     historical = yes
@@ -118,7 +118,7 @@ ecchi_cub_gomez_character_template = {
 
 ## Calixto García
 
-ecchi_cub_garcia_character_template = {
+ecchi_cub_garcia = {
     first_name = Calixto
     last_name = Garcia
     historical = yes
@@ -147,7 +147,7 @@ ecchi_cub_garcia_character_template = {
 
 ## Julio Antonio Mella
 
-ecchi_cub_mella_character_template = {
+ecchi_cub_mella = {
     first_name = ecchi_Julio_Antonio
     last_name = Mella
     historical = yes
@@ -178,7 +178,7 @@ ecchi_cub_mella_character_template = {
 }
 
 ## Francisco Vicente Aguilera
-ecchi_cub_aguilera_character_template = {
+ecchi_cub_aguilera = {
     first_name = Francisco
     last_name = ecchi_Vicente_Aguilera
     historical = yes
@@ -208,7 +208,7 @@ ecchi_cub_aguilera_character_template = {
 }
 
 ## Tomás Estrada Palma
-ecchi_cub_palma_character_template = {
+ecchi_cub_palma = {
     first_name = Tomas
     last_name = ecchi_Estrada_Palma
     historical = yes
@@ -237,7 +237,7 @@ ecchi_cub_palma_character_template = {
 }
 
 ## Gerardo Machado
-ecchi_cub_machado_character_template = {
+ecchi_cub_machado = {
     first_name = Gerardo
     last_name = Machado
     historical = yes
@@ -266,7 +266,7 @@ ecchi_cub_machado_character_template = {
 }
 
 ## Blas Villate
-ecchi_cub_villate_character_template = {
+ecchi_cub_villate = {
     first_name = Blas
     last_name = ecchi_Villate
     historical = yes
@@ -303,7 +303,7 @@ ecchi_cub_villate_character_template = {
 
 # Haiti
 
-ecchi_hai_soulouque_character_template = {
+ecchi_hai_soulouque = {
     first_name = Faustin
     last_name = Soulouque
     historical = yes
@@ -333,7 +333,7 @@ ecchi_hai_soulouque_character_template = {
     }
 }
 
-ecchi_hai_pierrot_character_template = {
+ecchi_hai_pierrot = {
     first_name = Jean-Louis
     last_name = Pierrot
     historical = yes
@@ -360,7 +360,7 @@ ecchi_hai_pierrot_character_template = {
 
 # Jamaica
 
-ecchi_jam_garvey_character_template = {
+ecchi_jam_garvey = {
     first_name = Marcus
     last_name = ecchi_Garvey
     historical = yes
@@ -390,7 +390,7 @@ ecchi_jam_garvey_character_template = {
     }
 }
 
-ecchi_jam_bogle_character_template = {
+ecchi_jam_bogle = {
     first_name = Paul
     last_name = ecchi_Bogle
     historical = yes

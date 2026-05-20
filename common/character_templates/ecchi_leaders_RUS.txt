@@ -1,5 +1,5 @@
 ﻿# Russia  - politicians
-# ecchi_rus_lenin_character_template = {
+# ecchi_rus_lenin = {
 #     first_name = Vladimir
 #     last_name = ecchi_Lenin
 #     historical = yes
@@ -28,7 +28,7 @@
 #         chance = 65
 #     }
 # }
-# ecchi_rus_trotsky_character_template = {
+# ecchi_rus_trotsky = {
 # 	first_name = Leon
 # 	last_name = ecchi_Trotsky
 # 	historical = yes
@@ -62,7 +62,7 @@
 # 		chance = 65
 # 	}
 # }
-ecchi_rus_stalin_character_template = {
+ecchi_rus_stalin = {
 	first_name = Joseph
 	last_name = ecchi_Stalin
 	historical = yes
@@ -109,7 +109,7 @@ ecchi_rus_stalin_character_template = {
 	}
 }
 
-# ecchi_rus_kerensky_character_template = {
+# ecchi_rus_kerensky = {
 # 	first_name = Alexander
 # 	last_name = ecchi_Kerensky
 # 	historical = yes
@@ -143,7 +143,7 @@ ecchi_rus_stalin_character_template = {
 # 	}
 # }
 # Russia - theocrats
-ecchi_rus_rasputin_character_template = {
+ecchi_rus_rasputin = {
 	first_name = ecchi_Grigori
 	last_name = ecchi_Rasputin
 	historical = yes
@@ -180,7 +180,7 @@ ecchi_rus_rasputin_character_template = {
 }
 
 # Russian admirals
-# ecchi_rus_kolchak_character_template = {
+# ecchi_rus_kolchak = {
 # 	first_name = Alexander
 # 	last_name = Kolchak
 # 	historical = yes
@@ -220,7 +220,7 @@ ecchi_rus_rasputin_character_template = {
 # 	}
 # }
 # Don Cossack
-ecchi_rus_krasnov_character_template = {
+ecchi_rus_krasnov = {
 	first_name = Pyotr
 	last_name = ecchi_Krasnov
 	historical = yes
@@ -261,7 +261,7 @@ ecchi_rus_krasnov_character_template = {
 	}
 }
 
-ecchi_rus_dostoevsky_character_template = {
+ecchi_rus_dostoevsky = {
 	first_name = Fyodor
 	last_name = ecchi_Dostoevsky
 	historical = yes
@@ -292,7 +292,7 @@ ecchi_rus_dostoevsky_character_template = {
 	}
 }
 
-ecchi_rus_tolstoy_character_template = {
+ecchi_rus_tolstoy = {
 	first_name = Leo
 	last_name = Tolstoy
 	historical = yes
@@ -323,7 +323,7 @@ ecchi_rus_tolstoy_character_template = {
 	}
 }
 
-ecchi_rus_vereshchagin_character_template = {
+ecchi_rus_vereshchagin = {
 	first_name = Vasily
 	last_name = ecchi_Vereshchagin
 	historical = yes
@@ -355,7 +355,7 @@ ecchi_rus_vereshchagin_character_template = {
 }
 
 ## Emma Goldman
-ecchi_rus_goldman_character_template = {
+ecchi_rus_goldman = {
 	first_name = Emma
 	last_name = ecchi_Goldman
 	historical = yes
@@ -395,7 +395,7 @@ ecchi_rus_goldman_character_template = {
 }
 
 ## Nicholas Roerich
-# ecchi_rus_roerich_character_template = {
+# ecchi_rus_roerich = {
 # 	first_name = Nicholas
 # 	last_name = ecchi_Roerich
 # 	historical = yes
@@ -426,7 +426,7 @@ ecchi_rus_goldman_character_template = {
 # 	}
 # }
 ## Grigory Zinoviev
-ecchi_rus_zinoviev_character_template = {
+ecchi_rus_zinoviev = {
 	first_name = Grigory
 	last_name = ecchi_Zinoviev
 	historical = yes
@@ -457,7 +457,7 @@ ecchi_rus_zinoviev_character_template = {
 }
 
 ## Lev Kamenev
-ecchi_rus_kamenev_character_template = {
+ecchi_rus_kamenev = {
 	first_name = Lev
 	last_name = ecchi_Kamenev
 	historical = yes
@@ -487,7 +487,7 @@ ecchi_rus_kamenev_character_template = {
 }
 
 ## Mikhail Bakunin
-ecchi_rus_bakunin_character_template = {
+ecchi_rus_bakunin = {
 	first_name = Mikhail
 	last_name = Bakunin
 	historical = yes
@@ -517,7 +517,7 @@ ecchi_rus_bakunin_character_template = {
 }
 
 ## Nikolai Bukharin
-ecchi_rus_bukharin_character_template = {
+ecchi_rus_bukharin = {
 	first_name = Nikolai
 	last_name = ecchi_Bukharin
 	historical = yes
@@ -547,7 +547,7 @@ ecchi_rus_bukharin_character_template = {
 }
 
 ## Angelica Balabanoff
-ecchi_rus_balabanoff_character_template = {
+ecchi_rus_balabanoff = {
 	first_name = Angelica
 	last_name = ecchi_Balabanoff
 	historical = yes
@@ -592,7 +592,7 @@ ecchi_rus_balabanoff_character_template = {
 }
 
 ## Felix Dzerzhinsky
-ecchi_rus_dzerzhinsky_character_template = {
+ecchi_rus_dzerzhinsky = {
 	first_name = Felix
 	last_name = ecchi_Dzerzhinsky
 	historical = yes
@@ -622,7 +622,7 @@ ecchi_rus_dzerzhinsky_character_template = {
 }
 
 ## Grigory Mikhaylovich Semyonov
-ecchi_rus_semyonov_character_template = {
+ecchi_rus_semyonov = {
 	first_name = Grigory
 	last_name = ecchi_Semyonov
 	historical = yes
@@ -1007,7 +1007,7 @@ RUS_semyon_budyonny = {
 }
 
 ## Ivan Alekseevich Kolesov Иван Алексеевич Колесов
-RUS_kolesov_character_template = {
+RUS_kolesov = {
 	first_name = ecchi_Ivan_Alekseevich
 	last_name = ecchi_Kolesov
 	historical = yes

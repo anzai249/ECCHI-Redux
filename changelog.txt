@@ -351,3 +351,9 @@ Release 1.10.3
 
 Fixes:
 - Compatibility trigger for 1.13.*.
+
+Release 1.10.4
+(Game version 1.13.*)
+
+Fixes:
+- Some clothing bug fix and template naming.

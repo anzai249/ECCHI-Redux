@@ -1,6 +1,6 @@
 ﻿# Peru
 
-ecchi_peu_bermudez_character_template = {
+ecchi_peu_bermudez = {
     first_name = ecchi_Pedro_Pablo
     last_name = ecchi_Bermudez
     historical = yes
@@ -27,7 +27,7 @@ ecchi_peu_bermudez_character_template = {
     }
 }
 
-ecchi_peu_salaverry_character_template = {
+ecchi_peu_salaverry = {
     first_name = ecchi_Felipe_Santiago
     last_name = Salaverry
     historical = yes
@@ -58,7 +58,7 @@ ecchi_peu_salaverry_character_template = {
     }
 }
 
-ecchi_peu_gamarra_character_template = {
+ecchi_peu_gamarra = {
     first_name = Agustin
     last_name = Gamarra
     historical = yes
@@ -89,7 +89,7 @@ ecchi_peu_gamarra_character_template = {
     }
 }
 
-ecchi_peu_de_san_roman_character_template = {
+ecchi_peu_de_san_roman = {
     first_name = Miguel
     last_name = ecchi_de_San_Roman
     historical = yes
@@ -121,7 +121,7 @@ ecchi_peu_de_san_roman_character_template = {
     }
 }
 
-ecchi_peu_prado_character_template = {
+ecchi_peu_prado = {
     first_name = ecchi_Leoncio
     last_name = ecchi_Prado
     historical = yes

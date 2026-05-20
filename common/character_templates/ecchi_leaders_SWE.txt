@@ -1,6 +1,6 @@
 ﻿# Sweden - Industrialist
 
-ecchi_swe_nobel_character_template = {
+ecchi_swe_nobel = {
     first_name = Alfred
     last_name = ecchi_Nobel
     historical = yes
@@ -34,7 +34,7 @@ ecchi_swe_nobel_character_template = {
 
 ## Hjalmar Branting
 
-ecchi_swe_branting_character_template = {
+ecchi_swe_branting = {
     first_name = ecchi_Hjalmar
     last_name = ecchi_Branting
     historical = yes
@@ -64,7 +64,7 @@ ecchi_swe_branting_character_template = {
 
 ## Raoul Wallenberg
 
-ecchi_swe_wallenberg_character_template = {
+ecchi_swe_wallenberg = {
     first_name = ecchi_Raoul
     last_name = ecchi_Wallenberg
     historical = yes
@@ -94,7 +94,7 @@ ecchi_swe_wallenberg_character_template = {
 
 ## Sven Hedin
 
-ecchi_swe_hedin_character_template = {
+ecchi_swe_hedin = {
     first_name = ecchi_Sven
     last_name = ecchi_Hedin
     historical = yes

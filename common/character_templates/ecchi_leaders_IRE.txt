@@ -1,6 +1,6 @@
 ﻿# Ireland
 
-ecchi_ire_collins_character_template = {
+ecchi_ire_collins = {
     first_name = Michael
     last_name = Collins
     historical = yes
@@ -31,7 +31,7 @@ ecchi_ire_collins_character_template = {
     }
 }
 
-ecchi_ire_griffith_character_template = {
+ecchi_ire_griffith = {
     first_name = Arthur
     last_name = Griffith
     historical = yes
@@ -62,7 +62,7 @@ ecchi_ire_griffith_character_template = {
     }
 }
 
-ecchi_ire_larkin_character_template = {
+ecchi_ire_larkin = {
     first_name = James
     last_name = Larkin
     historical = yes
@@ -91,7 +91,7 @@ ecchi_ire_larkin_character_template = {
 
 ## Arthur Guinness II
 
-ecchi_ire_guinness_character_template = {
+ecchi_ire_guinness = {
     first_name = Arthur
     last_name = ecchi_Guinness_II
     historical = yes
@@ -129,7 +129,7 @@ ecchi_ire_guinness_character_template = {
 
 ## Charles Stewart Parnell
 
-ecchi_ire_parnell_character_template = {
+ecchi_ire_parnell = {
     first_name = ecchi_Charles_Stewart
     last_name = ecchi_Parnell
     historical = yes
@@ -167,7 +167,7 @@ ecchi_ire_parnell_character_template = {
 
 ## Isaac Butt
 
-ecchi_ire_butt_character_template = {
+ecchi_ire_butt = {
     first_name = Isaac
     last_name = ecchi_Butt
     historical = yes
@@ -205,7 +205,7 @@ ecchi_ire_butt_character_template = {
 
 ## John Desmond Bernal
 
-ecchi_ire_bernal_character_template = {
+ecchi_ire_bernal = {
     first_name = ecchi_John_Desmond
     last_name = ecchi_Bernal
     historical = yes
@@ -243,7 +243,7 @@ ecchi_ire_bernal_character_template = {
 
 ## Roger Casement
 
-ecchi_ire_casement_character_template = {
+ecchi_ire_casement = {
     first_name = Roger
     last_name = ecchi_Casement
     historical = yes
@@ -280,7 +280,7 @@ ecchi_ire_casement_character_template = {
 }
 
 ## Daniel O'Connell
-ecchi_ire_oconnell_character_template = {
+ecchi_ire_oconnell = {
     first_name = Daniel
     last_name = ecchi_OConnell
     historical = yes

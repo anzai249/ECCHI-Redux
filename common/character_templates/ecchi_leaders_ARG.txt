@@ -1,6 +1,6 @@
 ﻿# Argentina
 
-ecchi_arg_de_san_martin_character_template = {
+ecchi_arg_de_san_martin = {
     first_name = ecchi_Jose
     last_name = ecchi_de_San_Martin
     historical = yes
@@ -41,7 +41,7 @@ ecchi_arg_de_san_martin_character_template = {
     }
 }
 
-# ecchi_arg_de_urquiza_character_template = {
+# ecchi_arg_de_urquiza = {
 #     first_name = ecchi_Justo_Jose
 #     last_name = de_Urquiza
 #     historical = yes
@@ -71,7 +71,7 @@ ecchi_arg_de_san_martin_character_template = {
 #     }
 # }
 
-#ecchi_arg_mitre_character_template = {
+#ecchi_arg_mitre = {
 #    first_name = Bartolome
 #    last_name = Mitre
 #    historical = yes
@@ -101,7 +101,7 @@ ecchi_arg_de_san_martin_character_template = {
 #    }
 #}
 
-ecchi_arg_sarmiento_character_template = {
+ecchi_arg_sarmiento = {
     first_name = ecchi_Domingo_Faustino
     last_name = ecchi_Sarmiento
     historical = yes
@@ -132,7 +132,7 @@ ecchi_arg_sarmiento_character_template = {
     }
 }
 
-ecchi_arg_roca_character_template = {
+ecchi_arg_roca = {
     first_name = ecchi_Julio_Argentino
     last_name = Roca
     historical = yes
@@ -160,7 +160,7 @@ ecchi_arg_roca_character_template = {
 
 ## Juan Perón
 
-ecchi_arg_peron_character_template = {
+ecchi_arg_peron = {
     first_name = Juan
     last_name = ecchi_Peron
     historical = yes
@@ -188,7 +188,7 @@ ecchi_arg_peron_character_template = {
 
 ## Hipólito Yrigoyen
 
-ecchi_arg_yrigoyen_character_template = {
+ecchi_arg_yrigoyen = {
     first_name = Hipolito
     last_name = Yrigoyen
     historical = yes

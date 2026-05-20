@@ -1,6 +1,6 @@
 ﻿# Canada - Quebec / Lower Canada
 
-ecchi_que_lambton_character_template = {
+ecchi_que_lambton = {
     first_name = John
     last_name = Lambton
     historical = yes
@@ -27,7 +27,7 @@ ecchi_que_lambton_character_template = {
     }
 }
 
-ecchi_que_nelson_character_template = {
+ecchi_que_nelson = {
     first_name = Robert
     last_name = Nelson
     historical = yes
@@ -58,7 +58,7 @@ ecchi_que_nelson_character_template = {
     }
 }
 
-ecchi_que_bowen_character_template = {
+ecchi_que_bowen = {
     first_name = Edward
     last_name = Bowen
     historical = yes
@@ -89,7 +89,7 @@ ecchi_que_bowen_character_template = {
     }
 }
 
-ecchi_que_cartier_character_template = {
+ecchi_que_cartier = {
     first_name = ecchi_George-Etienne
     last_name = Cartier
     historical = yes
@@ -122,7 +122,7 @@ ecchi_que_cartier_character_template = {
 
 ## Ezekiel Hart
 
-ecchi_que_hart_character_template = {
+ecchi_que_hart = {
     first_name = Ezekiel
     last_name = ecchi_Hart
     historical = yes
@@ -152,7 +152,7 @@ ecchi_que_hart_character_template = {
 
 ## Ludger Duvernay
 
-ecchi_que_duvernay_character_template = {
+ecchi_que_duvernay = {
     first_name = ecchi_Ludger
     last_name = ecchi_Duvernay
     historical = yes
@@ -181,7 +181,7 @@ ecchi_que_duvernay_character_template = {
 
 ## Alphonse Desjardins
 
-ecchi_que_desjardins_character_template = {
+ecchi_que_desjardins = {
     first_name = ecchi_Alphonse
     last_name = ecchi_Desjardins
     historical = yes
@@ -219,7 +219,7 @@ ecchi_que_desjardins_character_template = {
 
 # Nova Scotia
 
-ecchi_nvs_howe_character_template = {
+ecchi_nvs_howe = {
     first_name = Joseph
     last_name = ecchi_Howe
     historical = yes
@@ -253,7 +253,7 @@ ecchi_nvs_howe_character_template = {
 
 # ORG - Oregon & British Columbia
 
-ecchi_org_douglas_character_template = {
+ecchi_org_douglas = {
     first_name = James
     last_name = Douglas
     historical = yes
@@ -303,7 +303,7 @@ ecchi_org_douglas_character_template = {
     }
 }
 
-ecchi_org_de_cosmos_character_template = {
+ecchi_org_de_cosmos = {
     first_name = ecchi_Amor
     last_name = ecchi_De_Cosmos
     historical = yes
@@ -350,7 +350,7 @@ ecchi_org_de_cosmos_character_template = {
 
 # Ontario / Upper Canada
 
-ecchi_ont_robinson_character_template = {
+ecchi_ont_robinson = {
     first_name = John
     last_name = Robinson
     historical = yes
@@ -381,7 +381,7 @@ ecchi_ont_robinson_character_template = {
     }
 }
 
-ecchi_ont_mowat_character_template = {
+ecchi_ont_mowat = {
     first_name = Oliver
     last_name = ecchi_Mowat
     historical = yes
@@ -415,7 +415,7 @@ ecchi_ont_mowat_character_template = {
 
 ## John Smoke Johnson
 
-ecchi_ont_johnson_character_template = {
+ecchi_ont_johnson = {
     first_name = ecchi_John_Smoke
     last_name = Johnson
     historical = yes
@@ -455,7 +455,7 @@ ecchi_ont_johnson_character_template = {
 
 ## John Strachan
 
-ecchi_ont_strachan_character_template = {
+ecchi_ont_strachan = {
     first_name = John
     last_name = ecchi_Strachan
     historical = yes
@@ -484,7 +484,7 @@ ecchi_ont_strachan_character_template = {
 
 ## James Morrow Walsh
 
-ecchi_ont_walsh_character_template = {
+ecchi_ont_walsh = {
     first_name = ecchi_James_Morrow
     last_name = Walsh
     historical = yes
@@ -520,7 +520,7 @@ ecchi_ont_walsh_character_template = {
 
 ## Sam Steele
 
-ecchi_ont_steele_character_template = {
+ecchi_ont_steele = {
     first_name = Sam
     last_name = Steele
     historical = yes
@@ -556,7 +556,7 @@ ecchi_ont_steele_character_template = {
 
 # Canada
 
-ecchi_can_macdonald_character_template = {
+ecchi_can_macdonald = {
     first_name = ecchi_John_A
     last_name = Macdonald
     historical = yes
@@ -584,7 +584,7 @@ ecchi_can_macdonald_character_template = {
     }
 }
 
-ecchi_can_laurier_character_template = {
+ecchi_can_laurier = {
     first_name = ecchi_Wilfrid
     last_name = ecchi_Laurier
     historical = yes
@@ -615,7 +615,7 @@ ecchi_can_laurier_character_template = {
     }
 }
 
-ecchi_can_king_character_template = {
+ecchi_can_king = {
     first_name = Mackenzie
     last_name = King
     historical = yes
@@ -646,7 +646,7 @@ ecchi_can_king_character_template = {
     }
 }
 
-#ecchi_can_riel_character_template = {
+#ecchi_can_riel = {
 #    first_name = Louis
 #    last_name = Riel
 #    historical = yes
@@ -672,7 +672,7 @@ ecchi_can_king_character_template = {
 #    }
 #}
 
-ecchi_can_massey_character_template = {
+ecchi_can_massey = {
     first_name = ecchi_Hart
     last_name = Massey
     historical = yes
@@ -699,7 +699,7 @@ ecchi_can_massey_character_template = {
     }
 }
 
-ecchi_can_van_horne_character_template = {
+ecchi_can_van_horne = {
     first_name = ecchi_William_C
     last_name = ecchi_Van_Horne
     historical = yes
@@ -728,7 +728,7 @@ ecchi_can_van_horne_character_template = {
 
 ## Samuel Hughes
 
-ecchi_can_hughes_character_template = {
+ecchi_can_hughes = {
     first_name = Samuel
     last_name = Hughes
     historical = yes

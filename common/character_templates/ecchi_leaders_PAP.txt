@@ -1,6 +1,6 @@
 ﻿# Papal States - Popes
 
-ecchi_pap_pecci_character_template = {
+ecchi_pap_pecci = {
     first_name = Vincenzo
     last_name = ecchi_Pecci
     historical = yes
@@ -32,7 +32,7 @@ ecchi_pap_pecci_character_template = {
     }
 }
 
-ecchi_pap_sarto_character_template = {
+ecchi_pap_sarto = {
     first_name = Giuseppe
     last_name = ecchi_Sarto
     historical = yes
@@ -64,7 +64,7 @@ ecchi_pap_sarto_character_template = {
     }
 }
 
-ecchi_pap_della_chiesa_character_template = {
+ecchi_pap_della_chiesa = {
     first_name = Giacomo
     last_name = ecchi_della_Chiesa
     historical = yes
@@ -95,7 +95,7 @@ ecchi_pap_della_chiesa_character_template = {
     }
 }
 
-ecchi_pap_ratti_character_template = {
+ecchi_pap_ratti = {
     first_name = Ambrogio
     last_name = ecchi_Ratti
     historical = yes

@@ -1,7 +1,7 @@
 ﻿# Czechoslovakia, Bohemia and Slovakia
 
 # Czechs
-ecchi_czh_palacky_character_template = {
+ecchi_czh_palacky = {
     first_name = Frantisek
     last_name = ecchi_Palacky
     historical = yes
@@ -45,7 +45,7 @@ ecchi_czh_palacky_character_template = {
     }
 }
 
-ecchi_czh_masaryk_character_template = {
+ecchi_czh_masaryk = {
     first_name = Tomas
     last_name = Masaryk
     historical = yes
@@ -93,7 +93,7 @@ ecchi_czh_masaryk_character_template = {
     }
 }
 
-ecchi_czh_kafka_character_template = {
+ecchi_czh_kafka = {
     first_name = Franz
     last_name = Kafka
     historical = yes
@@ -144,7 +144,7 @@ ecchi_czh_kafka_character_template = {
 
 # Slovakians
 
-ecchi_czh_tiso_character_template = {
+ecchi_czh_tiso = {
     first_name = Jozef
     last_name = Tiso
     historical = yes
@@ -192,7 +192,7 @@ ecchi_czh_tiso_character_template = {
     }
 }
 
-ecchi_czh_stefanik_character_template = {
+ecchi_czh_stefanik = {
     first_name = ecchi_Milan_Rastislav
     last_name = Stefanik
     historical = yes
@@ -242,7 +242,7 @@ ecchi_czh_stefanik_character_template = {
 
 ## Radola Gajda
 
-ecchi_czh_gajda_character_template = {
+ecchi_czh_gajda = {
     first_name = Radola
     last_name = Gajda
     historical = yes

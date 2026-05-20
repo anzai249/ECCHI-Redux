@@ -1,6 +1,6 @@
 ﻿# Albania
 
-ecchi_alb_topulli_character_template = {
+ecchi_alb_topulli = {
     first_name = ecchi_Cerciz
     last_name = ecchi_Topulli
     historical = yes
@@ -25,7 +25,7 @@ ecchi_alb_topulli_character_template = {
     }
 }
 
-ecchi_alb_boletini_character_template = {
+ecchi_alb_boletini = {
     first_name = Isa
     last_name = ecchi_Boletini
     historical = yes
@@ -50,7 +50,7 @@ ecchi_alb_boletini_character_template = {
     }
 }
 
-ecchi_alb_qemali_character_template = {
+ecchi_alb_qemali = {
     first_name = Ismail
     last_name = ecchi_Qemali
     historical = yes
@@ -80,7 +80,7 @@ ecchi_alb_qemali_character_template = {
     }
 }
 
-ecchi_alb_vilhelm_character_template = {
+ecchi_alb_vilhelm = {
     first_name = Vilhelm
     last_name = ecchi_of_Wied
     historical = yes
@@ -110,7 +110,7 @@ ecchi_alb_vilhelm_character_template = {
     }
 }
 
-ecchi_alb_zogu_character_template = {
+ecchi_alb_zogu = {
     first_name = Ahmet
     last_name = Zogu
     historical = yes

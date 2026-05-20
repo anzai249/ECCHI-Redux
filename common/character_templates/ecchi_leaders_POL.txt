@@ -1,6 +1,6 @@
 ﻿# Poland
 
-ecchi_pol_prus_character_template = {
+ecchi_pol_prus = {
     first_name = Boleslaw
     last_name = ecchi_Prus
     historical = yes
@@ -36,7 +36,7 @@ ecchi_pol_prus_character_template = {
     }
 }
 
-ecchi_pol_pilsudski_character_template = {
+ecchi_pol_pilsudski = {
     first_name = Jozef
     last_name = Pilsudski
     historical = yes
@@ -71,7 +71,7 @@ ecchi_pol_pilsudski_character_template = {
     }
 }
 
-ecchi_pol_mieroslawski_character_template = {
+ecchi_pol_mieroslawski = {
     first_name = Ludwik
     last_name = Mieroslawski
     historical = yes
@@ -106,7 +106,7 @@ ecchi_pol_mieroslawski_character_template = {
     }
 }
 
-ecchi_pol_wysocki_character_template = {
+ecchi_pol_wysocki = {
     first_name = Piotr
     last_name = Wysocki
     historical = yes
@@ -141,7 +141,7 @@ ecchi_pol_wysocki_character_template = {
     }
 }
 
-ecchi_pol_conrad_character_template = {
+ecchi_pol_conrad = {
     first_name = Joseph
     last_name = Conrad
     historical = yes
@@ -185,7 +185,7 @@ ecchi_pol_conrad_character_template = {
     }
 }
 
-# pol_rosa_luxemburg_character_template = {
+# pol_rosa_luxemburg = {
 #     first_name = Rosa
 #     last_name = Luxemburg
 #     historical = yes
@@ -243,7 +243,7 @@ ecchi_pol_conrad_character_template = {
 
 ## Walery Mroczkowski
 
-ecchi_pol_mroczkowski_character_template = {
+ecchi_pol_mroczkowski = {
     first_name = ecchi_Walery
     last_name = ecchi_Mroczkowski
     historical = yes
@@ -291,7 +291,7 @@ ecchi_pol_mroczkowski_character_template = {
 
 ## Roman Dmowski
 
-ecchi_pol_dmoski_character_template = {
+ecchi_pol_dmoski = {
     first_name = Roman
     last_name = ecchi_Dmowski
     historical = yes
@@ -322,7 +322,7 @@ ecchi_pol_dmoski_character_template = {
 
 ## Ignacy Jan Paderewski
 
-ecchi_pol_paderewski_character_template = {
+ecchi_pol_paderewski = {
     first_name = ecchi_Ignacy_Jan
     last_name = ecchi_Paderewski
     historical = yes
@@ -356,7 +356,7 @@ ecchi_pol_paderewski_character_template = {
 
 ## Henryk Sienkiewicz
 
-ecchi_pol_sienkiewicz_character_template = {
+ecchi_pol_sienkiewicz = {
     first_name = ecchi_Henryk
     last_name = ecchi_Sienkiewicz
     historical = yes

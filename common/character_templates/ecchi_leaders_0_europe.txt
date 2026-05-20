@@ -1,6 +1,6 @@
 ﻿# Lithuania
 
-ecchi_lit_basanavicius_character_template = {
+ecchi_lit_basanavicius = {
     first_name = Jonas
     last_name = Basanavicius
     historical = yes
@@ -49,7 +49,7 @@ ecchi_lit_basanavicius_character_template = {
 
 # Bulgaria
 
-ecchi_bul_botev_character_template = {
+ecchi_bul_botev = {
     first_name = Hristo
     last_name = ecchi_Botev
     historical = yes
@@ -77,7 +77,7 @@ ecchi_bul_botev_character_template = {
 
 # Romania
 
-ecchi_rom_radulescu-motru_character_template = {
+ecchi_rom_radulescu-motru = {
     first_name = Constantin
     last_name = ecchi_Radulescu-Motru
     historical = yes
@@ -116,7 +116,7 @@ ecchi_rom_radulescu-motru_character_template = {
     }
 }
 
-ecchi_rom_rusaila_character_template = {
+ecchi_rom_rusaila = {
     first_name = ecchi_Nifon
     last_name = ecchi_Rusaila
     historical = yes
@@ -142,7 +142,7 @@ ecchi_rom_rusaila_character_template = {
     }
 }
 
-ecchi_rom_magheru_character_template = {
+ecchi_rom_magheru = {
     first_name = ecchi_Gheorghe
     last_name = ecchi_Magheru
     historical = yes
@@ -168,7 +168,7 @@ ecchi_rom_magheru_character_template = {
     }
 }
 
-ecchi_rom_poenaru_character_template = {
+ecchi_rom_poenaru = {
     first_name = ecchi_Petrache
     last_name = ecchi_Poenaru
     historical = yes
@@ -194,7 +194,7 @@ ecchi_rom_poenaru_character_template = {
     }
 }
 
-ecchi_rom_character_template = {
+ecchi_rom = {
     first_name = Constantin
     last_name = ecchi_Cantacuzino
     historical = yes
@@ -220,7 +220,7 @@ ecchi_rom_character_template = {
     }
 }
 
-ecchi_rom_otetelesanu_character_template = {
+ecchi_rom_otetelesanu = {
     first_name = Ioan
     last_name = ecchi_Otetelesanu
     historical = yes
@@ -246,7 +246,7 @@ ecchi_rom_otetelesanu_character_template = {
     }
 }
 
-ecchi_rom_ghica_character_template = { #leader of the Agriculture Society of Romania 1836, intelligentsia may be more fittig but he best thing i could find for rural folk Romania
+ecchi_rom_ghica = { #leader of the Agriculture Society of Romania 1836, intelligentsia may be more fittig but he best thing i could find for rural folk Romania
     first_name = ecchi_Mihail
     last_name = ecchi_Ghica
     historical = yes
@@ -274,7 +274,7 @@ ecchi_rom_ghica_character_template = { #leader of the Agriculture Society of Rom
 
 # Belarus
 
-ecchi_bye_kalinowski_character_template = {
+ecchi_bye_kalinowski = {
     first_name = Konstanty
     last_name = Kalinowski
     historical = yes
@@ -306,7 +306,7 @@ ecchi_bye_kalinowski_character_template = {
 
 # Greece
 
-ecchi_gre_kolokotronis_character_template = {
+ecchi_gre_kolokotronis = {
     first_name = Theodoros
     last_name = Kolokotronis
     historical = yes
@@ -342,7 +342,7 @@ ecchi_gre_kolokotronis_character_template = {
 
 ## Charilaos Trikoupis
 
-ecchi_gre_trikoupis_character_template = {
+ecchi_gre_trikoupis = {
     first_name = Charilaos
     last_name = Trikoupis
     historical = yes
@@ -383,7 +383,7 @@ ecchi_gre_trikoupis_character_template = {
 
 ## Constantine Paparrigopoulos
 
-ecchi_gre_paparrigopoulos_character_template = {
+ecchi_gre_paparrigopoulos = {
     first_name = Constantine
     last_name = ecchi_Paparrigopoulos
     historical = yes
@@ -412,7 +412,7 @@ ecchi_gre_paparrigopoulos_character_template = {
 
 # Hungary
 
-ecchi_hun_lukacs_character_template = {
+ecchi_hun_lukacs = {
     first_name = Gyorgy
     last_name = ecchi_Lukacs
     historical = yes
@@ -453,7 +453,7 @@ ecchi_hun_lukacs_character_template = {
 
 ## István Türr
 
-ecchi_hun_turr_character_template = {
+ecchi_hun_turr = {
     first_name = ecchi_istvan
     last_name = ecchi_turr
     historical = yes
@@ -494,7 +494,7 @@ ecchi_hun_turr_character_template = {
 
 # Serbia
 
-ecchi_ser_krstic_character_template = {
+ecchi_ser_krstic = {
     first_name = ecchi_Micko
     last_name = ecchi_Krstic
     historical = yes
@@ -525,7 +525,7 @@ ecchi_ser_krstic_character_template = {
 
 ## Symon Petliura
 
-ecchi_ukr_petliura_character_template = {
+ecchi_ukr_petliura = {
     first_name = ecchi_Symon
     last_name = Petliura
     historical = yes
@@ -563,7 +563,7 @@ ecchi_ukr_petliura_character_template = {
 }
 
 ## Stepan Bandera
-ecchi_ukr_bandera_character_template = {
+ecchi_ukr_bandera = {
     first_name = Stepan
     last_name = ecchi_Bandera
     historical = yes
@@ -600,7 +600,7 @@ ecchi_ukr_bandera_character_template = {
 }
 
 ## Taras Shevchenko
-ecchi_ukr_shevchenko_character_template = {
+ecchi_ukr_shevchenko = {
     first_name = ecchi_Taras
     last_name = Shevchenko
     historical = yes
@@ -637,7 +637,7 @@ ecchi_ukr_shevchenko_character_template = {
 }
 
 ## Mykhailo Hrushevsky
-ecchi_ukr_hrushevsky_character_template = {
+ecchi_ukr_hrushevsky = {
     first_name = ecchi_Mykhailo
     last_name = Hrushevsky
     historical = yes
@@ -675,7 +675,7 @@ ecchi_ukr_hrushevsky_character_template = {
 
 # Belgium
 
-ecchi_bel_wahis_character_template = {
+ecchi_bel_wahis = {
     first_name = Theophile
     last_name = Wahis
     historical = yes
@@ -717,7 +717,7 @@ ecchi_bel_wahis_character_template = {
 # Switzerland
 
 ## Dufour, Guillaume Henri by LordR
-mr_swi_dufour_guillaume_henri_character_template = {
+mr_swi_dufour_guillaume_henri = {
 	# Guillaume Henri Dufour, one of Switzerland's foremost generals from the 1810s through to the 1860s
 	dna = mr_swi_dufour_guillaume_henri
 	first_name = "Guillaume_Henri"
@@ -751,7 +751,7 @@ mr_swi_dufour_guillaume_henri_character_template = {
 
 ## Karl Ludwig von Haller
 
-swi_von_haller_character_template = {
+swi_von_haller = {
     first_name = ecchi_Karl_Ludwig
     last_name = ecchi_von_Haller
     historical = yes
@@ -780,7 +780,7 @@ swi_von_haller_character_template = {
 
 ## Nazar von Reding
 
-swi_von_reding_character_template = {
+swi_von_reding = {
     first_name = ecchi_Nazar
     last_name = ecchi_von_Reding
     historical = yes
@@ -810,7 +810,7 @@ swi_von_reding_character_template = {
 
 ## François Gaussen
 
-swi_gaussen_character_template = {
+swi_gaussen = {
     first_name = Francois
     last_name = ecchi_Gaussen
     historical = yes
@@ -840,7 +840,7 @@ swi_gaussen_character_template = {
 
 ## Hans Caspar Escher
 
-ecchi_swi_von_reding_character_template = {
+ecchi_swi_von_reding = {
     first_name = ecchi_Hans_Caspar
     last_name = ecchi_Escher
     historical = yes
@@ -870,7 +870,7 @@ ecchi_swi_von_reding_character_template = {
 
 ## Carl Jung
 
-mr_swi_jung_character_template = {
+mr_swi_jung = {
     dna = ecchi_swi_carl_jung
     first_name = Carl
     last_name = ecchi_Jung

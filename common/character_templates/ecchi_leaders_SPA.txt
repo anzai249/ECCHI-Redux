@@ -1,6 +1,6 @@
 ﻿# Spain
 
-ecchi_spa_infante_carlos_character_template = {
+ecchi_spa_infante_carlos = {
     first_name = ecchi_Infante_Carlos
     last_name = de_Borbon
     historical = yes
@@ -40,7 +40,7 @@ ecchi_spa_infante_carlos_character_template = {
     }
 }
 
-ecchi_spa_maria_christina_character_template = {
+ecchi_spa_maria_christina = {
     first_name = ecchi_Maria_Christina
     last_name = de_Borbon
     historical = yes
@@ -80,7 +80,7 @@ ecchi_spa_maria_christina_character_template = {
     }
 }
 
-#ecchi_spa_serrano_character_template = {
+#ecchi_spa_serrano = {
 #    first_name = Francisco
 #    last_name = Serrano
 #    historical = yes
@@ -119,7 +119,7 @@ ecchi_spa_maria_christina_character_template = {
 #    }
 #}
 
-#ecchi_spa_iglesias_character_template = {
+#ecchi_spa_iglesias = {
 #    first_name = Pablo
 #    last_name = ecchi_Iglesias
 #    historical = yes
@@ -158,7 +158,7 @@ ecchi_spa_maria_christina_character_template = {
 #    }
 #}
 
-ecchi_spa_franco_character_template = {
+ecchi_spa_franco = {
     first_name = Francisco
     last_name = Franco
     historical = yes
@@ -193,7 +193,7 @@ ecchi_spa_franco_character_template = {
     }
 }
 
-ecchi_spa_picasso_character_template = {
+ecchi_spa_picasso = {
     first_name = Pablo
     last_name = ecchi_Picasso
     historical = yes
@@ -232,7 +232,7 @@ ecchi_spa_picasso_character_template = {
 
 ## Práxedes Mateo Sagasta
 
-#ecchi_spa_sagasta_character_template = {
+#ecchi_spa_sagasta = {
 #    first_name = ecchi_Praxedes
 #    last_name = ecchi_Mateo_Sagasta
 #    historical = yes
@@ -272,7 +272,7 @@ ecchi_spa_picasso_character_template = {
 
 ## Valeriano Weyler
 
-#ecchi_spa_weyler_character_template = {
+#ecchi_spa_weyler = {
 #    first_name = ecchi_Valeriano
 #    last_name = Weyler
 #    historical = yes
@@ -309,7 +309,7 @@ ecchi_spa_picasso_character_template = {
 
 ## Miguel Primo de Rivera
 
-#ecchi_spa_primo_de_rivera_character_template = {
+#ecchi_spa_primo_de_rivera = {
 #    first_name = Miguel
 #    last_name = ecchi_Primo_de_Rivera
 #    historical = yes
@@ -349,7 +349,7 @@ ecchi_spa_picasso_character_template = {
 
 ## Francisco Silvela
 
-ecchi_spa_silvela_character_template = {
+ecchi_spa_silvela = {
     first_name = Francisco
     last_name = ecchi_Silvela
     historical = yes

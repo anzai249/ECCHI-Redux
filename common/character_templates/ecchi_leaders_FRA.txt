@@ -1,6 +1,6 @@
 ﻿# French - commanders
 
-ecchi_fra_petain_character_template = {
+ecchi_fra_petain = {
     first_name = Philippe
     last_name = Petain
     historical = yes
@@ -27,7 +27,7 @@ ecchi_fra_petain_character_template = {
     }
 }
 
-ecchi_fra_de_gaulle_character_template = {
+ecchi_fra_de_gaulle = {
     first_name = Charles
     last_name = de_Gaulle
     historical = yes
@@ -53,7 +53,7 @@ ecchi_fra_de_gaulle_character_template = {
     }
 }
 
-ecchi_fra_dreyfus_character_template = {
+ecchi_fra_dreyfus = {
     first_name = Alfred
     last_name = ecchi_Dreyfus
     historical = yes
@@ -79,7 +79,7 @@ ecchi_fra_dreyfus_character_template = {
     }
 }
 
-ecchi_fra_zola_character_template = {
+ecchi_fra_zola = {
     first_name = Emile
     last_name = ecchi_Zola
     historical = yes
@@ -108,7 +108,7 @@ ecchi_fra_zola_character_template = {
 
 ## Élisée Reclus
 
-ecchi_fra_reclus_character_template = {
+ecchi_fra_reclus = {
     first_name = ecchi_Elisee
     last_name = ecchi_Reclus
     historical = yes
@@ -138,7 +138,7 @@ ecchi_fra_reclus_character_template = {
 
 ## Louis Blanc
 
-ecchi_fra_blanc_character_template = {
+ecchi_fra_blanc = {
     first_name = Louis
     last_name = Blanc
     historical = yes
@@ -167,7 +167,7 @@ ecchi_fra_blanc_character_template = {
 
 ## Ferdinand Édouard Buisson
 
-ecchi_fra_buisson_character_template = {
+ecchi_fra_buisson = {
     first_name = ecchi_Ferdinand_Edouard
     last_name = ecchi_Buisson
     historical = yes
@@ -196,7 +196,7 @@ ecchi_fra_buisson_character_template = {
 
 ## Frédéric Passy
 
-ecchi_fra_passy_character_template = {
+ecchi_fra_passy = {
     first_name = ecchi_Frederic
     last_name = ecchi_Passy
     historical = yes
@@ -225,7 +225,7 @@ ecchi_fra_passy_character_template = {
 
 ## Émile Durkheim
 
-ecchi_fra_durkheim_character_template = {
+ecchi_fra_durkheim = {
     first_name = ecchi_Emile
     last_name = ecchi_Durkheim
     historical = yes
@@ -253,7 +253,7 @@ ecchi_fra_durkheim_character_template = {
 }
 
 ## Dumas, Alexandre
-ecchi_fra_dumas_alexandre_character_template = {
+ecchi_fra_dumas_alexandre = {
 	dna = mr_fra_dumas_alexandre
 	first_name = ecchi_alexandre
 	last_name = ecchi_dumas
@@ -286,7 +286,7 @@ ecchi_fra_dumas_alexandre_character_template = {
 }
 
 ## Verne Jules
-mr_fra_verne_jules_character_template = {
+mr_fra_verne_jules = {
 	dna = mr_fra_verne_jules
 	first_name = ecchi_jules
 	last_name = ecchi_verne
@@ -320,7 +320,7 @@ mr_fra_verne_jules_character_template = {
 
 ## Louis Pasteur
 
-ecchi_fra_pasteur_character_template = {
+ecchi_fra_pasteur = {
     first_name = Louis
     last_name = ecchi_Pasteur
     historical = yes
@@ -349,7 +349,7 @@ ecchi_fra_pasteur_character_template = {
 
 ## Andre Citroen
 
-ecchi_fra_citroen_character_template = {
+ecchi_fra_citroen = {
     first_name = ecchi_Andre
     last_name = ecchi_Citroen
     historical = yes
@@ -378,7 +378,7 @@ ecchi_fra_citroen_character_template = {
 
 ## Alphonse de Lamartine
 
-ecchi_fra_alphonse_de_lamartine_character_template = {
+ecchi_fra_alphonse_de_lamartine = {
     first_name = Alphonse
     last_name = de_Lamartine
     historical = yes
@@ -409,7 +409,7 @@ ecchi_fra_alphonse_de_lamartine_character_template = {
 
 ## Henri Barbusse
 
-ecchi_fra_henri_barbusse_character_template = {
+ecchi_fra_henri_barbusse = {
     first_name = Henri
     last_name = ecchi_Barbusse
     historical = yes
@@ -453,7 +453,7 @@ ecchi_fra_henri_barbusse_character_template = {
 
 ## René Nicod
 
-ecchi_fra_rene_nicod_character_template = {
+ecchi_fra_rene_nicod = {
     first_name = ecchi_Rene
     last_name = ecchi_Nicod
     historical = yes
@@ -484,7 +484,7 @@ ecchi_fra_rene_nicod_character_template = {
 
 ## Léon Blum
 
-ecchi_fra_blum_character_template = {
+ecchi_fra_blum = {
     first_name = ecchi_Leon
     last_name = ecchi_Blum
     historical = yes
@@ -513,7 +513,7 @@ ecchi_fra_blum_character_template = {
 
 ## Eugène Deloncle
 
-ecchi_fra_deloncle_character_template = {
+ecchi_fra_deloncle = {
     first_name = ecchi_Eugene
     last_name = ecchi_Deloncle
     historical = yes
@@ -544,7 +544,7 @@ ecchi_fra_deloncle_character_template = {
 
 ## Paul Julien de Granier de Cassagnac
 
-ecchi_fra_de_granier_de_cassagnac_character_template = {
+ecchi_fra_de_granier_de_cassagnac = {
     first_name = ecchi_Paul_Julien
     last_name = ecchi_de_Granier_de_Cassagnac
     historical = yes
@@ -575,7 +575,7 @@ ecchi_fra_de_granier_de_cassagnac_character_template = {
 
 ## Maurice Leblanc
 
-ecchi_leblanc_character_template = {
+ecchi_leblanc = {
     first_name = ecchi_Maurice
     last_name = ecchi_Leblanc
     historical = yes
@@ -608,7 +608,7 @@ ecchi_leblanc_character_template = {
 
 ## Louis Dimier
 
-ecchi_fra_dimier_character_template= {
+ecchi_fra_dimier= {
     first_name = Louis
     last_name = ecchi_Dimier
     historical = yes
@@ -639,7 +639,7 @@ ecchi_fra_dimier_character_template= {
 
 ## Jules Guesde
 
-ecchi_fra_guesde_character_template = {
+ecchi_fra_guesde = {
     first_name = Jules
     last_name = ecchi_Guesde
     historical = yes
@@ -670,7 +670,7 @@ ecchi_fra_guesde_character_template = {
 
 ## Jean Grave
 
-ecchi_fra_grave_character_template = {
+ecchi_fra_grave = {
     first_name = Jean
     last_name = ecchi_Grave
     historical = yes
@@ -701,7 +701,7 @@ ecchi_fra_grave_character_template = {
 
 ## Henri-Dominique Lacordaire
 
-ecchi_fra_dimier_character_template = {
+ecchi_fra_dimier = {
     first_name = ecchi_Henri_Dominique
     last_name = ecchi_Lacordaire
     historical = yes
@@ -731,7 +731,7 @@ ecchi_fra_dimier_character_template = {
 
 ## Albert de Mun
 
-ecchi_fra_de_mun_character_template = {
+ecchi_fra_de_mun = {
     first_name = Albert
     last_name = ecchi_de_Mun
     historical = yes
@@ -760,7 +760,7 @@ ecchi_fra_de_mun_character_template = {
 
 ## Maurice Barrès
 
-ecchi_fra_barres_character_template = {
+ecchi_fra_barres = {
     first_name = ecchi_Maurice
     last_name = ecchi_Barres
     historical = yes
@@ -791,7 +791,7 @@ ecchi_fra_barres_character_template = {
 
 ## Jules Méline
 
-ecchi_fra_meline_character_template = {
+ecchi_fra_meline = {
     first_name = Jules
     last_name = ecchi_meline
     historical = yes
@@ -820,7 +820,7 @@ ecchi_fra_meline_character_template = {
 
 ## Marguerite Durand
 
-ecchi_fra_durand_character_template = {
+ecchi_fra_durand = {
 	first_name = ecchi_Marguerite
 	last_name = ecchi_Durand
 	historical = yes
@@ -849,7 +849,7 @@ ecchi_fra_durand_character_template = {
 
 ## Eugène Pelletan
 
-ecchi_fra_pelletan_character_template = {
+ecchi_fra_pelletan = {
     first_name = ecchi_Eugene
     last_name = ecchi_Pelletan
     historical = yes
@@ -878,7 +878,7 @@ ecchi_fra_pelletan_character_template = {
 
 ## Léon Bourgeois
 
-ecchi_fra_bourgeois_character_template = {
+ecchi_fra_bourgeois = {
     first_name = ecchi_Leon
     last_name = ecchi_Bourgeois
     historical = yes
@@ -908,7 +908,7 @@ ecchi_fra_bourgeois_character_template = {
 
 ## Léon Harmel
 
-ecchi_fra_harmel_character_template = {
+ecchi_fra_harmel = {
     first_name = ecchi_Leon
     last_name = ecchi_Harmel
     historical = yes
@@ -937,7 +937,7 @@ ecchi_fra_harmel_character_template = {
 
 ## Jean Plichon
 
-ecchi_fra_plichonl_character_template = {
+ecchi_fra_plichonl = {
     first_name = Jean
     last_name = ecchi_Plichon
     historical = yes
@@ -966,7 +966,7 @@ ecchi_fra_plichonl_character_template = {
 
 ## Ernest Courtot de Cissey
 
-ecchi_fra_courtot_de_cissey_character_template = {
+ecchi_fra_courtot_de_cissey = {
     first_name = Ernest
     last_name = ecchi_Courtot_de_Cissey
     historical = yes
@@ -995,7 +995,7 @@ ecchi_fra_courtot_de_cissey_character_template = {
 
 ## Hubert Lyautey
 
-ecchi_fra_lyautey_character_template = {
+ecchi_fra_lyautey = {
     first_name = Hubert
     last_name = ecchi_Lyautey
     historical = yes
@@ -1024,7 +1024,7 @@ ecchi_fra_lyautey_character_template = {
 
 ## Raymond Poincaré
 
-ecchi_fra_poincare_character_template = {
+ecchi_fra_poincare = {
     first_name = ecchi_Raymond
     last_name = ecchi_Poincare
     historical = yes
@@ -1053,7 +1053,7 @@ ecchi_fra_poincare_character_template = {
 
 ## Joseph Capus
 
-ecchi_fra_capus_character_template = {
+ecchi_fra_capus = {
     first_name = Joseph
     last_name = ecchi_Capus
     historical = yes
@@ -1082,7 +1082,7 @@ ecchi_fra_capus_character_template = {
 
 ## Marthe de Vogüé
 
-ecchi_fra_de_vogue_character_template  = {
+ecchi_fra_de_vogue  = {
     first_name = ecchi_Marthe
     last_name = ecchi_de_Vogue
     historical = yes
@@ -1114,7 +1114,7 @@ ecchi_fra_de_vogue_character_template  = {
 
 ## Armand de Baudry d'Asson
 
-ecchi_fra_capusde_baudry_d_asson_character_template = {
+ecchi_fra_capusde_baudry_d_asson = {
     first_name = ecchi_Armand
     last_name = ecchi_Capusde_Baudry_d_Asson
     historical = yes
@@ -1143,7 +1143,7 @@ ecchi_fra_capusde_baudry_d_asson_character_template = {
 
 ## Antoine de Lévis-Mirepoix
 
-ecchi_fra_de_levis_mirepoix_character_template = {
+ecchi_fra_de_levis_mirepoix = {
     first_name = ecchi_Antoine
     last_name = ecchi_de_Levis_Mirepoix
     historical = yes
@@ -1172,7 +1172,7 @@ ecchi_fra_de_levis_mirepoix_character_template = {
 
 ## Paul Valéry
 
-ecchi_fra_valery_character_template  = {
+ecchi_fra_valery  = {
     first_name = Paul
     last_name = ecchi_Valery
     historical = yes
@@ -1204,7 +1204,7 @@ ecchi_fra_valery_character_template  = {
 
 ## Henri Groussau
 
-ecchi_fra_groussau_character_template = {
+ecchi_fra_groussau = {
     first_name = Henri
     last_name = ecchi_Groussau
     historical = yes
@@ -1233,7 +1233,7 @@ ecchi_fra_groussau_character_template = {
 
 ## Paul Claudel
 
-ecchi_fra_claudel_character_template = {
+ecchi_fra_claudel = {
     first_name = Paul
     last_name = ecchi_Claudel
     historical = yes
@@ -1264,7 +1264,7 @@ ecchi_fra_claudel_character_template = {
 
 ## Gaston d'Audiffret-Pasquier
 
-ecchi_fra_d_audiffret_pasquier_character_template = {
+ecchi_fra_d_audiffret_pasquier = {
     first_name = Gaston
     last_name = ecchi_d_Audiffret_Pasquier
     historical = yes
