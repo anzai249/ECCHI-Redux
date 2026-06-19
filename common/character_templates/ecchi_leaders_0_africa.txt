@@ -1,6 +1,6 @@
 ﻿# Zanzibar
 
-ecchi_zan_tip_character_template = {
+ecchi_zan_tip = {
     first_name = ecchi_Tippu
     last_name = ecchi_Tip
     historical = yes
@@ -33,7 +33,7 @@ ecchi_zan_tip_character_template = {
 # Ethiopia
 # Given name becomes patronymic for kids, so I give them of XXX surnames instead
 
-ecchi_eth_betul_character_template = {
+ecchi_eth_betul = {
     first_name = ecchi_Taytu
     last_name = ecchi_Betul
     historical = yes
@@ -59,7 +59,7 @@ ecchi_eth_betul_character_template = {
     }
 }
 
-ecchi_eth_makonnen_character_template = {
+ecchi_eth_makonnen = {
     first_name = Makonnen #Makonnen Wolde Mikael
     last_name = ecchi_of_Harar
     historical = yes
@@ -94,7 +94,7 @@ ecchi_eth_makonnen_character_template = {
 }
 
 
-ecchi_eth_tekle_haymanot_character_template = {
+ecchi_eth_tekle_haymanot = {
     first_name = ecchi_Tekle_Haymanot #Tekle Haymanot of Gojjam
     last_name = ecchi_of_Gojjam
     historical = yes
@@ -128,7 +128,7 @@ ecchi_eth_tekle_haymanot_character_template = {
     }
 }
 
-ecchi_eth_mikael_character_template = {
+ecchi_eth_mikael = {
     first_name = Mikael #Mikael of Wollo
     last_name = ecchi_of_Wello
     historical = yes
@@ -162,7 +162,7 @@ ecchi_eth_mikael_character_template = {
     }
 }
 
-ecchi_eth_mengesha_character_template = {
+ecchi_eth_mengesha = {
     first_name = ecchi_Mengesha_Yohannes #Ras Mengesha Yohannes
     last_name = ecchi_of_Tigray
     historical = yes
@@ -198,7 +198,7 @@ ecchi_eth_mengesha_character_template = {
 
 # Mahdists
 
-ecchi_sud_muhammad_ahmad_character_template = {
+ecchi_sud_muhammad_ahmad = {
     first_name = Muhammad
     last_name = Ahmad
     historical = yes
@@ -238,7 +238,7 @@ ecchi_sud_muhammad_ahmad_character_template = {
     }
 }
 
-ecchi_sud_abdallahi_ibn_muhammad_character_template = {
+ecchi_sud_abdallahi_ibn_muhammad = {
     first_name = Abdallahi
     last_name = ibn_Muhammad
     historical = yes
@@ -286,7 +286,7 @@ ecchi_sud_abdallahi_ibn_muhammad_character_template = {
 
 # Sudan
 
-ecchi_sud_az_zubayr_character_template = {
+ecchi_sud_az_zubayr = {
     first_name = ecchi_Rabih
     last_name = ecchi_az-Zubayr
     historical = yes
@@ -327,7 +327,7 @@ ecchi_sud_az_zubayr_character_template = {
 
 ## Taha Hussein
 
-ecchi_sud_taha_hussein_character_template = {
+ecchi_sud_taha_hussein = {
     first_name = ecchi_Taha
     last_name = ecchi_Hussein
     historical = yes
@@ -360,7 +360,7 @@ ecchi_sud_taha_hussein_character_template = {
 
 # Somali
 
-ecchi_wsg_hassan_character_template = {
+ecchi_wsg_hassan = {
     first_name = ecchi_Mohammed_Abdullah
     last_name = Hassan
     historical = yes
@@ -396,7 +396,7 @@ ecchi_wsg_hassan_character_template = {
 
 # Madagascar
 
-ecchi_mad_rainilaiarivony_character_template = {
+ecchi_mad_rainilaiarivony = {
     first_name = Rainilaiarivony
     last_name = ecchi_EmptyRainilaiarivony
     historical = yes
@@ -426,7 +426,7 @@ ecchi_mad_rainilaiarivony_character_template = {
     }
 }
 
-ecchi_mad_rainivoninahitriniony_character_template = {
+ecchi_mad_rainivoninahitriniony = {
     first_name = ecchi_Rainivoninahitriniony
     last_name = ecchi_EmptyRainivoninahitriniony
     historical = yes
@@ -458,7 +458,7 @@ ecchi_mad_rainivoninahitriniony_character_template = {
 
 # Algeria
 
-ecchi_ald_ben_aissa_character_template = {
+ecchi_ald_ben_aissa = {
     first_name = Ali
     last_name = ecchi_ben_Aissa
     historical = yes
@@ -483,7 +483,7 @@ ecchi_ald_ben_aissa_character_template = {
     }
 }
 
-# ecchi_ald_nsoumer_character_template = {
+# ecchi_ald_nsoumer = {
 #     first_name = ecchi_Lalla_Fatma
 #     last_name = ecchi_NSoumer
 #     historical = yes
@@ -508,7 +508,7 @@ ecchi_ald_ben_aissa_character_template = {
 #     }
 # }
 
-# ecchi_ald_mokrani_character_template = {
+# ecchi_ald_mokrani = {
 #     first_name = ecchi_Cheikh
 #     last_name = ecchi_Mokrani
 #     historical = yes
@@ -535,7 +535,7 @@ ecchi_ald_ben_aissa_character_template = {
 
 # Tripolitania
 
-ecchi_tri_karamanli_character_template = {
+ecchi_tri_karamanli = {
     first_name = Yusuf
     last_name = ecchi_Karamanli
     historical = yes
@@ -567,7 +567,7 @@ ecchi_tri_karamanli_character_template = {
 
 # Morocco / Rif
 
-ecchi_mor_ameziane_character_template = {
+ecchi_mor_ameziane = {
     first_name = Mohammed
     last_name = ecchi_Ameziane
     historical = yes
@@ -592,7 +592,7 @@ ecchi_mor_ameziane_character_template = {
     }
 }
 
-ecchi_mor_el_krim_character_template = {
+ecchi_mor_el_krim = {
     first_name = ecchi_Abd
     last_name = ecchi_el-Krim
     historical = yes
@@ -619,7 +619,7 @@ ecchi_mor_el_krim_character_template = {
 
 # Basuto
 
-ecchi_bst_masopha_character_template = {
+ecchi_bst_masopha = {
     first_name = Masopha
     last_name = ecchi_EmptyMasopha
     historical = yes
@@ -651,7 +651,7 @@ ecchi_bst_masopha_character_template = {
 
 # Zulu
 
-ecchi_zul_khoza_character_template = {
+ecchi_zul_khoza = {
     first_name = Ntshingwayo
     last_name = Khoza
     historical = yes
@@ -676,7 +676,7 @@ ecchi_zul_khoza_character_template = {
     }
 }
 
-ecchi_zul_kampande_character_template = {
+ecchi_zul_kampande = {
     first_name = Dabulamanzi
     last_name = kaMpande
     historical = yes
@@ -701,7 +701,7 @@ ecchi_zul_kampande_character_template = {
     }
 }
 
-ecchi_zul_zibhebhu_character_template = {
+ecchi_zul_zibhebhu = {
     first_name = ecchi_Zibhebhu_kaMaphitha
     last_name = ecchi_Zulu
     historical = yes
@@ -733,7 +733,7 @@ ecchi_zul_zibhebhu_character_template = {
 
 # Dahomey
 
-ecchi_dah_seh_dong_hong_beh_character_template = {
+ecchi_dah_seh_dong_hong_beh = {
     first_name = ecchi_Seh-Dong-Hong-Beh
     last_name = ecchi_EmptyMino
     historical = yes
@@ -760,7 +760,7 @@ ecchi_dah_seh_dong_hong_beh_character_template = {
 
 # Rwanda
 
-ecchi_rwd_muhumusa_character_template = {
+ecchi_rwd_muhumusa = {
     first_name = ecchi_Muhumusa
     last_name = ecchi_EmptyMuhumusa
     historical = yes
@@ -802,7 +802,7 @@ ecchi_rwd_muhumusa_character_template = {
 
 # Wassoulou
 
-ecchi_mdk_ture_character_template = {
+ecchi_mdk_ture = {
     first_name = ecchi_Samori
     last_name = ecchi_Ture
     historical = yes
@@ -834,7 +834,7 @@ ecchi_mdk_ture_character_template = {
 
 # Ashanti
 
-ecchi_ash_asantewaa_character_template = {
+ecchi_ash_asantewaa = {
     first_name = ecchi_Yaa
     last_name = ecchi_Asantewaa
     historical = yes
@@ -867,7 +867,7 @@ ecchi_ash_asantewaa_character_template = {
 
 # Sierra Leone
 
-ecchi_sil_cinque_character_template = {
+ecchi_sil_cinque = {
     first_name = Joseph
     last_name = ecchi_Cinque
     historical = yes
@@ -899,7 +899,7 @@ ecchi_sil_cinque_character_template = {
 
 # Yoruba
 
-ecchi_oyo_ogedengbe_character_template = {
+ecchi_oyo_ogedengbe = {
     first_name = ecchi_Ogedengbe
     last_name = ecchi_of_Ilesa
     historical = yes
@@ -926,7 +926,7 @@ ecchi_oyo_ogedengbe_character_template = {
 
 # Zimbabwe
 
-ecchi_zim_nyakasikana_character_template = {
+ecchi_zim_nyakasikana = {
     first_name = Charwe
     last_name = ecchi_Nyakasikana
     historical = yes

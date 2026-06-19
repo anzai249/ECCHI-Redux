@@ -1,6 +1,6 @@
 ﻿# Netherlands
 
-#ecchi_net_thorbecke_character_template = {
+#ecchi_net_thorbecke = {
 #    first_name = ecchi_Johan_Rudolph
 #    last_name = ecchi_Thorbecke
 #    historical = yes
@@ -26,11 +26,12 @@
 #    }
 #}
 
-ecchi_net_van_den_bosch_character_template = {
+ecchi_net_van_den_bosch = {
     first_name = Johannes
     last_name = van_den_Bosch
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
 
     religion = rel:protestant
     ideology = ideology_jingoist_leader
@@ -60,11 +61,12 @@ ecchi_net_van_den_bosch_character_template = {
     }
 }
 
-ecchi_net_kuyper_character_template = {
+ecchi_net_kuyper = {
     first_name = Abraham
     last_name = ecchi_Kuyper
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_theocrat
@@ -86,11 +88,12 @@ ecchi_net_kuyper_character_template = {
     }
 }
 
-ecchi_net_troelstra_character_template = {
+ecchi_net_troelstra = {
     first_name = ecchi_Pieter_Jelles
     last_name = ecchi_Troelstra
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
 
     religion = rel:protestant
     ideology = ideology_republican
@@ -116,11 +119,12 @@ ecchi_net_troelstra_character_template = {
     }
 }
 
-net_prinsterer_character_template = {
+net_prinsterer = {
     first_name = Guillaume
     last_name = ecchi_Groen_van_Prinsterer
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_theocrat
@@ -142,11 +146,12 @@ net_prinsterer_character_template = {
     }
 }
 
-net_d_ablaing_van_giessenburg_character_template = {
+net_d_ablaing_van_giessenburg = {
     first_name = Johan
     last_name = D_Ablaing_van_Giessenburg
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -168,7 +173,7 @@ net_d_ablaing_van_giessenburg_character_template = {
     }
 }
 
-#net_mutsaers_character_template = {
+#net_mutsaers = {
 #    first_name = Jacobus_Arnoldus
 #    last_name = Mutsaers
 #    historical = yes
@@ -194,11 +199,12 @@ net_d_ablaing_van_giessenburg_character_template = {
 #    }
 #}
 
-net_nieuwenhuis_character_template = {
+net_nieuwenhuis = {
 	first_name = Ferdinand_Domela
 	last_name = Nieuwenhuis
 	historical = yes
 	culture = cu:dutch
+    home_region = STATE_FRIESLAND
 	religion = rel:protestant
 	interest_group = ig_trade_unions
 	ideology = ideology_anarchist
@@ -219,11 +225,12 @@ net_nieuwenhuis_character_template = {
 	}
 }
 
-net_van_houten_character_template = {
+net_van_houten = {
 	first_name = Samuel
 	last_name = van_Houten
 	historical = yes
 	culture = cu:dutch
+    home_region = STATE_FRIESLAND
 	religion = rel:protestant
 	interest_group = ig_intelligentsia
 	ideology = ideology_reformer
@@ -244,11 +251,12 @@ net_van_houten_character_template = {
 	}
 }
 
-net_jacobs_character_template = {
+net_jacobs = {
 	first_name = Aletta
 	last_name = Jacobs
 	historical = yes
 	culture = cu:dutch
+    home_region = STATE_FRIESLAND
 	religion = rel:jewish
     female = yes
 	interest_group = ig_intelligentsia
@@ -270,11 +278,12 @@ net_jacobs_character_template = {
 	}
 }
 
-net_snijders_character_template = {
+net_snijders = {
 	first_name = Cornelis_Jacobus
 	last_name = Snijders
 	historical = yes
 	culture = cu:dutch
+    home_region = STATE_GELRE
 	religion = rel:protestant
 	interest_group = ig_armed_forces
 	ideology = ideology_royalist
@@ -309,11 +318,12 @@ net_snijders_character_template = {
     }
 }
 
-net_hoevell_character_template = {
+net_hoevell = {
     first_name = Wolter_Robert
     last_name = van_Hoevell
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -335,11 +345,12 @@ net_hoevell_character_template = {
 	}
 }
 
-net_regout_character_template = {
+net_regout = {
     first_name = Petrus_Laurentius
     last_name = Regout
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
 
     religion = rel:catholic
     ideology = ideology_protectionist
@@ -361,11 +372,12 @@ net_regout_character_template = {
     }
 }
 
-net_schimmelpenninck_character_template = {
+net_schimmelpenninck = {
     first_name = Gerrit
     last_name = Schimmelpenninck
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -387,11 +399,12 @@ net_schimmelpenninck_character_template = {
     }
 }
 
-net_teenstra_character_template = {
+net_teenstra = {
     first_name = Marten_Douwes
     last_name = Teenstra
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
 
     religion = rel:protestant
     ideology = ideology_abolitionist
@@ -413,11 +426,12 @@ net_teenstra_character_template = {
     }
 }
 
-net_van_der_voo_character_template = {
+net_van_der_voo = {
     first_name = Goose
     last_name = van_der_Voo
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_utopian
@@ -439,11 +453,12 @@ net_van_der_voo_character_template = {
     }
 }
 
-net_luzac_character_template = {
+net_luzac = {
     first_name = Lodewijk_Caspar
     last_name = Luzac
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_liberal_leader
@@ -465,11 +480,12 @@ net_luzac_character_template = {
     }
 }
 
-net_de_jonge_van_campensnieuwland_character_template = {
+net_de_jonge_van_campensnieuwland = {
     first_name = Marinus
     last_name = de_Jonge_van_Campensnieuwland
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
 
     religion = rel:protestant
     ideology = ideology_royalist
@@ -492,11 +508,12 @@ net_de_jonge_van_campensnieuwland_character_template = {
 }
 
 ## Pieter Cort van der Linden
-net_cort_van_der_linden_character_template = {
+net_cort_van_der_linden = {
     first_name = Pieter_Cort
     last_name = van_der_Linden
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
@@ -520,11 +537,12 @@ net_cort_van_der_linden_character_template = {
 }
 
 ## Charles Ruijs de Beerenbrouck
-net_ruijs_de_beerenbrouck_character_template = {
+net_ruijs_de_beerenbrouck = {
     first_name = Charles
     last_name = ecchi_Ruijs_de_Beerenbrouck
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_utilitarian #was nicknamed the red junker because of him being a nobleman supporting welfare
     interest_group = ig_landowners
@@ -548,11 +566,12 @@ net_ruijs_de_beerenbrouck_character_template = {
 }
 
 ## Louis de Visser
-net_de_visser_character_template = {
+net_de_visser = {
     first_name = Louis
     last_name = ecchi_de_Visser
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions
@@ -577,11 +596,12 @@ net_de_visser_character_template = {
 }
 
 ## August Weitzel 
-net_weitzel_character_template = {
+net_weitzel = {
     first_name = August
     last_name = Weitzel
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_armed_forces
@@ -617,11 +637,12 @@ net_weitzel_character_template = {
 }
 
 ## Henri Staal
-net_staal_character_template = {
+net_staal = {
     first_name = Henri
     last_name = Staal
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_armed_forces
@@ -657,11 +678,12 @@ net_staal_character_template = {
 }
 
 ## Pieter Oud
-net_oud_character_template = {
+net_oud = {
     first_name = Pieter
     last_name = ecchi_Oud
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_petty_bourgeoisie
@@ -684,11 +706,12 @@ net_oud_character_template = {
 }
 
 ## Willem Drees
-net_drees_character_template = {
+net_drees = {
     first_name = Willem
     last_name = ecchi_Drees
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_social_democrat
     interest_group = ig_trade_unions
@@ -711,11 +734,12 @@ net_drees_character_template = {
 }
 
 ## Jan Kappeyne van de Coppello
-net_kappeyne_van_de_coppello_character_template = {
+net_kappeyne_van_de_coppello = {
     first_name = Jan
     last_name = ecchi_Kappeyne_van_de_Coppello
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
@@ -738,11 +762,12 @@ net_kappeyne_van_de_coppello_character_template = {
 }
 
 ## Wiel Nolens
-net_nolens_character_template = {
+net_nolens = {
     first_name = ecchi_Wiel
     last_name = ecchi_Nolens
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_reformer
     interest_group = ig_petty_bourgeoisie
@@ -765,11 +790,12 @@ net_nolens_character_template = {
 }
 
 ## Lodewijk van Mierop
-net_van_mierop_character_template = {
+net_van_mierop = {
     first_name = Lodewijk
     last_name = ecchi_van_Mierop
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_anarchist
     interest_group = ig_devout
@@ -793,11 +819,12 @@ net_van_mierop_character_template = {
 }
 
 ## Anton Pannekoek
-net_pannekoek_character_template = {
+net_pannekoek = {
     first_name = Anton
     last_name = ecchi_Pannekoek
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:protestant
     ideology = ideology_communist
     interest_group = ig_intelligentsia
@@ -820,11 +847,12 @@ net_pannekoek_character_template = {
     }
 }
 ## Wouter Lutkie
-net_lutkie_character_template = {
+net_lutkie = {
     first_name = ecchi_Wouter
     last_name = ecchi_Lutkie
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_fascist
     interest_group = ig_devout
@@ -848,11 +876,12 @@ net_lutkie_character_template = {
 }
 
 ## Anton Jurgens
-net_jurgens_character_template = {
+net_jurgens = {
     first_name = Anton
     last_name = ecchi_Jurgens
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -875,11 +904,12 @@ net_jurgens_character_template = {
 }
 
 ## Joan Röell
-net_roell_character_template = {
+net_roell = {
     first_name = Joan
     last_name = Roell
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_landowners
@@ -902,11 +932,12 @@ net_roell_character_template = {
 }
 
 ## Charles Theodorus Stork
-net_stork_character_template = {
+net_stork = {
     first_name = ecchi_Charles_Theodorus
     last_name = ecchi_Stork
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_industrialists
@@ -929,11 +960,12 @@ net_stork_character_template = {
 }
 
 ## Levinus Wilhelmus Christiaan Keuchenius
-net_keuchenius_character_template = {
+net_keuchenius = {
     first_name = ecchi_Levinus
     last_name = ecchi_Keuchenius
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_devout
@@ -956,11 +988,12 @@ net_keuchenius_character_template = {
 }
 
 ## Aloysius Franciscus Xaverius Luyben
-net_luyben_character_template = {
+net_luyben = {
     first_name = ecchi_Aloysius
     last_name = ecchi_Luyben
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_petty_bourgeoisie
@@ -983,11 +1016,12 @@ net_luyben_character_template = {
 }
 
 ## Jan Westerdijk
-net_westerdijk_character_template = {
+net_westerdijk = {
     first_name = Jan
     last_name = ecchi_Westerdijk
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_rural_folk
@@ -1010,11 +1044,12 @@ net_westerdijk_character_template = {
 }
 
 ## Carel Gerretson
-net_gerretson_character_template = {
+net_gerretson = {
     first_name = Carel
     last_name = ecchi_Gerretson
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_authoritarian
     interest_group = ig_intelligentsia
@@ -1038,11 +1073,12 @@ net_gerretson_character_template = {
 }
 
 ## Gerlach Cornelis Joannes van Reenen
-net_van_reenen_character_template = {
+net_van_reenen = {
     first_name = ecchi_Gerlach
     last_name = ecchi_van_Reenen
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_landowners
@@ -1065,11 +1101,12 @@ net_van_reenen_character_template = {
 }
 
 ## Jacob Adriaan de Wilde
-net_de_wilde_character_template = {
+net_de_wilde = {
     first_name = ecchi_Jacob_Adriaan
     last_name = ecchi_de_Wilde
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_devout
@@ -1092,11 +1129,12 @@ net_de_wilde_character_template = {
 }
 
 ## Derk Welt
-net_welt_character_template = {
+net_welt = {
     first_name = ecchi_Derk
     last_name = ecchi_Welt
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
     religion = rel:protestant
     ideology = ideology_liberal_leader
     interest_group = ig_rural_folk
@@ -1119,11 +1157,12 @@ net_welt_character_template = {
 }
 
 ## Willem Roëll
-net_general_roell_character_template = {
+net_general_roell = {
     first_name = Willem
     last_name = Roell
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_armed_forces
@@ -1158,11 +1197,12 @@ net_general_roell_character_template = {
 }
 
 ## Frans Beelaerts van Blokland
-net_beelaerts_van_blokland_character_template = {
+net_beelaerts_van_blokland = {
     first_name = ecchi_Frans
     last_name = ecchi_Beelaerts_van_Blokland
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_landowners #was not a major landownwer himself but he is a nobleman and was loyal to queen Wilhelmina
@@ -1185,11 +1225,12 @@ net_beelaerts_van_blokland_character_template = {
 }
 
 ## Dolf Joekes
-net_joekes_character_template = {
+net_joekes = {
     first_name = ecchi_Dolf
     last_name = ecchi_Joekes
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_modernizer
     interest_group = ig_intelligentsia
@@ -1212,11 +1253,12 @@ net_joekes_character_template = {
 }
 
 ## Laurentius Nicolaas Deckers
-net_deckers_character_template = {
+net_deckers = {
     first_name = ecchi_Laurentius_Nicolaas
     last_name = ecchi_Deckers
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:catholic
     ideology = ideology_moderate
     interest_group = ig_rural_folk
@@ -1239,11 +1281,12 @@ net_deckers_character_template = {
 }
 
 ## Jan Jakob Lodewijk ten Kate
-net_ten_kate_character_template = {
+net_ten_kate = {
     first_name = Jan
     last_name = ecchi_ten_Kate
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -1268,11 +1311,12 @@ net_ten_kate_character_template = {
 }
 
 ## Isaac da Costa
-net_da_costa_character_template = {
+net_da_costa = {
     first_name = Isaac
     last_name = ecchi_da_Costa
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:jewish
     ideology = ideology_theocrat
     interest_group = ig_devout
@@ -1296,11 +1340,12 @@ net_da_costa_character_template = {
 }
 
 ## Bernard van der Wijck
-net_van_der_wijck_character_template = {
+net_van_der_wijck = {
     first_name = Bernard
     last_name = ecchi_van_der_Wijckcharacter
     historical = yes
     culture = cu:dutch
+    home_region = STATE_GELRE
     religion = rel:protestant
     ideology = ideology_jingoist_leader
     interest_group = ig_landowners
@@ -1329,6 +1374,7 @@ net_busken_huet_template = {
     last_name = ecchi_Busken_Huet
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_royalist
     interest_group = ig_intelligentsia
@@ -1358,6 +1404,7 @@ net_heymans_template = {
     last_name = ecchi_Heymans
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_intelligentsia
@@ -1388,6 +1435,7 @@ net_de_marees_van_swinderen_template = {
     last_name = ecchi_de_Marees_van_Swinderen
     historical = yes
     culture = cu:dutch
+    home_region = STATE_HOLLAND
     religion = rel:protestant
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -1412,11 +1460,12 @@ net_de_marees_van_swinderen_template = {
 
 ## Jan Fresemann Viëtor
 
-ecchi_net_fresemann_vietor_character_template = {
+ecchi_net_fresemann_vietor = {
     first_name = Jan
     last_name = ecchi_Fresemann_Vietor
     historical = yes
     culture = cu:dutch
+    home_region = STATE_FRIESLAND
 
     religion = rel:protestant
     ideology = ideology_moderate

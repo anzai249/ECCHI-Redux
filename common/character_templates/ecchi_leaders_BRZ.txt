@@ -1,10 +1,11 @@
 ﻿# Brazil
 
-ecchi_brz_de_andrada_character_template = {
+ecchi_brz_de_andrada = {
     first_name = ecchi_Jose_Bonifacio
     last_name = ecchi_de_Andrada
     historical = yes
     culture = cu:brazilian
+    home_region = STATE_SAO_PAULO
     religion = rel:catholic
     ideology = ideology_abolitionist
     interest_group = ig_intelligentsia
@@ -49,7 +50,7 @@ ecchi_brz_de_andrada_character_template = {
 #     }
 # }
 
-# ecchi_brz_gama_character_template = {
+# ecchi_brz_gama = {
 #     first_name = Luis
 #     last_name = ecchi_Gama
 #     historical = yes
@@ -84,7 +85,7 @@ ecchi_brz_de_andrada_character_template = {
 #     }
 # }
 
-# ecchi_brz_irineu_de_sousa_character_template = {
+# ecchi_brz_irineu_de_sousa = {
 #     first_name = ecchi_Irineu_Evangelista
 #     last_name = de_Sousa
 #     historical = yes
@@ -118,11 +119,12 @@ ecchi_brz_de_andrada_character_template = {
 #     }
 # }
 
-ecchi_brz_paranhos_character_template = {
+ecchi_brz_paranhos = {
     first_name = ecchi_Jose
     last_name = ecchi_Paranhos
     historical = yes
     culture = cu:brazilian
+    home_region = STATE_RIO_DE_JANEIRO
     religion = rel:catholic
     ideology = ideology_royalist
     interest_group = ig_landowners
@@ -156,11 +158,12 @@ ecchi_brz_paranhos_character_template = {
     }
 }
 
-ecchi_brz_franciso_de_sousa_character_template = {
+ecchi_brz_franciso_de_sousa = {
     first_name = ecchi_Francisco_Felix
     last_name = de_Sousa
     historical = yes
     culture = cu:brazilian
+    home_region = STATE_BAHIA
     religion = rel:catholic
     ideology = ideology_slaver
     interest_group = ig_petty_bourgeoisie
@@ -194,7 +197,7 @@ ecchi_brz_franciso_de_sousa_character_template = {
     }
 }
 
-# ecchi_brz_vargas_character_template = {
+# ecchi_brz_vargas = {
 #     first_name = Getulio
 #     last_name = Vargas
 #     historical = yes
@@ -235,11 +238,12 @@ ecchi_brz_franciso_de_sousa_character_template = {
 # }
 
 ## Machado de Assis
-ecchi_brz_machado_de_assis_character_template = {
+ecchi_brz_machado_de_assis = {
     first_name = ecchi_Joaquim
     last_name = ecchi_Machado_de_Assis
     historical = yes
     culture = cu:brazilian
+    home_region = STATE_RIO_DE_JANEIRO
     religion = rel:catholic
     ideology = ideology_anarchist
     interest_group = ig_trade_unions
@@ -290,12 +294,13 @@ ecchi_brz_machado_de_assis_character_template = {
 # }
 
 ## Anita Malfatti
-ecchi_brz_anita_malfatti_character_template = {
+ecchi_brz_anita_malfatti = {
     first_name = ecchi_Anita
     last_name = ecchi_Malfatti
     historical = yes
     female = yes
     culture = cu:brazilian
+    home_region = STATE_SAO_PAULO
     religion = rel:catholic
     ideology = ideology_radical
     interest_group = ig_intelligentsia
@@ -319,11 +324,12 @@ ecchi_brz_anita_malfatti_character_template = {
 }
 
 ## Monteiro Lobato
-ecchi_brz_monteiro_lobato_character_template = {
+ecchi_brz_monteiro_lobato = {
     first_name = Jose
     last_name = ecchi_Monteiro_Lobato
     historical = yes
     culture = cu:brazilian
+    home_region = STATE_SAO_PAULO
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
     interest_group = ig_petty_bourgeoisie

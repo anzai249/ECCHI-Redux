@@ -1,10 +1,11 @@
 ﻿# Norway
 
-ecchi_nor_amundsen_character_template = {
+ecchi_nor_amundsen = {
     first_name = ecchi_Roald
     last_name = ecchi_Amundsen
     historical = yes
     culture = cu:norwegian
+	home_region = STATE_EASTERN_NORWAY
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -36,11 +37,12 @@ ecchi_nor_amundsen_character_template = {
 
 ## Fridtjof Nansen
 
-ecchi_nor_nansen_fridtjof_character_template = {
+ecchi_nor_nansen_fridtjof = {
 	dna = mr_nor_nansen_fridtjof
 	first_name = ecchi_fridtjof
 	last_name = ecchi_Nansen
 	culture = cu:norwegian
+	home_region = STATE_EASTERN_NORWAY
 	religion = rel:protestant
 	interest_group = ig_intelligentsia
 	ideology = ideology_humanitarian
@@ -71,11 +73,12 @@ ecchi_nor_nansen_fridtjof_character_template = {
 
 ## Christian Michelsen
 
-ecchi_nor_michelsen_christian_character_template = {
+ecchi_nor_michelsen_christian = {
 	dna = ecchi_nor_michelsen_christian
 	first_name = ecchi_Christian
 	last_name = ecchi_Michelsen
 	culture = cu:norwegian
+	home_region = STATE_WESTERN_NORWAY
 	interest_group = ig_industrialists
 	female = no
 	birth_date = 1857.3.15
@@ -99,11 +102,12 @@ ecchi_nor_michelsen_christian_character_template = {
 
 ## Vidkun Quisling
 
-ecchi_nor_quisling_vidkun_character_template = {
+ecchi_nor_quisling_vidkun = {
 	dna = ecchi_nor_quisling_vidkun
 	first_name = ecchi_Vidkun
 	last_name = ecchi_Quisling
 	culture = cu:norwegian
+	home_region = STATE_EASTERN_NORWAY
 	interest_group = ig_intelligentsia
 	ideology = ideology_fascist
 	female = no
@@ -129,11 +133,12 @@ ecchi_nor_quisling_vidkun_character_template = {
 
 ## Knut Hamsun
 
-ecchi_nor_hamsun_knut_character_template = {
+ecchi_nor_hamsun_knut = {
 	dna = ecchi_nor_hamsun_knut
 	first_name = ecchi_Knut
 	last_name = ecchi_Hamsun
 	culture = cu:norwegian
+	home_region = STATE_EASTERN_NORWAY
 	interest_group = ig_petty_bourgeoisie
 	ideology = ideology_fascist
 	female = no

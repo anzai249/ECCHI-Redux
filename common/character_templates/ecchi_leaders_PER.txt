@@ -1,10 +1,11 @@
 ﻿# Persia
 ## Jalal al-Din Mirza Qajar
-ecchi_per_jalal_al_din_mirza_character_template = {
+ecchi_per_jalal_al_din_mirza = {
 	first_name = ecchi_Jalal_al_Din_Mirza
 	last_name = Qajar
 	historical = yes
 	culture = cu:persian
+	home_region = STATE_IRAKAJEMI
 	female = no
 	ideology = ideology_liberal_leader
 	interest_group = ig_intelligentsia
@@ -31,11 +32,12 @@ ecchi_per_jalal_al_din_mirza_character_template = {
 }
 
 ## Tāhirih Qurrat al-‘Ayn
-ecchi_per_tahirih_qurrat_al_ayn_character_template = {
+ecchi_per_tahirih_qurrat_al_ayn = {
 	first_name = ecchi_Fatimah
 	last_name = ecchi_Baraghani
 	historical = yes
 	culture = cu:persian
+	home_region = STATE_IRAKAJEMI
 	female = yes
 	ideology = ideology_theocrat
 	interest_group = ig_devout
@@ -61,11 +63,12 @@ ecchi_per_tahirih_qurrat_al_ayn_character_template = {
 }
 
 # Amin al-Soltan
-ecchi_per_amin_al_soltan_character_template = {
+ecchi_per_amin_al_soltan = {
 	first_name = ecchi_Ali
 	last_name = ecchi_Asghar
 	historical = yes
 	culture = cu:persian
+	home_region = STATE_IRAKAJEMI
 	female = no
 	ideology = ideology_moderate
 	interest_group = ig_landowners

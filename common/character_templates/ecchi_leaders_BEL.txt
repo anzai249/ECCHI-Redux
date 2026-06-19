@@ -1,10 +1,11 @@
 ﻿# Belgium
 
-ecchi_bel_rogier_character_template = {
+ecchi_bel_rogier = {
     first_name = Charles
     last_name = Rogier
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
     religion = rel:catholic
     ideology = ideology_liberal_leader
     interest_group = ig_intelligentsia
@@ -34,11 +35,12 @@ ecchi_bel_rogier_character_template = {
     }
 }
 
-ecchi_bel_pirenne_character_template = {
+ecchi_bel_pirenne = {
     first_name = Henri
     last_name = ecchi_Pirenne
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
     religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -68,11 +70,12 @@ ecchi_bel_pirenne_character_template = {
     }
 }
 
-ecchi_bel_brialmont_character_template = {
+ecchi_bel_brialmont = {
     first_name = ecchi_Henri-Alexis
     last_name = Brialmont
     historical = yes
     culture = cu:flemish
+    home_region = STATE_FLANDERS
     religion = rel:catholic
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
@@ -103,11 +106,12 @@ ecchi_bel_brialmont_character_template = {
     }
 }
 
-ecchi_bel_de_paepe_character_template = {
+ecchi_bel_de_paepe = {
     first_name = Cesar
     last_name = ecchi_De_Paepe
     historical = yes
     culture = cu:flemish
+    home_region = STATE_FLANDERS
     ideology = ideology_vanguardist
     interest_group = ig_trade_unions
 	dna = ecchi_dna_cesar_de_paepe
@@ -138,12 +142,13 @@ ecchi_bel_de_paepe_character_template = {
 
 ## Eugénie Hamer
 
-ecchi_bel_hamer_character_template = {
+ecchi_bel_hamer = {
     first_name = ecchi_eugenie
     last_name = ecchi_hamer
     historical = yes
     female = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
     religion = rel:catholic
     ideology = ideology_feminist
     interest_group = ig_intelligentsia
@@ -176,11 +181,12 @@ ecchi_bel_hamer_character_template = {
 
 ## Henri La Fontaine
 
-ecchi_bel_la_fontaine_character_template = {
+ecchi_bel_la_fontaine = {
     first_name = Henri
     last_name = ecchi_La_Fontaine
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
     religion = rel:catholic
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
@@ -228,11 +234,12 @@ ecchi_bel_la_fontaine_character_template = {
 
 #BEL
 
-bel_janson_character_template = {
+bel_janson = {
     first_name = Paul
     last_name = Janson
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
 
     religion = rel:catholic
     ideology = ideology_modernizer
@@ -254,11 +261,12 @@ bel_janson_character_template = {
     }
 }
 
-bel_jottrand_character_template = {
+bel_jottrand = {
     first_name = Lucien
     last_name = Jottrand
     historical = yes
     culture = cu:flemish
+    home_region = STATE_FLANDERS
 
     religion = rel:catholic
     ideology = ideology_radical
@@ -280,11 +288,12 @@ bel_jottrand_character_template = {
 	}
 }
 
-bel_destree_character_template = {
+bel_destree = {
     first_name = Jules
     last_name = Destree
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
 
     religion = rel:catholic
     ideology = ideology_social_democrat
@@ -315,11 +324,12 @@ bel_destree_character_template = {
     }
 }
 
-net_popelin_character_template = {
+net_popelin = {
 	first_name = Marie
 	last_name = Popelin
 	historical = yes
 	culture = cu:wallonian
+	home_region = STATE_WALLONIA
 	religion = rel:catholic
     female = yes
 	interest_group = ig_petty_bourgeoisie
@@ -341,11 +351,12 @@ net_popelin_character_template = {
 	}
 }
 
-bel_beernaert_character_template = {
+bel_beernaert = {
     first_name = Auguste
     last_name = Beernaert
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
 
     religion = rel:catholic
     ideology = ideology_pacifist
@@ -376,7 +387,7 @@ bel_beernaert_character_template = {
     }
 }
 
-#bel_previnaire_character_template = {
+#bel_previnaire = {
 #    first_name = Eugene
 #    last_name = Previnaire
 #    historical = yes
@@ -402,7 +413,7 @@ bel_beernaert_character_template = {
 #    }
 #}
 
-#bel_peers_character_template = {
+#bel_peers = {
 #    first_name = Ernest
 #    last_name = Peers
 #    historical = yes
@@ -428,11 +439,12 @@ bel_beernaert_character_template = {
 #    }
 #}
 
-bel_dumont_character_template = {
+bel_dumont = {
     first_name = Guillaume
     last_name = Dumont
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
 
     religion = rel:catholic
     ideology = ideology_market_liberal
@@ -454,11 +466,12 @@ bel_dumont_character_template = {
     }
 }
 
-bel_eloy_character_template = {
+bel_eloy = {
     first_name = Pierre_Lambert
     last_name = Eloy
     historical = yes
     culture = cu:wallonian
+    home_region = STATE_WALLONIA
 
     religion = rel:catholic
     ideology = ideology_protectionist
@@ -480,11 +493,12 @@ bel_eloy_character_template = {
     }
 }
 
-bel_daens_character_template = {
+bel_daens = {
     first_name = Adolf
     last_name = Daens
     historical = yes
     culture = cu:flemish
+    home_region = STATE_FLANDERS
 
     religion = rel:catholic
     ideology = ideology_modernizer

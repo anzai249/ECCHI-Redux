@@ -347,7 +347,19 @@ Fixes:
 - Compatibility trigger for 1.12.*.
 
 Release 1.10.3
-(Game version 1.12.*)
+(Game version 1.13.*)
+
+Fixes:
+- Compatibility trigger for 1.13.*.
+
+Release 1.10.4
+(Game version 1.13.*)
+
+Fixes:
+- Some clothing bug fix and template naming.
+
+Release 1.10.5
+(Game version 1.13.*)
 
 Removed Characters:
 

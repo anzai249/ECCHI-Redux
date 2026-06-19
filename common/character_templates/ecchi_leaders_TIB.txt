@@ -1,7 +1,7 @@
 ﻿# Tibet - Dalai Lama
 # Selected at a young age, they are supposed to spawn as babies, if needed
 
-ecchi_tib_11_dalai_lama_character_template = {
+ecchi_tib_11_dalai_lama = {
     first_name = ecchi_Khedrup
     last_name = Gyatso
     historical = yes
@@ -27,7 +27,7 @@ ecchi_tib_11_dalai_lama_character_template = {
     }
 }
 
-ecchi_tib_12_dalai_lama_character_template = {
+ecchi_tib_12_dalai_lama = {
     first_name = ecchi_Trinley
     last_name = Gyatso
     historical = yes
@@ -53,7 +53,7 @@ ecchi_tib_12_dalai_lama_character_template = {
     }
 }
 
-ecchi_tib_13_dalai_lama_character_template = {
+ecchi_tib_13_dalai_lama = {
     first_name = ecchi_Thubten
     last_name = Gyatso
     historical = yes
@@ -79,7 +79,7 @@ ecchi_tib_13_dalai_lama_character_template = {
     }
 }
 
-ecchi_tib_dorzhiev_character_template = {
+ecchi_tib_dorzhiev = {
     first_name = ecchi_Agvan
     last_name = ecchi_Dorzhiev
     historical = yes

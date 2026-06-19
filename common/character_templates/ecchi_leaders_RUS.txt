@@ -1,5 +1,5 @@
 ﻿# Russia  - politicians
-# ecchi_rus_lenin_character_template = {
+# ecchi_rus_lenin = {
 #     first_name = Vladimir
 #     last_name = ecchi_Lenin
 #     historical = yes
@@ -28,7 +28,7 @@
 #         chance = 65
 #     }
 # }
-# ecchi_rus_trotsky_character_template = {
+# ecchi_rus_trotsky = {
 # 	first_name = Leon
 # 	last_name = ecchi_Trotsky
 # 	historical = yes
@@ -62,11 +62,12 @@
 # 		chance = 65
 # 	}
 # }
-ecchi_rus_stalin_character_template = {
+ecchi_rus_stalin = {
 	first_name = Joseph
 	last_name = ecchi_Stalin
 	historical = yes
 	culture = cu:georgian
+	home_region = STATE_GREATER_CAUCASUS
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_vanguardist
@@ -108,7 +109,7 @@ ecchi_rus_stalin_character_template = {
 	}
 }
 
-# ecchi_rus_kerensky_character_template = {
+# ecchi_rus_kerensky = {
 # 	first_name = Alexander
 # 	last_name = ecchi_Kerensky
 # 	historical = yes
@@ -142,11 +143,12 @@ ecchi_rus_stalin_character_template = {
 # 	}
 # }
 # Russia - theocrats
-ecchi_rus_rasputin_character_template = {
+ecchi_rus_rasputin = {
 	first_name = ecchi_Grigori
 	last_name = ecchi_Rasputin
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_TOBOLSK
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_theocrat
@@ -178,7 +180,7 @@ ecchi_rus_rasputin_character_template = {
 }
 
 # Russian admirals
-# ecchi_rus_kolchak_character_template = {
+# ecchi_rus_kolchak = {
 # 	first_name = Alexander
 # 	last_name = Kolchak
 # 	historical = yes
@@ -218,11 +220,12 @@ ecchi_rus_rasputin_character_template = {
 # 	}
 # }
 # Don Cossack
-ecchi_rus_krasnov_character_template = {
+ecchi_rus_krasnov = {
 	first_name = Pyotr
 	last_name = ecchi_Krasnov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_ROSTOV
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_jingoist_leader
@@ -258,11 +261,12 @@ ecchi_rus_krasnov_character_template = {
 	}
 }
 
-ecchi_rus_dostoevsky_character_template = {
+ecchi_rus_dostoevsky = {
 	first_name = Fyodor
 	last_name = ecchi_Dostoevsky
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_MOSCOW
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_traditionalist
@@ -288,11 +292,12 @@ ecchi_rus_dostoevsky_character_template = {
 	}
 }
 
-ecchi_rus_tolstoy_character_template = {
+ecchi_rus_tolstoy = {
 	first_name = Leo
 	last_name = Tolstoy
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_ORYOL
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_pacifist
@@ -318,11 +323,12 @@ ecchi_rus_tolstoy_character_template = {
 	}
 }
 
-ecchi_rus_vereshchagin_character_template = {
+ecchi_rus_vereshchagin = {
 	first_name = Vasily
 	last_name = ecchi_Vereshchagin
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_GALICH
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_pacifist
@@ -349,11 +355,12 @@ ecchi_rus_vereshchagin_character_template = {
 }
 
 ## Emma Goldman
-ecchi_rus_goldman_character_template = {
+ecchi_rus_goldman = {
 	first_name = Emma
 	last_name = ecchi_Goldman
 	historical = yes
 	culture = cu:ashkenazi
+	home_region = STATE_KAUNAS
 	female = yes
 	religion = rel:atheist
 	ideology = ideology_anarchist
@@ -388,7 +395,7 @@ ecchi_rus_goldman_character_template = {
 }
 
 ## Nicholas Roerich
-# ecchi_rus_roerich_character_template = {
+# ecchi_rus_roerich = {
 # 	first_name = Nicholas
 # 	last_name = ecchi_Roerich
 # 	historical = yes
@@ -419,11 +426,12 @@ ecchi_rus_goldman_character_template = {
 # 	}
 # }
 ## Grigory Zinoviev
-ecchi_rus_zinoviev_character_template = {
+ecchi_rus_zinoviev = {
 	first_name = Grigory
 	last_name = ecchi_Zinoviev
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_KIEV
 	female = no
 	religion = rel:jewish
 	ideology = ideology_vanguardist
@@ -449,11 +457,12 @@ ecchi_rus_zinoviev_character_template = {
 }
 
 ## Lev Kamenev
-ecchi_rus_kamenev_character_template = {
+ecchi_rus_kamenev = {
 	first_name = Lev
 	last_name = ecchi_Kamenev
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_MOSCOW
 	female = no
 	religion = rel:jewish
 	ideology = ideology_social_democrat
@@ -478,11 +487,12 @@ ecchi_rus_kamenev_character_template = {
 }
 
 ## Mikhail Bakunin
-ecchi_rus_bakunin_character_template = {
+ecchi_rus_bakunin = {
 	first_name = Mikhail
 	last_name = Bakunin
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_TVER
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_anarchist
@@ -507,11 +517,12 @@ ecchi_rus_bakunin_character_template = {
 }
 
 ## Nikolai Bukharin
-ecchi_rus_bukharin_character_template = {
+ecchi_rus_bukharin = {
 	first_name = Nikolai
 	last_name = ecchi_Bukharin
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_MOSCOW
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_vanguardist
@@ -536,11 +547,12 @@ ecchi_rus_bukharin_character_template = {
 }
 
 ## Angelica Balabanoff
-ecchi_rus_balabanoff_character_template = {
+ecchi_rus_balabanoff = {
 	first_name = Angelica
 	last_name = ecchi_Balabanoff
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_CHERNIHIV
 	female = yes
 	religion = rel:jewish
 	ideology = ideology_social_democrat
@@ -580,11 +592,12 @@ ecchi_rus_balabanoff_character_template = {
 }
 
 ## Felix Dzerzhinsky
-ecchi_rus_dzerzhinsky_character_template = {
+ecchi_rus_dzerzhinsky = {
 	first_name = Felix
 	last_name = ecchi_Dzerzhinsky
 	historical = yes
 	culture = cu:polish
+	home_region = STATE_MINSK
 	female = no
 	religion = rel:catholic
 	ideology = ideology_authoritarian
@@ -609,11 +622,12 @@ ecchi_rus_dzerzhinsky_character_template = {
 }
 
 ## Grigory Mikhaylovich Semyonov
-ecchi_rus_semyonov_character_template = {
+ecchi_rus_semyonov = {
 	first_name = Grigory
 	last_name = ecchi_Semyonov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_TRANS_BAIKAL
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_jingoist_leader
@@ -664,6 +678,7 @@ rus_general_kornilov = {
 	last_name = Kornilov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_SEMIRECHE
 	female = no
 	ideology = ideology_jingoist_leader
 	commander_rank = default
@@ -695,6 +710,7 @@ rus_general_alekseyev = {
 	last_name = mikhail_alekseyev_last_name
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_TVER
 	female = no
 	ideology = ideology_republican_leader	# In 1917, Alexeyev forwarded telegrams to the Tsar, advising him to abdicate the throne
 	commander_rank = default
@@ -723,6 +739,7 @@ rus_anton_denikin = {
 	last_name = Denikin
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_MAZOVIA
 	female = no
 	ideology = ideology_royalist	# IDK
 	commander_rank = default
@@ -753,6 +770,7 @@ RUS_alexander_kolchak = {
 	dna = dna_alexander_kolchak
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_INGRIA
 	female = no
 	ideology = ideology_authoritarian
 	commander_rank = default
@@ -784,6 +802,7 @@ RUS_boris_savinkov = {
 	is_agitator = yes
 	female = no
 	culture = cu:russian
+	home_region = STATE_KHARKOV
 	religion = rel:orthodox
 	interest_group = ig_petty_bourgeoisie
 	ideology = ideology_ethno_nationalist	#In his final letter written 2 days before his death, he admitted that fascism was the most “psychologically and ideologically close” to his own views
@@ -828,6 +847,7 @@ RUS_georgy_lvov = {
 	last_name = georgy_lvov_last_name
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_SAXONY
 	female = no
 	religion = orthodox
 	ideology = ideology_reformer
@@ -859,6 +879,7 @@ RUS_general_markov = {
 	last_name = ecchi_Markov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_INGRIA
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
@@ -887,6 +908,7 @@ RUS_nikolai_ostrovsky = {
 	last_name = Ostrovsky
 	historical = yes
 	culture = cu:ukrainian
+	home_region = STATE_VOLHYNIA
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_vanguardist
@@ -924,6 +946,7 @@ RUS_anton_chekhov = {
 	last_name = ecchi_Chekhov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_ROSTOV
 	female = no
 	religion = rel:orthodox
 	ideology = ideology_liberal_leader
@@ -960,6 +983,7 @@ RUS_semyon_budyonny = {
 	last_name = Budyonny
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_ROSTOV
 	religion = rel:orthodox
 	ideology = ideology_communist
 	interest_group = ig_rural_folk
@@ -983,11 +1007,12 @@ RUS_semyon_budyonny = {
 }
 
 ## Ivan Alekseevich Kolesov Иван Алексеевич Колесов
-RUS_kolesov_character_template = {
+RUS_kolesov = {
 	first_name = ecchi_Ivan_Alekseevich
 	last_name = ecchi_Kolesov
 	historical = yes
 	culture = cu:russian
+	home_region = STATE_MOSCOW
 	religion = rel:orthodox
 	ideology = ideology_moderate
 	interest_group = ig_petty_bourgeoisie

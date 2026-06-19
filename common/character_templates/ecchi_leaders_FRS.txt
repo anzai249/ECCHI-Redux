@@ -1,6 +1,6 @@
 ﻿# Formosa / Taiwan
 
-ecchi_frs_tang_jingsong_character_template = {
+ecchi_frs_tang_jingsong = {
     first_name = ecchi_Jingsong
     last_name = ecchi_Tang
     historical = yes
@@ -34,7 +34,7 @@ ecchi_frs_tang_jingsong_character_template = {
     }
 }
 
-ecchi_frs_liu_yongfu_character_template = {
+ecchi_frs_liu_yongfu = {
     first_name = Yongfu
     last_name = Liu
     historical = yes
@@ -68,7 +68,7 @@ ecchi_frs_liu_yongfu_character_template = {
     }
 }
 
-ecchi_frs_tai_chao_chuen_character_template = {
+ecchi_frs_tai_chao_chuen = {
     first_name = ecchi_Chao-chuen
     last_name = ecchi_Tai
     historical = yes
@@ -98,7 +98,7 @@ ecchi_frs_tai_chao_chuen_character_template = {
     }
 }
 
-ecchi_frs_mona_rudao_character_template = {
+ecchi_frs_mona_rudao = {
     first_name = ecchi_Mona_Rudao
     last_name = ecchi_Mahebo
     historical = yes

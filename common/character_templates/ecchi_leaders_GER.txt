@@ -1,6 +1,6 @@
 ﻿# Germany - politicians
 
-ecchi_ger_hitler_character_template = {
+ecchi_ger_hitler = {
 	first_name = Adolf
 	last_name = ecchi_Hitler
 	culture = cu:south_german
@@ -50,7 +50,7 @@ ecchi_ger_hitler_character_template = {
 
 # Germany - Industrialists
 
-ecchi_ger_hugenberg_character_template = {
+ecchi_ger_hugenberg = {
 	first_name = Alfred
 	last_name = ecchi_Hugenberg
 	culture = cu:north_german
@@ -92,7 +92,7 @@ ecchi_ger_hugenberg_character_template = {
 	}
 }
 
-ecchi_ger_engels_character_template = {
+ecchi_ger_engels = {
 	first_name = Friedrich
 	last_name = Engels
 	culture = cu:north_german
@@ -138,7 +138,7 @@ ecchi_ger_engels_character_template = {
 	}
 }
 
-# ecchi_ger_liebknecht_character_template = {
+# ecchi_ger_liebknecht = {
 #     first_name = Karl
 #     last_name = ecchi_Liebknecht
 #     historical = yes
@@ -185,7 +185,7 @@ ecchi_ger_engels_character_template = {
 #     }
 # }
 
-ecchi_ger_einstein_character_template = {
+ecchi_ger_einstein = {
     first_name = Albert
     last_name = ecchi_Einstein
     historical = yes
@@ -229,7 +229,7 @@ ecchi_ger_einstein_character_template = {
     }
 }
 
-# ecchi_ger_alfred_krupp_character_template = {
+# ecchi_ger_alfred_krupp = {
 #     first_name = Alfred
 #     last_name = ecchi_Krupp
 #     historical = yes
@@ -272,7 +272,7 @@ ecchi_ger_einstein_character_template = {
 #     }
 # }
 
-ecchi_ger_friedrich_krupp_character_template = {
+ecchi_ger_friedrich_krupp = {
     first_name = ecchi_Friedrich_Alfred
     last_name = ecchi_Krupp
     historical = yes
@@ -315,7 +315,7 @@ ecchi_ger_friedrich_krupp_character_template = {
     }
 }
 
-ecchi_ger_wagner_character_template = {
+ecchi_ger_wagner = {
     first_name = Richard
     last_name = Wagner
     historical = yes
@@ -359,7 +359,7 @@ ecchi_ger_wagner_character_template = {
     }
 }
 
-ecchi_ger_schopenhauer_character_template = {
+ecchi_ger_schopenhauer = {
     first_name = Arthur
     last_name = ecchi_Schopenhauer
     historical = yes
@@ -402,7 +402,7 @@ ecchi_ger_schopenhauer_character_template = {
     }
 }
 
-ecchi_ger_nietzsche_character_template = {
+ecchi_ger_nietzsche = {
     first_name = Friedrich
     last_name = ecchi_Nietzsche
     historical = yes
@@ -447,7 +447,7 @@ ecchi_ger_nietzsche_character_template = {
 
 ## Albert Schweitzer
 
-ecchi_ger_schweitzer_character_template = {
+ecchi_ger_schweitzer = {
 	first_name = Albert
 	last_name = ecchi_Schweitzer
 	historical = yes
@@ -492,7 +492,7 @@ ecchi_ger_schweitzer_character_template = {
 
 ## Otto Hahn
 
-ecchi_ger_hahn_character_template = {
+ecchi_ger_hahn = {
 	first_name = Otto
 	last_name = ecchi_Hahn
 	historical = yes
@@ -537,7 +537,7 @@ ecchi_ger_hahn_character_template = {
 
 ## Carl Benz
 
-ecchi_ger_benz_carl_character_template = {
+ecchi_ger_benz_carl = {
 	dna = mr_ger_benz_carl
 	first_name = ecchi_Carl_Friedrich
 	last_name = ecchi_benz
@@ -587,7 +587,7 @@ ecchi_ger_benz_carl_character_template = {
 
 ## Jacob Grimm
 
-ecchi_ger_grimm_character_template = {
+ecchi_ger_grimm = {
 	first_name = Jacob
 	last_name = ecchi_Grimm
 	culture = cu:north_german
@@ -617,7 +617,7 @@ ecchi_ger_grimm_character_template = {
 
 ## August Bebel
 
-ecchi_ger_bebel_character_template = {
+ecchi_ger_bebel = {
 	first_name = August
 	last_name = ecchi_Bebel
 	culture = cu:north_german
@@ -650,7 +650,7 @@ ecchi_ger_bebel_character_template = {
 
 ## Wilhelm Liebknecht
 
-ecchi_ger_wilhelm_liebknecht_character_template = {
+ecchi_ger_wilhelm_liebknecht = {
 	first_name = Wilhelm
 	last_name = ecchi_Liebknecht
 	culture = cu:north_german
@@ -682,7 +682,7 @@ ecchi_ger_wilhelm_liebknecht_character_template = {
 
 ## Friedrich Ebert
 
-ecchi_ger_ebert_character_template = {
+ecchi_ger_ebert = {
 	first_name = Friedrich
 	last_name = ecchi_Ebert
 	culture = cu:north_german
@@ -712,7 +712,7 @@ ecchi_ger_ebert_character_template = {
 
 ## Clara Zetkin
 
-ecchi_ger_zetkin_character_template = {
+ecchi_ger_zetkin = {
 	first_name = Clara
 	last_name = ecchi_Zetkin
 	culture = cu:north_german
@@ -757,7 +757,7 @@ ecchi_ger_zetkin_character_template = {
 
 ## Ferdinand Lasalle
 
-ecchi_ger_lasalle_character_template = {
+ecchi_ger_lasalle = {
 	first_name = Ferdinand
 	last_name = ecchi_Lasalle
 	culture = cu:north_german
@@ -787,7 +787,7 @@ ecchi_ger_lasalle_character_template = {
 
 ## Martin Leo Arons
 
-ecchi_ger_arons_character_template = {
+ecchi_ger_arons = {
 	first_name = ecchi_Martin_Leo
 	last_name = ecchi_Arons
 	culture = cu:north_german
@@ -817,7 +817,7 @@ ecchi_ger_arons_character_template = {
 
 ## Eduard Bernstein
 
-ecchi_ger_bernstein_character_template = {
+ecchi_ger_bernstein = {
 	first_name = Eduard
 	last_name = ecchi_Bernstein
 	culture = cu:north_german
@@ -847,7 +847,7 @@ ecchi_ger_bernstein_character_template = {
 
 ## Bernhard von Lindenau
 
-ecchi_ger_lindenau_character_template = {
+ecchi_ger_lindenau = {
 	first_name = Bernhard
 	last_name = ecchi_von_Lindenau
 	culture = cu:north_german
@@ -876,7 +876,7 @@ ecchi_ger_lindenau_character_template = {
 
 ## Christian Friedrich Illgen
 
-ecchi_ger_illgen_character_template = {
+ecchi_ger_illgen = {
 	first_name = ecchi_Christian_Friedrich
 	last_name = ecchi_Illgen
 	culture = cu:north_german
@@ -905,7 +905,7 @@ ecchi_ger_illgen_character_template = {
 
 ## Ernst Gustav von Gersdorff
 
-ecchi_ger_gersdorff_character_template = {
+ecchi_ger_gersdorff = {
 	first_name = ecchi_Ernst_Gustav
 	last_name = ecchi_von_Gersdorff
 	culture = cu:north_german
@@ -934,7 +934,7 @@ ecchi_ger_gersdorff_character_template = {
 
 ## August von Haxthausen
 
-ecchi_ger_haxthausen_character_template = {
+ecchi_ger_haxthausen = {
     first_name = August
     last_name = ecchi_von_Haxthausen
     historical = yes
@@ -962,7 +962,7 @@ ecchi_ger_haxthausen_character_template = {
 
 ## Arnold Ruge
 
-#ecchi_ger_ruge_character_template = {
+#ecchi_ger_ruge = {
 #    first_name = Arnold
 #    last_name = ecchi_Ruge
 #    historical = yes
@@ -990,7 +990,7 @@ ecchi_ger_haxthausen_character_template = {
 
 ## Friedrich von Raumer
 
-ecchi_ger_ruge_character_template = {
+ecchi_ger_ruge = {
     first_name = Friedrich
     last_name = ecchi_von_Raumer
     historical = yes
@@ -1018,7 +1018,7 @@ ecchi_ger_ruge_character_template = {
 
 ## Melitta Bentz
 
-ecchi_ger_bentz_character_template = {
+ecchi_ger_bentz = {
 	first_name = ecchi_Melitta
 	last_name = ecchi_Bentz
 	culture = cu:north_german

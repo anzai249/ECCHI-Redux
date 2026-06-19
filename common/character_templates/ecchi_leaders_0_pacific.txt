@@ -1,6 +1,6 @@
 ﻿# Polynesia
 
-ecchi_ply_gauguin_character_template = {
+ecchi_ply_gauguin = {
     first_name = Paul
     last_name = ecchi_Gauguin
     historical = yes
@@ -32,7 +32,7 @@ ecchi_ply_gauguin_character_template = {
 
 # Hawaii
 
-ecchi_haw_malo_character_template = {
+ecchi_haw_malo = {
     first_name = David
     last_name = Malo
     historical = yes
@@ -58,7 +58,7 @@ ecchi_haw_malo_character_template = {
     }
 }
 
-ecchi_haw_james_dole_character_template = {
+ecchi_haw_james_dole = {
     first_name = James
     last_name = ecchi_Dole
     historical = yes
@@ -88,7 +88,7 @@ ecchi_haw_james_dole_character_template = {
     }
 }
 
-ecchi_haw_dole_character_template = {
+ecchi_haw_dole = {
     first_name = ecchi_Sanford_B
     last_name = ecchi_Dole
     historical = yes

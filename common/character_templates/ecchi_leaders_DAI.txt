@@ -1,10 +1,11 @@
 ﻿# Dai Viet / Vietnam
 
-ecchi_dai_truong_dinh_character_template = {
+ecchi_dai_truong_dinh = {
     first_name = ecchi_Dinh
     last_name = Truong
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_MEKONG
 
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -30,11 +31,12 @@ ecchi_dai_truong_dinh_character_template = {
     }
 }
 
-ecchi_dai_nguyen_trung_truc_character_template = {
+ecchi_dai_nguyen_trung_truc = {
     first_name = ecchi_Trung_Truc
     last_name = Nguyen
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_MEKONG
 
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -59,11 +61,12 @@ ecchi_dai_nguyen_trung_truc_character_template = {
     }
 }
 
-ecchi_dai_phan_dinh_phung_character_template = {
+ecchi_dai_phan_dinh_phung = {
     first_name = ecchi_Dinh_Phung
     last_name = ecchi_Phan
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_ANNAM
 
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
@@ -88,11 +91,12 @@ ecchi_dai_phan_dinh_phung_character_template = {
     }
 }
 
-ecchi_dai_cao_ba_quat_character_template = {
+ecchi_dai_cao_ba_quat = {
     first_name = ecchi_Ba_Quat
     last_name = Cao
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_TONKIN
 
     ideology = ideology_radical
     interest_group = ig_rural_folk
@@ -117,11 +121,12 @@ ecchi_dai_cao_ba_quat_character_template = {
     }
 }
 
-ecchi_dai_ho_chi_minh_character_template = {
+ecchi_dai_ho_chi_minh = {
     first_name = ecchi_Chi_Minh
     last_name = ecchi_Ho
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_ANNAM
 
     ideology = ideology_communist
     interest_group = ig_rural_folk
@@ -148,11 +153,12 @@ ecchi_dai_ho_chi_minh_character_template = {
 
 ## Huỳnh Thúc Kháng
 
-ecchi_dai_huynh_thuc_khang_character_template = {
+ecchi_dai_huynh_thuc_khang = {
     first_name = ecchi_Thuc_Khang
     last_name = ecchi_Huynh
     historical = yes
     culture = cu:vietnamese
+    home_region = STATE_ANNAM
 
     ideology = ideology_radical
     interest_group = ig_trade_unions

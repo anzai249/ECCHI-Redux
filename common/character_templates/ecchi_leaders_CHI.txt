@@ -1,6 +1,6 @@
 ﻿# China - Qing era politicians
 
-# ecchi_chi_cixi_character_template = {
+# ecchi_chi_cixi = {
 #     first_name = ecchi_Dowager_Cixi
 #     last_name = ecchi_Yehe_Nara
 #     historical = yes
@@ -25,11 +25,12 @@
 #     }
 # }
 
-ecchi_chi_li_hongzhang_character_template = {
+ecchi_chi_li_hongzhang = {
     first_name = ecchi_Hongzhang
     last_name = Li
     historical = yes
     culture = cu:han
+    home_region = STATE_NORTHERN_ANHUI
 
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -60,11 +61,12 @@ ecchi_chi_li_hongzhang_character_template = {
     }
 }
 
-ecchi_chi_yikuang_character_template = {
+ecchi_chi_yikuang = {
     first_name = ecchi_Yikuang
     last_name = Aisin_Gioro
     historical = yes
     culture = cu:manchu
+    home_region = STATE_BEIJING
 
     ideology = ideology_moderate
     interest_group = ig_landowners
@@ -84,9 +86,10 @@ ecchi_chi_yikuang_character_template = {
     }
 }
 
-ecchi_chi_zhang_zhidong_character_template = {
+ecchi_chi_zhang_zhidong = {
     first_name = ecchi_Zhidong
     last_name = Zhang
+    home_region = STATE_GUANGDONG
     historical = yes
     culture = cu:han
 
@@ -118,9 +121,10 @@ ecchi_chi_zhang_zhidong_character_template = {
     }
 }
 
-ecchi_chi_ronglu_character_template = {
+ecchi_chi_ronglu = {
     first_name = ecchi_Ronglu
     last_name = ecchi_Guwalgiya
+    home_region = STATE_BEIJING
     historical = yes
     culture = cu:manchu
 
@@ -148,8 +152,9 @@ ecchi_chi_ronglu_character_template = {
 }
 
 ## Zhang Jian
-ecchi_chi_zhang_jian_character_template = {
+ecchi_chi_zhang_jian = {
     first_name = ecchi_Jian
+    home_region = STATE_JIANGSU
     last_name = Zhang
     historical = yes
     culture = cu:han
@@ -177,8 +182,9 @@ ecchi_chi_zhang_jian_character_template = {
 
 ## Ilibu
 
-ecchi_chi_ilibu_character_template = {
+ecchi_chi_ilibu = {
     first_name = ecchi_Ilibu
+    home_region = STATE_SOUTHERN_MANCHURIA
     last_name = Aisin_Gioro
     historical = yes
     culture = cu:manchu
@@ -205,9 +211,10 @@ ecchi_chi_ilibu_character_template = {
 
 ## Zhao Sanduo
 
-ecchi_chi_zhao_sanduo_character_template = {
+ecchi_chi_zhao_sanduo = {
     first_name = ecchi_Sanduo
     last_name = Zhao
+    home_region = STATE_ZHILI
     historical = yes
     culture = cu:han
 
@@ -233,8 +240,9 @@ ecchi_chi_zhao_sanduo_character_template = {
 
 ## Wenxiang
 
-ecchi_chi_wenxiang_character_template = {
+ecchi_chi_wenxiang = {
     first_name = ecchi_Wenxiang
+    home_region = STATE_BEIJING
     last_name = ecchi_Guwalgiya
     historical = yes
     culture = cu:manchu
@@ -263,9 +271,10 @@ ecchi_chi_wenxiang_character_template = {
 
 # China - Qing generals
 
-ecchi_chi_zuo_zongtang_character_template = {
+ecchi_chi_zuo_zongtang = {
     first_name = ecchi_Zongtang
     last_name = ecchi_Zuo
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -291,8 +300,9 @@ ecchi_chi_zuo_zongtang_character_template = {
 
 ## Zhang Decheng
 
-ecchi_chi_zhang_decheng_character_template = {
+ecchi_chi_zhang_decheng = {
     first_name = ecchi_Decheng
+    home_region = STATE_BEIJING
     last_name = Zhang
     historical = yes
     culture = cu:han
@@ -318,11 +328,12 @@ ecchi_chi_zhang_decheng_character_template = {
 
 ## Shi Dakai
 
-ecchi_chi_shi_dakai_character_template = {
+ecchi_chi_shi_dakai = {
     first_name = ecchi_Dakai
     last_name = ecchi_Shi
     historical = yes
     culture = cu:hakka
+    home_region = STATE_GUANGXI
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -361,7 +372,7 @@ ecchi_chi_shi_dakai_character_template = {
 
 ## Yang Xiuqing
 
-# ecchi_chi_yang_xiuqing_character_template = {
+# ecchi_chi_yang_xiuqing = {
 #     first_name = ecchi_Xiuqing
 #     last_name = Yang
 #     historical = yes
@@ -406,11 +417,12 @@ ecchi_chi_shi_dakai_character_template = {
 
 ## Wang Laoji
 
-ecchi_chi_wang_zebang_character_template = {
+ecchi_chi_wang_zebang = {
     first_name = ecchi_Zebang
     last_name = Wang
     historical = yes
     culture = cu:yue
+    home_region = STATE_GUANGDONG
 
     religion = rel:mahayana
     ideology = ideology_moderate
@@ -441,9 +453,10 @@ ecchi_chi_wang_zebang_character_template = {
 
 # China - reformers
 
-ecchi_chi_liang_qichao_character_template = {
+ecchi_chi_liang_qichao = {
     first_name = ecchi_Qichao
     last_name = Liang
+    home_region = STATE_GUANGDONG
     historical = yes
     culture = cu:han
 
@@ -473,9 +486,10 @@ ecchi_chi_liang_qichao_character_template = {
     }
 }
 
-ecchi_chi_kang_youwei_character_template = {
+ecchi_chi_kang_youwei = {
     first_name = ecchi_Youwei
     last_name = ecchi_Kang
+    home_region = STATE_GUANGDONG
     historical = yes
     culture = cu:han
 
@@ -505,9 +519,10 @@ ecchi_chi_kang_youwei_character_template = {
     }
 }
 
-ecchi_chi_chen_jiongming_character_template = {
+ecchi_chi_chen_jiongming = {
     first_name = ecchi_Jiongming
     last_name = Chen
+    home_region = STATE_GUANGDONG
     historical = yes
     culture = cu:hakka
 
@@ -541,9 +556,10 @@ ecchi_chi_chen_jiongming_character_template = {
     }
 }
 
-ecchi_chi_cai_yuanpei_character_template = {
+ecchi_chi_cai_yuanpei = {
     first_name = ecchi_Yuanpei
     last_name = ecchi_Cai
+    home_region = STATE_ZHEJIANG
     historical = yes
     culture = cu:han
 
@@ -570,9 +586,10 @@ ecchi_chi_cai_yuanpei_character_template = {
     }
 }
 
-ecchi_chi_huang_xing_character_template = {
+ecchi_chi_huang_xing = {
     first_name = ecchi_Xing
     last_name = Huang
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -596,9 +613,10 @@ ecchi_chi_huang_xing_character_template = {
     }
 }
 
-ecchi_chi_hu_shih_character_template = {
+ecchi_chi_hu_shih = {
     first_name = ecchi_Shih_2
     last_name = Hu
+    home_region = STATE_JIANGSU
     historical = yes
     culture = cu:han
 
@@ -624,9 +642,10 @@ ecchi_chi_hu_shih_character_template = {
 
 # China - Warlords
 
-ecchi_chi_chiang_kai_shek_character_template = {
+ecchi_chi_chiang_kai_shek = {
     first_name = ecchi_Kai-shek
     last_name = ecchi_Chiang
+    home_region = STATE_ZHEJIANG
     historical = yes
     culture = cu:han
 
@@ -654,8 +673,9 @@ ecchi_chi_chiang_kai_shek_character_template = {
     }
 }
 
-ecchi_chi_zhang_xun_character_template = {
+ecchi_chi_zhang_xun = {
     first_name = ecchi_Xun_2
+    home_region = STATE_HENAN
     last_name = Zhang
     historical = yes
     culture = cu:han
@@ -678,8 +698,9 @@ ecchi_chi_zhang_xun_character_template = {
     }
 }
 
-ecchi_chi_zhang_zuolin_character_template = {
+ecchi_chi_zhang_zuolin = {
     first_name = ecchi_Zuolin
+    home_region = STATE_SOUTHERN_MANCHURIA
     last_name = Zhang
     historical = yes
     culture = cu:han
@@ -717,9 +738,10 @@ ecchi_chi_zhang_zuolin_character_template = {
     }
 }
 
-ecchi_chi_yan_xishan_character_template = {
+ecchi_chi_yan_xishan = {
     first_name = ecchi_Xishan
     last_name = ecchi_Yan
+    home_region = STATE_SHANXI
     historical = yes
     culture = cu:han
 
@@ -750,9 +772,10 @@ ecchi_chi_yan_xishan_character_template = {
     }
 }
 
-ecchi_chi_xu_shicang_character_template = {
+ecchi_chi_xu_shicang = {
     first_name = ecchi_Shichang
     last_name = Xu
+    home_region = STATE_HENAN
     historical = yes
     culture = cu:han
 
@@ -789,9 +812,10 @@ ecchi_chi_xu_shicang_character_template = {
     }
 }
 
-ecchi_chi_wu_peifu_character_template = {
+ecchi_chi_wu_peifu = {
     first_name = ecchi_Peifu
     last_name = Wu
+    home_region = STATE_HENAN
     historical = yes
     culture = cu:han
 
@@ -822,9 +846,10 @@ ecchi_chi_wu_peifu_character_template = {
     }
 }
 
-ecchi_chi_ma_fuxiang_character_template = {
+ecchi_chi_ma_fuxiang = {
     first_name = ecchi_Fuxiang
     last_name = Ma
+    home_region = STATE_GANSU
     historical = yes
     culture = cu:han
 
@@ -861,9 +886,10 @@ ecchi_chi_ma_fuxiang_character_template = {
     }
 }
 
-ecchi_chi_li_yuanhong_character_template = {
+ecchi_chi_li_yuanhong = {
     first_name = ecchi_Yuanhong
     last_name = ecchi_Li_2
+    home_region = STATE_EASTERN_HUBEI
     historical = yes
     culture = cu:han
 
@@ -891,9 +917,10 @@ ecchi_chi_li_yuanhong_character_template = {
     }
 }
 
-ecchi_chi_feng_yuxiang_character_template = {
+ecchi_chi_feng_yuxiang = {
     first_name = ecchi_Yuxiang
     last_name = Feng
+    home_region = STATE_ZHILI
     historical = yes
     culture = cu:han
 
@@ -924,8 +951,9 @@ ecchi_chi_feng_yuxiang_character_template = {
     }
 }
 
-ecchi_chi_feng_guozhang_character_template = {
+ecchi_chi_feng_guozhang = {
     first_name = ecchi_Guozhang
+    home_region = STATE_HENAN
     last_name = Feng
     historical = yes
     culture = cu:han
@@ -958,9 +986,10 @@ ecchi_chi_feng_guozhang_character_template = {
     }
 }
 
-ecchi_chi_duan_qirui_character_template = {
+ecchi_chi_duan_qirui = {
     first_name = ecchi_Qirui
     last_name = ecchi_Duan
+    home_region = STATE_NORTHERN_ANHUI
     historical = yes
     culture = cu:han
 
@@ -998,8 +1027,9 @@ ecchi_chi_duan_qirui_character_template = {
     }
 }
 
-ecchi_chi_cai_e_character_template = {
+ecchi_chi_cai_e = {
     first_name = ecchi_E
+    home_region = STATE_YUNNAN
     last_name = ecchi_Cai
     historical = yes
     culture = cu:han
@@ -1031,9 +1061,10 @@ ecchi_chi_cai_e_character_template = {
     }
 }
 
-ecchi_chi_long_yun_character_template = {
+ecchi_chi_long_yun = {
     first_name = ecchi_Yun_2
     last_name = ecchi_Long_2
+    home_region = STATE_YUNNAN
     historical = yes
     culture = cu:han
 
@@ -1067,9 +1098,10 @@ ecchi_chi_long_yun_character_template = {
 
 # China - communists
 
-ecchi_chi_mao_zedong_character_template = {
+ecchi_chi_mao_zedong = {
     first_name = ecchi_Zedong
     last_name = Mao
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -1105,8 +1137,9 @@ ecchi_chi_mao_zedong_character_template = {
     }
 }
 
-ecchi_chi_li_dazhao_character_template = {
+ecchi_chi_li_dazhao = {
     first_name = ecchi_Dazhao
+    home_region = STATE_ZHILI
     last_name = Li
     historical = yes
     culture = cu:han
@@ -1144,8 +1177,9 @@ ecchi_chi_li_dazhao_character_template = {
     }
 }
 
-ecchi_chi_chen_duxiu_character_template = {
+ecchi_chi_chen_duxiu = {
     first_name = ecchi_Duxiu
+    home_region = STATE_NORTHERN_ANHUI
     last_name = Chen
     historical = yes
     culture = cu:han
@@ -1183,9 +1217,10 @@ ecchi_chi_chen_duxiu_character_template = {
     }
 }
 
-ecchi_chi_zhu_de_character_template = {
+ecchi_chi_zhu_de = {
     first_name = ecchi_De
     last_name = Zhu
+    home_region = STATE_SICHUAN
     historical = yes
     culture = cu:han
 
@@ -1219,9 +1254,10 @@ ecchi_chi_zhu_de_character_template = {
 
 # China - rebels and rural leaders
 
-ecchi_tpg_hong_xiuquan_character_template = {
+ecchi_tpg_hong_xiuquan = {
     first_name = Xiuquan
     last_name = Hong
+    home_region = STATE_GUANGDONG
     historical = yes
     culture = cu:hakka
 
@@ -1249,9 +1285,10 @@ ecchi_tpg_hong_xiuquan_character_template = {
     }
 }
 
-ecchi_chi_cao_futian_character_template = {
+ecchi_chi_cao_futian = {
     first_name = ecchi_Futian
     last_name = ecchi_Cao_2
+    home_region = STATE_SHANDONG
     historical = yes
     culture = cu:han
 
@@ -1274,9 +1311,10 @@ ecchi_chi_cao_futian_character_template = {
     }
 }
 
-ecchi_chi_du_yuesheng_character_template = {
+ecchi_chi_du_yuesheng = {
     first_name = ecchi_Yuesheng
     last_name = Du
+    home_region = STATE_SUZHOU
     historical = yes
     culture = cu:han
 
@@ -1303,9 +1341,10 @@ ecchi_chi_du_yuesheng_character_template = {
     }
 }
 
-ecchi_chi_tang_caichang_character_template = {
+ecchi_chi_tang_caichang = {
     first_name = ecchi_Caichang
     last_name = ecchi_Tang
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -1340,9 +1379,10 @@ ecchi_chi_tang_caichang_character_template = {
 
 # Republican era / WW2
 
-ecchi_chi_wellington_koo_character_template = {
+ecchi_chi_wellington_koo = {
     first_name = ecchi_VK_Wellington
     last_name = ecchi_Koo
+    home_region = STATE_JIANGSU
     historical = yes
     culture = cu:han
 
@@ -1369,9 +1409,10 @@ ecchi_chi_wellington_koo_character_template = {
     }
 }
 
-ecchi_chi_wang_jingwei_character_template = {
+ecchi_chi_wang_jingwei = {
     first_name = ecchi_Jingwei
     last_name = ecchi_Wang_2
+    home_region = STATE_ZHEJIANG
     historical = yes
     culture = cu:han
 
@@ -1407,9 +1448,10 @@ ecchi_chi_wang_jingwei_character_template = {
     }
 }
 
-ecchi_chi_lu_xun_character_template = {
+ecchi_chi_lu_xun = {
     first_name = ecchi_Xun_3
     last_name = ecchi_Lu_2
+    home_region = STATE_ZHEJIANG
     historical = yes
     culture = cu:han
 
@@ -1434,9 +1476,10 @@ ecchi_chi_lu_xun_character_template = {
 	}
 }
 
-ecchi_chi_lu_zhengxiang_character_template = {
+ecchi_chi_lu_zhengxiang = {
     first_name = ecchi_Zhengxiang
     last_name = ecchi_Lu
+    home_region = STATE_JIANGSU
     historical = yes
     culture = cu:han
 
@@ -1463,9 +1506,10 @@ ecchi_chi_lu_zhengxiang_character_template = {
 
 ## Gu Hongming
 
-ecchi_chi_gu_hongming_character_template = {
+ecchi_chi_gu_hongming = {
     first_name = ecchi_Hung_ming
     last_name = ecchi_Ku
+    home_region = STATE_FUJIAN
     historical = yes
     culture = cu:han
 
@@ -1494,12 +1538,13 @@ ecchi_chi_gu_hongming_character_template = {
 
 ## Zheng Yi Sao
 
-ecchi_chi_zheng_yi_sao_character_template = {
+ecchi_chi_zheng_yi_sao = {
     first_name = ecchi_Yi_Sao
     last_name = Zheng
     historical = yes
     culture = cu:yue
     female = yes
+    home_region = STATE_GUANGDONG
     ideology = ideology_authoritarian
     interest_group = ig_rural_folk
     commander_rank = default
@@ -1518,9 +1563,10 @@ ecchi_chi_zheng_yi_sao_character_template = {
 
 ## Qi Baishi
 
-ecchi_chi_qi_baishi_character_template = {
+ecchi_chi_qi_baishi = {
     first_name = ecchi_Baishi
     last_name = ecchi_Qi
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -1547,9 +1593,10 @@ ecchi_chi_qi_baishi_character_template = {
 
 ## Tan Sitong
 
-ecchi_chi_tan_sitong_character_template = {
+ecchi_chi_tan_sitong = {
     first_name = ecchi_Sitong
     last_name = ecchi_Tan
+    home_region = STATE_HUNAN
     historical = yes
     culture = cu:han
 
@@ -1576,9 +1623,10 @@ ecchi_chi_tan_sitong_character_template = {
 
 ## Lin Heier
 
-ecchi_chi_lin_heier_character_template = {
+ecchi_chi_lin_heier = {
     first_name = ecchi_Heier
     last_name = Lin
+    home_region = STATE_SHANDONG
     historical = yes
     culture = cu:han
     female = yes
@@ -1605,8 +1653,9 @@ ecchi_chi_lin_heier_character_template = {
 
 ## Lin Huiyin
 
-ecchi_chi_lin_huiyin_character_template = {
+ecchi_chi_lin_huiyin = {
     first_name = ecchi_WheiYin
+    home_region = STATE_ZHEJIANG
     last_name = Lin
     historical = yes
     culture = cu:han
@@ -1636,9 +1685,10 @@ ecchi_chi_lin_huiyin_character_template = {
 }
 
 ## Kung Te-cheng
-ecchi_chi_kung_techeng_character_template = {
+ecchi_chi_kung_techeng = {
     first_name = ecchi_Techeng
     last_name = ecchi_Kung
+    home_region = STATE_SHANDONG
     historical = yes
     culture = cu:han
 
@@ -1664,8 +1714,9 @@ ecchi_chi_kung_techeng_character_template = {
 }
 
 ## Zhu Yuxun
-ecchi_chi_zhu_yuxun_character_template = {
+ecchi_chi_zhu_yuxun = {
     first_name = ecchi_Yuxun
+    home_region = STATE_BEIJING
     last_name = Zhu
     historical = yes
     culture = cu:han

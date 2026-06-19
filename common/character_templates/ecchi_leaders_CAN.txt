@@ -1,10 +1,11 @@
 ﻿# Canada - Quebec / Lower Canada
 
-ecchi_que_lambton_character_template = {
+ecchi_que_lambton = {
     first_name = John
     last_name = Lambton
     historical = yes
     culture = cu:british
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -26,11 +27,12 @@ ecchi_que_lambton_character_template = {
     }
 }
 
-ecchi_que_nelson_character_template = {
+ecchi_que_nelson = {
     first_name = Robert
     last_name = Nelson
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_radical
@@ -56,11 +58,12 @@ ecchi_que_nelson_character_template = {
     }
 }
 
-ecchi_que_bowen_character_template = {
+ecchi_que_bowen = {
     first_name = Edward
     last_name = Bowen
     historical = yes
     culture = cu:irish
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -86,11 +89,12 @@ ecchi_que_bowen_character_template = {
     }
 }
 
-ecchi_que_cartier_character_template = {
+ecchi_que_cartier = {
     first_name = ecchi_George-Etienne
     last_name = Cartier
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_republican_leader
@@ -118,11 +122,12 @@ ecchi_que_cartier_character_template = {
 
 ## Ezekiel Hart
 
-ecchi_que_hart_character_template = {
+ecchi_que_hart = {
     first_name = Ezekiel
     last_name = ecchi_Hart
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:jewish
     ideology = ideology_moderate
@@ -147,11 +152,12 @@ ecchi_que_hart_character_template = {
 
 ## Ludger Duvernay
 
-ecchi_que_duvernay_character_template = {
+ecchi_que_duvernay = {
     first_name = ecchi_Ludger
     last_name = ecchi_Duvernay
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_reformer
@@ -175,11 +181,12 @@ ecchi_que_duvernay_character_template = {
 
 ## Alphonse Desjardins
 
-ecchi_que_desjardins_character_template = {
+ecchi_que_desjardins = {
     first_name = ecchi_Alphonse
     last_name = ecchi_Desjardins
     historical = yes
     culture = cu:franco_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:catholic
     ideology = ideology_humanitarian
@@ -212,11 +219,12 @@ ecchi_que_desjardins_character_template = {
 
 # Nova Scotia
 
-ecchi_nvs_howe_character_template = {
+ecchi_nvs_howe = {
     first_name = Joseph
     last_name = ecchi_Howe
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_NEW_BRUNSWICK
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -245,11 +253,12 @@ ecchi_nvs_howe_character_template = {
 
 # ORG - Oregon & British Columbia
 
-ecchi_org_douglas_character_template = {
+ecchi_org_douglas = {
     first_name = James
     last_name = Douglas
     historical = yes
     culture = cu:scottish
+    home_region = STATE_BRITISH_COLUMBIA
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -294,11 +303,12 @@ ecchi_org_douglas_character_template = {
     }
 }
 
-ecchi_org_de_cosmos_character_template = {
+ecchi_org_de_cosmos = {
     first_name = ecchi_Amor
     last_name = ecchi_De_Cosmos
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_BRITISH_COLUMBIA
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -340,11 +350,12 @@ ecchi_org_de_cosmos_character_template = {
 
 # Ontario / Upper Canada
 
-ecchi_ont_robinson_character_template = {
+ecchi_ont_robinson = {
     first_name = John
     last_name = Robinson
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_traditionalist
@@ -370,11 +381,12 @@ ecchi_ont_robinson_character_template = {
     }
 }
 
-ecchi_ont_mowat_character_template = {
+ecchi_ont_mowat = {
     first_name = Oliver
     last_name = ecchi_Mowat
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -403,11 +415,12 @@ ecchi_ont_mowat_character_template = {
 
 ## John Smoke Johnson
 
-ecchi_ont_johnson_character_template = {
+ecchi_ont_johnson = {
     first_name = ecchi_John_Smoke
     last_name = Johnson
     historical = yes
     culture = cu:iroquoian
+    home_region = STATE_ONTARIO
 
     religion = rel:animist
     interest_group = ig_rural_folk
@@ -442,11 +455,12 @@ ecchi_ont_johnson_character_template = {
 
 ## John Strachan
 
-ecchi_ont_strachan_character_template = {
+ecchi_ont_strachan = {
     first_name = John
     last_name = ecchi_Strachan
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_humanitarian
@@ -470,11 +484,12 @@ ecchi_ont_strachan_character_template = {
 
 ## James Morrow Walsh
 
-ecchi_ont_walsh_character_template = {
+ecchi_ont_walsh = {
     first_name = ecchi_James_Morrow
     last_name = Walsh
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_rural_folk
@@ -505,11 +520,12 @@ ecchi_ont_walsh_character_template = {
 
 ## Sam Steele
 
-ecchi_ont_steele_character_template = {
+ecchi_ont_steele = {
     first_name = Sam
     last_name = Steele
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_rural_folk
@@ -540,11 +556,12 @@ ecchi_ont_steele_character_template = {
 
 # Canada
 
-ecchi_can_macdonald_character_template = {
+ecchi_can_macdonald = {
     first_name = ecchi_John_A
     last_name = Macdonald
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_republican_leader
@@ -567,11 +584,12 @@ ecchi_can_macdonald_character_template = {
     }
 }
 
-ecchi_can_laurier_character_template = {
+ecchi_can_laurier = {
     first_name = ecchi_Wilfrid
     last_name = ecchi_Laurier
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_QUEBEC
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -597,11 +615,12 @@ ecchi_can_laurier_character_template = {
     }
 }
 
-ecchi_can_king_character_template = {
+ecchi_can_king = {
     first_name = Mackenzie
     last_name = King
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_reformer
@@ -627,7 +646,7 @@ ecchi_can_king_character_template = {
     }
 }
 
-#ecchi_can_riel_character_template = {
+#ecchi_can_riel = {
 #    first_name = Louis
 #    last_name = Riel
 #    historical = yes
@@ -653,11 +672,12 @@ ecchi_can_king_character_template = {
 #    }
 #}
 
-ecchi_can_massey_character_template = {
+ecchi_can_massey = {
     first_name = ecchi_Hart
     last_name = Massey
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -679,11 +699,12 @@ ecchi_can_massey_character_template = {
     }
 }
 
-ecchi_can_van_horne_character_template = {
+ecchi_can_van_horne = {
     first_name = ecchi_William_C
     last_name = ecchi_Van_Horne
     historical = yes
     culture = cu:yankee
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     ideology = ideology_moderate
@@ -707,11 +728,12 @@ ecchi_can_van_horne_character_template = {
 
 ## Samuel Hughes
 
-ecchi_can_hughes_character_template = {
+ecchi_can_hughes = {
     first_name = Samuel
     last_name = Hughes
     historical = yes
     culture = cu:anglo_canadian
+    home_region = STATE_ONTARIO
 
     religion = rel:protestant
     interest_group = ig_intelligentsia
