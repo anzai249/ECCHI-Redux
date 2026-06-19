@@ -345,3 +345,12 @@ Release 1.10.2
 
 Fixes:
 - Compatibility trigger for 1.12.*.
+
+Release 1.10.3
+(Game version 1.12.*)
+
+Removed Characters:
+
+- Maria Cristina de Borbon
+- Deodoro da Fonseca
+- Plinio Salgado
